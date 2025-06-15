@@ -1,0 +1,468 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_2DGame_GameplayTags",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "NewRow_5": {
+        "Tag": "2DGame.Item.RoxyHat",
+        "DevComment": ""
+      },
+      "NewRow_3": {
+        "Tag": "2DGame.Item.SharpayPlushie",
+        "DevComment": ""
+      },
+      "NewRow_6": {
+        "Tag": "2DGame.Item.ToyPhone",
+        "DevComment": ""
+      },
+      "NewRow_4": {
+        "Tag": "2DGame.Item.HedgehogMask",
+        "DevComment": ""
+      },
+      "NewRow_7": {
+        "Tag": "2DGame.Item.GrandPrizeTrophy",
+        "DevComment": ""
+      },
+      "NewRow_8": {
+        "Tag": "2DGame.Item.PartyTimeChicaThermos",
+        "DevComment": ""
+      },
+      "NewRow_9": {
+        "Tag": "2DGame.Item.StarbrightNightLight",
+        "DevComment": ""
+      },
+      "NewRow_10": {
+        "Tag": "2DGame.Item.RangerArmyKnife",
+        "DevComment": ""
+      },
+      "NewRow_11": {
+        "Tag": "2DGame.Item.HoneyBottle",
+        "DevComment": ""
+      },
+      "NewRow_12": {
+        "Tag": "2DGame.Item.SnowGlobe",
+        "DevComment": ""
+      },
+      "NewRow_13": {
+        "Tag": "2DGame.Item.FoxyPuppet",
+        "DevComment": ""
+      },
+      "NewRow_14": {
+        "Tag": "2DGame.Item.MontyWaterGame",
+        "DevComment": ""
+      },
+      "NewRow_15": {
+        "Tag": "2DGame.Item.SewingKit",
+        "DevComment": ""
+      },
+      "NewRow_16": {
+        "Tag": "2DGame.Item.PizzaMaker",
+        "DevComment": ""
+      },
+      "NewRow_17": {
+        "Tag": "2DGame.Item.SquareRecord",
+        "DevComment": ""
+      },
+      "NewRow_18": {
+        "Tag": "2DGame.Item.VacuumPal",
+        "DevComment": ""
+      },
+      "NewRow_19": {
+        "Tag": "2DGame.Item.ToyHammer",
+        "DevComment": ""
+      },
+      "NewRow_20": {
+        "Tag": "2DGame.Item.FishingNet",
+        "DevComment": ""
+      },
+      "NewRow_21": {
+        "Tag": "2DGame.Item.FallFestTicketBook",
+        "DevComment": ""
+      },
+      "NewRow_22": {
+        "Tag": "2DGame.Item.RainyDayBoot",
+        "DevComment": ""
+      },
+      "NewRow_23": {
+        "Tag": "2DGame.Item.DavidBlocks",
+        "DevComment": ""
+      },
+      "NewRow_24": {
+        "Tag": "2DGame.Item.DavidBall",
+        "DevComment": ""
+      },
+      "NewRow_25": {
+        "Tag": "2DGame.Item.JuniorDoctorKit",
+        "DevComment": ""
+      },
+      "NewRow_26": {
+        "Tag": "2DGame.Item.BirthdayCake",
+        "DevComment": ""
+      },
+      "NewRow_27": {
+        "Tag": "2DGame.Item.WhiteTigerDoll",
+        "DevComment": ""
+      },
+      "NewRow_88": {
+        "Tag": "2DGame.Act1.ExaminedToybox",
+        "DevComment": ""
+      },
+      "NewRow": {
+        "Tag": "2DGame.Act1.CollectedWindowKey",
+        "DevComment": ""
+      },
+      "NewRow_0": {
+        "Tag": "2DGame.Act1.CollectedHedgehogMask",
+        "DevComment": ""
+      },
+      "NewRow_1": {
+        "Tag": "2DGame.Act1.OpenedWindow",
+        "DevComment": ""
+      },
+      "NewRow_2": {
+        "Tag": "2DGame.Act1.WearingHedgehogMask",
+        "DevComment": ""
+      },
+      "NewRow_28": {
+        "Tag": "2DGame.Act2.Forest.CollectedWalkingStick",
+        "DevComment": ""
+      },
+      "NewRow_29": {
+        "Tag": "2DGame.Act2.Forest.CollectedRangerArmyKnife",
+        "DevComment": ""
+      },
+      "NewRow_30": {
+        "Tag": "2DGame.Act2.Forest.CollectedChicaThermos",
+        "DevComment": ""
+      },
+      "NewRow_31": {
+        "Tag": "2DGame.Act2.Forest.ExaminedNest",
+        "DevComment": ""
+      },
+      "NewRow_32": {
+        "Tag": "2DGame.Act2.Forest.UsedRangerArmyKnife",
+        "DevComment": ""
+      },
+      "NewRow_37": {
+        "Tag": "2DGame.Act2.Forest.CollectedWalkingStick",
+        "DevComment": ""
+      },
+      "NewRow_33": {
+        "Tag": "2DGame.Act2.Forest.CollectedPoisonSoup",
+        "DevComment": ""
+      },
+      "NewRow_34": {
+        "Tag": "2DGame.Act2.Forest.UsedChicaThermos",
+        "DevComment": ""
+      },
+      "NewRow_35": {
+        "Tag": "2DGame.Act2.Forest.CollectedNightLight",
+        "DevComment": ""
+      },
+      "NewRow_36": {
+        "Tag": "2DGame.Act2.Forest.UsedPoisonSoup",
+        "DevComment": ""
+      },
+      "NewRow_38": {
+        "Tag": "2DGame.Act2.DarkForest.ExaminedStatues",
+        "DevComment": ""
+      },
+      "NewRow_39": {
+        "Tag": "2DGame.Act2.DarkForest.CollectedBowtie",
+        "DevComment": ""
+      },
+      "NewRow_40": {
+        "Tag": "2DGame.Act2.DarkForest.CollectedFoxyPuppet",
+        "DevComment": ""
+      },
+      "NewRow_41": {
+        "Tag": "2DGame.Act2.DarkForest.CollectedSewingKit",
+        "DevComment": ""
+      },
+      "NewRow_42": {
+        "Tag": "2DGame.Act2.DarkForest.CollectedHoneyBottle",
+        "DevComment": ""
+      },
+      "NewRow_43": {
+        "Tag": "2DGame.Act2.DarkForestCabin.GiftedHoney",
+        "DevComment": ""
+      },
+      "NewRow_44": {
+        "Tag": "2DGame.Act2.InsideCabin.FixedFoxMask",
+        "DevComment": ""
+      },
+      "NewRow_45": {
+        "Tag": "2DGame.Act2.InsideCabin.FixedBearMask",
+        "DevComment": ""
+      },
+      "NewRow_46": {
+        "Tag": "2DGame.Act2.InsideCabin.FixedRabbitMask",
+        "DevComment": ""
+      },
+      "NewRow_47": {
+        "Tag": "2DGame.Act2.InsideCabin.UsedFoxyPuppet",
+        "DevComment": ""
+      },
+      "NewRow_48": {
+        "Tag": "2DGame.Act2.InsideCabin.UsedBowtie",
+        "DevComment": ""
+      },
+      "NewRow_49": {
+        "Tag": "2DGame.Act2.InsideCabin.UsedSewingKit",
+        "DevComment": ""
+      },
+      "NewRow_50": {
+        "Tag": "2DGame.Act2.InsideCabin.CollectedBabyOwlMask",
+        "DevComment": ""
+      },
+      "NewRow_51": {
+        "Tag": "2DGame.Act2.ForestWO.WearingOwlMask",
+        "DevComment": ""
+      },
+      "NewRow_52": {
+        "Tag": "2DGame.Act3.Cave.FoundMoonStatue",
+        "DevComment": ""
+      },
+      "NewRow_53": {
+        "Tag": "2DGame.Act3.Cave.ExaminedWorkbench",
+        "DevComment": ""
+      },
+      "NewRow_54": {
+        "Tag": "2DGame.Act3.Cave.CollectedToyHammer",
+        "DevComment": ""
+      },
+      "NewRow_55": {
+        "Tag": "2DGame.Act3.Cave.CollectedMoonHead",
+        "DevComment": ""
+      },
+      "NewRow_56": {
+        "Tag": "2DGame.Act3.Cave.CollectedMoonLeftArm",
+        "DevComment": ""
+      },
+      "NewRow_57": {
+        "Tag": "2DGame.Act3.Cave.CollectedMoonRightArm",
+        "DevComment": ""
+      },
+      "NewRow_58": {
+        "Tag": "2DGame.Act3.Cave.PlacedMoonHead",
+        "DevComment": ""
+      },
+      "NewRow_59": {
+        "Tag": "2DGame.Act3.Cave.PlacedMoonLeftArm",
+        "DevComment": ""
+      },
+      "NewRow_60": {
+        "Tag": "2DGame.Act3.Cave.PlacedMoonRightArm",
+        "DevComment": ""
+      },
+      "NewRow_61": {
+        "Tag": "2DGame.Act3.Cave.CollectedFishingNet",
+        "DevComment": ""
+      },
+      "NewRow_62": {
+        "Tag": "2DGame.Act3.Cave.BrokenBlueCrystal",
+        "DevComment": ""
+      },
+      "NewRow_63": {
+        "Tag": "2DGame.Act3.Cave.FoundFishingNet",
+        "DevComment": ""
+      },
+      "NewRow_64": {
+        "Tag": "2DGame.Act3.Cave.ExaminedWaterfall",
+        "DevComment": ""
+      },
+      "NewRow_80": {
+        "Tag": "2DGame.Act3.Cave.ExaminedPool",
+        "DevComment": ""
+      },
+      "NewRow_65": {
+        "Tag": "2DGame.Act3.TheGame.VisitedFirstTime",
+        "DevComment": ""
+      },
+      "NewRow_66": {
+        "Tag": "2DGame.Act3.TheGame.CollectedFallFestTicketBook",
+        "DevComment": ""
+      },
+      "NewRow_67": {
+        "Tag": "2DGame.Act3.TheGame.ExaminedCrate",
+        "DevComment": ""
+      },
+      "NewRow_68": {
+        "Tag": "2DGame.Act3.TheGame.TrappedJackie",
+        "DevComment": ""
+      },
+      "NewRow_69": {
+        "Tag": "2DGame.Act3.TheGame.CollectedDavidBlocks",
+        "DevComment": ""
+      },
+      "NewRow_70": {
+        "Tag": "2DGame.Act3.TheGame.ShutdownBigTop",
+        "DevComment": ""
+      },
+      "NewRow_71": {
+        "Tag": "2DGame.Act3.TheGame.CollectedDavidBall",
+        "DevComment": ""
+      },
+      "NewRow_72": {
+        "Tag": "2DGame.Act3.TheGame.OpenedRainbowDoors",
+        "DevComment": ""
+      },
+      "NewRow_73": {
+        "Tag": "2DGame.Act3.TheGame.CollectedJuniorDoctorKit",
+        "DevComment": ""
+      },
+      "NewRow_74": {
+        "Tag": "2DGame.Act3.TheGame.FixedDuck",
+        "DevComment": ""
+      },
+      "NewRow_75": {
+        "Tag": "2DGame.Act3.TheGame.FixedElephant",
+        "DevComment": ""
+      },
+      "NewRow_76": {
+        "Tag": "2DGame.Act3.TheGame.HelpedNurseDollie",
+        "DevComment": ""
+      },
+      "NewRow_77": {
+        "Tag": "2DGame.Act3.TheGame.CollectedBirthdayCake",
+        "DevComment": ""
+      },
+      "NewRow_78": {
+        "Tag": "2DGame.Act3.TheGame.ReunitedChica",
+        "DevComment": ""
+      },
+      "NewRow_79": {
+        "Tag": "2DGame.Act3.TheGame.CollectedWhiteTigerDoll",
+        "DevComment": ""
+      },
+      "NewRow_81": {
+        "Tag": "2DGame.Act3.TheGame.SolvedBoxes",
+        "DevComment": ""
+      },
+      "NewRow_82": {
+        "Tag": "2DGame.Act3.TheGame.PlacedBall",
+        "DevComment": ""
+      },
+      "NewRow_83": {
+        "Tag": "2DGame.Act3.TheGame.PlacedBlocks",
+        "DevComment": ""
+      },
+      "NewRow_84": {
+        "Tag": "2DGame.Act3.TheGame.PlacedWhiteTiger",
+        "DevComment": ""
+      },
+      "NewRow_85": {
+        "Tag": "2DGame.Act3.TheGame.OpenedMoonBox",
+        "DevComment": ""
+      },
+      "NewRow_86": {
+        "Tag": "2DGame.Act3.TheGame.OpenedStarBox",
+        "DevComment": ""
+      },
+      "NewRow_87": {
+        "Tag": "2DGame.Act3.TheGame.OpenedSnowBox",
+        "DevComment": ""
+      },
+      "NewRow_89": {
+        "Tag": "2DGame.Minigame.Lock.Left",
+        "DevComment": ""
+      },
+      "NewRow_90": {
+        "Tag": "2DGame.Minigame.Lock.Right",
+        "DevComment": ""
+      },
+      "NewRow_91": {
+        "Tag": "2DGame.Minigame.Box.Ball",
+        "DevComment": ""
+      },
+      "NewRow_92": {
+        "Tag": "2DGame.Minigame.Box.Blocks",
+        "DevComment": ""
+      },
+      "NewRow_93": {
+        "Tag": "2DGame.Minigame.Box.WhiteTiger",
+        "DevComment": ""
+      },
+      "NewRow_94": {
+        "Tag": "2DGame.Minigame.Box.Moon",
+        "DevComment": ""
+      },
+      "NewRow_95": {
+        "Tag": "2DGame.Minigame.Box.Star",
+        "DevComment": ""
+      },
+      "NewRow_96": {
+        "Tag": "2DGame.Minigame.Box.Snow",
+        "DevComment": ""
+      },
+      "NewRow_97": {
+        "Tag": "2DGame.Minigame.Upgrade.FlipHigh",
+        "DevComment": ""
+      },
+      "NewRow_98": {
+        "Tag": "2DGame.Minigame.Upgrade.FlipMiddle",
+        "DevComment": ""
+      },
+      "NewRow_99": {
+        "Tag": "2DGame.Minigame.Upgrade.FlipLow",
+        "DevComment": ""
+      },
+      "NewRow_100": {
+        "Tag": "2DGame.Act3.TheGame.SolvedUpgradeStation",
+        "DevComment": ""
+      },
+      "NewRow_101": {
+        "Tag": "2DGame.Minigame.UpgradeStation.Upgrade",
+        "DevComment": ""
+      },
+      "NewRow_108": {
+        "Tag": "2DGame.Minigame.UpgradeStation.Disabled",
+        "DevComment": ""
+      },
+      "NewRow_102": {
+        "Tag": "2DGame.Minigame.UpgradeStation.End",
+        "DevComment": ""
+      },
+      "NewRow_103": {
+        "Tag": "2DGame.Minigame.UpgradeStation.Repair",
+        "DevComment": ""
+      },
+      "NewRow_104": {
+        "Tag": "2DGame.Minigame.UpgradeStation.Security",
+        "DevComment": ""
+      },
+      "NewRow_105": {
+        "Tag": "2DGame.Minigame.UpgradeStation.Creator",
+        "DevComment": ""
+      },
+      "NewRow_107": {
+        "Tag": "2DGame.Minigame.UpgradeStation.Admin",
+        "DevComment": ""
+      },
+      "NewRow_106": {
+        "Tag": "2DGame.Minigame.UpgradeStation.Executive",
+        "DevComment": ""
+      },
+      "NewRow_109": {
+        "Tag": "2DGame.Minigame.TakeGlitchedPermission",
+        "DevComment": ""
+      },
+      "NewRow_110": {
+        "Tag": "2DGame.Minigame.CollectedGlitchedPermission",
+        "DevComment": ""
+      },
+      "NewRow_111": {
+        "Tag": "2DGame.Act2.InsideCabin.TalktoSun",
+        "DevComment": "Talked to Sun once"
+      }
+    }
+  }
+]

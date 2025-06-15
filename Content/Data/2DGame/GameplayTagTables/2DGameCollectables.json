@@ -1,0 +1,237 @@
+[
+  {
+    "Type": "TwoDCollectablesData",
+    "Name": "2DGameCollectables",
+    "Class": "UScriptClass'TwoDCollectablesData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagCollectables": [
+        {
+          "Key": {
+            "TagName": "2DGame.Item.HedgehogMask"
+          },
+          "Value": {
+            "ObjectName": "InventoryItem'Collect_HedgehogMask'",
+            "ObjectPath": "FNAF_SOTM/Content/Blueprints/Inventory/Items/Collectables/Collect_HedgehogMask.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "2DGame.Item.SharpayPlushie"
+          },
+          "Value": {
+            "ObjectName": "InventoryItem'Collect_SharpayPlushie'",
+            "ObjectPath": "FNAF_SOTM/Content/Blueprints/Inventory/Items/Collectables/Collect_SharpayPlushie.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "2DGame.Item.GrandPrizeTrophy"
+          },
+          "Value": {
+            "ObjectName": "InventoryItem'Collect_PrizeWheel_GrandPrize'",
+            "ObjectPath": "FNAF_SOTM/Content/Blueprints/Inventory/Items/Collectables/Collect_PrizeWheel_GrandPrize.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "2DGame.Item.RoxyHat"
+          },
+          "Value": {
+            "ObjectName": "InventoryItem'Collect_Hat'",
+            "ObjectPath": "FNAF_SOTM/Content/Blueprints/Inventory/Items/Collectables/Collect_Hat.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "2DGame.Item.ToyPhone"
+          },
+          "Value": {
+            "ObjectName": "InventoryItem'Collect_ToyPhone'",
+            "ObjectPath": "FNAF_SOTM/Content/Blueprints/Inventory/Items/Collectables/Collect_ToyPhone.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "2DGame.Item.BirthdayCake"
+          },
+          "Value": {
+            "ObjectName": "InventoryItem'Collect_BirthdayCake'",
+            "ObjectPath": "FNAF_SOTM/Content/Blueprints/Inventory/Items/Collectables/Collect_BirthdayCake.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "2DGame.Item.DavidBall"
+          },
+          "Value": {
+            "ObjectName": "InventoryItem'Collect_Ball'",
+            "ObjectPath": "FNAF_SOTM/Content/Blueprints/Inventory/Items/Collectables/Collect_Ball.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "2DGame.Item.DavidBlocks"
+          },
+          "Value": {
+            "ObjectName": "InventoryItem'Collect_Blocks'",
+            "ObjectPath": "FNAF_SOTM/Content/Blueprints/Inventory/Items/Collectables/Collect_Blocks.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "2DGame.Item.FallFestTicketBook"
+          },
+          "Value": {
+            "ObjectName": "InventoryItem'Collect_TicketBook'",
+            "ObjectPath": "FNAF_SOTM/Content/Blueprints/Inventory/Items/Collectables/Collect_TicketBook.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "2DGame.Item.FishingNet"
+          },
+          "Value": {
+            "ObjectName": "InventoryItem'Collect_FishingNet'",
+            "ObjectPath": "FNAF_SOTM/Content/Blueprints/Inventory/Items/Collectables/Collect_FIshingNet.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "2DGame.Item.FoxyPuppet"
+          },
+          "Value": {
+            "ObjectName": "InventoryItem'Collect_FoxyPuppet'",
+            "ObjectPath": "FNAF_SOTM/Content/Blueprints/Inventory/Items/Collectables/Collect_FoxyPuppet.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "2DGame.Item.HoneyBottle"
+          },
+          "Value": {
+            "ObjectName": "InventoryItem'Collect_HoneyBottle'",
+            "ObjectPath": "FNAF_SOTM/Content/Blueprints/Inventory/Items/Collectables/Collect_HoneyBottle.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "2DGame.Item.JuniorDoctorKit"
+          },
+          "Value": {
+            "ObjectName": "InventoryItem'Collect_DoctorKit'",
+            "ObjectPath": "FNAF_SOTM/Content/Blueprints/Inventory/Items/Collectables/Collect_DoctorKit.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "2DGame.Item.MontyWaterGame"
+          },
+          "Value": {
+            "ObjectName": "InventoryItem'Collect_WaterGame'",
+            "ObjectPath": "FNAF_SOTM/Content/Blueprints/Inventory/Items/Collectables/Collect_WaterGame.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "2DGame.Item.PartyTimeChicaThermos"
+          },
+          "Value": {
+            "ObjectName": "InventoryItem'Collect_ChicaCup'",
+            "ObjectPath": "FNAF_SOTM/Content/Blueprints/Inventory/Items/Collectables/Collect_ChicaCup.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "2DGame.Item.PizzaMaker"
+          },
+          "Value": {
+            "ObjectName": "InventoryItem'Collect_PizzaMaker'",
+            "ObjectPath": "FNAF_SOTM/Content/Blueprints/Inventory/Items/Collectables/Collect_PizzaMaker.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "2DGame.Item.RainyDayBoot"
+          },
+          "Value": {
+            "ObjectName": "InventoryItem'Collect_Boot'",
+            "ObjectPath": "FNAF_SOTM/Content/Blueprints/Inventory/Items/Collectables/Collect_Boot.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "2DGame.Item.RangerArmyKnife"
+          },
+          "Value": {
+            "ObjectName": "InventoryItem'Collect_ArmyKnife'",
+            "ObjectPath": "FNAF_SOTM/Content/Blueprints/Inventory/Items/Collectables/Collect_ArmyKnife.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "2DGame.Item.SewingKit"
+          },
+          "Value": {
+            "ObjectName": "InventoryItem'Collect_SewingKit'",
+            "ObjectPath": "FNAF_SOTM/Content/Blueprints/Inventory/Items/Collectables/Collect_SewingKit.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "2DGame.Item.SnowGlobe"
+          },
+          "Value": {
+            "ObjectName": "InventoryItem'Collect_SnowGlobe'",
+            "ObjectPath": "FNAF_SOTM/Content/Blueprints/Inventory/Items/Collectables/Collect_SnowGlobe.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "2DGame.Item.SquareRecord"
+          },
+          "Value": {
+            "ObjectName": "InventoryItem'Collect_Record'",
+            "ObjectPath": "FNAF_SOTM/Content/Blueprints/Inventory/Items/Collectables/Collect_Record.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "2DGame.Item.StarbrightNightLight"
+          },
+          "Value": {
+            "ObjectName": "InventoryItem'Collect_NightLight'",
+            "ObjectPath": "FNAF_SOTM/Content/Blueprints/Inventory/Items/Collectables/Collect_NightLight.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "2DGame.Item.ToyHammer"
+          },
+          "Value": {
+            "ObjectName": "InventoryItem'Collect_Hammer'",
+            "ObjectPath": "FNAF_SOTM/Content/Blueprints/Inventory/Items/Collectables/Collect_Hammer.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "2DGame.Item.VacuumPal"
+          },
+          "Value": {
+            "ObjectName": "InventoryItem'Collect_VacuumPet'",
+            "ObjectPath": "FNAF_SOTM/Content/Blueprints/Inventory/Items/Collectables/Collect_VacuumPet.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "2DGame.Item.WhiteTigerDoll"
+          },
+          "Value": {
+            "ObjectName": "InventoryItem'Collect_WhiteTiger'",
+            "ObjectPath": "FNAF_SOTM/Content/Blueprints/Inventory/Items/Collectables/Collect_WhiteTiger.0"
+          }
+        }
+      ]
+    }
+  }
+]
