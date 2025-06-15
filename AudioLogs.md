@@ -1,6 +1,6 @@
-## **Часть 1: 16 Коллекционных Аудиологов (для достижения "Хороший слушатель")**
+![image](https://github.com/user-attachments/assets/fc146a4e-1c0a-4076-8d4a-43d53a4291fa)## **Часть 1: 16 Коллекционных Аудиологов (для достижения "Хороший слушатель")**
 
-### **1. Showtime room**
+### 1. Showtime room
 *   **Оригинал:**
     *   **(Эдвин):** Excuse me. Can I borrow your voice for a project?
     *   **(Фиона):** What for? I don’t even know you. I’m brand new here. Let’s start again. I'm Fiona. And you are?
@@ -35,7 +35,7 @@
 
 **Контекст и значение:** Это запись первого знакомства Эдвина и Фионы. Она закладывает основу их будущих отношений и совместной работы. Здесь же рождается название для будущей системы искусственного интеллекта Эдвина — "Помощник" (Mr. Helpful), основанное на слове, которое он использует для описания своей технологии.
 
-#### **2. Showroom 1 (Шоурум 1)**
+### 2. Storytime showroom
 *   **Оригинал:**
     *   **(Эдвин):** Edwin, never forget. They’re behind it. Don’t trust them. Never tell them. They want to destroy you. Dad was right.
 *   **Перевод:**
