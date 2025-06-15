@@ -222,14 +222,15 @@
 
 ### 17. Cart ride
 *   **Оригинал:**
-    *   **(Мимик голосом Фионы):** Edwin, you need to listen. Ed, I really don’t want to leave things like this.
-    *   Edwin, it doesn’t make sense. It’s terrible and there’s no logic behind it. It happened and you have to deal with it.
-    *   Edwin, you can’t put it off any longer. You need to try again. Build another. You did it before. We can fix things together. I am here to help.
+    * **(F10 N4):** Edwin, you need to listen.
+    * Ed, I really don’t want to leave things like this.
+    * Edwin, it doesn’t make sense. It’s terrible and there’s no logic behind it. It happened and you have to deal with it.
+    * Edwin, you can’t put it off any longer. You need to try again. Build another. You did it before. We can fix things together. I am here to help.
 
 *   **Перевод:**
-    *   **(Мимик голосом Фионы):** Эдвин, тебе нужно послушать. Эд, я правда не хочу оставлять всё так.
-    *   Эдвин, это не имеет смысла. Это ужасно, и в этом нет никакой логики. Это случилось, и тебе придётся с этим смириться.
-    *   Эдвин, ты не можешь больше это откладывать. Тебе нужно попробовать снова. Построй другого. Ты уже делал это раньше. Мы сможем всё исправить вместе. Я здесь, чтобы помочь.
+    * **(F10 N4):** Эдвин, тебе нужно послушать. Эд, я правда не хочу оставлять всё так.
+    * Эдвин, это не имеет смысла. Это ужасно, и в этом нет никакой логики. Это случилось, и тебе придётся с этим смириться.
+    * Эдвин, ты не можешь больше это откладывать. Тебе нужно попробовать снова. Построй другого. Ты уже делал это раньше. Мы сможем всё исправить вместе. Я здесь, чтобы помочь.
 
 
 
