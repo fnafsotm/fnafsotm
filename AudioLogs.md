@@ -55,7 +55,7 @@
 
 **Контекст и значение:** Это роковое сообщение от Фионы. Она сообщает Эдвину, что уезжает на несколько дней для помощи с "Осенним Фестивалем". Её слова о "ужасном предчувствии" служат зловещим предзнаменованием. Именно после этой поездки происходит трагедия, которая меняет жизнь Эдвина навсегда и становится катализатором для создания Мимика.
 
-#### 4. Theatre
+### 4. Theatre
 *   **Оригинал:**
     *   **(Эдвин):** Notice to all workers. All late night shenanigans are to stop immediately.
     *   **(Эдвин):** I have some very important TV people coming to look at the show template. I can't have the projector breaking again!
