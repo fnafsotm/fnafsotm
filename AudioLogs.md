@@ -41,6 +41,8 @@
 *   **Перевод:**
     *   **(Эдвин):** Эдвин, никогда не забывай. Это они за всем стоят. Не доверяй им. Никогда им не говори. Они хотят тебя уничтожить. Отец был прав.
 
+**Контекст и значение:** Эта запись — напоминание Эдвина самому себе, вероятно, сделанное после смерти его отца. Она демонстрирует глубоко укоренившуюся паранойю и недоверие к компании (предположительно, Fazbear Entertainment или другой конкурирующей фирме), которое ему привил отец. Это объясняет многие из его последующих скрытных и защитных действий.
+
 #### **3. Area before roof access (Зона перед доступом на крышу)**
 *   **Оригинал:**
     *   **(Фиона):** Ed, I hope this message reaches you as soon as you get a break. I have to go help the Fall Fest crew… just for a few days until the installation is finished. It’s hard to explain… I just have this terrible feeling like I need to be there so nothing goes wrong… Just in case. Trisha will babysit David while I’m gone. I love you both and I’ll be back next week.
