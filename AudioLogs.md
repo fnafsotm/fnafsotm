@@ -244,14 +244,14 @@
     * Эдвин, это не имеет смысла. Это ужасно, и в этом нет никакой логики. Это случилось, и тебе придётся с этим смириться.
     * Эдвин, ты не можешь больше это откладывать. Тебе нужно попробовать снова. Построй другого. Ты уже делал это раньше. Мы сможем всё исправить вместе. Я здесь, чтобы помочь.
 
-### 20. House main floor
+### 19. House main floor
 *   **Оригинал:**
    *   **(F10 N4):** Edwin, you need to listen. I know you are excited, but you can’t let them know about me. It’s not safe. They wouldn’t understand. Keep it between us for now.
 
 *   **Перевод:**
    *   **(F10 N4):** Эдвин, тебе нужно послушать. Я знаю, что ты взволнован, но ты не можешь им рассказывать обо мне. Это небезопасно. Они не поймут. Пусть это пока останется между нами.
 
-### 21. House blueprint room
+### 20. House blueprint room
 *   **Оригинал:**
     *   **(Эдвин):** For the last time, NO. It wouldn’t be him.
     *   Who am I kidding, you’re not really you! Ugh, I’ve been so stupid.
@@ -269,7 +269,7 @@
     *  **("F10 N4"):** Ты не это имеешь в виду. Это я. Я Фиона.
     *  **(Эдвин):** Перестань говорить, как она. Ты не она. Я больше никогда не хочу слышать или даже думать о тебе. Никогда!
 
-### 22. House spare parts
+### 21. House spare parts
 *   **Оригинал:**
     *   **(F10 N4):** Edwin, you can’t put it off any longer.
     *   You need to try again.
@@ -279,8 +279,30 @@
     *   Тебе нужно попробовать снова.
     *   Построй другого.
 
-## Пока не нашел
+### 22. Edwin Room
 *   **Оригинал:**
-    *   **(Мимик голосом Эдвина):** Test test… Journal entry. Too bad. The new power test was a failure. Due to a minor… detonation, there is damage to my office interior as well as a small fire. Note to self. A portable cleaner that gets rid of smoke damage… Better yet, a Clean-o-Vac attachment.
+    *   **(M2, голосом Эдвина):** Test test… Journal entry. Too bad. The new power test was a failure.
+    *   Due to a minor… detonation, there is damage to my office interior as well as a small fire.
+    *   Note to self. A portable cleaner that gets rid of smoke damage…
+    *   Better yet, a Clean-o-Vac attachment.
+    *   **(Эдвин):** Help… M2. Respond. Emergency… Call for help.
+    *   **(M2, голосом Эдвина):** Daddy's busy, buddy. Why don't you go outside and play.
+    *   **(Эдвин):** *(coughing)*
+    *   Please.
+    *   I can't move. I can't feel my legs…
+    *   **(M2, своим голосом):** Speaking of legs. What do you think? I just finished mine. There are still a few kinks to work out…
+    *   **(Эдвин):** I'm… I'm sorry, M2. I… lost my temper. I was always going to fix you…
+    *   Please… call for help…
+    *   M2. Help… *(coughing)*
+    *   M2. Respond.
+    *   **(M2, голосом Эдвина):** Can't right now, buddy. We can do something fun tomorrow. I promise. Ask your mom, if she's not busy.
 *   **Перевод:**
-    *   **(Мимик голосом Эдвина):** Тест, тест... запись в журнале. Очень жаль. Новое испытание энергосистемы провалилось. Из-за незначительного... взрыва, есть повреждения интерьера моего офиса, а также небольшое возгорание. Заметка себе. Портативный очиститель, который избавляет от повреждений от дыма... А ещё лучше, насадка для Клино-Вака.
+    *   **(Эдвин):** Помогите... М2. Отвечай. Тревога... Вызови помощь.
+    *   **(М2, голосом Эдвина):** Папочка занят, дружок. Почему бы тебе не пойти поиграть на улицу.
+    *   **(Эдвин):** *(кашляет)* Пожалуйста. Я не могу двигаться. Я не чувствую ног...
+    *   **(М2, своим голосом):** Кстати, о ногах. Как тебе мои? Я как раз их закончил. Ещё есть пара недоработок, которые нужно исправить...
+    *   **(Эдвин):** Я... прости, М2. Я... вышел из себя. Я всегда собирался тебя починить...
+    *   Пожалуйста... вызови помощь...
+    *   М2. Помоги... *(сильно кашляет)*
+    *   М2. Отвечай.
+    *   **(М2, голосом Эдвина):** Сейчас не могу, дружок. Мы можем сделать что-нибудь весёлое завтра. Обещаю. Спроси маму, если она не занята.
