@@ -45,9 +45,13 @@
 
 #### **3. Area before roof access (Зона перед доступом на крышу)**
 *   **Оригинал:**
-    *   **(Фиона):** Ed, I hope this message reaches you as soon as you get a break. I have to go help the Fall Fest crew… just for a few days until the installation is finished. It’s hard to explain… I just have this terrible feeling like I need to be there so nothing goes wrong… Just in case. Trisha will babysit David while I’m gone. I love you both and I’ll be back next week.
+    *   **(Фиона):** Ed, I hope this message reaches you as soon as you get a break.
+    *   **(Фиона):** I have to go help the Fall Fest crew… just for a few days until the installation is finished. It’s hard to explain… I just have this terrible feeling like I need to be there so nothing goes wrong… Just in case.
+    *   **(Фиона):** Trisha will babysit David while I’m gone. I love you both and I’ll be back next week.
 *   **Перевод:**
-    *   **(Фиона):** Эд, надеюсь, это сообщение дойдет до тебя, как только у тебя будет перерыв. Мне нужно помочь команде Осеннего Фестиваля... всего на несколько дней, пока не закончится установка. Сложно объяснить... у меня просто ужасное предчувствие, будто я должна быть там, чтобы ничего плохого не случилось... Просто на всякий случай. Триша посидит с Дэвидом, пока меня не будет. Я люблю вас обоих и вернусь на следующей неделе.
+    *   **(Фиона):** Эд, надеюсь, это сообщение дойдет до тебя, как только у тебя будет перерыв
+    *   **(Фиона):** Мне нужно помочь команде Осеннего Фестиваля... всего на несколько дней, пока не закончится установка. Сложно объяснить... у меня просто ужасное предчувствие, будто я должна быть там, чтобы ничего плохого не случилось... Просто на всякий случай.
+    *   **(Фиона):** Триша посидит с Дэвидом, пока меня не будет. Я люблю вас обоих и вернусь на следующей неделе.
 
 #### **4. Theatre (Театр)**
 *   **Оригинал:**
@@ -95,9 +99,13 @@
 
 #### **9. Outside managers office (Снаружи офиса менеджера / Над погрузочной зоной)**
 *   **Оригинал:**
-    *   **(Фиона):** Ed, honey, how are you holding up? I just heard the news. It's your company now. Your dad believed in you. Otherwise, he wouldn't have left it to you. Ed, you'll figure it out. Just take a deep breath.
+    *   **(Фиона):** Ed, honey, how are you holding up? I just heard the news.
+    *   **(Фиона):** It's your company now. Your dad believed in you. Otherwise, he wouldn't have left it to you.
+    *   **(Фиона):** Ed, you'll figure it out. Just take a deep breath.
 *   **Перевод:**
-    *   **(Фиона):** Эд, милый, как ты держишься? Я только что узнала новости. Теперь это твоя компания. Твой отец верил в тебя. Иначе он бы не оставил её тебе. Эд, ты со всем разберёшься. Просто сделай глубокий вдох.
+    *   **(Фиона):** Эд, милый, как ты держишься? Я только что узнала новости.
+    *   **(Фиона):** Теперь это твоя компания. Твой отец верил в тебя. Иначе он бы не оставил её тебе.
+    *   **(Фиона):** Эд, ты со всем разберёшься. Просто сделай глубокий вдох.
 
 #### **10. Upper floor of warehouse (Верхний этаж склада)**
 *   **Оригинал:**
