@@ -28,7 +28,7 @@
 *   **Перевод:**
     *   **(Эдвин):** Вниманию всех работников. Все ночные выходки должны немедленно прекратиться.
 
-#### **5. Projector Room (Проекторная) - [Пропущенный лог]**
+#### **5. Projector Room (Проекторная)**
 *   **Оригинал:**
     *   **(Эдвин):** I have some very important TV people coming to look at the show template. I can't have the projector breaking again!
 *   **Перевод:**
