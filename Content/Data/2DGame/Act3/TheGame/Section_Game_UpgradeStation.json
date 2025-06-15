@@ -1,0 +1,160 @@
+[
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/TheGame/Section_GameSun.Section_GameSun",
+        "SubPathString": ""
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act3.TheGame.SolvedUpgradeStation"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "MinigameOption",
+    "Name": "MinigameOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'MinigameOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinigameActionTag": {
+        "TagName": "2DGame.Minigame.Upgrade.FlipLow"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_UpgradeStation_Text4",
+        "SourceString": "Move to Low Track",
+        "LocalizedString": "Move to Low Track"
+      },
+      "bShouldHideIfWidgetDisabled": true
+    }
+  },
+  {
+    "Type": "MinigameOption",
+    "Name": "MinigameOption_1",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'MinigameOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bShouldReset": true,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_UpgradeStation_Text5",
+        "SourceString": "Restart",
+        "LocalizedString": "Restart"
+      },
+      "bShouldHideIfWidgetDisabled": true
+    }
+  },
+  {
+    "Type": "MinigameOption",
+    "Name": "MinigameOption_3",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'MinigameOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinigameActionTag": {
+        "TagName": "2DGame.Minigame.Upgrade.FlipHigh"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_UpgradeStation_Text2",
+        "SourceString": "Move to High Track",
+        "LocalizedString": "Move to High Track"
+      },
+      "bShouldHideIfWidgetDisabled": true
+    }
+  },
+  {
+    "Type": "MinigameOption",
+    "Name": "MinigameOption_4",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'MinigameOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinigameActionTag": {
+        "TagName": "2DGame.Minigame.Upgrade.FlipMiddle"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_UpgradeStation_Text3",
+        "SourceString": "Move to Middle Track",
+        "LocalizedString": "Move to Middle Track"
+      },
+      "bShouldHideIfWidgetDisabled": true
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_0",
+    "Outer": "Section_Game_UpgradeStation",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act3_Closet'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_Closet.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "MinigameOption'Section_Game_UpgradeStation:RootOption_0.MinigameOption_3'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_Game_UpgradeStation.3"
+        },
+        {
+          "ObjectName": "MinigameOption'Section_Game_UpgradeStation:RootOption_0.MinigameOption_4'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_Game_UpgradeStation.4"
+        },
+        {
+          "ObjectName": "MinigameOption'Section_Game_UpgradeStation:RootOption_0.MinigameOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_Game_UpgradeStation.1"
+        },
+        {
+          "ObjectName": "MinigameOption'Section_Game_UpgradeStation:RootOption_0.MinigameOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_Game_UpgradeStation.2"
+        }
+      ],
+      "BypassOption": {
+        "ObjectName": "GoToSectionOption'Section_Game_UpgradeStation:RootOption_0.GoToSectionOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_Game_UpgradeStation.0"
+      },
+      "MiniGameRootOptionWidget": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'WBP_UpgradeStation_C'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Widgets/2DGame/WBP_UpgradeStation.35"
+      },
+      "bIsMinigameRoot": true,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_UpgradeStation_Text1",
+        "SourceString": "Upgrade Station",
+        "LocalizedString": "Upgrade Station"
+      }
+    }
+  },
+  {
+    "Type": "TwoDSectionData",
+    "Name": "Section_Game_UpgradeStation",
+    "Class": "UScriptClass'TwoDSectionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootPages": [
+        {
+          "ObjectName": "RootOption'Section_Game_UpgradeStation:RootOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_Game_UpgradeStation.5"
+        }
+      ]
+    }
+  }
+]

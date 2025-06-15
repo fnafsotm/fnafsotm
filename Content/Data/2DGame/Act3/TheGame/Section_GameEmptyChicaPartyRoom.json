@@ -1,0 +1,303 @@
+[
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/TheGame/Section_GameEmptyDollHospital.Section_GameEmptyDollHospital",
+        "SubPathString": ""
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_ChicaPartyRoom_Text15",
+        "SourceString": "Return to Doll Hospital",
+        "LocalizedString": "Return to Doll Hospital"
+      }
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "TextOption_1",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/TheGame/Section_GameDavidsRoom_Part1.Section_GameDavidsRoom_Part1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "ImageLayerOption",
+    "Name": "ImageLayerOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'ImageLayerOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageTexture": {
+        "ObjectName": "Texture2D'T_2D_Act3_ChicaGone_ov_present'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_ChicaGone_ov_present.0"
+      },
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.WhiteTigerDoll"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act3.TheGame.CollectedWhiteTigerDoll"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "ImageOption",
+    "Name": "ImageOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'ImageOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2d_Act3_ChicaGone_whitetiger'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2d_Act3_ChicaGone_whitetiger.0"
+        }
+      },
+      "bRemovePreviousDescriptionText": true,
+      "SecondsToSwitch": 0.1,
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_GameEmptyChicaPartyRoom:RootOption_0.ImageOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyChicaPartyRoom.7"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_EmptyBigTopShowroom_Text5",
+        "SourceString": "Open Birthday Present",
+        "LocalizedString": "Open Birthday Present"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.WhiteTigerDoll"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act3.TheGame.CollectedWhiteTigerDoll"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "ReturnOption",
+    "Name": "ReturnOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'ReturnOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_0",
+    "Outer": "Section_GameEmptyChicaPartyRoom",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act3_ChicaGone'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_ChicaGone.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "ImageOption'Section_GameEmptyChicaPartyRoom:RootOption_0.ImageOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyChicaPartyRoom.3"
+        },
+        {
+          "ObjectName": "TextOption'Section_GameEmptyChicaPartyRoom:RootOption_0.TextOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyChicaPartyRoom.10"
+        },
+        {
+          "ObjectName": "TextOption'Section_GameEmptyChicaPartyRoom:RootOption_0.TextOption_3'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyChicaPartyRoom.11"
+        },
+        {
+          "ObjectName": "TextOption'Section_GameEmptyChicaPartyRoom:RootOption_0.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyChicaPartyRoom.9"
+        },
+        {
+          "ObjectName": "GoToSectionOption'Section_GameEmptyChicaPartyRoom:RootOption_0.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyChicaPartyRoom.0"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_GameEmptyChicaPartyRoom:RootOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyChicaPartyRoom.8"
+        },
+        {
+          "ObjectName": "ImageLayerOption'Section_GameEmptyChicaPartyRoom:RootOption_0.ImageLayerOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyChicaPartyRoom.2"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_ChicaPartyRoom_Text1",
+        "SourceString": "Chica's Party Room",
+        "LocalizedString": "Chica's Party Room"
+      }
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act3.TheGame.CollectedWhiteTigerDoll"
+      ]
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "ImageOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_EmptyChicaPartyRoom_Text1",
+        "SourceString": "His first birthday present. The White Tiger doll. His favorite.",
+        "LocalizedString": "His first birthday present. The White Tiger doll. His favorite."
+      },
+      "bAreActivesChoices": true,
+      "Actives": [
+        {
+          "ObjectName": "ReturnOption'Section_GameEmptyChicaPartyRoom:RootOption_0.ImageOption_0.TextOption_0.ReturnOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyChicaPartyRoom.4"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_GameEmptyChicaPartyRoom:RootOption_0.ImageOption_0.TextOption_0.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyChicaPartyRoom.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_EmptyChicaPartyRoom_Text7",
+        "SourceString": "You enter the Admin Wing. Chica is gone and the stairs are now open.",
+        "LocalizedString": "You enter the Admin Wing. Chica is gone and the stairs are now open."
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_EmptyChicaPartyRoom_Text6",
+        "SourceString": "You head up the stairs.",
+        "LocalizedString": "You head up the stairs."
+      },
+      "SecondsToSwitch": 1.5,
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_GameEmptyChicaPartyRoom:RootOption_0.TextOption_1.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyChicaPartyRoom.1"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_EmptyChicaPartyRoom_Text5",
+        "SourceString": "Climb up Stairs",
+        "LocalizedString": "Climb up Stairs"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_2",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_EmptyChicaPartyRoom_Text3",
+        "SourceString": "Mmmmm, strawberry and chocolate.",
+        "LocalizedString": "Mmmmm, strawberry and chocolate."
+      },
+      "SecondsToSwitch": 3.0,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_EmptyChicaPartyRoom_Text2",
+        "SourceString": "Taste Birthday Cake",
+        "LocalizedString": "Taste Birthday Cake"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_3",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_EmptyChicaPartyRoom_Text4",
+        "SourceString": "It pops with a loud \"bang\"!",
+        "LocalizedString": "It pops with a loud \"bang\"!"
+      },
+      "SecondsToSwitch": 2.0,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_ChicaPartyRoom_Text6",
+        "SourceString": "Pop Balloons",
+        "LocalizedString": "Pop Balloons"
+      }
+    }
+  },
+  {
+    "Type": "TwoDSectionData",
+    "Name": "Section_GameEmptyChicaPartyRoom",
+    "Class": "UScriptClass'TwoDSectionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootPages": [
+        {
+          "ObjectName": "RootOption'Section_GameEmptyChicaPartyRoom:RootOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyChicaPartyRoom.5"
+        }
+      ]
+    }
+  }
+]

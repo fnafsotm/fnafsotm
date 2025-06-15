@@ -1,0 +1,118 @@
+[
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "ImageOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/TheGame/Section_GameDavidsCloset.Section_GameDavidsCloset",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "ImageOption",
+    "Name": "ImageOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'ImageOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act3_David_Exit'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_David_Exit.0"
+        }
+      },
+      "SecondsToSwitch": 0.1,
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_GameDavidsRoom_Part2:RootOption_0.ImageOption_0.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDavidsRoom_Part2.0"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_DavidsRoom_Part2_Text2",
+        "SourceString": "Walk into the Closet",
+        "LocalizedString": "Walk into the Closet"
+      }
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_0",
+    "Outer": "Section_GameDavidsRoom_Part2",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act3_David_Exit'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_David_Exit.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_GameDavidsRoom_Part2:RootOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDavidsRoom_Part2.3"
+        },
+        {
+          "ObjectName": "ImageOption'Section_GameDavidsRoom_Part2:RootOption_0.ImageOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDavidsRoom_Part2.1"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_DavidsRoom_Text1",
+        "SourceString": "David's Room",
+        "LocalizedString": "David's Room"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_DavidsRoom_Part2_Text1",
+        "SourceString": "The book has changed. \"The end comes from the beginning. To sleep the tiger, you must complete the story.\"",
+        "LocalizedString": "The book has changed. \"The end comes from the beginning. To sleep the tiger, you must complete the story.\""
+      },
+      "SecondsToSwitch": 6.0,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_DavidsRoom_Text2",
+        "SourceString": "Read Storybook",
+        "LocalizedString": "Read Storybook"
+      }
+    }
+  },
+  {
+    "Type": "TwoDSectionData",
+    "Name": "Section_GameDavidsRoom_Part2",
+    "Class": "UScriptClass'TwoDSectionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootPages": [
+        {
+          "ObjectName": "RootOption'Section_GameDavidsRoom_Part2:RootOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDavidsRoom_Part2.2"
+        }
+      ]
+    }
+  }
+]

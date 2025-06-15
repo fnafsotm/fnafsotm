@@ -1,0 +1,381 @@
+[
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/TheGame/Section_GameEmptyJackieShowRoom.Section_GameEmptyJackieShowRoom",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_1",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/TheGame/Section_GameJackieShowRoom.Section_GameJackieShowRoom",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "ImageLayerOption",
+    "Name": "ImageLayerOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'ImageLayerOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageTexture": {
+        "ObjectName": "Texture2D'T_2D_Act3_Welcome_ov_ticket'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_Welcome_ov_ticket.0"
+      },
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.FallFestTicketBook"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act3.TheGame.CollectedFallFestTicketBook"
+        ]
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_WelcomeShow_Text14",
+        "SourceString": "Ticket",
+        "LocalizedString": "Ticket"
+      }
+    }
+  },
+  {
+    "Type": "ImageOption",
+    "Name": "ImageOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'ImageOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act3_Welcome_TicketClose'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_Welcome_TicketClose.0"
+        }
+      },
+      "bRemovePreviousDescriptionText": true,
+      "SecondsToSwitch": 0.1,
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_GameWelcomeShow:RootOption_0.ImageOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameWelcomeShow.9"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_WelcomeShow_Text2",
+        "SourceString": "Take the Ticket Book",
+        "LocalizedString": "Take the Ticket Book"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.FallFestTicketBook"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act3.TheGame.CollectedFallFestTicketBook"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "ReturnOption",
+    "Name": "ReturnOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'ReturnOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_0",
+    "Outer": "Section_GameWelcomeShow",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act3_Welcome'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_Welcome.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "ImageOption'Section_GameWelcomeShow:RootOption_0.ImageOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameWelcomeShow.3"
+        },
+        {
+          "ObjectName": "TextOption'Section_GameWelcomeShow:RootOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameWelcomeShow.10"
+        },
+        {
+          "ObjectName": "TextOption'Section_GameWelcomeShow:RootOption_0.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameWelcomeShow.11"
+        },
+        {
+          "ObjectName": "TagConditionOption'Section_GameWelcomeShow:RootOption_0.TagConditionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameWelcomeShow.8"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_GameWelcomeShow:RootOption_0.TextOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameWelcomeShow.12"
+        },
+        {
+          "ObjectName": "TextOption'Section_GameWelcomeShow:RootOption_0.TextOption_3'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameWelcomeShow.13"
+        },
+        {
+          "ObjectName": "TagCollectionOption'Section_GameWelcomeShow:RootOption_0.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameWelcomeShow.7"
+        },
+        {
+          "ObjectName": "ImageLayerOption'Section_GameWelcomeShow:RootOption_0.ImageLayerOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameWelcomeShow.2"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_WelcomeShow_Text1",
+        "SourceString": "Welcome Show",
+        "LocalizedString": "Welcome Show"
+      }
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act3.TheGame.CollectedFallFestTicketBook"
+      ]
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act3.TheGame.VisitedFirstTime"
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_WelcomeShow_Text13",
+        "SourceString": "First Time Tag Collection",
+        "LocalizedString": "First Time Tag Collection"
+      }
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act3.TheGame.TrappedJackie"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "GoToSectionOption'Section_GameWelcomeShow:RootOption_0.TagConditionOption_0.GoToSectionOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameWelcomeShow.0"
+      },
+      "FalseOption": {
+        "ObjectName": "GoToSectionOption'Section_GameWelcomeShow:RootOption_0.TagConditionOption_0.GoToSectionOption_1'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameWelcomeShow.1"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_WelcomeShow_Text8",
+        "SourceString": "Open Security Door",
+        "LocalizedString": "Open Security Door"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "ImageOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_WelcomeShow_Text3",
+        "SourceString": "You take the Ticket Book from the hand of the animatronic.",
+        "LocalizedString": "You take the Ticket Book from the hand of the animatronic."
+      },
+      "bAreActivesChoices": true,
+      "Actives": [
+        {
+          "ObjectName": "ReturnOption'Section_GameWelcomeShow:RootOption_0.ImageOption_0.TextOption_0.ReturnOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameWelcomeShow.4"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_GameWelcomeShow:RootOption_0.ImageOption_0.TextOption_0.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameWelcomeShow.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_WelcomeShow_Text5",
+        "SourceString": "\"You rebuilt yourself, but now you are split in two. Moon and Sun, Destruction and Life.\"",
+        "LocalizedString": "\"You rebuilt yourself, but now you are split in two. Moon and Sun, Destruction and Life.\""
+      },
+      "SecondsToSwitch": 8.0,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_WelcomeShow_Text4",
+        "SourceString": "Talk to Helper",
+        "LocalizedString": "Talk to Helper"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_WelcomeShow_Text7",
+        "SourceString": "The animatronics watch you with glowing orange eyes.",
+        "LocalizedString": "The animatronics watch you with glowing orange eyes."
+      },
+      "SecondsToSwitch": 2.5,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_WelcomeShow_Text6",
+        "SourceString": "Examine the Animatronics",
+        "LocalizedString": "Examine the Animatronics"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_2",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_WelcomeShow_Text10",
+        "SourceString": "You wake up in a darkened room with red lighting. You're surrounded by strange animatronics.",
+        "LocalizedString": "You wake up in a darkened room with red lighting. You're surrounded by strange animatronics."
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_WelcomeShow_Text9",
+        "SourceString": "First Time Visit",
+        "LocalizedString": "First Time Visit"
+      },
+      "ShowOptionConditionQuery": {
+        "HasNotCollected": [
+          "2DGame.Act3.TheGame.VisitedFirstTime"
+        ]
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_3",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_WelcomeShow_Text12",
+        "SourceString": "You are in a darkened room with red lighting. You're surrouned by strange metal statues.",
+        "LocalizedString": "You are in a darkened room with red lighting. You're surrouned by strange metal statues."
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_WelcomeShow_Text11",
+        "SourceString": "Subsequent Visits",
+        "LocalizedString": "Subsequent Visits"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act3.TheGame.VisitedFirstTime"
+        ]
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TwoDSectionData",
+    "Name": "Section_GameWelcomeShow",
+    "Class": "UScriptClass'TwoDSectionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bIsCheckpoint": true,
+      "RootPages": [
+        {
+          "ObjectName": "RootOption'Section_GameWelcomeShow:RootOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameWelcomeShow.5"
+        }
+      ],
+      "CheckpointTags": [
+        "2DGame.Act3.TheGame.VisitedFirstTime",
+        "2DGame.Act3.TheGame.CollectedFallFestTicketBook",
+        "2DGame.Act3.TheGame.CollectedDavidBlocks",
+        "2DGame.Act3.TheGame.ShutdownBigTop",
+        "2DGame.Act3.TheGame.CollectedDavidBall",
+        "2DGame.Act3.TheGame.OpenedRainbowDoors",
+        "2DGame.Act3.TheGame.CollectedWhiteTigerDoll",
+        "2DGame.Act3.TheGame.ReunitedChica",
+        "2DGame.Act3.TheGame.CollectedBirthdayCake",
+        "2DGame.Act3.TheGame.HelpedNurseDollie",
+        "2DGame.Act3.TheGame.FixedDuck",
+        "2DGame.Act3.TheGame.FixedElephant",
+        "2DGame.Act3.TheGame.CollectedJuniorDoctorKit",
+        "2DGame.Act3.TheGame.TrappedJackie",
+        "2DGame.Act3.TheGame.ExaminedCrate"
+      ]
+    }
+  }
+]

@@ -1,0 +1,268 @@
+[
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "TextOption_3",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/Cave/Section_CaveHub.Section_CaveHub",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "ImageOption",
+    "Name": "ImageOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'ImageOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act3_StatueHead'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_StatueHead.0"
+        }
+      },
+      "bRemovePreviousDescriptionText": true,
+      "SecondsToSwitch": 0.01,
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_CavePool:RootOption_0.ImageOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CavePool.5"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CavePool_Text4",
+        "SourceString": "Use Fishing Net on Pool",
+        "LocalizedString": "Use Fishing Net on Pool"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act3.Cave.CollectedFishingNet",
+          "2DGame.Act3.Cave.ExaminedPool"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act3.Cave.CollectedMoonHead"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_0",
+    "Outer": "Section_CavePool",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act3_Pool'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_Pool.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_CavePool:RootOption_0.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CavePool.8"
+        },
+        {
+          "ObjectName": "ImageOption'Section_CavePool:RootOption_0.ImageOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CavePool.1"
+        },
+        {
+          "ObjectName": "TextOption'Section_CavePool:RootOption_0.TextOption_3'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CavePool.9"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_CavePool:RootOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CavePool.7"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CavePool_Text1",
+        "SourceString": "Cave Pool",
+        "LocalizedString": "Cave Pool"
+      }
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act3.Cave.CollectedMoonHead"
+      ]
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_1",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act3.Cave.ExaminedPool"
+      ]
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "ImageOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CavePool_Text5",
+        "SourceString": "You use the fishing net to pull up the head of a stone statue. It's a strange head that looks like a moon.",
+        "LocalizedString": "You use the fishing net to pull up the head of a stone statue. It's a strange head that looks like a moon."
+      },
+      "bAreActivesChoices": true,
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_CavePool:RootOption_0.ImageOption_0.TextOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CavePool.6"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_CavePool:RootOption_0.ImageOption_0.TextOption_0.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CavePool.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CavePool_Text7",
+        "SourceString": "You take the Head.",
+        "LocalizedString": "You take the Head."
+      },
+      "SecondsToSwitch": 1.5,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CavePool_Text6",
+        "SourceString": "Take Statue Head",
+        "LocalizedString": "Take Statue Head"
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CavePool_Text8",
+        "SourceString": "You come across a crystal clear pool in the center of the cave.",
+        "LocalizedString": "You come across a crystal clear pool in the center of the cave."
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CavePool_Text3",
+        "SourceString": "There's something at the bottom of the pool, but you can't reach it.",
+        "LocalizedString": "There's something at the bottom of the pool, but you can't reach it."
+      },
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_CavePool:RootOption_0.TextOption_1.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CavePool.4"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CavePool_Text2",
+        "SourceString": "Look in Cave Pool",
+        "LocalizedString": "Look in Cave Pool"
+      },
+      "ShowOptionConditionQuery": {
+        "HasNotCollected": [
+          "2DGame.Act3.Cave.CollectedMoonHead"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_3",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveCrystal_Text13",
+        "SourceString": "You head back to the Cave Hub.",
+        "LocalizedString": "You head back to the Cave Hub."
+      },
+      "SecondsToSwitch": 2.0,
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_CavePool:RootOption_0.TextOption_3.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CavePool.0"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveCrystal_Text12",
+        "SourceString": "Back to Cave Hub",
+        "LocalizedString": "Back to Cave Hub"
+      }
+    }
+  },
+  {
+    "Type": "TwoDSectionData",
+    "Name": "Section_CavePool",
+    "Class": "UScriptClass'TwoDSectionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootPages": [
+        {
+          "ObjectName": "RootOption'Section_CavePool:RootOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CavePool.2"
+        }
+      ]
+    }
+  }
+]

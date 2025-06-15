@@ -1,0 +1,197 @@
+[
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "TextOption_1",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/Cave/Section_CavePirateShip.Section_CavePirateShip",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/Cave/Section_CaveHub.Section_CaveHub",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_0",
+    "Outer": "Section_CaveDarkTunnel",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act3_DarkTunnel'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_DarkTunnel.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TagConditionOption'Section_CaveDarkTunnel:RootOption_0.TagConditionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveDarkTunnel.3"
+        },
+        {
+          "ObjectName": "TextOption'Section_CaveDarkTunnel:RootOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveDarkTunnel.6"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_CaveDarkTunnel:RootOption_0.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveDarkTunnel.7"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveDarkTunnel_Text1",
+        "SourceString": "Dark Tunnel",
+        "LocalizedString": "Dark Tunnel"
+      }
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.Forest.CollectedNightLight"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "TextOption'Section_CaveDarkTunnel:RootOption_0.TagConditionOption_0.TextOption_1'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveDarkTunnel.5"
+      },
+      "FalseOption": {
+        "ObjectName": "TextOption'Section_CaveDarkTunnel:RootOption_0.TagConditionOption_0.TextOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveDarkTunnel.4"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveDarkTunnel_Text2",
+        "SourceString": "Head Deeper into the Cave",
+        "LocalizedString": "Head Deeper into the Cave"
+      },
+      "AlternateStyleConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.Forest.CollectedNightLight"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveDarkTunnel_Text4",
+        "SourceString": "It's too dark. You're going to need some light to head further into the cave.",
+        "LocalizedString": "It's too dark. You're going to need some light to head further into the cave."
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveDarkTunnel_Text3",
+        "SourceString": "You hold the Night Light up and make your way further into the cave.",
+        "LocalizedString": "You hold the Night Light up and make your way further into the cave."
+      },
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_CaveDarkTunnel:RootOption_0.TagConditionOption_0.TextOption_1.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveDarkTunnel.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveCrystal_Text13",
+        "SourceString": "You head back to the Cave Hub.",
+        "LocalizedString": "You head back to the Cave Hub."
+      },
+      "SecondsToSwitch": 3.0,
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_CaveDarkTunnel:RootOption_0.TextOption_0.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveDarkTunnel.1"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveCrystal_Text12",
+        "SourceString": "Back to Cave Hub",
+        "LocalizedString": "Back to Cave Hub"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveDarkTunnel_Text5",
+        "SourceString": "You head deeper into the earth, but the way ahead is almost pure darkness.",
+        "LocalizedString": "You head deeper into the earth, but the way ahead is almost pure darkness."
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TwoDSectionData",
+    "Name": "Section_CaveDarkTunnel",
+    "Class": "UScriptClass'TwoDSectionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootPages": [
+        {
+          "ObjectName": "RootOption'Section_CaveDarkTunnel:RootOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveDarkTunnel.2"
+        }
+      ]
+    }
+  }
+]

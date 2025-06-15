@@ -1,0 +1,88 @@
+[
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/TheGame/Section_Game_UpgradeStation.Section_Game_UpgradeStation",
+        "SubPathString": ""
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_DavidsCloset_Text2",
+        "SourceString": "Use Upgrade Machine",
+        "LocalizedString": "Use Upgrade Machine"
+      }
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_0",
+    "Outer": "Section_GameDavidsCloset",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act3_Closet'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_Closet.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_GameDavidsCloset:RootOption_0.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDavidsCloset.0"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_GameDavidsCloset:RootOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDavidsCloset.2"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_DavidsCloset_Text1",
+        "SourceString": "David's Closet",
+        "LocalizedString": "David's Closet"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_DavidsCloset_Text3",
+        "SourceString": "There is a strange machine in the closet.",
+        "LocalizedString": "There is a strange machine in the closet."
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TwoDSectionData",
+    "Name": "Section_GameDavidsCloset",
+    "Class": "UScriptClass'TwoDSectionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootPages": [
+        {
+          "ObjectName": "RootOption'Section_GameDavidsCloset:RootOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDavidsCloset.1"
+        }
+      ]
+    }
+  }
+]

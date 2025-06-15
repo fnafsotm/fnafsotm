@@ -1,0 +1,202 @@
+[
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "TextOption_1",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act2/Section_Act2_ForestPath_WOOwl.Section_Act2_ForestPath_WOOwl",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "TextOption_3",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/Cave/Section_CaveRuins.Section_CaveRuins",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_0",
+    "Outer": "Section_CaveEntrance",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act3_Entrance'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_Entrance.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_CaveEntrance:RootOption_0.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveEntrance.4"
+        },
+        {
+          "ObjectName": "TextOption'Section_CaveEntrance:RootOption_0.TextOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveEntrance.5"
+        },
+        {
+          "ObjectName": "TextOption'Section_CaveEntrance:RootOption_0.TextOption_3'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveEntrance.6"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_CaveEntrance:RootOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveEntrance.3"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveEntrance_Text1",
+        "SourceString": "Cave Entrance",
+        "LocalizedString": "Cave Entrance"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveEntrance_Text9",
+        "SourceString": "The cave entrance. There's a passage leading to the east.",
+        "LocalizedString": "The cave entrance. There's a passage leading to the east."
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveEntrance_Text8",
+        "SourceString": "Root Text",
+        "LocalizedString": "Root Text"
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveEntrance_Text3",
+        "SourceString": "You exit the cave",
+        "LocalizedString": "You exit the cave"
+      },
+      "SecondsToSwitch": 1.0,
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_CaveEntrance:RootOption_0.TextOption_1.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveEntrance.0"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveEntrance_Text2",
+        "SourceString": "Exit Cave",
+        "LocalizedString": "Exit Cave"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_2",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveEntrance_Text5",
+        "SourceString": "A statue of the Baby Owl. You will bring him back, no matter the cost.",
+        "LocalizedString": "A statue of the Baby Owl. You will bring him back, no matter the cost."
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveEntrance_Text4",
+        "SourceString": "Look at Owl Statue",
+        "LocalizedString": "Look at Owl Statue"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_3",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveEntrance_Text7",
+        "SourceString": "You head east from the entrance.",
+        "LocalizedString": "You head east from the entrance."
+      },
+      "SecondsToSwitch": 2.0,
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_CaveEntrance:RootOption_0.TextOption_3.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveEntrance.1"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveEntrance_Text6",
+        "SourceString": "Enter East Passage",
+        "LocalizedString": "Enter East Passage"
+      }
+    }
+  },
+  {
+    "Type": "TwoDSectionData",
+    "Name": "Section_CaveEntrance",
+    "Class": "UScriptClass'TwoDSectionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bIsCheckpoint": true,
+      "RootPages": [
+        {
+          "ObjectName": "RootOption'Section_CaveEntrance:RootOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveEntrance.2"
+        }
+      ],
+      "CheckpointTags": [
+        "2DGame.Act3.Cave.ExaminedWorkbench",
+        "2DGame.Act3.Cave.CollectedToyHammer",
+        "2DGame.Act3.Cave.PlacedMoonHead",
+        "2DGame.Act3.Cave.PlacedMoonLeftArm",
+        "2DGame.Act3.Cave.PlacedMoonRightArm",
+        "2DGame.Act3.Cave.ExaminedPool",
+        "2DGame.Act3.Cave.CollectedMoonHead",
+        "2DGame.Act3.Cave.ExaminedWaterfall",
+        "2DGame.Act3.Cave.FoundFishingNet",
+        "2DGame.Act3.Cave.CollectedFishingNet",
+        "2DGame.Act3.Cave.CollectedMoonRightArm",
+        "2DGame.Act3.Cave.BrokenBlueCrystal",
+        "2DGame.Act3.Cave.CollectedMoonLeftArm"
+      ]
+    }
+  }
+]

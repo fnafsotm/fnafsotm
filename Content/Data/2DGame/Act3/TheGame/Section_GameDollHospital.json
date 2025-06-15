@@ -1,0 +1,612 @@
+[
+  {
+    "Type": "ExitGameOption",
+    "Name": "ExitGameOption",
+    "Outer": "PlayerDeathOption_0",
+    "Class": "UScriptClass'ExitGameOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ExitGameOption",
+    "Name": "ExitGameOption",
+    "Outer": "PlayerDeathOption_0",
+    "Class": "UScriptClass'ExitGameOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/TheGame/Section_GameEmptyBigTopShowRoom.Section_GameEmptyBigTopShowRoom",
+        "SubPathString": ""
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_DollHospital_Text10",
+        "SourceString": "Return to Big Top Showroom",
+        "LocalizedString": "Return to Big Top Showroom"
+      }
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "TextOption_1",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/TheGame/Section_GameEmptyDollHospital.Section_GameEmptyDollHospital",
+        "SubPathString": ""
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "57AAA6F145A676ACCDAA06BB11205E41",
+        "SourceString": "Return",
+        "LocalizedString": "Return"
+      }
+    }
+  },
+  {
+    "Type": "ImageLayerOption",
+    "Name": "ImageLayerOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'ImageLayerOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageTexture": {
+        "ObjectName": "Texture2D'T_2D_Act3_Dollie_ov_doctorkit'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_Dollie_ov_doctorkit.0"
+      },
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.JuniorDoctorKit"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act3.TheGame.CollectedJuniorDoctorKit"
+        ]
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_DollHospital_Text12",
+        "SourceString": "Doctor's Kit",
+        "LocalizedString": "Doctor's Kit"
+      }
+    }
+  },
+  {
+    "Type": "ImageLayerOption",
+    "Name": "ImageLayerOption_1",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'ImageLayerOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageTexture": {
+        "ObjectName": "Texture2D'T_2D_Act3_Dollie_ov_Duck'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_Dollie_ov_Duck.0"
+      },
+      "ConditionQuery": {
+        "HasNotCollected": [
+          "2DGame.Act3.TheGame.FixedDuck"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "ImageLayerOption",
+    "Name": "ImageLayerOption_2",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'ImageLayerOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageTexture": {
+        "ObjectName": "Texture2D'T_2D_Act3_Dollie_ov_Elephant'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_Dollie_ov_Elephant.0"
+      },
+      "ConditionQuery": {
+        "HasNotCollected": [
+          "2DGame.Act3.TheGame.FixedElephant"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "PlayerDeathOption",
+    "Name": "PlayerDeathOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'PlayerDeathOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act1_Bed_ClimbDeath'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act1_Bed_ClimbDeath.0"
+        }
+      },
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_DollHospital_Text15",
+        "SourceString": "The Moon grabs you from Dollie's clutches. \"YOU'RE NOT ALLOWED HERE!\" he screams as he pushes you out of the world.",
+        "LocalizedString": "The Moon grabs you from Dollie's clutches. \"YOU'RE NOT ALLOWED HERE!\" he screams as he pushes you out of the world."
+      },
+      "Options": [
+        {
+          "ObjectName": "RestartOption'Section_GameDollHospital:RootOption_0.TagConditionOption_0.TextOption_0.PlayerDeathOption_0.RestartOption'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDollHospital.11"
+        },
+        {
+          "ObjectName": "ExitGameOption'Section_GameDollHospital:RootOption_0.TagConditionOption_0.TextOption_0.PlayerDeathOption_0.ExitGameOption'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDollHospital.0"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "PostAudioOption'Section_GameDollHospital:RootOption_0.TagConditionOption_0.TextOption_0.PlayerDeathOption_0.PostAudioOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDollHospital.9"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestCabin_Text9",
+        "SourceString": "Back to Bed",
+        "LocalizedString": "Back to Bed"
+      }
+    }
+  },
+  {
+    "Type": "PlayerDeathOption",
+    "Name": "PlayerDeathOption_0",
+    "Outer": "TextOption_1",
+    "Class": "UScriptClass'PlayerDeathOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act1_Bed_ClimbDeath'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act1_Bed_ClimbDeath.0"
+        }
+      },
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_DollHospital_Text15",
+        "SourceString": "The Moon grabs you from Dollie's clutches. \"YOU'RE NOT ALLOWED HERE!\" he screams as he pushes you out of the world.",
+        "LocalizedString": "The Moon grabs you from Dollie's clutches. \"YOU'RE NOT ALLOWED HERE!\" he screams as he pushes you out of the world."
+      },
+      "Options": [
+        {
+          "ObjectName": "RestartOption'Section_GameDollHospital:RootOption_0.TextOption_1.PlayerDeathOption_0.RestartOption'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDollHospital.12"
+        },
+        {
+          "ObjectName": "ExitGameOption'Section_GameDollHospital:RootOption_0.TextOption_1.PlayerDeathOption_0.ExitGameOption'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDollHospital.1"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "PostAudioOption'Section_GameDollHospital:RootOption_0.TextOption_1.PlayerDeathOption_0.PostAudioOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDollHospital.10"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestCabin_Text9",
+        "SourceString": "Back to Bed",
+        "LocalizedString": "Back to Bed"
+      }
+    }
+  },
+  {
+    "Type": "PostAudioOption",
+    "Name": "PostAudioOption_0",
+    "Outer": "PlayerDeathOption_0",
+    "Class": "UScriptClass'PostAudioOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AudioEvent": {
+        "ObjectName": "AkAudioEvent'sfx_2D_game_moonman_jumpscare'",
+        "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/sfx_2D_game_moonman_jumpscare.0"
+      }
+    }
+  },
+  {
+    "Type": "PostAudioOption",
+    "Name": "PostAudioOption_0",
+    "Outer": "PlayerDeathOption_0",
+    "Class": "UScriptClass'PostAudioOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AudioEvent": {
+        "ObjectName": "AkAudioEvent'sfx_2D_game_moonman_jumpscare'",
+        "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/sfx_2D_game_moonman_jumpscare.0"
+      }
+    }
+  },
+  {
+    "Type": "RestartOption",
+    "Name": "RestartOption",
+    "Outer": "PlayerDeathOption_0",
+    "Class": "UScriptClass'RestartOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "RestartOption",
+    "Name": "RestartOption",
+    "Outer": "PlayerDeathOption_0",
+    "Class": "UScriptClass'RestartOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_0",
+    "Outer": "Section_GameDollHospital",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act3_Dollie'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_Dollie.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_GameDollHospital:RootOption_0.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDollHospital.22"
+        },
+        {
+          "ObjectName": "TagConditionOption'Section_GameDollHospital:RootOption_0.TagConditionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDollHospital.18"
+        },
+        {
+          "ObjectName": "TextOption'Section_GameDollHospital:RootOption_0.TextOption_5'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDollHospital.25"
+        },
+        {
+          "ObjectName": "TextOption'Section_GameDollHospital:RootOption_0.TextOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDollHospital.23"
+        },
+        {
+          "ObjectName": "TextOption'Section_GameDollHospital:RootOption_0.TextOption_4'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDollHospital.24"
+        },
+        {
+          "ObjectName": "GoToSectionOption'Section_GameDollHospital:RootOption_0.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDollHospital.2"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_GameDollHospital:RootOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDollHospital.21"
+        },
+        {
+          "ObjectName": "ImageLayerOption'Section_GameDollHospital:RootOption_0.ImageLayerOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDollHospital.5"
+        },
+        {
+          "ObjectName": "ImageLayerOption'Section_GameDollHospital:RootOption_0.ImageLayerOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDollHospital.6"
+        },
+        {
+          "ObjectName": "ImageLayerOption'Section_GameDollHospital:RootOption_0.ImageLayerOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDollHospital.4"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_DollHospital_Text13",
+        "SourceString": "Doll Hospital",
+        "LocalizedString": "Doll Hospital"
+      }
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_1",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act3.TheGame.HelpedNurseDollie"
+      ]
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_2",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act3.TheGame.FixedElephant"
+      ]
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_4",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act3.TheGame.CollectedJuniorDoctorKit"
+      ]
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_5",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act3.TheGame.FixedDuck"
+      ]
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act3.TheGame.FixedDuck",
+          "2DGame.Act3.TheGame.FixedElephant"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "TextOption'Section_GameDollHospital:RootOption_0.TagConditionOption_0.TextOption_1'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDollHospital.20"
+      },
+      "FalseOption": {
+        "ObjectName": "TextOption'Section_GameDollHospital:RootOption_0.TagConditionOption_0.TextOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDollHospital.19"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_DollHospital_Text2",
+        "SourceString": "Talk to Nurse Dollie",
+        "LocalizedString": "Talk to Nurse Dollie"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_DollHospital_Text16",
+        "SourceString": "\"My dollies are all broken!\" She cries. \"I cannot fix them. So I will fix you!\"",
+        "LocalizedString": "\"My dollies are all broken!\" She cries. \"I cannot fix them. So I will fix you!\""
+      },
+      "Actives": [
+        {
+          "ObjectName": "PlayerDeathOption'Section_GameDollHospital:RootOption_0.TagConditionOption_0.TextOption_0.PlayerDeathOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDollHospital.7"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_DollHospital_Text3",
+        "SourceString": "\"You fixed my dollies!\" the Nurse says. \"My work is done!\" She then leaves the Doll Hospital, happy forever more.",
+        "LocalizedString": "\"You fixed my dollies!\" the Nurse says. \"My work is done!\" She then leaves the Doll Hospital, happy forever more."
+      },
+      "bAreActivesChoices": true,
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_GameDollHospital:RootOption_0.TagConditionOption_0.TextOption_1.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDollHospital.3"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_GameDollHospital:RootOption_0.TagConditionOption_0.TextOption_1.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDollHospital.14"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_DollHospital_Text11",
+        "SourceString": "Welcome to the Doll Hospital. An exit elevator leads out, but Nurse Dollie stands in your way.",
+        "LocalizedString": "Welcome to the Doll Hospital. An exit elevator leads out, but Nurse Dollie stands in your way."
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_DollHospital_Text1",
+        "SourceString": "You try and run to the Elevator, but Nurse Dollie grabs you. “Time to fix!”",
+        "LocalizedString": "You try and run to the Elevator, but Nurse Dollie grabs you. “Time to fix!”"
+      },
+      "Actives": [
+        {
+          "ObjectName": "PlayerDeathOption'Section_GameDollHospital:RootOption_0.TextOption_1.PlayerDeathOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDollHospital.8"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_DollHospital_Text14",
+        "SourceString": "Run to Elevator",
+        "LocalizedString": "Run to Elevator"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_2",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_DollHospital_Text7",
+        "SourceString": "You fix the broken elephant. It thanks you and runs off.",
+        "LocalizedString": "You fix the broken elephant. It thanks you and runs off."
+      },
+      "SecondsToSwitch": 3.0,
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_GameDollHospital:RootOption_0.TextOption_2.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDollHospital.15"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_DollHospital_Text6",
+        "SourceString": "Fix Broken Elephant",
+        "LocalizedString": "Fix Broken Elephant"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act3.TheGame.CollectedJuniorDoctorKit"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act3.TheGame.FixedElephant"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_4",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_DollHospital_Text9",
+        "SourceString": "You find Junior Doctor's Kit on a table in the corner.",
+        "LocalizedString": "You find Junior Doctor's Kit on a table in the corner."
+      },
+      "SecondsToSwitch": 3.0,
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_GameDollHospital:RootOption_0.TextOption_4.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDollHospital.16"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_DollHospital_Text8",
+        "SourceString": "Pickup Doctor's Kit",
+        "LocalizedString": "Pickup Doctor's Kit"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.JuniorDoctorKit"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act3.TheGame.CollectedJuniorDoctorKit"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_5",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_DollHospital_Text5",
+        "SourceString": "You fix the broken duck. It quacks happily and flies off.",
+        "LocalizedString": "You fix the broken duck. It quacks happily and flies off."
+      },
+      "SecondsToSwitch": 3.0,
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_GameDollHospital:RootOption_0.TextOption_5.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDollHospital.17"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_DollHospital_Text4",
+        "SourceString": "Fix Broken Duck",
+        "LocalizedString": "Fix Broken Duck"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act3.TheGame.CollectedJuniorDoctorKit"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act3.TheGame.FixedDuck"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "TwoDSectionData",
+    "Name": "Section_GameDollHospital",
+    "Class": "UScriptClass'TwoDSectionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootPages": [
+        {
+          "ObjectName": "RootOption'Section_GameDollHospital:RootOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDollHospital.13"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/Cave/Section_CavePirateShip.Section_CavePirateShip",
+        "SubPathString": ""
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_EmptyCaveTreasure_Text2",
+        "SourceString": "Walk back to the Ship",
+        "LocalizedString": "Walk back to the Ship"
+      }
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_1",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/Cave/Section_CaveTreasureChestLock.Section_CaveTreasureChestLock",
+        "SubPathString": ""
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveTreasureChest_Text2",
+        "SourceString": "Examine Treasure Chest",
+        "LocalizedString": "Examine Treasure Chest"
+      }
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_0",
+    "Outer": "Section_CaveTreasureChest",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act3_chestClosed'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_chestClosed.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_CaveTreasureChest:RootOption_0.GoToSectionOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveTreasureChest.1"
+        },
+        {
+          "ObjectName": "GoToSectionOption'Section_CaveTreasureChest:RootOption_0.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveTreasureChest.0"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveTreasureChest_Text1",
+        "SourceString": "Treasure Chest",
+        "LocalizedString": "Treasure Chest"
+      }
+    }
+  },
+  {
+    "Type": "TwoDSectionData",
+    "Name": "Section_CaveTreasureChest",
+    "Class": "UScriptClass'TwoDSectionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootPages": [
+        {
+          "ObjectName": "RootOption'Section_CaveTreasureChest:RootOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveTreasureChest.2"
+        }
+      ]
+    }
+  }
+]

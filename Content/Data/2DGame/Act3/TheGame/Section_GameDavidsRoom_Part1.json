@@ -1,0 +1,350 @@
+[
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/TheGame/Section_GameEmptyChicaPartyRoom.Section_GameEmptyChicaPartyRoom",
+        "SubPathString": ""
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_DavidsRoom_Text13",
+        "SourceString": "Exit Room",
+        "LocalizedString": "Exit Room"
+      }
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "TextOption_2",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/TheGame/Section_Game_SnowBox.Section_Game_SnowBox",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "TextOption_5",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/TheGame/Section_Game_MoonBox.Section_Game_MoonBox",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "TextOption_6",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/TheGame/Section_Game_StarBox.Section_Game_StarBox",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "TextOption_8",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/TheGame/Section_GameDavidsRoom_Part2.Section_GameDavidsRoom_Part2",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "ImageOption",
+    "Name": "ImageOption_0",
+    "Outer": "TextOption_8",
+    "Class": "UScriptClass'ImageOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act3_David_Exit'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_David_Exit.0"
+        }
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_0",
+    "Outer": "Section_GameDavidsRoom_Part1",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act3_David'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_David.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_GameDavidsRoom_Part1:RootOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDavidsRoom_Part1.7"
+        },
+        {
+          "ObjectName": "TextOption'Section_GameDavidsRoom_Part1:RootOption_0.TextOption_5'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDavidsRoom_Part1.10"
+        },
+        {
+          "ObjectName": "TextOption'Section_GameDavidsRoom_Part1:RootOption_0.TextOption_6'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDavidsRoom_Part1.11"
+        },
+        {
+          "ObjectName": "TextOption'Section_GameDavidsRoom_Part1:RootOption_0.TextOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDavidsRoom_Part1.9"
+        },
+        {
+          "ObjectName": "TextOption'Section_GameDavidsRoom_Part1:RootOption_0.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDavidsRoom_Part1.8"
+        },
+        {
+          "ObjectName": "GoToSectionOption'Section_GameDavidsRoom_Part1:RootOption_0.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDavidsRoom_Part1.0"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_GameDavidsRoom_Part1:RootOption_0.TextOption_7'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDavidsRoom_Part1.12"
+        }
+      ],
+      "BypassOption": {
+        "ObjectName": "TextOption'Section_GameDavidsRoom_Part1:RootOption_0.TextOption_8'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDavidsRoom_Part1.13"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_DavidsRoom_Text1",
+        "SourceString": "David's Room",
+        "LocalizedString": "David's Room"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_DavidsRoom_Text3",
+        "SourceString": "\"He bounced the moon, spelled his name in the stars, and ran through the snow with the silent hunter.\"",
+        "LocalizedString": "\"He bounced the moon, spelled his name in the stars, and ran through the snow with the silent hunter.\""
+      },
+      "SecondsToSwitch": 6.0,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_DavidsRoom_Text2",
+        "SourceString": "Read Storybook",
+        "LocalizedString": "Read Storybook"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_DavidsRoom_Text11",
+        "SourceString": "The Closet won't open.",
+        "LocalizedString": "The Closet won't open."
+      },
+      "SecondsToSwitch": 1.5,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_DavidsRoom_Text10",
+        "SourceString": "Open Closer Door",
+        "LocalizedString": "Open Closer Door"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_2",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_DavidsRoom_Text9",
+        "SourceString": "You open the Snow Box.",
+        "LocalizedString": "You open the Snow Box."
+      },
+      "SecondsToSwitch": 1.5,
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_GameDavidsRoom_Part1:RootOption_0.TextOption_2.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDavidsRoom_Part1.1"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_DavidsRoom_Text8",
+        "SourceString": "Open Snow Box",
+        "LocalizedString": "Open Snow Box"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_5",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_DavidsRoom_Text5",
+        "SourceString": "You open the Moon Box.",
+        "LocalizedString": "You open the Moon Box."
+      },
+      "SecondsToSwitch": 1.5,
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_GameDavidsRoom_Part1:RootOption_0.TextOption_5.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDavidsRoom_Part1.2"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_DavidsRoom_Text4",
+        "SourceString": "Open Moon Box",
+        "LocalizedString": "Open Moon Box"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_6",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_DavidsRoom_Text7",
+        "SourceString": "You open the Star Box.",
+        "LocalizedString": "You open the Star Box."
+      },
+      "SecondsToSwitch": 1.5,
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_GameDavidsRoom_Part1:RootOption_0.TextOption_6.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDavidsRoom_Part1.3"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_DavidsRoom_Text6",
+        "SourceString": "Open Star Box",
+        "LocalizedString": "Open Star Box"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_7",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_DavidsRoom_Text14",
+        "SourceString": "You enter a child's bedroom. Three different toy boxes sit in the center, and a storybook is open on the bed.",
+        "LocalizedString": "You enter a child's bedroom. Three different toy boxes sit in the center, and a storybook is open on the bed."
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_8",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_DavidsRoom_Text16",
+        "SourceString": "You place the toys in the correct boxes, and the closet door opens.",
+        "LocalizedString": "You place the toys in the correct boxes, and the closet door opens."
+      },
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_GameDavidsRoom_Part1:RootOption_0.TextOption_8.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDavidsRoom_Part1.4"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "ImageOption'Section_GameDavidsRoom_Part1:RootOption_0.TextOption_8.ImageOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDavidsRoom_Part1.5"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_DavidsRoom_Text15",
+        "SourceString": "The Closet Opens",
+        "LocalizedString": "The Closet Opens"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act3.TheGame.SolvedBoxes"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "TwoDSectionData",
+    "Name": "Section_GameDavidsRoom_Part1",
+    "Class": "UScriptClass'TwoDSectionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootPages": [
+        {
+          "ObjectName": "RootOption'Section_GameDavidsRoom_Part1:RootOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameDavidsRoom_Part1.6"
+        }
+      ]
+    }
+  }
+]

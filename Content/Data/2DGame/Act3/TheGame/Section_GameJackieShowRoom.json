@@ -1,0 +1,520 @@
+[
+  {
+    "Type": "ExitGameOption",
+    "Name": "ExitGameOption",
+    "Outer": "PlayerDeathOption_0",
+    "Class": "UScriptClass'ExitGameOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ExitGameOption",
+    "Name": "ExitGameOption",
+    "Outer": "PlayerDeathOption_0",
+    "Class": "UScriptClass'ExitGameOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/TheGame/Section_GameWelcomeShow.Section_GameWelcomeShow",
+        "SubPathString": ""
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_EmptyJackieShowroom_Text9",
+        "SourceString": "Return to Welcome Show",
+        "LocalizedString": "Return to Welcome Show"
+      }
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "TextOption_2",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/TheGame/Section_GameEmptyJackieShowRoom.Section_GameEmptyJackieShowRoom",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "ImageLayerOption",
+    "Name": "ImageLayerOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'ImageLayerOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageTexture": {
+        "ObjectName": "Texture2D'T_2D_Act3_Jackie_ov_boot'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_Jackie_ov_boot.0"
+      },
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.RainyDayBoot"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act3.TheGame.TrappedJackie"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "MultiQueryTextOption",
+    "Name": "MultiQueryTextOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'MultiQueryTextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "QueryTextDescriptions": [
+        {
+          "TextConditionQuery": {
+            "HasCollected": [
+              "2DGame.Act3.TheGame.ExaminedCrate"
+            ],
+            "HasNotCollected": []
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+            "Key": "Loc_2DGame_Act3_Game_EmptyJackieShowroom_Text3",
+            "SourceString": "The crate is empty.",
+            "LocalizedString": "The crate is empty."
+          }
+        },
+        {
+          "TextConditionQuery": {
+            "HasCollected": [],
+            "HasNotCollected": [
+              "2DGame.Act3.TheGame.ExaminedCrate",
+              "2DGame.Item.RainyDayBoot"
+            ]
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+            "Key": "Loc_2DGame_Act3_Game_EmptyJackieShowroom_Text3",
+            "SourceString": "The crate is empty.",
+            "LocalizedString": "The crate is empty."
+          }
+        },
+        {
+          "TextConditionQuery": {
+            "HasCollected": [
+              "2DGame.Item.RainyDayBoot"
+            ],
+            "HasNotCollected": [
+              "2DGame.Act3.TheGame.ExaminedCrate"
+            ]
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+            "Key": "Loc_2DGame_Act3_Game_JackieShowroom_Text8",
+            "SourceString": "There is a crate of Rainy Day Boots in the corner.",
+            "LocalizedString": "There is a crate of Rainy Day Boots in the corner."
+          }
+        }
+      ],
+      "SecondsToSwitch": 3.0,
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_GameJackieShowRoom:RootOption_0.MultiQueryTextOption_0.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameJackieShowRoom.13"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_EmptyJackieShowroom_Text2",
+        "SourceString": "Examine Crate",
+        "LocalizedString": "Examine Crate"
+      },
+      "AlternateStyleConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.RainyDayBoot"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act3.TheGame.ExaminedCrate"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "PlayerDeathOption",
+    "Name": "PlayerDeathOption_0",
+    "Outer": "TextOption_1",
+    "Class": "UScriptClass'PlayerDeathOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act1_Bed_ClimbDeath'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act1_Bed_ClimbDeath.0"
+        }
+      },
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_JackieShowroom_Text3",
+        "SourceString": "The Moon grabs you from Jackie's clutches. \"YOU'RE NOT ALLOWED HERE!\" he screams as the world fades to black.",
+        "LocalizedString": "The Moon grabs you from Jackie's clutches. \"YOU'RE NOT ALLOWED HERE!\" he screams as the world fades to black."
+      },
+      "Options": [
+        {
+          "ObjectName": "RestartOption'Section_GameJackieShowRoom:RootOption_0.TextOption_1.PlayerDeathOption_0.RestartOption'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameJackieShowRoom.10"
+        },
+        {
+          "ObjectName": "ExitGameOption'Section_GameJackieShowRoom:RootOption_0.TextOption_1.PlayerDeathOption_0.ExitGameOption'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameJackieShowRoom.0"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "PostAudioOption'Section_GameJackieShowRoom:RootOption_0.TextOption_1.PlayerDeathOption_0.PostAudioOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameJackieShowRoom.8"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestCabin_Text9",
+        "SourceString": "Back to Bed",
+        "LocalizedString": "Back to Bed"
+      }
+    }
+  },
+  {
+    "Type": "PlayerDeathOption",
+    "Name": "PlayerDeathOption_0",
+    "Outer": "TextOption_3",
+    "Class": "UScriptClass'PlayerDeathOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act1_Bed_ClimbDeath'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act1_Bed_ClimbDeath.0"
+        }
+      },
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_JackieShowroom_Text3",
+        "SourceString": "The Moon grabs you from Jackie's clutches. \"YOU'RE NOT ALLOWED HERE!\" he screams as the world fades to black.",
+        "LocalizedString": "The Moon grabs you from Jackie's clutches. \"YOU'RE NOT ALLOWED HERE!\" he screams as the world fades to black."
+      },
+      "Options": [
+        {
+          "ObjectName": "RestartOption'Section_GameJackieShowRoom:RootOption_0.TextOption_3.PlayerDeathOption_0.RestartOption'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameJackieShowRoom.11"
+        },
+        {
+          "ObjectName": "ExitGameOption'Section_GameJackieShowRoom:RootOption_0.TextOption_3.PlayerDeathOption_0.ExitGameOption'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameJackieShowRoom.1"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "PostAudioOption'Section_GameJackieShowRoom:RootOption_0.TextOption_3.PlayerDeathOption_0.PostAudioOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameJackieShowRoom.9"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestCabin_Text9",
+        "SourceString": "Back to Bed",
+        "LocalizedString": "Back to Bed"
+      }
+    }
+  },
+  {
+    "Type": "PostAudioOption",
+    "Name": "PostAudioOption_0",
+    "Outer": "PlayerDeathOption_0",
+    "Class": "UScriptClass'PostAudioOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AudioEvent": {
+        "ObjectName": "AkAudioEvent'sfx_2D_game_moonman_jumpscare'",
+        "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/sfx_2D_game_moonman_jumpscare.0"
+      }
+    }
+  },
+  {
+    "Type": "PostAudioOption",
+    "Name": "PostAudioOption_0",
+    "Outer": "PlayerDeathOption_0",
+    "Class": "UScriptClass'PostAudioOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AudioEvent": {
+        "ObjectName": "AkAudioEvent'sfx_2D_game_moonman_jumpscare'",
+        "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/sfx_2D_game_moonman_jumpscare.0"
+      }
+    }
+  },
+  {
+    "Type": "RestartOption",
+    "Name": "RestartOption",
+    "Outer": "PlayerDeathOption_0",
+    "Class": "UScriptClass'RestartOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "RestartOption",
+    "Name": "RestartOption",
+    "Outer": "PlayerDeathOption_0",
+    "Class": "UScriptClass'RestartOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_0",
+    "Outer": "Section_GameJackieShowRoom",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act3_Jackie'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_Jackie.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_GameJackieShowRoom:RootOption_0.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameJackieShowRoom.16"
+        },
+        {
+          "ObjectName": "TextOption'Section_GameJackieShowRoom:RootOption_0.TextOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameJackieShowRoom.17"
+        },
+        {
+          "ObjectName": "TextOption'Section_GameJackieShowRoom:RootOption_0.TextOption_3'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameJackieShowRoom.18"
+        },
+        {
+          "ObjectName": "TextOption'Section_GameJackieShowRoom:RootOption_0.TextOption_4'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameJackieShowRoom.19"
+        },
+        {
+          "ObjectName": "MultiQueryTextOption'Section_GameJackieShowRoom:RootOption_0.MultiQueryTextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameJackieShowRoom.5"
+        },
+        {
+          "ObjectName": "GoToSectionOption'Section_GameJackieShowRoom:RootOption_0.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameJackieShowRoom.2"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_GameJackieShowRoom:RootOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameJackieShowRoom.15"
+        },
+        {
+          "ObjectName": "ImageLayerOption'Section_GameJackieShowRoom:RootOption_0.ImageLayerOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameJackieShowRoom.4"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_EmptyJackieShowroom_Text1",
+        "SourceString": "Jackie Showroom",
+        "LocalizedString": "Jackie Showroom"
+      }
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "MultiQueryTextOption_0",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act3.TheGame.ExaminedCrate"
+      ],
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.RainyDayBoot"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act3.TheGame.ExaminedCrate"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_2",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act3.TheGame.TrappedJackie"
+      ]
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_JackieShowroom_Text9",
+        "SourceString": "Jackie's Showroom. Jackie sits in her box, surrounded by toy soldiers and presents.",
+        "LocalizedString": "Jackie's Showroom. Jackie sits in her box, surrounded by toy soldiers and presents."
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_JackieShowroom_Text2",
+        "SourceString": "Jackie laughs and grabs you with her long arms. And she squeeeeezes....",
+        "LocalizedString": "Jackie laughs and grabs you with her long arms. And she squeeeeezes...."
+      },
+      "SecondsToSwitch": 5.0,
+      "Actives": [
+        {
+          "ObjectName": "PlayerDeathOption'Section_GameJackieShowRoom:RootOption_0.TextOption_1.PlayerDeathOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameJackieShowRoom.6"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_JackieShowroom_Text1",
+        "SourceString": "Attack Jackie",
+        "LocalizedString": "Attack Jackie"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_2",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_JackieShowroom_Text5",
+        "SourceString": "You hold up the Rainy Day Boot and Jackie is sucked inside, to disappear forever more.",
+        "LocalizedString": "You hold up the Rainy Day Boot and Jackie is sucked inside, to disappear forever more."
+      },
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_GameJackieShowRoom:RootOption_0.TextOption_2.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameJackieShowRoom.3"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_GameJackieShowRoom:RootOption_0.TextOption_2.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameJackieShowRoom.14"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_JackieShowroom_Text4",
+        "SourceString": "Trap Jackie in the Rainy Day Boot",
+        "LocalizedString": "Trap Jackie in the Rainy Day Boot"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act3.TheGame.ExaminedCrate"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_3",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_JackieShowroom_Text6",
+        "SourceString": "Jackie giggles and grabs you with her long arms. And squeeeezes....",
+        "LocalizedString": "Jackie giggles and grabs you with her long arms. And squeeeezes...."
+      },
+      "SecondsToSwitch": 5.0,
+      "Actives": [
+        {
+          "ObjectName": "PlayerDeathOption'Section_GameJackieShowRoom:RootOption_0.TextOption_3.PlayerDeathOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameJackieShowRoom.7"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_EmptyJackieShowroom_Text7",
+        "SourceString": "Enter Vent",
+        "LocalizedString": "Enter Vent"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_4",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_JackieShowroom_Text7",
+        "SourceString": "The Toy Soldiers stand at attention. They don't even crack a smile.",
+        "LocalizedString": "The Toy Soldiers stand at attention. They don't even crack a smile."
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_EmptyJackieShowroom_Text4",
+        "SourceString": "Examine Toy Soldiers",
+        "LocalizedString": "Examine Toy Soldiers"
+      }
+    }
+  },
+  {
+    "Type": "TwoDSectionData",
+    "Name": "Section_GameJackieShowRoom",
+    "Class": "UScriptClass'TwoDSectionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootPages": [
+        {
+          "ObjectName": "RootOption'Section_GameJackieShowRoom:RootOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameJackieShowRoom.12"
+        }
+      ]
+    }
+  }
+]

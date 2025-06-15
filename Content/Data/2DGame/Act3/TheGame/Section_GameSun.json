@@ -1,0 +1,159 @@
+[
+  {
+    "Type": "ExitGameOption",
+    "Name": "ExitGameOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'ExitGameOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Minigame.CollectedGlitchedPermission"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "MinigameOption",
+    "Name": "MinigameOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'MinigameOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinigameActionTag": {
+        "TagName": "2DGame.Minigame.TakeGlitchedPermission"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_Sun_Text6",
+        "SourceString": "Take Glitched Permission",
+        "LocalizedString": "Take Glitched Permission"
+      }
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_0",
+    "Outer": "Section_GameSun",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_2DGameEnding'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameGIFs/MI_2DGameEnding.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_GameSun:RootOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameSun.3"
+        }
+      ],
+      "BypassOption": {
+        "ObjectName": "ExitGameOption'Section_GameSun:RootOption_0.ExitGameOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameSun.0"
+      },
+      "MiniGameRootOptionWidget": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'WBP_SunFinale_C'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Widgets/2DGame/WBP_SunFinale.19"
+      },
+      "bIsMinigameRoot": true,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_Sun_Text1",
+        "SourceString": "Sun",
+        "LocalizedString": "Sun"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_Sun_Text3",
+        "SourceString": "The Sun appears. She comes in from the sky and smiles.",
+        "LocalizedString": "The Sun appears. She comes in from the sky and smiles."
+      },
+      "SecondsToSwitch": 3.0,
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_GameSun:RootOption_0.TextOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameSun.4"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_Sun_Text2",
+        "SourceString": "Talk to Sun",
+        "LocalizedString": "Talk to Sun"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_Sun_Text4",
+        "SourceString": "\"You have found my presents. You have completed my tasks.\"",
+        "LocalizedString": "\"You have found my presents. You have completed my tasks.\""
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_GameSun:RootOption_0.TextOption_0.TextOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameSun.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_Sun_Text5",
+        "SourceString": "\"Now you will get your reward. Use this to bring him back. It's all in your hands now.\"",
+        "LocalizedString": "\"Now you will get your reward. Use this to bring him back. It's all in your hands now.\""
+      },
+      "bAreActivesChoices": true,
+      "Actives": [
+        {
+          "ObjectName": "MinigameOption'Section_GameSun:RootOption_0.TextOption_0.TextOption_0.TextOption_0.MinigameOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameSun.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TwoDSectionData",
+    "Name": "Section_GameSun",
+    "Class": "UScriptClass'TwoDSectionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootPages": [
+        {
+          "ObjectName": "RootOption'Section_GameSun:RootOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameSun.2"
+        }
+      ]
+    }
+  }
+]

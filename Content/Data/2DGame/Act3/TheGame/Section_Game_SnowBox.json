@@ -1,0 +1,279 @@
+[
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/TheGame/Section_GameDavidsRoom_Part1.Section_GameDavidsRoom_Part1",
+        "SubPathString": ""
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_MoonBox_Text8",
+        "SourceString": "Close Toy Box",
+        "LocalizedString": "Close Toy Box"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act3.TheGame.SolvedBoxes"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_2",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/TheGame/Section_GameDavidsRoom_Part1.Section_GameDavidsRoom_Part1",
+        "SubPathString": ""
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_MoonBox_Text8",
+        "SourceString": "Close Toy Box",
+        "LocalizedString": "Close Toy Box"
+      }
+    }
+  },
+  {
+    "Type": "MinigameOption",
+    "Name": "MinigameOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'MinigameOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinigameActionTag": {
+        "TagName": "2DGame.Minigame.PutOption"
+      },
+      "MinigameOptionIdentifierTag": {
+        "TagName": "2DGame.Minigame.Box.WhiteTiger"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_MoonBox_Text7",
+        "SourceString": "Put Tiger in Toy Box ",
+        "LocalizedString": "Put Tiger in Toy Box "
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act3.TheGame.CollectedWhiteTigerDoll"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "MinigameOption",
+    "Name": "MinigameOption_1",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'MinigameOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinigameActionTag": {
+        "TagName": "2DGame.Minigame.TakeOption"
+      },
+      "MinigameOptionIdentifierTag": {
+        "TagName": "2DGame.Minigame.Box.WhiteTiger"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_MoonBox_Text6",
+        "SourceString": "Take Tiger out of Toy Box",
+        "LocalizedString": "Take Tiger out of Toy Box"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act3.TheGame.CollectedWhiteTigerDoll"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "MinigameOption",
+    "Name": "MinigameOption_2",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'MinigameOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinigameActionTag": {
+        "TagName": "2DGame.Minigame.TakeOption"
+      },
+      "MinigameOptionIdentifierTag": {
+        "TagName": "2DGame.Minigame.Box.Ball"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_MoonBox_Text4",
+        "SourceString": "Take Ball out of Toy Box.",
+        "LocalizedString": "Take Ball out of Toy Box."
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act3.TheGame.CollectedDavidBall"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "MinigameOption",
+    "Name": "MinigameOption_3",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'MinigameOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinigameActionTag": {
+        "TagName": "2DGame.Minigame.TakeOption"
+      },
+      "MinigameOptionIdentifierTag": {
+        "TagName": "2DGame.Minigame.Box.Blocks"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_MoonBox_Text2",
+        "SourceString": "Take Blocks out of Toy Box",
+        "LocalizedString": "Take Blocks out of Toy Box"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act3.TheGame.CollectedDavidBlocks"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "MinigameOption",
+    "Name": "MinigameOption_4",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'MinigameOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinigameActionTag": {
+        "TagName": "2DGame.Minigame.PutOption"
+      },
+      "MinigameOptionIdentifierTag": {
+        "TagName": "2DGame.Minigame.Box.Ball"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_MoonBox_Text5",
+        "SourceString": "Put Ball in Toy Box",
+        "LocalizedString": "Put Ball in Toy Box"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act3.TheGame.CollectedDavidBall"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "MinigameOption",
+    "Name": "MinigameOption_5",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'MinigameOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinigameActionTag": {
+        "TagName": "2DGame.Minigame.PutOption"
+      },
+      "MinigameOptionIdentifierTag": {
+        "TagName": "2DGame.Minigame.Box.Blocks"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_MoonBox_Text3",
+        "SourceString": "Put Blocks in Toy Box",
+        "LocalizedString": "Put Blocks in Toy Box"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act3.TheGame.CollectedDavidBlocks"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_0",
+    "Outer": "Section_Game_SnowBox",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act3_David_Snow'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_David_Snow.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "MinigameOption'Section_Game_SnowBox:RootOption_0.MinigameOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_Game_SnowBox.4"
+        },
+        {
+          "ObjectName": "MinigameOption'Section_Game_SnowBox:RootOption_0.MinigameOption_4'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_Game_SnowBox.6"
+        },
+        {
+          "ObjectName": "MinigameOption'Section_Game_SnowBox:RootOption_0.MinigameOption_3'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_Game_SnowBox.5"
+        },
+        {
+          "ObjectName": "MinigameOption'Section_Game_SnowBox:RootOption_0.MinigameOption_5'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_Game_SnowBox.7"
+        },
+        {
+          "ObjectName": "MinigameOption'Section_Game_SnowBox:RootOption_0.MinigameOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_Game_SnowBox.3"
+        },
+        {
+          "ObjectName": "MinigameOption'Section_Game_SnowBox:RootOption_0.MinigameOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_Game_SnowBox.2"
+        },
+        {
+          "ObjectName": "GoToSectionOption'Section_Game_SnowBox:RootOption_0.GoToSectionOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_Game_SnowBox.1"
+        }
+      ],
+      "BypassOption": {
+        "ObjectName": "GoToSectionOption'Section_Game_SnowBox:RootOption_0.GoToSectionOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_Game_SnowBox.0"
+      },
+      "MiniGameRootOptionWidget": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'WBP_SnowBox_C'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Widgets/2DGame/WBP_SnowBox.4"
+      },
+      "bIsMinigameRoot": true,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_SnowBox_Text1",
+        "SourceString": "Snow Box",
+        "LocalizedString": "Snow Box"
+      }
+    }
+  },
+  {
+    "Type": "TwoDSectionData",
+    "Name": "Section_Game_SnowBox",
+    "Class": "UScriptClass'TwoDSectionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootPages": [
+        {
+          "ObjectName": "RootOption'Section_Game_SnowBox:RootOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_Game_SnowBox.8"
+        }
+      ]
+    }
+  }
+]

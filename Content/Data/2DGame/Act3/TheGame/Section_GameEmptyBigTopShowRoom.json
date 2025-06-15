@@ -1,0 +1,384 @@
+[
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/TheGame/Section_GameEmptyJackieShowRoom.Section_GameEmptyJackieShowRoom",
+        "SubPathString": ""
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_EmptyBigTopShowroom_Text11",
+        "SourceString": "Return to Jackie's Showroom",
+        "LocalizedString": "Return to Jackie's Showroom"
+      }
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/TheGame/Section_GameEmptyDollHospital.Section_GameEmptyDollHospital",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_1",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/TheGame/Section_GameDollHospital.Section_GameDollHospital",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "ImageLayerOption",
+    "Name": "ImageLayerOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'ImageLayerOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageTexture": {
+        "ObjectName": "Texture2D'T_2D_Act3_BigTop_dead_ov_present'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_BigTop_dead_ov_present.0"
+      },
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.DavidBall"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act3.TheGame.CollectedDavidBall"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "ImageOption",
+    "Name": "ImageOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'ImageOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act3_BigTop_ballCloseUp'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_BigTop_ballCloseUp.0"
+        }
+      },
+      "bRemovePreviousDescriptionText": true,
+      "SecondsToSwitch": 0.1,
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_GameEmptyBigTopShowRoom:RootOption_0.ImageOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyBigTopShowRoom.10"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_EmptyBigTopShowroom_Text5",
+        "SourceString": "Open Birthday Present",
+        "LocalizedString": "Open Birthday Present"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.DavidBall"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act3.TheGame.CollectedDavidBall"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "ReturnOption",
+    "Name": "ReturnOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'ReturnOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_0",
+    "Outer": "Section_GameEmptyBigTopShowRoom",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act3_BigTop_dead'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_BigTop_dead.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_GameEmptyBigTopShowRoom:RootOption_0.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyBigTopShowRoom.12"
+        },
+        {
+          "ObjectName": "TextOption'Section_GameEmptyBigTopShowRoom:RootOption_0.TextOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyBigTopShowRoom.13"
+        },
+        {
+          "ObjectName": "ImageOption'Section_GameEmptyBigTopShowRoom:RootOption_0.ImageOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyBigTopShowRoom.4"
+        },
+        {
+          "ObjectName": "TextOption'Section_GameEmptyBigTopShowRoom:RootOption_0.TextOption_3'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyBigTopShowRoom.14"
+        },
+        {
+          "ObjectName": "TextOption'Section_GameEmptyBigTopShowRoom:RootOption_0.TextOption_4'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyBigTopShowRoom.15"
+        },
+        {
+          "ObjectName": "GoToSectionOption'Section_GameEmptyBigTopShowRoom:RootOption_0.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyBigTopShowRoom.0"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_GameEmptyBigTopShowRoom:RootOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyBigTopShowRoom.11"
+        },
+        {
+          "ObjectName": "ImageLayerOption'Section_GameEmptyBigTopShowRoom:RootOption_0.ImageLayerOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyBigTopShowRoom.3"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_BigTopShowRoom_Text1",
+        "SourceString": "Big Top Showroom",
+        "LocalizedString": "Big Top Showroom"
+      }
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act3.TheGame.CollectedDavidBall"
+      ]
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_3",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act3.TheGame.OpenedRainbowDoors"
+      ]
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_0",
+    "Outer": "TextOption_4",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act3.TheGame.HelpedNurseDollie"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "GoToSectionOption'Section_GameEmptyBigTopShowRoom:RootOption_0.TextOption_4.TagConditionOption_0.GoToSectionOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyBigTopShowRoom.1"
+      },
+      "FalseOption": {
+        "ObjectName": "GoToSectionOption'Section_GameEmptyBigTopShowRoom:RootOption_0.TextOption_4.TagConditionOption_0.GoToSectionOption_1'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyBigTopShowRoom.2"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "ImageOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_EmptyBigTopShowroom_Text6",
+        "SourceString": "His second birthday present. A child's ball. He used to play with this all the time.",
+        "LocalizedString": "His second birthday present. A child's ball. He used to play with this all the time."
+      },
+      "bAreActivesChoices": true,
+      "Actives": [
+        {
+          "ObjectName": "ReturnOption'Section_GameEmptyBigTopShowRoom:RootOption_0.ImageOption_0.TextOption_0.ReturnOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyBigTopShowRoom.5"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_GameEmptyBigTopShowRoom:RootOption_0.ImageOption_0.TextOption_0.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyBigTopShowRoom.7"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_EmptyBigTopShowroom_Text12",
+        "SourceString": "The deactivated Big Top stares at nothing, while the mannequins watch in silence.  A prize wheel stands ready to spin.",
+        "LocalizedString": "The deactivated Big Top stares at nothing, while the mannequins watch in silence.  A prize wheel stands ready to spin."
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_EmptyBigTopShowroom_Text2",
+        "SourceString": "\"Thank you!\" they whisper. \"Big Top is gone! We're free!\"",
+        "LocalizedString": "\"Thank you!\" they whisper. \"Big Top is gone! We're free!\""
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_EmptyBigTopShowroom_Text1",
+        "SourceString": "Talk to Mannequins",
+        "LocalizedString": "Talk to Mannequins"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_2",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_EmptyBigTopShowroom_Text4",
+        "SourceString": "Big Top is deactivated, but with a smile on his face. He has found peace.",
+        "LocalizedString": "Big Top is deactivated, but with a smile on his face. He has found peace."
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_EmptyBigTopShowroom_Text3",
+        "SourceString": "Examine Big Top",
+        "LocalizedString": "Examine Big Top"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_3",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_EmptyBigTopShowroom_Text8",
+        "SourceString": "You spin the Prize Wheel, and the Rainbow Doors open.",
+        "LocalizedString": "You spin the Prize Wheel, and the Rainbow Doors open."
+      },
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_GameEmptyBigTopShowRoom:RootOption_0.TextOption_3.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyBigTopShowRoom.8"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_EmptyBigTopShowroom_Text7",
+        "SourceString": "Spin Prize Wheel",
+        "LocalizedString": "Spin Prize Wheel"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_4",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_EmptyBigTopShowroom_Text10",
+        "SourceString": "You head through the Rainbow Doors.",
+        "LocalizedString": "You head through the Rainbow Doors."
+      },
+      "SecondsToSwitch": 3.0,
+      "Actives": [
+        {
+          "ObjectName": "TagConditionOption'Section_GameEmptyBigTopShowRoom:RootOption_0.TextOption_4.TagConditionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyBigTopShowRoom.9"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_EmptyBigTopShowroom_Text9",
+        "SourceString": "Enter the Rainbow Doors",
+        "LocalizedString": "Enter the Rainbow Doors"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act3.TheGame.OpenedRainbowDoors"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "TwoDSectionData",
+    "Name": "Section_GameEmptyBigTopShowRoom",
+    "Class": "UScriptClass'TwoDSectionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootPages": [
+        {
+          "ObjectName": "RootOption'Section_GameEmptyBigTopShowRoom:RootOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/TheGame/Section_GameEmptyBigTopShowRoom.6"
+        }
+      ]
+    }
+  }
+]

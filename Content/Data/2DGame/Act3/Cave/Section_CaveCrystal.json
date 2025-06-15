@@ -1,0 +1,358 @@
+[
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "TextOption_3",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/Cave/Section_CaveHub.Section_CaveHub",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "ImageOption",
+    "Name": "ImageOption_2",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'ImageOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act3_CrystalCave_Broken'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_CrystalCave_Broken.0"
+        }
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act3.Cave.BrokenBlueCrystal"
+        ]
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "ImageOption",
+    "Name": "ImageOption_0",
+    "Outer": "TextOption_5",
+    "Class": "UScriptClass'ImageOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act3_SmallAlcove'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_SmallAlcove.0"
+        }
+      },
+      "bAreActivesChoices": true,
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_CaveCrystal:RootOption_0.TextOption_5.ImageOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveCrystal.11"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_0",
+    "Outer": "Section_CaveCrystal",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act3_CrystalCave'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_CrystalCave.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_CaveCrystal:RootOption_0.TextOption_6'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveCrystal.12"
+        },
+        {
+          "ObjectName": "TextOption'Section_CaveCrystal:RootOption_0.TextOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveCrystal.7"
+        },
+        {
+          "ObjectName": "TextOption'Section_CaveCrystal:RootOption_0.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveCrystal.6"
+        },
+        {
+          "ObjectName": "TextOption'Section_CaveCrystal:RootOption_0.TextOption_4'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveCrystal.9"
+        },
+        {
+          "ObjectName": "TextOption'Section_CaveCrystal:RootOption_0.TextOption_5'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveCrystal.10"
+        },
+        {
+          "ObjectName": "TextOption'Section_CaveCrystal:RootOption_0.TextOption_3'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveCrystal.8"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "ImageOption'Section_CaveCrystal:RootOption_0.ImageOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveCrystal.1"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2dGame_Act3_CaveCrystal_Text1",
+        "SourceString": "Crystal Cave",
+        "LocalizedString": "Crystal Cave"
+      }
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_4",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act3.Cave.BrokenBlueCrystal"
+      ]
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_6",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act3.Cave.CollectedMoonLeftArm"
+      ]
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveCrystal_Text14",
+        "SourceString": "A large blue crystal in the center of the room. It looks like there’s something inside...",
+        "LocalizedString": "A large blue crystal in the center of the room. It looks like there’s something inside..."
+      },
+      "SecondsToSwitch": 6.0,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveCrystal_Text6",
+        "SourceString": "Look at Large Blue Crystals",
+        "LocalizedString": "Look at Large Blue Crystals"
+      },
+      "ShowOptionConditionQuery": {
+        "HasNotCollected": [
+          "2DGame.Act3.Cave.BrokenBlueCrystal"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_2",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveCrystal_Text5",
+        "SourceString": "These cystals are all misshapen. They look like pieces made from other crystals.",
+        "LocalizedString": "These cystals are all misshapen. They look like pieces made from other crystals."
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveCrystal_Text4",
+        "SourceString": "Look at Small Crystals",
+        "LocalizedString": "Look at Small Crystals"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_3",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveCrystal_Text13",
+        "SourceString": "You head back to the Cave Hub.",
+        "LocalizedString": "You head back to the Cave Hub."
+      },
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_CaveCrystal:RootOption_0.TextOption_3.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveCrystal.0"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveCrystal_Text12",
+        "SourceString": "Back to Cave Hub",
+        "LocalizedString": "Back to Cave Hub"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_4",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveCrystal_Text8",
+        "SourceString": "You smash the Large Crystal and it breaks apart. Inside is the Left Arm of a Statue.",
+        "LocalizedString": "You smash the Large Crystal and it breaks apart. Inside is the Left Arm of a Statue."
+      },
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_CaveCrystal:RootOption_0.TextOption_4.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveCrystal.4"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveCrystal_Text7",
+        "SourceString": "Use Toy Hammer on Large Crystal",
+        "LocalizedString": "Use Toy Hammer on Large Crystal"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act3.Cave.CollectedToyHammer"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act3.Cave.BrokenBlueCrystal"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_5",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveCrystal_Text9",
+        "SourceString": "You duck inside a strange, tiny door in the far wall.",
+        "LocalizedString": "You duck inside a strange, tiny door in the far wall."
+      },
+      "SecondsToSwitch": 3.0,
+      "Actives": [
+        {
+          "ObjectName": "ImageOption'Section_CaveCrystal:RootOption_0.TextOption_5.ImageOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveCrystal.2"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveCrystal_Text15",
+        "SourceString": "Open Small Door",
+        "LocalizedString": "Open Small Door"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "ImageOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveCrystal_Text11",
+        "SourceString": "The wall carving has four arrows. \r\nLeft, Right, Right, and Left.",
+        "LocalizedString": "The wall carving has four arrows. \r\nLeft, Right, Right, and Left."
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveCrystal_Text10",
+        "SourceString": "Examine Wall Carving",
+        "LocalizedString": "Examine Wall Carving"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_6",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveCrystal_Text3",
+        "SourceString": "You take the statue arm.",
+        "LocalizedString": "You take the statue arm."
+      },
+      "SecondsToSwitch": 2.0,
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_CaveCrystal:RootOption_0.TextOption_6.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveCrystal.5"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveCrystal_Text2",
+        "SourceString": "Take Statue Left Arm",
+        "LocalizedString": "Take Statue Left Arm"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act3.Cave.BrokenBlueCrystal"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act3.Cave.CollectedMoonLeftArm"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TwoDSectionData",
+    "Name": "Section_CaveCrystal",
+    "Class": "UScriptClass'TwoDSectionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootPages": [
+        {
+          "ObjectName": "RootOption'Section_CaveCrystal:RootOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveCrystal.3"
+        }
+      ]
+    }
+  }
+]

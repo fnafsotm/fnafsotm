@@ -1,0 +1,235 @@
+[
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/Cave/Section_CavePirateShip.Section_CavePirateShip",
+        "SubPathString": ""
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_EmptyCaveTreasure_Text2",
+        "SourceString": "Walk back to the Ship",
+        "LocalizedString": "Walk back to the Ship"
+      }
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/Cave/Section_CaveEmptyTreasureChest.Section_CaveEmptyTreasureChest",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "ImageOption",
+    "Name": "ImageOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'ImageOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act3_chestOpen'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_chestOpen.0"
+        }
+      },
+      "bRemovePreviousDescriptionText": true,
+      "bAreActivesChoices": true,
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_CaveTreasureChestLock:RootOption_0.TextOption_0.ImageOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveTreasureChestLock.8"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MinigameOption",
+    "Name": "MinigameOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'MinigameOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinigameActionTag": {
+        "TagName": "2DGame.Minigame.Lock.Left"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveTreasureChestLock_Text1",
+        "SourceString": "Turn Lock Left",
+        "LocalizedString": "Turn Lock Left"
+      }
+    }
+  },
+  {
+    "Type": "MinigameOption",
+    "Name": "MinigameOption_1",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'MinigameOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MinigameActionTag": {
+        "TagName": "2DGame.Minigame.Lock.Right"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveTreasureChestLock_Text2",
+        "SourceString": "Turn Lock Right",
+        "LocalizedString": "Turn Lock Right"
+      }
+    }
+  },
+  {
+    "Type": "MinigameOption",
+    "Name": "MinigameOption_2",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'MinigameOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bShouldReset": true,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveTreasureChestLock_Text3",
+        "SourceString": "Reset Lock",
+        "LocalizedString": "Reset Lock"
+      }
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_0",
+    "Outer": "Section_CaveTreasureChestLock",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act3_chestLock'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_chestLock.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "MinigameOption'Section_CaveTreasureChestLock:RootOption_0.MinigameOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveTreasureChestLock.3"
+        },
+        {
+          "ObjectName": "MinigameOption'Section_CaveTreasureChestLock:RootOption_0.MinigameOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveTreasureChestLock.4"
+        },
+        {
+          "ObjectName": "MinigameOption'Section_CaveTreasureChestLock:RootOption_0.MinigameOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveTreasureChestLock.5"
+        },
+        {
+          "ObjectName": "GoToSectionOption'Section_CaveTreasureChestLock:RootOption_0.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveTreasureChestLock.0"
+        }
+      ],
+      "BypassOption": {
+        "ObjectName": "TextOption'Section_CaveTreasureChestLock:RootOption_0.TextOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveTreasureChestLock.7"
+      },
+      "MiniGameRootOptionWidget": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'WBP_TreasureChestRoot_C'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Widgets/2DGame/WBP_TreasureChestRoot.8"
+      },
+      "bIsMinigameRoot": true,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveTreasureChest_Text1",
+        "SourceString": "Treasure Chest",
+        "LocalizedString": "Treasure Chest"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveTreasureChestLock_Text6",
+        "SourceString": "There is a soft click as the chest opens!",
+        "LocalizedString": "There is a soft click as the chest opens!"
+      },
+      "SecondsToSwitch": 3.0,
+      "Actives": [
+        {
+          "ObjectName": "ImageOption'Section_CaveTreasureChestLock:RootOption_0.TextOption_0.ImageOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveTreasureChestLock.2"
+        }
+      ],
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act3.Cave.CollectedMoonRightArm"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "ImageOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveTreasureChestLock_Text5",
+        "SourceString": "You take the Right Arm",
+        "LocalizedString": "You take the Right Arm"
+      },
+      "SecondsToSwitch": 2.0,
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_CaveTreasureChestLock:RootOption_0.TextOption_0.ImageOption_0.TextOption_0.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveTreasureChestLock.1"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CaveTreasureChestLock_Text4",
+        "SourceString": "Take Statue Right Arm",
+        "LocalizedString": "Take Statue Right Arm"
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TwoDSectionData",
+    "Name": "Section_CaveTreasureChestLock",
+    "Class": "UScriptClass'TwoDSectionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootPages": [
+        {
+          "ObjectName": "RootOption'Section_CaveTreasureChestLock:RootOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CaveTreasureChestLock.6"
+        }
+      ]
+    }
+  }
+]

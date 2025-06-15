@@ -1,0 +1,369 @@
+[
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/Cave/Section_CaveDarkTunnel.Section_CaveDarkTunnel",
+        "SubPathString": ""
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CavePirateShip_Text12",
+        "SourceString": "Back to Dark Passage",
+        "LocalizedString": "Back to Dark Passage"
+      }
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/Cave/Section_CaveEmptyTreasureChest.Section_CaveEmptyTreasureChest",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_1",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act3/Cave/Section_CaveTreasureChest.Section_CaveTreasureChest",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "MultiQueryTextOption",
+    "Name": "MultiQueryTextOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'MultiQueryTextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "QueryTextDescriptions": [
+        {
+          "TextConditionQuery": {
+            "HasCollected": [],
+            "HasNotCollected": [
+              "2DGame.Item.FishingNet"
+            ]
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+            "Key": "Loc_2DGame_Act3_CavePirateShip_Text8",
+            "SourceString": "The pirate ship is broken and unstable. It's unsafe to walk on.",
+            "LocalizedString": "The pirate ship is broken and unstable. It's unsafe to walk on."
+          }
+        },
+        {
+          "TextConditionQuery": {
+            "HasCollected": [
+              "2DGame.Item.FishingNet",
+              "2DGame.Act3.Cave.CollectedFishingNet"
+            ],
+            "HasNotCollected": []
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+            "Key": "Loc_2DGame_Act3_CavePirateShip_Text8",
+            "SourceString": "The pirate ship is broken and unstable. It's unsafe to walk on.",
+            "LocalizedString": "The pirate ship is broken and unstable. It's unsafe to walk on."
+          }
+        },
+        {
+          "TextConditionQuery": {
+            "HasCollected": [
+              "2DGame.Item.FishingNet"
+            ],
+            "HasNotCollected": [
+              "2DGame.Act3.Cave.CollectedFishingNet"
+            ]
+          },
+          "DescriptionText": {
+            "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+            "Key": "Loc_2DGame_Act3_CavePirateShip_Text9",
+            "SourceString": "There is a golden Fishing Net draped over the side of the ship.",
+            "LocalizedString": "There is a golden Fishing Net draped over the side of the ship."
+          }
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_CavePirateShip:RootOption_0.MultiQueryTextOption_0.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CavePirateShip.5"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CavePirateShip_Text7",
+        "SourceString": "Examine Pirate Ship",
+        "LocalizedString": "Examine Pirate Ship"
+      },
+      "AlternateStyleConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.FishingNet"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act3.Cave.FoundFishingNet"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_0",
+    "Outer": "Section_CavePirateShip",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act3_ship'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act3_ship.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_CavePirateShip:RootOption_0.TextOption_3'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CavePirateShip.12"
+        },
+        {
+          "ObjectName": "TextOption'Section_CavePirateShip:RootOption_0.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CavePirateShip.10"
+        },
+        {
+          "ObjectName": "MultiQueryTextOption'Section_CavePirateShip:RootOption_0.MultiQueryTextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CavePirateShip.3"
+        },
+        {
+          "ObjectName": "TextOption'Section_CavePirateShip:RootOption_0.TextOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CavePirateShip.11"
+        },
+        {
+          "ObjectName": "GoToSectionOption'Section_CavePirateShip:RootOption_0.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CavePirateShip.0"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_CavePirateShip:RootOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CavePirateShip.9"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CavePirateShip_Text1",
+        "SourceString": "Pirate Ship",
+        "LocalizedString": "Pirate Ship"
+      }
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "MultiQueryTextOption_0",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act3.Cave.FoundFishingNet"
+      ],
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.FishingNet"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act3.Cave.CollectedFishingNet"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_1",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act3.Cave.ExaminedWaterfall"
+      ]
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_2",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act3.Cave.CollectedFishingNet"
+      ]
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_0",
+    "Outer": "TextOption_3",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasNotCollected": [
+          "2DGame.Act3.Cave.CollectedMoonRightArm"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "GoToSectionOption'Section_CavePirateShip:RootOption_0.TextOption_3.TagConditionOption_0.GoToSectionOption_1'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CavePirateShip.2"
+      },
+      "FalseOption": {
+        "ObjectName": "GoToSectionOption'Section_CavePirateShip:RootOption_0.TextOption_3.TagConditionOption_0.GoToSectionOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CavePirateShip.1"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CavePirateShip_Text13",
+        "SourceString": "An ancient pirate ship lays stranded inside a giant cave. How did it get in here?",
+        "LocalizedString": "An ancient pirate ship lays stranded inside a giant cave. How did it get in here?"
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CavePirateShip_Text6",
+        "SourceString": "A strange, tall waterfall coming out of a stone cistern. There's an area behind it.",
+        "LocalizedString": "A strange, tall waterfall coming out of a stone cistern. There's an area behind it."
+      },
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_CavePirateShip:RootOption_0.TextOption_1.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CavePirateShip.6"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CavePirateShip_Text5",
+        "SourceString": "Examine Waterfall",
+        "LocalizedString": "Examine Waterfall"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_2",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CavePirateShip_Text11",
+        "SourceString": "You take the golden Fishing Net",
+        "LocalizedString": "You take the golden Fishing Net"
+      },
+      "SecondsToSwitch": 2.0,
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_CavePirateShip:RootOption_0.TextOption_2.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CavePirateShip.7"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CavePirateShip_Text10",
+        "SourceString": "Take Fishing Net",
+        "LocalizedString": "Take Fishing Net"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act3.Cave.FoundFishingNet"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act3.Cave.CollectedFishingNet"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_3",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CavePirateShip_Text3",
+        "SourceString": "You walk through the waterfall. ",
+        "LocalizedString": "You walk through the waterfall. "
+      },
+      "Actives": [
+        {
+          "ObjectName": "TagConditionOption'Section_CavePirateShip:RootOption_0.TextOption_3.TagConditionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CavePirateShip.8"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_CavePirateShip_Text2",
+        "SourceString": "Walk Through the Waterfall",
+        "LocalizedString": "Walk Through the Waterfall"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act3.Cave.ExaminedWaterfall"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "TwoDSectionData",
+    "Name": "Section_CavePirateShip",
+    "Class": "UScriptClass'TwoDSectionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootPages": [
+        {
+          "ObjectName": "RootOption'Section_CavePirateShip:RootOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act3/Cave/Section_CavePirateShip.4"
+        }
+      ]
+    }
+  }
+]
