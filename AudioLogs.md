@@ -4,11 +4,36 @@
 *   **Оригинал:**
     *   **(Эдвин):** Excuse me. Can I borrow your voice for a project?
     *   **(Фиона):** What for? I don’t even know you. I’m brand new here. Let’s start again. I'm Fiona. And you are?
-    *   **(Эдвин):** Edwin, Edwin Murray. This is my dad’s place. But that doesn’t matter…
+    *   **(Эдвин):** Edwin, Edwin Murray. This is my dad’s place. But that doesn’t matter… I heard you were a puppeteer and I wanted to record your voice.
+    *   **(Фиона):** Oh. Well, yes. I used to be.
+    *   **(Эдвин):** That's great! Do you mind if I record you for a test?
+    *   **(Фиона):** So you want to record me with that? What is it?
+    *   **(Эдвин):** It's a new type of audio cassette recorder.
+    *   **(Фиона):** I've never seen one like that before.
+    *   **(Эдвин):** I made it. It's part of this new system I'm working on. Just speak into the microphone and it'll be sent to me like a work memo. The message will be recorded on a tape drive so that I can listen to it when I get back to my desk on the other side of the building.
+    *   **(Фиона):** That's incredible. What do you call it?
+    *   **(Эдвин):** Oh. I don't know. I haven't thought of a name yet.
+    *   **(Фиона):** Well, how would you describe it in one word?
+    *   **(Эдвин):** I guess I would have to say, “helpful.” At its core, it is helpful.
+    *   **(Фиона):** That's a great name. And I would be delighted to help. What kind of voice should I do?
+
 *   **Перевод:**
     *   **(Эдвин):** Прошу прощения. Могу я позаимствовать ваш голос для одного проекта?
     *   **(Фиона):** Для чего? Я вас даже не знаю. Я здесь новенькая. Давайте начнём сначала. Я Фиона. А вы?
-    *   **(Эдвин):** Эдвин, Эдвин Мюррей. Это место моего отца. Но это неважно...
+    *   **(Эдвин):** Эдвин, Эдвин Мюррей. Это место моего отца. Но это неважно... Я слышал, вы были кукловодом, и я хотел записать ваш голос.
+    *   **(Фиона):** Ох. Ну, да. Была когда-то.
+    *   **(Эдвин):** Это прекрасно! Вы не против, если я запишу вас для теста?
+    *   **(Фиона):** То есть, вы хотите записать меня с помощью вот этого? Что это?
+    *   **(Эдвин):** Это новый тип кассетного аудиорекордера.
+    *   **(Фиона):** Никогда раньше такого не видела.
+    *   **(Эдвин):** Я его сделал. Это часть новой системы, над которой я работаю. Просто говорите в микрофон, и это будет отправлено мне как рабочая записка. Сообщение будет записано на ленточный накопитель, чтобы я мог прослушать его, когда вернусь за свой стол на другой стороне здания.
+    *   **(Фиона):** Это невероятно. Как вы это называете?
+    *   **(Эдвин):** Ох. Я не знаю. Я ещё не придумал название.
+    *   **(Фиона):** Ну, а как бы вы описали это одним словом?
+    *   **(Эдвин):** Думаю, я бы сказал, "полезная". По своей сути, она полезна (helpful).
+    *   **(Фиона):** Это отличное название. И я буду рада помочь. Каким голосом мне говорить?
+
+**Контекст и значение:** Это запись первого знакомства Эдвина и Фионы. Она закладывает основу их будущих отношений и совместной работы. Здесь же рождается название для будущей системы искусственного интеллекта Эдвина — "Помощник" (Mr. Helpful), основанное на слове, которое он использует для описания своей технологии.
 
 #### **2. Showroom 1 (Шоурум 1)**
 *   **Оригинал:**
