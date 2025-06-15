@@ -221,7 +221,14 @@
     *   Зачем сейчас что-то менять? Было бы намного проще продолжать использовать Спринглоков. Просто нанять подростков носить костюмы, как мы всегда и делали.
 
 ### 17. Prototype Freddy's pizzeria safe room
-
+*   **Оригинал:**
+    *   **(Эдвин):** Are they insane? The look of these new animatronics is Fiona's design and they're great.
+    *   First they approve the art. Then they approve the proofs. Now, they change their minds when we're so close to final.
+    *   Why would they change them now? Are they pulling my leg? The new concepts are frankly creepy.
+    *   It doesn't matter... I'm not changing a single bit of her work and they can't make me.
+*   **Перевод:**
+    *   **(Эдвин):** Они что, с ума сошли? Внешний вид этих новых аниматроников — это дизайн Фионы, и он великолепен...
+    *   Новые концепции откровенно жуткие. Неважно... Я не изменю ни единой детали её работы, и они не смогут меня заставить.
 
 ### 18. Cart ride
 *   **Оригинал:**
