@@ -1,0 +1,360 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TerminalLogsTags",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "Tag": "gpdb.TerminalLogs.TextLog1",
+        "DevComment": ""
+      },
+      "NewRow_0": {
+        "Tag": "gpdb.TerminalLogs.AudioLog01",
+        "DevComment": ""
+      },
+      "NewRow_1": {
+        "Tag": "gpdb.TerminalLogs.AudioLog02",
+        "DevComment": ""
+      },
+      "NewRow_2": {
+        "Tag": "gpdb.TerminalLogs.AudioLog03",
+        "DevComment": ""
+      },
+      "NewRow_3": {
+        "Tag": "gpdb.TerminalLogs.AudioLog04",
+        "DevComment": ""
+      },
+      "NewRow_4": {
+        "Tag": "gpdb.TerminalLogs.AudioLog05",
+        "DevComment": ""
+      },
+      "NewRow_5": {
+        "Tag": "gpdb.TerminalLogs.AudioLog06",
+        "DevComment": ""
+      },
+      "NewRow_6": {
+        "Tag": "gpdb.TerminalLogs.AudioLog07",
+        "DevComment": ""
+      },
+      "NewRow_7": {
+        "Tag": "gpdb.TerminalLogs.AudioLog08",
+        "DevComment": ""
+      },
+      "NewRow_8": {
+        "Tag": "gpdb.TerminalLogs.AudioLog09",
+        "DevComment": ""
+      },
+      "NewRow_9": {
+        "Tag": "gpdb.TerminalLogs.Text.01",
+        "DevComment": ""
+      },
+      "NewRow_10": {
+        "Tag": "gpdb.TerminalLogs.Text.02",
+        "DevComment": ""
+      },
+      "NewRow_11": {
+        "Tag": "gpdb.TerminalLogs.Text.03",
+        "DevComment": ""
+      },
+      "NewRow_12": {
+        "Tag": "gpdb.TerminalLogs.Text.04",
+        "DevComment": ""
+      },
+      "NewRow_13": {
+        "Tag": "gpdb.TerminalLogs.Text.05",
+        "DevComment": ""
+      },
+      "NewRow_14": {
+        "Tag": "gpdb.TerminalLogs.Text.06",
+        "DevComment": ""
+      },
+      "NewRow_15": {
+        "Tag": "gpdb.TerminalLogs.Text.07",
+        "DevComment": ""
+      },
+      "NewRow_16": {
+        "Tag": "gpdb.TerminalLogs.Text.08",
+        "DevComment": ""
+      },
+      "NewRow_17": {
+        "Tag": "gpdb.TerminalLogs.Text.09",
+        "DevComment": ""
+      },
+      "NewRow_18": {
+        "Tag": "gpdb.TerminalLogs.Text.10",
+        "DevComment": ""
+      },
+      "NewRow_19": {
+        "Tag": "gpdb.TerminalLogs.Text.11",
+        "DevComment": ""
+      },
+      "NewRow_20": {
+        "Tag": "gpdb.TerminalLogs.Text.12",
+        "DevComment": ""
+      },
+      "NewRow_21": {
+        "Tag": "gpdb.TerminalLogs.Text.13",
+        "DevComment": ""
+      },
+      "NewRow_22": {
+        "Tag": "gpdb.TerminalLogs.Text.14",
+        "DevComment": ""
+      },
+      "NewRow_23": {
+        "Tag": "gpdb.TerminalLogs.Text.15",
+        "DevComment": ""
+      },
+      "NewRow_24": {
+        "Tag": "gpdb.TerminalLogs.Text.16",
+        "DevComment": ""
+      },
+      "NewRow_25": {
+        "Tag": "gpdb.TerminalLogs.Text.17",
+        "DevComment": ""
+      },
+      "NewRow_26": {
+        "Tag": "gpdb.TerminalLogs.Text.18",
+        "DevComment": ""
+      },
+      "NewRow_27": {
+        "Tag": "gpdb.TerminalLogs.Text.19",
+        "DevComment": ""
+      },
+      "NewRow_28": {
+        "Tag": "gpdb.TerminalLogs.Text.20",
+        "DevComment": ""
+      },
+      "NewRow_29": {
+        "Tag": "gpdb.TerminalLogs.Text.21",
+        "DevComment": ""
+      },
+      "NewRow_30": {
+        "Tag": "gpdb.TerminalLogs.Text.22",
+        "DevComment": ""
+      },
+      "NewRow_31": {
+        "Tag": "gpdb.TerminalLogs.Text.23",
+        "DevComment": ""
+      },
+      "NewRow_32": {
+        "Tag": "gpdb.TerminalLogs.Text.24",
+        "DevComment": ""
+      },
+      "NewRow_33": {
+        "Tag": "gpdb.TerminalLogs.Text.25",
+        "DevComment": ""
+      },
+      "NewRow_34": {
+        "Tag": "gpdb.TerminalLogs.Text.26",
+        "DevComment": ""
+      },
+      "NewRow_35": {
+        "Tag": "gpdb.TerminalLogs.Text.27",
+        "DevComment": ""
+      },
+      "NewRow_36": {
+        "Tag": "gpdb.TerminalLogs.Text.28",
+        "DevComment": ""
+      },
+      "NewRow_37": {
+        "Tag": "gpdb.TerminalLogs.Text.29",
+        "DevComment": ""
+      },
+      "NewRow_38": {
+        "Tag": "gpdb.TerminalLogs.Text.30",
+        "DevComment": ""
+      },
+      "NewRow_39": {
+        "Tag": "gpdb.TerminalLogs.Text.31",
+        "DevComment": ""
+      },
+      "NewRow_40": {
+        "Tag": "gpdb.TerminalLogs.Text.32",
+        "DevComment": ""
+      },
+      "NewRow_41": {
+        "Tag": "gpdb.TerminalLogs.Text.33",
+        "DevComment": ""
+      },
+      "NewRow_42": {
+        "Tag": "gpdb.TerminalLogs.Text.34",
+        "DevComment": ""
+      },
+      "NewRow_43": {
+        "Tag": "gpdb.TerminalLogs.Text.35",
+        "DevComment": ""
+      },
+      "NewRow_44": {
+        "Tag": "gpdb.TerminalLogs.Text.36",
+        "DevComment": ""
+      },
+      "NewRow_45": {
+        "Tag": "gpdb.TerminalLogs.Text.37",
+        "DevComment": ""
+      },
+      "NewRow_46": {
+        "Tag": "gpdb.TerminalLogs.Text.38",
+        "DevComment": ""
+      },
+      "NewRow_47": {
+        "Tag": "gpdb.TerminalLogs.Text.39",
+        "DevComment": ""
+      },
+      "NewRow_48": {
+        "Tag": "gpdb.TerminalLogs.Text.41",
+        "DevComment": ""
+      },
+      "NewRow_49": {
+        "Tag": "gpdb.TerminalLogs.Text.42",
+        "DevComment": ""
+      },
+      "NewRow_50": {
+        "Tag": "gpdb.TerminalLogs.Text.43",
+        "DevComment": ""
+      },
+      "NewRow_51": {
+        "Tag": "gpdb.TerminalLogs.Text.44",
+        "DevComment": ""
+      },
+      "NewRow_52": {
+        "Tag": "gpdb.TerminalLogs.Text.45",
+        "DevComment": ""
+      },
+      "NewRow_53": {
+        "Tag": "gpdb.TerminalLogs.Text.46",
+        "DevComment": ""
+      },
+      "NewRow_54": {
+        "Tag": "gpdb.TerminalLogs.Text.47",
+        "DevComment": ""
+      },
+      "NewRow_55": {
+        "Tag": "gpdb.TerminalLogs.Text.48",
+        "DevComment": ""
+      },
+      "NewRow_56": {
+        "Tag": "gpdb.TerminalLogs.Text.49",
+        "DevComment": ""
+      },
+      "NewRow_57": {
+        "Tag": "gpdb.TerminalLogs.Text.50",
+        "DevComment": ""
+      },
+      "NewRow_58": {
+        "Tag": "gpdb.TerminalLogs.Text.51",
+        "DevComment": ""
+      },
+      "NewRow_59": {
+        "Tag": "gpdb.TerminalLogs.Text.52",
+        "DevComment": ""
+      },
+      "NewRow_61": {
+        "Tag": "gpdb.TerminalLogs.Text.40",
+        "DevComment": ""
+      },
+      "NewRow_60": {
+        "Tag": "gpdb.TerminalLogs.Text.53",
+        "DevComment": ""
+      },
+      "NewRow_62": {
+        "Tag": "gpdb.TerminalLogs.AudioLog10",
+        "DevComment": ""
+      },
+      "NewRow_63": {
+        "Tag": "gpdb.TerminalLogs.AudioLog11",
+        "DevComment": ""
+      },
+      "NewRow_64": {
+        "Tag": "gpdb.TerminalLogs.AudioLog12",
+        "DevComment": ""
+      },
+      "NewRow_65": {
+        "Tag": "gpdb.TerminalLogs.AudioLog13",
+        "DevComment": ""
+      },
+      "NewRow_66": {
+        "Tag": "gpdb.TerminalLogs.AudioLog14",
+        "DevComment": ""
+      },
+      "NewRow_67": {
+        "Tag": "gpdb.TerminalLogs.Text.54",
+        "DevComment": "Fiona Final Text Log"
+      },
+      "NewRow_68": {
+        "Tag": "gpdb.TerminalLogs.Text.55",
+        "DevComment": "MISC_032"
+      },
+      "NewRow_69": {
+        "Tag": "gpdb.TerminalLogs.Text.56",
+        "DevComment": "MISC_033"
+      },
+      "NewRow_70": {
+        "Tag": "gpdb.TerminalLogs.Text.57",
+        "DevComment": "MISC_034"
+      },
+      "NewRow_71": {
+        "Tag": "gpdb.TerminalLogs.Text.58",
+        "DevComment": "MISC_035"
+      },
+      "NewRow_72": {
+        "Tag": "gpdb.TerminalLogs.Text.59",
+        "DevComment": "MISC_036"
+      },
+      "NewRow_73": {
+        "Tag": "gpdb.TerminalLogs.Text.60",
+        "DevComment": "MISC_037"
+      },
+      "NewRow_74": {
+        "Tag": "gpdb.TerminalLogs.Text.61",
+        "DevComment": "MISC_038"
+      },
+      "NewRow_75": {
+        "Tag": "gpdb.TerminalLogs.AudioLog15",
+        "DevComment": ""
+      },
+      "NewRow_76": {
+        "Tag": "gpdb.TerminalLogs.AudioLog16",
+        "DevComment": ""
+      },
+      "NewRow_77": {
+        "Tag": "gpdb.TerminalLogs.AudioLog17",
+        "DevComment": ""
+      },
+      "NewRow_78": {
+        "Tag": "gpdb.TerminalLogs.AudioLog18",
+        "DevComment": ""
+      },
+      "NewRow_79": {
+        "Tag": "gpdb.TerminalLogs.AudioLog19",
+        "DevComment": ""
+      },
+      "NewRow_80": {
+        "Tag": "gpdb.TerminalLogs.AudioLog20",
+        "DevComment": ""
+      },
+      "NewRow_81": {
+        "Tag": "gpdb.TerminalLogs.AudioLog21",
+        "DevComment": ""
+      },
+      "NewRow_82": {
+        "Tag": "gpdb.TerminalLogs.AudioLog22",
+        "DevComment": ""
+      },
+      "NewRow_83": {
+        "Tag": "gpdb.TerminalLogs.AudioLog23",
+        "DevComment": "unused"
+      },
+      "NewRow_84": {
+        "Tag": "gpdb.TerminalLogs.AudioLog24",
+        "DevComment": "Not used yet"
+      }
+    }
+  }
+]

@@ -1,0 +1,512 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_HuskPermanenceTablesContext",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GPDBTagContext'",
+        "ObjectPath": "/Script/SWGCommonGame"
+      }
+    },
+    "Rows": {
+      "WorkshopsRow1": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.Workshops.Husk1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WorkshopsRow2": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.Workshops.Husk2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WorkshopsRow3": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.Workshops.Husk3"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WorkshopsRow4": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.Workshops.Husk4"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WorkshopsRow5": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.Workshops.Husk5"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WorkshopsRow6": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.Workshops.Husk6"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WorkshopsRow7": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.Workshops.Husk7"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WorkshopsRow8": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.Workshops.Husk8"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WorkshopsRow9": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.Workshops.Husk9"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WorkshopsRow10": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.Workshops.Husk10"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WorkshopsRow11": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.Workshops.Husk11"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WorkshopsRow12": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.Workshops.Husk12"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WorkshopsRow13": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.Workshops.Husk13"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WorkshopsRow14": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.Workshops.Husk14"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WorkshopsRow15": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.Workshops.Husk15"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WorkshopsRow16": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.Workshops.Husk16"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WorkshopsRow17": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.Workshops.Husk17"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WorkshopsRow18": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.Workshops.Husk18"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WorkshopsRow19": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.Workshops.Husk19"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WorkshopsRow20": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.Workshops.Husk20"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WorkshopsRow21": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.Workshops.Husk21"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WorkshopsRow22": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.Workshops.Husk22"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WorkshopsRow23": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.Workshops.Husk23"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WorkshopsRow24": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.Workshops.Husk24"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WorkshopsRow25": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.Workshops.Husk25"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "AdminRow1": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.AdminArea.Husk1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "InventorsHouseRow1": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.InventorsHouse.Husk1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "ManagerLobbyStorageRow1": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.ManagerLobbyStorage.Husk1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "ManagerLobbyStorageRow2": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.ManagerLobbyStorage.Husk2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NightlightMazeRow1": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.NightlightMaze.Husk1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NightlightRoomRow1": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.NightlightRoom.Husk1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "RandDFloorRow1": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.RandDFloor.Husk1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "TheaterSecretRow1": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.TheaterSecret.Husk1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "TheaterStorageRow1": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.TheaterStorage.Husk1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "TheaterStorageRow2": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.TheaterStorage.Husk2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "TheaterStorageRow3": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.TheaterStorage.Husk3"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "TheaterStorageRow4": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.TheaterStorage.Husk4"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "TheaterStorageRow5": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.TheaterStorage.Husk5"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "TheaterStorageRow6": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.TheaterStorage.Husk6"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "TheaterStorageRow7": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.TheaterStorage.Husk7"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "TheaterStorageRow8": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.TheaterStorage.Husk8"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WelcomeLobbyRow1": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.WelcomeLobby.Husk1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WelcomeLobbyRow2": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.WelcomeLobby.Husk2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WelcomeLobbyRow3": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.WelcomeLobby.Husk3"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WelcomeLobbyRow4": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.WelcomeLobby.Husk4"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WelcomeLobbyRow5": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.WelcomeLobby.Husk5"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WelcomeLobbyRow6": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.WelcomeLobby.Husk6"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WelcomeLobbyRow7": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.WelcomeLobby.Husk7"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WelcomeLobbyRow8": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.WelcomeLobby.Husk8"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WelcomeLobbyRow9": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.WelcomeLobby.Husk9"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WelcomeLobbyRow10": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.WelcomeLobby.Husk10"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WelcomeLobbyRow11": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.WelcomeLobby.Husk11"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WelcomeLobbyRow12": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.WelcomeLobby.Husk12"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WelcomeLobbyRow13": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.WelcomeLobby.Husk13"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WelcomeLobbyRow14": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.WelcomeLobby.Husk14"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WelcomeLobbyRow15": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.WelcomeLobby.Husk15"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WelcomeLobbyRow16": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.WelcomeLobby.Husk16"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WelcomeLobbyRow17": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.WelcomeLobby.Husk17"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WelcomeLobbyRow18": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.WelcomeLobby.Husk18"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WelcomeLobbyRow19": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.WelcomeLobby.Husk19"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WelcomeLobbyRow20": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.WelcomeLobby.Husk20"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "WarehouseRow1": {
+        "GPDBTag": {
+          "TagName": "gpdb.Husks.Warehouse.Husk1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      }
+    }
+  }
+]

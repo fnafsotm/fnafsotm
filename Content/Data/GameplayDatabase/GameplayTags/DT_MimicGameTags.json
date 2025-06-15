@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MimicGameTags",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "Tag": "gpdb.MimicGame.Tape.1",
+        "DevComment": "Indicates a Tape"
+      },
+      "NewRow_0": {
+        "Tag": "gpdb.MimicGame.Tape.2",
+        "DevComment": ""
+      },
+      "NewRow_1": {
+        "Tag": "gpdb.MimicGame.Tape.3",
+        "DevComment": ""
+      },
+      "NewRow_2": {
+        "Tag": "gpdb.MimicGame.Tape.4",
+        "DevComment": ""
+      },
+      "NewRow_3": {
+        "Tag": "gpdb.MimicGame.Tape.5",
+        "DevComment": ""
+      },
+      "NewRow_4": {
+        "Tag": "gpdb.MimicGame.Tape.6",
+        "DevComment": ""
+      },
+      "NewRow_5": {
+        "Tag": "gpdb.MimicGame.Player.1",
+        "DevComment": "Indicates a tape player. THis is where the tapes are put"
+      },
+      "NewRow_6": {
+        "Tag": "gpdb.MimicGame.Player.2",
+        "DevComment": ""
+      },
+      "NewRow_7": {
+        "Tag": "gpdb.MimicGame.Player.3",
+        "DevComment": ""
+      },
+      "NewRow_8": {
+        "Tag": "gpdb.MimicGame.Player.4",
+        "DevComment": ""
+      },
+      "NewRow_9": {
+        "Tag": "gpdb.MimicGame.Player.5",
+        "DevComment": ""
+      },
+      "NewRow_10": {
+        "Tag": "gpdb.MimicGame.Player.6",
+        "DevComment": ""
+      },
+      "NewRow_11": {
+        "Tag": "gpdb.MimicGame.Sequence",
+        "DevComment": "This is a number sequence to indicate which order the story goes in"
+      },
+      "NewRow_12": {
+        "Tag": "gpdb.MimicGame.Victory",
+        "DevComment": "Indicates that the mimic game has been won. Turning the dial at the end sets this"
+      },
+      "NewRow_13": {
+        "Tag": "gpdb.MimicGame.WhiteTiger",
+        "DevComment": "Indicates when the white tiger has been placed on the pedestal to start the mimic sequence"
+      },
+      "NewRow_14": {
+        "Tag": "gpdb.MimicGame.VictoryAudio",
+        "DevComment": "Indicates that the victory audio has finished. This is after the player has gotten the whole sequence and has listened to the finish audio"
+      }
+    }
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CarouselRepair",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "NewRow_0": {
+        "Tag": "gpdb.CarouselRepair.DisengageBrake",
+        "DevComment": ""
+      },
+      "NewRow_1": {
+        "Tag": "gpdb.CarouselRepair.EngageBrake",
+        "DevComment": ""
+      },
+      "NewRow_3": {
+        "Tag": "gpdb.CarouselRepair.AudioFileCollected",
+        "DevComment": ""
+      },
+      "NewRow_4": {
+        "Tag": "gpdb.CarouselRepair.AudioFileUsed",
+        "DevComment": ""
+      },
+      "NewRow_5": {
+        "Tag": "gpdb.CarouselRepair.PressNumberButtons",
+        "DevComment": ""
+      },
+      "NewRow_6": {
+        "Tag": "gpdb.CarouselRepair.SlidersRealigned",
+        "DevComment": ""
+      },
+      "NewRow_7": {
+        "Tag": "gpdb.CarouselRepair.RemoveGear",
+        "DevComment": ""
+      },
+      "NewRow_8": {
+        "Tag": "gpdb.CarouselRepair.ReplaceGear",
+        "DevComment": ""
+      },
+      "NewRow": {
+        "Tag": "gpdb.CarouselRepair.PuzzleFailed",
+        "DevComment": ""
+      },
+      "NewRow_9": {
+        "Tag": "gpdb.CarouselRepair.FullyRepaired",
+        "DevComment": ""
+      },
+      "NewRow_10": {
+        "Tag": "gpdb.CarouselRepair.RunCarousel",
+        "DevComment": ""
+      },
+      "NewRow_2": {
+        "Tag": "gpdb.CarouselRepair.Depower",
+        "DevComment": ""
+      },
+      "NewRow_11": {
+        "Tag": "gpdb.CarouselRepair.Power",
+        "DevComment": ""
+      },
+      "NewRow_12": {
+        "Tag": "gpdb.CarouselRepair.RandomSequence",
+        "DevComment": ""
+      },
+      "NewRow_13": {
+        "Tag": "gpdb.CarouselRepair.RevPressNumberButtons",
+        "DevComment": ""
+      }
+    }
+  }
+]

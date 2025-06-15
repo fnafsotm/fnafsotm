@@ -1,0 +1,112 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ProgressionTags_Act01",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "NewRow_3": {
+        "Tag": "gpdb.progression.Act01.EnterWestGate",
+        "DevComment": "When the player has entered the West Gate, past the tutorial section."
+      },
+      "NewRow": {
+        "Tag": "gpdb.progression.Act01",
+        "DevComment": "When the player starts Act01"
+      },
+      "NewRow_10": {
+        "Tag": "gpdb.progression.Act01.PlaygroundOpened",
+        "DevComment": "Player has opened the slidelock playground gate"
+      },
+      "NewRow_6": {
+        "Tag": "gpdb.progression.Act01.WelcomeShow",
+        "DevComment": "When the player triggers the welcome show for the first time"
+      },
+      "NewRow_0": {
+        "Tag": "gpdb.progression.Act01.TutorialElephant",
+        "DevComment": "When we trigger the tutorial elephant in the storage area"
+      },
+      "NewRow_1": {
+        "Tag": "gpdb.progression.Act01.PowerRoom",
+        "DevComment": ""
+      },
+      "NewRow_2": {
+        "Tag": "gpdb.progression.Act01.JackieShowroomTrigger1",
+        "DevComment": "When the playe enters the first part of the jackie show room"
+      },
+      "NewRow_4": {
+        "Tag": "gpdb.progression.Act01.JackieShowroomTrigger2",
+        "DevComment": "When the player is in the jackie show room entrance"
+      },
+      "NewRow_5": {
+        "Tag": "gpdb.progression.Act01.SecurityGenerator",
+        "DevComment": "When the player activates the generator outside of security office"
+      },
+      "NewRow_7": {
+        "Tag": "gpdb.progression.Act01.JackieChaseComplete",
+        "DevComment": "Right before the player falls out of the vent into the security office"
+      },
+      "NewRow_8": {
+        "Tag": "gpdb.progression.Act01.ExitVan",
+        "DevComment": "When the player leaves the starting game van"
+      },
+      "NewRow_9": {
+        "Tag": "gpdb.progression.Act01.TakeDataDiver",
+        "DevComment": "When the player takes the data diver for the first time"
+      },
+      "NewRow_11": {
+        "Tag": "gpdb.progression.Act01.EnterSecurityOffice",
+        "DevComment": "When the player enters the security office."
+      },
+      "NewRow_12": {
+        "Tag": "gpdb.progression.Act01.SecurityOfficeInventoryStationActive",
+        "DevComment": "Set after dispatch dialogue that plays after finished first coduit puzzle"
+      },
+      "NewRow_13": {
+        "Tag": "gpdb.progression.Act01.Lift_WelcomeShow",
+        "DevComment": ""
+      },
+      "NewRow_14": {
+        "Tag": "gpdb.OtherWorkers.Worker_1",
+        "DevComment": "When the player sees the OtherWorker in Power Control"
+      },
+      "NewRow_15": {
+        "Tag": "gpdb.progression.Act01.OpenCrankGate",
+        "DevComment": "When the player has open the gate"
+      },
+      "NewRow_16": {
+        "Tag": "gpdb.Tutorial.RetrievedDataDiver",
+        "DevComment": "When the player has retrieved the Data Diver in the Van"
+      },
+      "NewRow_17": {
+        "Tag": "gpdb.Tutorial.OpenedVan",
+        "DevComment": "When the player has interacted with and opened the van"
+      },
+      "NewRow_18": {
+        "Tag": "gpdb.Tutorial.PlayerCrouched",
+        "DevComment": "When the player has crouched in the first crouch obstacle"
+      },
+      "NewRow_19": {
+        "Tag": "gpdb.progression.Act01.TookJackieCrank",
+        "DevComment": ""
+      },
+      "NewRow_20": {
+        "Tag": "gpdb.progression.Act01.UsedJackieCrank",
+        "DevComment": ""
+      },
+      "NewRow_21": {
+        "Tag": "gpdb.progression.Act01.ManagerHallGateOpen",
+        "DevComment": "When the player has opened the gate to the manager's office"
+      },
+      "NewRow_22": {
+        "Tag": "gpdb.Tutorial.PlayerRan",
+        "DevComment": "When the player has ran in the jackie chase"
+      }
+    }
+  }
+]

@@ -1,0 +1,508 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ProgressionTags_Act02",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "Tag": "gpdb.progression.Act02",
+        "DevComment": "The start of Act 02"
+      },
+      "NewRow_0": {
+        "Tag": "gpdb.progression.Act02.BigTopLightsOff",
+        "DevComment": "For Bigtop's showroom, when the lights go on and off and how we track gameplay events for this area. We will regularly be toggling these back and forth often."
+      },
+      "NewRow_1": {
+        "Tag": "gpdb.progression.Act02.MiniGame.SpaceShootingGallery",
+        "DevComment": ""
+      },
+      "NewRow_2": {
+        "Tag": "gpdb.progression.Act02.MiniGame.ShootingGallery",
+        "DevComment": ""
+      },
+      "NewRow_3": {
+        "Tag": "gpdb.progression.Act02.MiniGame.BallToss",
+        "DevComment": ""
+      },
+      "NewRow_5": {
+        "Tag": "gpdb.progression.Act02.MiniGame.BonkABunny",
+        "DevComment": ""
+      },
+      "NewRow_4": {
+        "Tag": "gpdb.progression.Act02.BigTopCompleted",
+        "DevComment": "When the player has beaten Big Top"
+      },
+      "NewRow_6": {
+        "Tag": "gpdb.progression.Act02.MiniGame.NumberOfCompletedSpins",
+        "DevComment": ""
+      },
+      "NewRow_7": {
+        "Tag": "gpdb.progression.Act02.BigTopShowRoom",
+        "DevComment": "When the player manages to open up the Showroom"
+      },
+      "NewRow_8": {
+        "Tag": "gpdb.progression.Act02.BigTopChaseAccess",
+        "DevComment": "When the player manages to open up the Showroom"
+      },
+      "NewRow_9": {
+        "Tag": "gpdb.progression.Act02.MiniGame.PrizeWheelWin",
+        "DevComment": "When the player completes all mini games and accesses the rainbow stairs that lead up to BigTop's Chase."
+      },
+      "NewRow_10": {
+        "Tag": "gpdb.progression.Act02.WelcomeShowCompleted",
+        "DevComment": "Welcome Show repaired and completed"
+      },
+      "NewRow_11": {
+        "Tag": "gpdb.progression.Act02.TheaterCatwalkBridge1",
+        "DevComment": "This corresponds with one of the interactables meant to drop the theater catwalk bridge."
+      },
+      "NewRow_12": {
+        "Tag": "gpdb.progression.Act02.TheaterCatwalkBridge2",
+        "DevComment": "This corresponds with one of the interactables meant to drop the theater catwalk bridge."
+      },
+      "NewRow_13": {
+        "Tag": "gpdb.progression.Act02.Workshop.Springlock.Head",
+        "DevComment": "Track when the player has placed the springlock suit head onto the armature"
+      },
+      "NewRow_14": {
+        "Tag": "gpdb.progression.Act02.Workshop.Springlock.LeftArm",
+        "DevComment": "Track when the player has placed the springlock suit Left Arm onto the armature"
+      },
+      "NewRow_15": {
+        "Tag": "gpdb.progression.Act02.Workshop.Springlock.LeftLeg",
+        "DevComment": "Track when the player has placed the springlock suit Left Leg onto the armature"
+      },
+      "NewRow_16": {
+        "Tag": "gpdb.progression.Act02.Workshop.Springlock.RightArm",
+        "DevComment": "Track when the player has placed the springlock suit Right Arm onto the armature"
+      },
+      "NewRow_17": {
+        "Tag": "gpdb.progression.Act02.Workshop.Springlock.RightLeg",
+        "DevComment": "Track when the player has placed the springlock suit Right Leg onto the armature"
+      },
+      "NewRow_18": {
+        "Tag": "gpdb.progression.Act02.Workshop.Springlock.Completed",
+        "DevComment": "When the springlock suit is finished in Workshops"
+      },
+      "NewRow_19": {
+        "Tag": "gpdb.progression.Act02.Workshop.Springlock.StartAssembly",
+        "DevComment": "When the player presses the button in the subterminal to start putting the springlock together"
+      },
+      "NewRow_20": {
+        "Tag": "gpdb.progression.Act02.Workshop.Springlock.EnergizeSpringlock",
+        "DevComment": "When the player has collected all the pieces to the springlock and is able to assemble it"
+      },
+      "NewRow_21": {
+        "Tag": "gpdb.progression.Act02.Warehouse.Power",
+        "DevComment": "When the player turns on the power in the warehouse"
+      },
+      "NewRow_22": {
+        "Tag": "gpdb.progression.Act02.Warehouse.Cart",
+        "DevComment": "Track when the player has complete interactions around the warehouse"
+      },
+      "NewRow_23": {
+        "Tag": "gpdb.progression.Act02.BigTopShowRoomConduitPuzzle",
+        "DevComment": "First time interaction with the conduit puzzle"
+      },
+      "NewRow_60": {
+        "Tag": "gpdb.progression.Act02.StorytimeShowroom.StaffDoorOpen",
+        "DevComment": "Subterminal option \"staff door\" open selected"
+      },
+      "NewRow_24": {
+        "Tag": "gpdb.progression.Act02.StorageArea.Husk.Henry",
+        "DevComment": "For tracking storage area in act 2 when the player triggers one of the three husks, this one is to track Henry activating."
+      },
+      "NewRow_25": {
+        "Tag": "gpdb.progression.Act02.StorageArea.Husk.Elephant",
+        "DevComment": "For tracking storage area in act 2 when the player triggers one of the three husks, this one is to track generic elephant activating."
+      },
+      "NewRow_26": {
+        "Tag": "gpdb.progression.Act02.StorageArea.Husk.BlueElephant",
+        "DevComment": "For tracking storage area in act 2 when the player triggers one of the three husks, this one is to track blue elephant activating."
+      },
+      "NewRow_27": {
+        "Tag": "gpdb.progression.Act02.DollHospital.DollyDefeated",
+        "DevComment": "When the player pushes dolly in the incinerator"
+      },
+      "NewRow_28": {
+        "Tag": "gpdb.progression.Act02.DollHospital.DoorGearCollection",
+        "DevComment": "Tracks whether the gear has been added to the door repair or not"
+      },
+      "NewRow_29": {
+        "Tag": "gpdb.progression.Act02.WhiteTiger.Starbright.First",
+        "DevComment": "Tracks if the player has picked up the first Starbright."
+      },
+      "NewRow_30": {
+        "Tag": "gpdb.progression.Act02.WhiteTiger.Starbright.Second",
+        "DevComment": "Tracks if the player has picked up the second Starbright."
+      },
+      "NewRow_31": {
+        "Tag": "gpdb.progression.Act02.WhiteTiger.Starbright.Third",
+        "DevComment": "Tracks if the player has picked up the third Starbright."
+      },
+      "NewRow_32": {
+        "Tag": "gpdb.progression.Act02.WalkAwayChoiceReady",
+        "DevComment": "Radio woman has said her lines, and the player needs to make a choice on the terminal"
+      },
+      "NewRow_33": {
+        "Tag": "gpdb.progression.Act02.CostumeShop.CarouselFixed",
+        "DevComment": "Fixed the costume shop carousel"
+      },
+      "NewRow_34": {
+        "Tag": "gpdb.progression.Act02.NightLightMaze.ConduitComplete",
+        "DevComment": "Conduit Puzzle is solve in Night Light Maze"
+      },
+      "NewRow_35": {
+        "Tag": "gpdb.progression.Act02.AdminWing.BlueprintsAccessed",
+        "DevComment": "When the player has gotten the blueprints for MIMIC"
+      },
+      "NewRow_36": {
+        "Tag": "gpdb.progression.Act02.DollHospital.CubesCollectedCount",
+        "DevComment": "Tracks the number of cubes put in the hole in the doll hosptial."
+      },
+      "NewRow_37": {
+        "Tag": "gpdb.progression.Act02.Workshop.Door.RightArm01",
+        "DevComment": "Notify when the right arm door is opened."
+      },
+      "NewRow_38": {
+        "Tag": "gpdb.progression.Act02.Workshop.Door.LeftLeg",
+        "DevComment": "Notify when the door for the Left Leg is opened - its entirely possible this will never be true."
+      },
+      "NewRow_39": {
+        "Tag": "gpdb.progression.Act02.Workshop.Door.RightArm02",
+        "DevComment": "Notify for when player opens the side door in the area with the Right Arm, not required to progress."
+      },
+      "NewRow_40": {
+        "Tag": "gpdb.progression.Act02.Theater.SecretArea",
+        "DevComment": "Area After Theater collaspes"
+      },
+      "NewRow_41": {
+        "Tag": "gpdb.progression.Act02.BigtopChase.Completed",
+        "DevComment": "when the player falls down the stairwell at the end of the bigtop chase"
+      },
+      "NewRow_42": {
+        "Tag": "gpdb.progression.Act02.WhiteTiger.Completed",
+        "DevComment": ""
+      },
+      "NewRow_43": {
+        "Tag": "gpdb.progression.Act02.BTSecret",
+        "DevComment": "The secret areas within the Bigtop Showroom section."
+      },
+      "NewRow_44": {
+        "Tag": "gpdb.progression.Act02.BTSecret.PowerConduit",
+        "DevComment": "The conduit lever within bigtop's secret area"
+      },
+      "NewRow_45": {
+        "Tag": "gpdb.progression.Act02.BTSecret.LiftActivation01",
+        "DevComment": "The first interaction for the lift blocker within the secret area of bigtop's showroom"
+      },
+      "NewRow_46": {
+        "Tag": "gpdb.progression.Act02.BTSecret.LiftActivation02",
+        "DevComment": "The second interaction for the lift blocker within the secret area of bigtop's showroom"
+      },
+      "NewRow_47": {
+        "Tag": "gpdb.progression.Act02.DollHospital.DollieWalkIntro",
+        "DevComment": "Trigger when dollie has been triggered to walk into the space with the player. "
+      },
+      "NewRow_48": {
+        "Tag": "gpdb.progression.Act02.DollHospital.DollieForcedStartSpawn",
+        "DevComment": "This is a unique progression tag to keep track of where Dolly needs to be told where to spawn from when th eplayer interacts with the compactors in the Doll Hospital."
+      },
+      "NewRow_49": {
+        "Tag": "gpdb.progression.Act02.DollHospital.DollieConveyorBelt",
+        "DevComment": "Trigger when the player has dropped down into the lower areas with the conveyor belt with the first part of dollhospital - before she becomes molten"
+      },
+      "NewRow_50": {
+        "Tag": "gpdb.progression.Act02.DollHospital.IncineratorFilled",
+        "DevComment": "When the player activates the sub terminal in the incinerator to open and exit the door."
+      },
+      "NewRow_51": {
+        "Tag": "gpdb.progression.Act02.DollHospital.ChuteDumped",
+        "DevComment": "When the player has filled all 6 chutes - in Doll Hospital"
+      },
+      "NewRow_52": {
+        "Tag": "gpdb.progression.Act02.DollHospital.RepairDoor",
+        "DevComment": "When the terminal door is opened by the player and allowing back and forth transitioning"
+      },
+      "NewRow_53": {
+        "Tag": "gpdb.progression.Act02.DollHospital.RepairAirlock",
+        "DevComment": "When the terminal door is opened by the player and allowing back and forth transitioning"
+      },
+      "NewRow_54": {
+        "Tag": "gpdb.progression.Act02.DollHospital.ChuteUnclogged",
+        "DevComment": "When the player unclogs the chutes"
+      },
+      "NewRow_55": {
+        "Tag": "gpdb.progression.Act02.Workshop.SlidelockDoorUnlocked",
+        "DevComment": "Unlocking the slidelock door that connects the theater to the workshop"
+      },
+      "NewRow_56": {
+        "Tag": "gpdb.progression.Act02.MainHallElevator.Lever1Active",
+        "DevComment": "When the player has activated the first lever in the secret area of the Manager Lobby Storage."
+      },
+      "NewRow_57": {
+        "Tag": "gpdb.progression.Act02.WL.PuzzRepaired",
+        "DevComment": ""
+      },
+      "NewRow_58": {
+        "Tag": "gpdb.progression.Act02.WL.TapeUsed",
+        "DevComment": ""
+      },
+      "NewRow_59": {
+        "Tag": "gpdb.progression.Act02.TheaterStorageIntro",
+        "DevComment": "When the springlock suit first comes into the theater storage to trigger the husk introduction."
+      },
+      "NewRow_61": {
+        "Tag": "gpdb.progression.Act02.ShowroomEntry.StorytimeDoorBroken",
+        "DevComment": "Underconstruction blockage into Storytime Showroom has been removed"
+      },
+      "NewRow_62": {
+        "Tag": "gpdb.progression.Act02.Warehouse.ChicaActive",
+        "DevComment": "Used once Chica has activated."
+      },
+      "NewRow_63": {
+        "Tag": "gpdb.progression.Act02.WL.TapeCollected",
+        "DevComment": ""
+      },
+      "NewRow_64": {
+        "Tag": "gpdb.progression.Act02.WL.OpenedHatch",
+        "DevComment": ""
+      },
+      "NewRow_65": {
+        "Tag": "gpdb.progression.Act02.BigTopInProgress",
+        "DevComment": "Active when player enters the Big Top Encounter, Deactivates if the Player leaves Encounter early"
+      },
+      "NewRow_66": {
+        "Tag": "gpdb.progression.Act02.Theater.storage.lightsoff",
+        "DevComment": ""
+      },
+      "NewRow_67": {
+        "Tag": "gpdb.progression.Act02.BigTopMostRecentMinigame",
+        "DevComment": "Keeps track of most recent Big Top Minigame completed"
+      },
+      "NewRow_68": {
+        "Tag": "gpdb.progression.Act02.Lift_PowerZone",
+        "DevComment": ""
+      },
+      "NewRow_69": {
+        "Tag": "gpdb.progression.Act02.PlayedToyStoreDispatchPA",
+        "DevComment": ""
+      },
+      "NewRow_70": {
+        "Tag": "gpdb.progression.Act02.ProjectorRoom.ReelFound.Reel01",
+        "DevComment": ""
+      },
+      "NewRow_71": {
+        "Tag": "gpdb.progression.Act02.ProjectorRoom.ReelFound.Reel02",
+        "DevComment": ""
+      },
+      "NewRow_72": {
+        "Tag": "gpdb.progression.Act02.ProjectorRoom.ReelFound.Reel03",
+        "DevComment": ""
+      },
+      "NewRow_73": {
+        "Tag": "gpdb.progression.Act02.ProjectorRoom.ReelFound.Reel04",
+        "DevComment": ""
+      },
+      "NewRow_74": {
+        "Tag": "gpdb.progression.Act02.JackieHallOpened",
+        "DevComment": ""
+      },
+      "NewRow_75": {
+        "Tag": "gpdb.progression.Act02.DollHospital.FirstCubeDispensed",
+        "DevComment": "Tag to alert Helpy that the player started dispensing cubes"
+      },
+      "NewRow_76": {
+        "Tag": "gpdb.progression.Act02.Warehouse.UsedUpperAirlock",
+        "DevComment": ""
+      },
+      "NewRow_77": {
+        "Tag": "gpdb.progression.Act02.DollHospital.Elevator.FirstPuzzle",
+        "DevComment": "When the elevator brings the player up to the first puzzle."
+      },
+      "NewRow_78": {
+        "Tag": "gpdb.progression.Act02.DollHospital.Elevator.DollMoment",
+        "DevComment": "When Dollie triggers the second phase of the elevator."
+      },
+      "NewRow_79": {
+        "Tag": "gpdb.progression.Act02.DollHospital.Elevator.Hatch01",
+        "DevComment": "When the player finished the first hatch puzzle (inside elevator)"
+      },
+      "NewRow_80": {
+        "Tag": "gpdb.progression.Act02.DollHospital.Elevator.Hatch02",
+        "DevComment": "When the player finished the second hatch patch (inside the elevator shaft, outside the elevator)"
+      },
+      "NewRow_81": {
+        "Tag": "gpdb.progression.Act02.Lift_Catwalks1",
+        "DevComment": "Tracks Backstage Lift 1"
+      },
+      "NewRow_82": {
+        "Tag": "gpdb.progression.Act02.Lift_Catwalks2",
+        "DevComment": "Tracks Backstage Lift 2"
+      },
+      "NewRow_83": {
+        "Tag": "gpdb.progression.Act02.MainHallElevator.Fixed",
+        "DevComment": "When the player goes behind the jackie showroom and fixes the elevator from the manager storage side"
+      },
+      "NewRow_84": {
+        "Tag": "gpdb.progression.Act02.MainHallElevator.RiddenOnce",
+        "DevComment": "When you've ridden the elevator for the first time"
+      },
+      "NewRow_85": {
+        "Tag": "gpdb.progression.Act02.MainHallElevator.Lever2Active",
+        "DevComment": "When the player has activated the second lever in the secret area of the Manager Lobby Storage."
+      },
+      "NewRow_86": {
+        "Tag": "gpdb.progression.Act02.ManagerStorage.LeverActive",
+        "DevComment": ""
+      },
+      "NewRow_87": {
+        "Tag": "gpdb.progression.Act02.DollHospital.DarkRideDoorOpened",
+        "DevComment": "When the player selects open door on the terminal after inserting the missing gear"
+      },
+      "NewRow_88": {
+        "Tag": "gpdb.progression.Act02.MainHall.KitchenGateOpened",
+        "DevComment": ""
+      },
+      "NewRow_89": {
+        "Tag": "gpdb.progression.Act02.Warehouse.Gate1Open",
+        "DevComment": "When the player turns on the power in the warehouse"
+      },
+      "NewRow_90": {
+        "Tag": "gpdb.progression.Act02.Warehouse.Gate2Open",
+        "DevComment": "When the player turns on the power in the warehouse"
+      },
+      "NewRow_91": {
+        "Tag": "gpdb.progression.Act02.Warehouse.ExitGateOpen",
+        "DevComment": "When the player turns on the power in the warehouse"
+      },
+      "NewRow_92": {
+        "Tag": "gpdb.progression.Act02.Warehouse.PuzzlePieceLiftLowered",
+        "DevComment": "When the player turns on the power in the warehouse"
+      },
+      "NewRow_94": {
+        "Tag": "gpdb.progression.Act02.Warehouse.BreakLeverPulled",
+        "DevComment": "When the player turns on the power in the warehouse"
+      },
+      "NewRow_93": {
+        "Tag": "gpdb.progression.Act02.Warehouse.DeepStorageGateOpen",
+        "DevComment": "Player has oipened the one way gate from deep storage to warehouse"
+      },
+      "NewRow_95": {
+        "Tag": "gpdb.progression.Act02.Warehouse.RocktopusMoved",
+        "DevComment": "Player has cranked the Rocktopus out of the way in the warehouse"
+      },
+      "NewRow_96": {
+        "Tag": "gpdb.progression.Act02.Theater.StageAreaConduitPuzzle",
+        "DevComment": "When the Player solves the Conduit Puzzle in the Stage Area"
+      },
+      "NewRow_97": {
+        "Tag": "gpdb.progression.Act02.DollHospital.Elevator.Repaired",
+        "DevComment": "When the player finished solving part two of the DH elevator repair puzzle"
+      },
+      "NewRow_98": {
+        "Tag": "gpdb.progression.Act02.Fade.SecurityOffice",
+        "DevComment": "Fade Trigger in Security Office After Jackie Chase"
+      },
+      "NewRow_99": {
+        "Tag": "gpdb.progression.Act02.Fade.BigtopStairwell",
+        "DevComment": "Fade Trigger In Bigtop Stairwell After Chase"
+      },
+      "NewRow_100": {
+        "Tag": "gpdb.progression.Act02.DollHospital.Elevator.SlidPowerOff",
+        "DevComment": "When the player turns the elevator off. Used in both P1 and P2. Gets reset back to incomplete on P1 solved"
+      },
+      "NewRow_101": {
+        "Tag": "gpdb.progression.Act02.WL.SlidPowerOff",
+        "DevComment": "When player turns the welcome lobby elevator repair off"
+      },
+      "NewRow_102": {
+        "Tag": "gpdb.progression.Act02.DollHospital.Elevator.MaintenanceBoxOpened",
+        "DevComment": "When the maintenance box is opened by the repair manager"
+      },
+      "NewRow_103": {
+        "Tag": "gpdb.progression.Act02.BigTopTicketTaken",
+        "DevComment": "When the player takes the ticket from the booth in the Big Top Showroom vesitbule"
+      },
+      "NewRow_104": {
+        "Tag": "gpdb.progression.Act02.DollHospital.DollieCubeA",
+        "DevComment": "When the player has put Cube A into the trash chutes."
+      },
+      "NewRow_105": {
+        "Tag": "gpdb.progression.Act02.DollHospital.DollieCubeB",
+        "DevComment": "When the player has put Cube B into the trash chutes."
+      },
+      "NewRow_106": {
+        "Tag": "gpdb.progression.Act02.DollHospital.DollieCubeC",
+        "DevComment": "When the player has put Cube C into the trash chutes."
+      },
+      "NewRow_107": {
+        "Tag": "gpdb.progression.Act02.DollHospital.DollieCubeD",
+        "DevComment": "When the player has put Cube D into the trash chutes."
+      },
+      "NewRow_108": {
+        "Tag": "gpdb.progression.Act02.DollHospital.DollieCubeE",
+        "DevComment": "When the player has put Cube E into the trash chutes."
+      },
+      "NewRow_109": {
+        "Tag": "gpdb.progression.Act02.DollHospital.DollieCubeF",
+        "DevComment": "When the player has put Cube F into the trash chutes."
+      },
+      "NewRow_110": {
+        "Tag": "gpdb.progression.Act02.BigTopChase.DialogPlayed",
+        "DevComment": "When the player has heard the PA summon them back to the security office"
+      },
+      "NewRow_111": {
+        "Tag": "gpdb.progression.Act02.Theater.BackStage.Target1",
+        "DevComment": ""
+      },
+      "NewRow_112": {
+        "Tag": "gpdb.progression.Act02.DollHospital.ClosedDarkRideDoor",
+        "DevComment": "When we close the dark ride door after entering the dh repair center. When this is complete, we can't open the dark ride door again"
+      },
+      "NewRow_113": {
+        "Tag": "gpdb.progression.Act02.WL.GateOpened",
+        "DevComment": "When the player opens the gate in the Welcome Lobby where the collectible box is found"
+      },
+      "NewRow_114": {
+        "Tag": "gpdb.progression.Act02.UpWarehouse.WTMomentATriggered",
+        "DevComment": "Player has see the white tiger moment on the way to the powerzone in the Upperwarehouse"
+      },
+      "NewRow_115": {
+        "Tag": "gpdb.progression.Act02.DollHospital.DarkRideVent",
+        "DevComment": "When player opens the vent in dark ride via sub terminal"
+      },
+      "NewRow_116": {
+        "Tag": "gpdb.progression.Act02.BigTopStorage.Generator",
+        "DevComment": "Generator player pulls in the bigtop storage room"
+      },
+      "NewRow_117": {
+        "Tag": "gpdb.progression.Act02.WhiteTiger.Starbright.ThirdRetrieved",
+        "DevComment": "Tracks if the player has picked up the third Starbright from its pedestal."
+      },
+      "NewRow_118": {
+        "Tag": "gpdb.progression.Act02.TheaterBackstage.EdwinDialogPlayed",
+        "DevComment": "This avoids Edwin pitching you a puppet show purchase twice."
+      },
+      "NewRow_119": {
+        "Tag": "gpdb.progression.Act02.TheaterBackstage.AnnouncerDialogPlayed",
+        "DevComment": ""
+      },
+      "NewRow_120": {
+        "Tag": "gpdb.progression.Act02.TheaterBackstage.WhiteTigerPlayed",
+        "DevComment": ""
+      },
+      "NewRow_121": {
+        "Tag": "gpdb.progression.Act02.Theater.BackStage.HitBridgeTarget",
+        "DevComment": "When the player shoots the target to lower the bridge"
+      }
+    }
+  }
+]

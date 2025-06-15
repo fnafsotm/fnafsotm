@@ -1,0 +1,2080 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_LocationSystem_GameplayTagsContext",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GPDBTagContext'",
+        "ObjectPath": "/Script/SWGCommonGame"
+      }
+    },
+    "Rows": {
+      "0": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "1": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "2": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "3": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "4": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "5": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.AdminWing"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "6": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.Warehouse"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "7": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.MainHallway"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "8": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.Workshops"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "9": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.Theater"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "10": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.WelcomeArea"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "11": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.LoadingBay"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "12": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.CostumeShop"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "13": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.PowerZone"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "14": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.StorageArea"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "15": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.AdminWing"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "16": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.LoadingBay"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "17": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.Workshops"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "18": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.Theater"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "19": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.WelcomeArea"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "20": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.CostumeShop"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "21": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.StorageArea"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "22": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.AdminWing"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "23": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.ManagerHallway"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "24": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.Warehouse"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "25": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.LoadingBay"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "26": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.Showrooms"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "27": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.NightLightMaze"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "28": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "29": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.AdminBasement"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "30": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.RnDFloor"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "31": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.WelcomeArea.WelcomeShow"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "32": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.WelcomeArea.WelcomeShowHallway"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "33": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.WelcomeArea.WelcomeLobby"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "34": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.WelcomeArea.ElevatorRepair"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "35": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.WelcomeArea.WelcomeLobbyStorage1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "36": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.WelcomeArea.WelcomeLobbyStorage2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "37": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.WelcomeArea.ElevatorRepairStair"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "38": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.WelcomeArea.WelcomeLobbyStorageLoft"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "39": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.WelcomeArea.WelcomeShowCatwalks"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "40": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.WelcomeArea.ExteriorWalkway"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "41": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.WelcomeArea.LobbyLanding"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "42": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.StorageArea.PowerControlRoom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "43": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.StorageArea.StorageArea"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "44": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.StorageArea.SecurityOffice"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "45": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.StorageArea.SideroomEast"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "46": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.StorageArea.SideroomWest"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "47": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.StorageArea.WarehouseAirlock"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "48": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.MainHallway.ElevatorLobby"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "49": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.MainHallway.ElevatorLobbyBathroom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "50": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.MainHallway.BreakRoom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "51": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.MainHallway.MainHallSouth"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "52": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.MainHallway.MainHallNorth"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "53": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.MainHallway.ElevatorLobbyLockers"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "54": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.MainHallway.BreakRoomSideHall"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "55": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.MainHallway.Junction"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "56": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.MainHallway.Room1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "57": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.MainHallway.Room2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "58": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.MainHallway.WarehouseAirlock"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "59": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.MainHallway.WorkshopsAirlock"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "60": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.ManagerHallway.Hall"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "61": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.ManagerHallway.Lobby"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "62": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.ManagerHallway.ManagerOffice"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "63": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.Showrooms.Lobby"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "64": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.Showrooms.LobbyHall"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "65": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.Showrooms.Entrance"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "66": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.Showrooms.BigTop"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "67": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.Showrooms.BigTopBalcony"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "68": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.Showrooms.BigTopEntrance"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "69": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.Showrooms.BigTopUpperHall"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "70": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.Showrooms.BigTopRoofAccess"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "71": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.Showrooms.Storytime"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "72": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.Showrooms.StorytimeSideRoom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "73": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.Showrooms.StorytimeCatwalks"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "74": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.Showrooms.StorytimeHall"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "75": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.Showrooms.StorytimeOffice"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "76": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.Showrooms.StorageHall1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "77": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.Showrooms.StorageHall2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "78": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.Showrooms.StorageHall3"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "79": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.Showrooms.Jackie"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "80": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.Showrooms.JackieHall"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "81": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.Workshops.Entrance"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "82": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.Workshops.MainAssemblyFloor"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "83": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.Workshops.BackStair"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "84": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.Workshops.TestStage"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "85": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.Workshops.TestStageControlRoom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "86": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.Workshops.AssemblyRoom1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "87": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.Workshops.AssemblyRoom2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "88": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.Workshops.Balcony1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "89": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.Workshops.Balcony2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "90": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.Workshops.Balcony3"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "91": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.Workshops.UpperHallway1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "92": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.Workshops.UpperHallway2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "93": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.Workshops.AssemblyRoom3"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "94": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.Workshops.TheaterAirlock"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "95": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.Theater.Stage"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "96": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.Theater.Backstage"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "97": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.Theater.BackstageStorageHall"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "98": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.Theater.BackstageStorage1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "99": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.Theater.BackstageStorage2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "100": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.Theater.Stair"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "101": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.Theater.AudienceSeating"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "102": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.Theater.EmployeeHall1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "103": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.Theater.EmployeeHall2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "104": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.Theater.HallwaySideRoom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "105": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.Theater.ScreeningRoom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "106": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.Theater.EditingRoom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "107": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.Theater.ControlRoom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "108": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.Theater.Catwalks"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "109": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.Theater.SideRoom1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "110": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.Theater.SideRoom2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "111": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.Theater.SideRoom3"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "112": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.Theater.SideRoom4"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "113": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.Theater.WorkshopHall"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "114": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.UpperIncinerator"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "115": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.LowerIncinerator"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "116": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.UpperIncineratorLift"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "117": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.UpperIncineratorConveyor"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "118": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.LowerIncineratorConveyor"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "119": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.Center"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "120": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.DisplayRoom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "121": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.DisplaySideRoom1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "122": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.DisplaySideRoom2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "123": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.StartingRoom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "124": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.NorthRoom1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "125": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.NorthRoom2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "126": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.NorthRoom3"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "127": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.PatientCorridor"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "128": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.PatientRoom1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "129": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.PatientRoom2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "130": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.PatientRoom3"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "131": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.PatientRoom4"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "132": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.SouthRoom1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "133": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.SouthRoom2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "134": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.SouthRoom3"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "135": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.DarkRideTrackRoom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "136": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.DarkRideEntrance"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "137": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.DarkRideNorthDisplay"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "138": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.StorageAreaStair"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "139": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.WelcomeAreaStair"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "140": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.CostumeShopStair"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "141": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.NightLightMazeStair"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "142": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.Warehouse.Floor"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "143": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.Warehouse.DeepStorage"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "144": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.Warehouse.CatwalksWest"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "145": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.Warehouse.CatwalksEast"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "146": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.Warehouse.UpperWarehouse"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "147": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.LoadingBay.Floor"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "148": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.LoadingBay.ControlRoom1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "149": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.LoadingBay.ControlRoom2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "150": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.LoadingBay.CatwalksEast"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "151": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.LoadingBay.CatwalksWest"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "152": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.PowerZone.LoadingBayAirlock"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "153": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.PowerZone.Stair"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "154": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.PowerZone.SideRoom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "155": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.AdminWing.Entrance"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "156": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.AdminWing.ITRoom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "157": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.AdminWing.MainFloor"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "158": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.AdminWing.MeetingRoom1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "159": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.AdminWing.BreakRoom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "160": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.AdminWing.OuterHallWest"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "161": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.AdminWing.OuterHallNorth"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "162": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.AdminWing.OuterHallStorage1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "163": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.AdminWing.OuterHallStorage2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "164": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.AdminWing.OuterHallEast1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "165": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.AdminWing.OuterHallEast2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "166": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.AdminWing.OuterHallSouth"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "167": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.AdminWing.OfficeRoom1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "168": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.AdminWing.MeetingRoom2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "169": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.AdminWing.Lounge"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "170": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.AdminWing.Landing"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "171": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.AdminWing.ExecutiveOffice"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "172": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.AdminWing.SurveillanceHall"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "173": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.AdminWing.SurveillanceRoom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "174": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.AdminBasement.Entrance"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "175": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.AdminBasement.North"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "176": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.AdminBasement.South"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "177": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.AdminBasement.Exit"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "178": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.CostumeShop.StorageHall"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "179": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.CostumeShop.Room1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "180": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.CostumeShop.Room2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "181": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.CostumeShop.MainFloor"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "182": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.CostumeShop.Balcony"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "183": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.CostumeShop.Room3"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "184": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.RnDFloor.Entrance"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "185": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.RnDFloor.StageArea"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "186": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.RnDFloor.MaintenanceRoom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "187": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.RnDFloor.BathroomHall"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "188": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.RnDFloor.WomensBathroom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "189": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.RnDFloor.MensBathroom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "190": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.RnDFloor.Kitchen"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "191": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.RnDFloor.SupplyCloset"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "192": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.RnDFloor.SecurityOffice"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "193": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.RnDFloor.EastHallway"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "194": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.RnDFloor.WestHallway"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "195": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.RnDFloor.EastVents"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "196": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.RnDFloor.WestVents"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "197": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.RnDFloor.InventorHallway"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "198": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.RnDFloor.InventorWorkshop"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "199": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.RnDFloor.InventorTrain"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "200": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.NightLightMaze.LowerStair"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "201": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.NightLightMaze.EntryHall1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "202": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.NightLightMaze.EntryHall2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "203": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.NightLightMaze.Northwest"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "204": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.NightLightMaze.Northeast"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "205": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.NightLightMaze.Southwest"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "206": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.NightLightMaze.Southeast"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "207": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.NightLightMaze.Center"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "208": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.NightLightMaze.Hall"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "209": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.JackieChase"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "210": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.BigTopChase"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "211": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.JackieChase.StartingHall"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "212": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.JackieChase.SecondHall"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "213": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.JackieChase.Catwalks"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "214": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.JackieChase.ThirdHall"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "215": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.JackieChase.GrateHall"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "216": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.JackieChase.CostumeShopAttic"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "217": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.JackieChase.Vents"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "218": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.InventorTunnels"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "219": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.InventorHouse"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "220": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.InventorHouse"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "221": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.InventorHouse"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "222": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.InventorHouse"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "223": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.BigTopChase.Roof"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "224": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.BigtopChase.Stairwell"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "225": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.BigtopChase.Office"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "226": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.BigtopChase.Between"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "227": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.BigtopChase.Construction"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "228": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.DarkRideRepair"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "229": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.DarkRideRepairStorage"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "230": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.FreightElevator"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "231": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.ConveyorRoom2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "232": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.ConveyorBelts"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "233": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.ConveyorOffices"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "234": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.DollHospital.FreightElevatorStorage"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "235": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.AdminBasement.ControlRoom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "236": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.AdminBasement.MazeArea1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "237": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.AdminBasement.MazeArea2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "238": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.CostumeShopBurned.StorageHall"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "239": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.CostumeShopBurned.Room1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "240": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.CostumeShopBurned.Room2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "241": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.CostumeShopBurned.MainFloor"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "242": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.CostumeShopBurned.Balcony"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "243": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.CostumeShopBurned.Room3"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "244": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.InventorTunnels.Station"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "245": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.InventorTunnels.StationBurned"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "246": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.InventorTunnels.Area1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "247": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.InventorTunnels.Area1Burned"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "248": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.InventorTunnels.Area2Burned"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "249": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.InventorTunnels.Column"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "250": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.InventorTunnels.ColumnBurned"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "251": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.Showrooms.BigTopStorage"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "252": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_03.ManagerHallway.LobbyStorage"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.ExteriorParkingLot"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_0": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.ExteriorParkingLot.ParkingLot"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_1": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_01.ExteriorParkingLot.Playground"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "113_0": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_02.Theater.Landing"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_2": {
+        "GPDBTag": {
+          "TagName": "gpdb.LocationSystem.Floor_00.GoodbyeElevator"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      }
+    }
+  }
+]

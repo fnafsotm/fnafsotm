@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_SubTerminalTags",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "Tag": "gpdb.SubTerminal.ResetWelcomeShow",
+        "DevComment": "Tracks when the subterminal option to reset the welcome show is pressed"
+      },
+      "NewRow_0": {
+        "Tag": "gpdb.SubTerminal.StartGoodbyeShow",
+        "DevComment": "Tracks when the subterminal option to start the goodbye show is pressed"
+      },
+      "NewRow_1": {
+        "Tag": "gpdb.SubTerminal.OpenedDarkRideVent",
+        "DevComment": "Tracks when the subterminal option to open the vent in the dark ride tour"
+      },
+      "NewRow_2": {
+        "Tag": "gpdb.SubTerminal.OpenedDarkRideDoor",
+        "DevComment": "Tracks when the subterminal option to open the vent in the dark ride tour after retrieving gear"
+      },
+      "NewRow_3": {
+        "Tag": "gpdb.SubTerminal.AccessedInceratorPowerReactorCore",
+        "DevComment": "Tracks when the subterminal option to access the power reactor core in the incinerator"
+      },
+      "NewRow_4": {
+        "Tag": "gpdb.SubTerminal.EnteredEscapeTunnel",
+        "DevComment": "Tracks when the player enters the escape tunnel to trigger the start goodbye show options for the welcome show terminal"
+      },
+      "NewRow_5": {
+        "Tag": "gpdb.SubTerminal.OpenedParachute",
+        "DevComment": "Tracks when the player enters the escape tunnel to trigger the start goodbye show options for the welcome show terminal"
+      },
+      "NewRow_6": {
+        "Tag": "gpdb.Terminal.InSecurityOffice",
+        "DevComment": "Used to tell when the player is in the storage area security office"
+      },
+      "NewRow_7": {
+        "Tag": "gpdb.SubTerminal.InvSurvDoor",
+        "DevComment": "Tracks when the subterminal option to open the surv room in the inventor attic"
+      },
+      "NewRow_8": {
+        "Tag": "gpdb.SubTerminal.AdminSurvDoor",
+        "DevComment": "Tracks when the subterminal option to open the surv room in the admin wing"
+      },
+      "NewRow_9": {
+        "Tag": "gpdb.SubTerminal.DollHosAccess",
+        "DevComment": "Tracks when the subterminal option to open the Doll hospital and incinerator doors"
+      }
+    }
+  }
+]

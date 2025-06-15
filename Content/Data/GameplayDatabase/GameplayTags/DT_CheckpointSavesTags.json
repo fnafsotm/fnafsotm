@@ -1,0 +1,620 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CheckpointSavesTags",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "Tag": "gpdb.CheckpointSaves.StorageRoom",
+        "DevComment": ""
+      },
+      "NewRow_0": {
+        "Tag": "gpdb.CheckpointSaves.DemoStartPoint",
+        "DevComment": ""
+      },
+      "NewRow_1": {
+        "Tag": "gpdb.CheckpointSaves.JackieShowRoom",
+        "DevComment": ""
+      },
+      "NewRow_2": {
+        "Tag": "gpdb.CheckpointSaves.JackieStart",
+        "DevComment": ""
+      },
+      "NewRow_3": {
+        "Tag": "gpdb.CheckpointSaves.JackieCatwalks",
+        "DevComment": ""
+      },
+      "NewRow_4": {
+        "Tag": "gpdb.CheckpointSaves.WelcomeLobby",
+        "DevComment": "player walks into welcome lobby for the first time"
+      },
+      "NewRow_5": {
+        "Tag": "gpdb.CheckpointSaves.BigTopChaseRoof",
+        "DevComment": ""
+      },
+      "NewRow_6": {
+        "Tag": "gpdb.CheckpointSaves.BigTopChaseStart",
+        "DevComment": ""
+      },
+      "NewRow_7": {
+        "Tag": "gpdb.CheckpointSaves.BigTopChasePlenumFloor",
+        "DevComment": ""
+      },
+      "NewRow_8": {
+        "Tag": "gpdb.CheckpointSaves.BigTopChaseDemoFloor",
+        "DevComment": ""
+      },
+      "NewRow_9": {
+        "Tag": "gpdb.CheckpointSaves.BigTopShowroomEntrance",
+        "DevComment": ""
+      },
+      "NewRow_10": {
+        "Tag": "gpdb.CheckpointSaves.BigTopChaseEnd",
+        "DevComment": ""
+      },
+      "NewRow_11": {
+        "Tag": "gpdb.CheckpointSaves.PostJackieChaseSecurityOffice",
+        "DevComment": ""
+      },
+      "NewRow_12": {
+        "Tag": "gpdb.CheckpointSaves.WorkshopEntrance",
+        "DevComment": ""
+      },
+      "NewRow_13": {
+        "Tag": "gpdb.CheckpointSaves.DHIncineratorRoom",
+        "DevComment": ""
+      },
+      "NewRow_14": {
+        "Tag": "gpdb.CheckpointSaves.DHBackrooms",
+        "DevComment": ""
+      },
+      "NewRow_15": {
+        "Tag": "gpdb.CheckpointSaves.DHInventoryCollecter1",
+        "DevComment": ""
+      },
+      "NewRow_16": {
+        "Tag": "gpdb.CheckpointSaves.DHInventoryCollecter2",
+        "DevComment": ""
+      },
+      "NewRow_17": {
+        "Tag": "gpdb.CheckpointSaves.DHInventoryCollecter3",
+        "DevComment": ""
+      },
+      "NewRow_18": {
+        "Tag": "gpdb.CheckpointSaves.DHInventoryConveyor",
+        "DevComment": ""
+      },
+      "NewRow_19": {
+        "Tag": "gpdb.CheckpointSaves.DHBackrooms2",
+        "DevComment": ""
+      },
+      "NewRow_20": {
+        "Tag": "gpdb.CheckpointSaves.TheaterBackStage",
+        "DevComment": ""
+      },
+      "NewRow_21": {
+        "Tag": "gpdb.CheckpointSaves.Warehouse",
+        "DevComment": ""
+      },
+      "NewRow_22": {
+        "Tag": "gpdb.CheckpointSaves.RndDarkRide",
+        "DevComment": ""
+      },
+      "NewRow_23": {
+        "Tag": "gpdb.CheckpointSaves.InventorHouseDarkRide",
+        "DevComment": ""
+      },
+      "NewRow_24": {
+        "Tag": "gpdb.CheckpointSaves.InventorHouse",
+        "DevComment": ""
+      },
+      "NewRow_25": {
+        "Tag": "gpdb.CheckpointSaves.InventorHouseAtticEntry",
+        "DevComment": ""
+      },
+      "NewRow_26": {
+        "Tag": "gpdb.CheckpointSaves.DavidBedroom",
+        "DevComment": ""
+      },
+      "NewRow_27": {
+        "Tag": "gpdb.CheckpointSaves.EntrancePowerZone",
+        "DevComment": ""
+      },
+      "NewRow_28": {
+        "Tag": "gpdb.CheckpointSaves.AdminFirstFloor",
+        "DevComment": ""
+      },
+      "NewRow_29": {
+        "Tag": "gpdb.CheckpointSaves.AdminSecondFloor",
+        "DevComment": ""
+      },
+      "NewRow_30": {
+        "Tag": "gpdb.CheckpointSaves.EntranceITRoom",
+        "DevComment": ""
+      },
+      "NewRow_31": {
+        "Tag": "gpdb.CheckpointSaves.RndEntrance",
+        "DevComment": ""
+      },
+      "NewRow_32": {
+        "Tag": "gpdb.CheckpointSaves.DollyChase_Start",
+        "DevComment": ""
+      },
+      "NewRow_33": {
+        "Tag": "gpdb.CheckpointSaves.DollyChase_Vent",
+        "DevComment": ""
+      },
+      "NewRow_34": {
+        "Tag": "gpdb.CheckpointSaves.DollyChase_Stealth",
+        "DevComment": ""
+      },
+      "NewRow_35": {
+        "Tag": "gpdb.CheckpointSaves.DollyChase_Elevator",
+        "DevComment": ""
+      },
+      "NewRow_36": {
+        "Tag": "gpdb.CheckpointSaves.TheaterBackstageStorage",
+        "DevComment": ""
+      },
+      "NewRow_37": {
+        "Tag": "gpdb.CheckpointSaves.SecurityOfficeAct1",
+        "DevComment": ""
+      },
+      "NewRow_38": {
+        "Tag": "gpdb.CheckpointSaves.DollHospitalDarkRide",
+        "DevComment": ""
+      },
+      "NewRow_39": {
+        "Tag": "gpdb.CheckpointSaves.ShowRoomLobby",
+        "DevComment": ""
+      },
+      "NewRow_40": {
+        "Tag": "gpdb.CheckpointSaves.ManagerStorageLobbyVent",
+        "DevComment": ""
+      },
+      "NewRow_41": {
+        "Tag": "gpdb.CheckpointSaves.BigTopShowRoomStorage",
+        "DevComment": ""
+      },
+      "NewRow_42": {
+        "Tag": "gpdb.CheckpointSaves.StoryTimeLobbyEntrance",
+        "DevComment": "Saves right after you exit the showroom storage"
+      },
+      "NewRow_43": {
+        "Tag": "gpdb.CheckpointSaves.TheaterStageShootingMiniGame",
+        "DevComment": ""
+      },
+      "NewRow_44": {
+        "Tag": "gpdb.CheckpointSaves.MimicChaseRide",
+        "DevComment": ""
+      },
+      "NewRow_45": {
+        "Tag": "gpdb.CheckpointSaves.JackieEnd",
+        "DevComment": ""
+      },
+      "NewRow_46": {
+        "Tag": "gpdb.CheckpointSaves.BigTopShowRoomStorageEntrance",
+        "DevComment": ""
+      },
+      "NewRow_47": {
+        "Tag": "gpdb.CheckpointSaves.LoadingBayEntrance",
+        "DevComment": ""
+      },
+      "NewRow_48": {
+        "Tag": "gpdb.CheckpointSaves.LoadingBayControl1",
+        "DevComment": "Going to control room 2"
+      },
+      "NewRow_49": {
+        "Tag": "gpdb.CheckpointSaves.SecurityVent",
+        "DevComment": "Transition from Act 2 to 3"
+      },
+      "NewRow_50": {
+        "Tag": "gpdb.CheckpointSaves.InventorHousePuzzleSolved",
+        "DevComment": "An autosave triggers once the player successfully passes through the puzzle door leading to the inventor's house attic."
+      },
+      "NewRow_51": {
+        "Tag": "gpdb.CheckpointSaves.BeforeWelcomeShow",
+        "DevComment": "Checkpoint before the start of the welcome show"
+      },
+      "NewRow_52": {
+        "Tag": "gpdb.CheckpointSaves.CompleteWelcomeShow",
+        "DevComment": "Checkpoint after welcome show is complete"
+      },
+      "NewRow_53": {
+        "Tag": "gpdb.CheckpointSaves.ExitVan",
+        "DevComment": "Player Exit Van"
+      },
+      "NewRow_54": {
+        "Tag": "gpdb.CheckpointSaves.AdminLowerFloor_CostumeShop_Elevator_Exit",
+        "DevComment": "Leave white tiger elevator to go to storage hall"
+      },
+      "NewRow_55": {
+        "Tag": "gpdb.CheckpointSaves.LoadingBayControl2",
+        "DevComment": "Going to the leave the loading bay"
+      },
+      "NewRow_56": {
+        "Tag": "gpdb.CheckpointSaves.LoadingBayControl3",
+        "DevComment": "Exiting the loading bay"
+      },
+      "NewRow_80": {
+        "Tag": "gpdb.CheckpointSaves.LoadingBayControlLeave",
+        "DevComment": "Leaving Loading Bay to Upper Warehouse"
+      },
+      "NewRow_57": {
+        "Tag": "gpdb.CheckpointSaves.EntranceUpperWarehouse",
+        "DevComment": "Player enter Upper Warehouse from Loading Bay"
+      },
+      "NewRow_58": {
+        "Tag": "gpdb.CheckpointSaves.InventorSurveillanceRoomOpen",
+        "DevComment": ""
+      },
+      "NewRow_59": {
+        "Tag": "gpdb.CheckpointSaves.MimicChaseElevatorBottom",
+        "DevComment": ""
+      },
+      "NewRow_60": {
+        "Tag": "gpdb.CheckpointSaves.PlaygroundExit",
+        "DevComment": "Right outside the entrance to the welcome show"
+      },
+      "NewRow_61": {
+        "Tag": "gpdb.CheckpointSaves.AdminBasement",
+        "DevComment": "White tiger encounter start"
+      },
+      "NewRow_62": {
+        "Tag": "gpdb.CheckpointSaves.ManagerLobby",
+        "DevComment": "When the player gets to the manager's lobby in Act 1"
+      },
+      "NewRow_63": {
+        "Tag": "gpdb.CheckpointSaves.JCVentEnd",
+        "DevComment": "Player is at the bottom of the soft jumpscare vent break at the end of Jackie chase"
+      },
+      "NewRow_64": {
+        "Tag": "gpdb.CheckpointSaves.BigTopChase.Exit",
+        "DevComment": "End of Big Top Chase"
+      },
+      "NewRow_65": {
+        "Tag": "gpdb.CheckpointSaves.WelcomeLobbyElevator",
+        "DevComment": "Elevator repair room in welcome lobby."
+      },
+      "NewRow_66": {
+        "Tag": "gpdb.CheckpointSaves.DollHospital.ChainDollie",
+        "DevComment": "Entry point for the Chained Dollie in Doll Hospital front area"
+      },
+      "NewRow_67": {
+        "Tag": "gpdb.CheckpointSaves.DollHospital.OpenVault",
+        "DevComment": "Triggers when the vault gets opened up in doll hospital front area"
+      },
+      "NewRow_68": {
+        "Tag": "gpdb.CheckpointSaves.DollHospital.AIDollie",
+        "DevComment": "Triggers when the vault gets opened up in doll hospital front area"
+      },
+      "NewRow_69": {
+        "Tag": "gpdb.CheckpointSaves.MimicChaseRideExit",
+        "DevComment": "Triggers at the End of the Ride in the Mimic Chase"
+      },
+      "NewRow_70": {
+        "Tag": "gpdb.CheckpointSaves.BigTopStorytimeFirstVisit",
+        "DevComment": "Used for the first time the player visits the Storytime Showrom without Creator permissions"
+      },
+      "NewRow_71": {
+        "Tag": "gpdb.CheckpointSaves.BigTopStorytimeSecondVisit",
+        "DevComment": "Used for the second time the player visits the Storytime Showrom with Creator permissions"
+      },
+      "NewRow_72": {
+        "Tag": "gpdb.CheckpointSaves.StorageCrankReturned",
+        "DevComment": "Player places the crank in the security storage gate in Act 1"
+      },
+      "NewRow_73": {
+        "Tag": "gpdb.CheckpointSaves.PuppetShowIntro",
+        "DevComment": "Puppet Show Intro Complete"
+      },
+      "NewRow_74": {
+        "Tag": "gpdb.CheckpointSaves.PuppetShowWave1",
+        "DevComment": "Puppet Show Wave 1 Complete"
+      },
+      "NewRow_75": {
+        "Tag": "gpdb.CheckpointSaves.PuppetShowWave2",
+        "DevComment": "Puppet Show Wave 2 Complete"
+      },
+      "NewRow_76": {
+        "Tag": "gpdb.CheckpointSaves.PuppetShowWave3",
+        "DevComment": "Puppet Show Wave 3 Complete"
+      },
+      "NewRow_77": {
+        "Tag": "gpdb.CheckpointSaves.GoodbyeShowStart",
+        "DevComment": "On the catwalks above the welcome show before selecting  Goodbye show"
+      },
+      "NewRow_78": {
+        "Tag": "gpdb.CheckpointSaves.GoodbyeShowSecond",
+        "DevComment": "Before the player presses the goodbyeshow pedistal button"
+      },
+      "NewRow_79": {
+        "Tag": "gpdb.CheckpointSaves.GoodbyeShowEnd",
+        "DevComment": "Player escapes the goodbye show Bigtop Chase"
+      },
+      "NewRow_81": {
+        "Tag": "gpdb.CheckpointSaves.SouthHall",
+        "DevComment": "When player enters the SouthHallway (After surviving first AI encounter)."
+      },
+      "NewRow_82": {
+        "Tag": "gpdb.CheckpointSaves.DollyChase_Catwalk",
+        "DevComment": "catwalk section of the dollie chase"
+      },
+      "NewRow_83": {
+        "Tag": "gpdb.CheckpointSaves.DollyChase_End",
+        "DevComment": "The end of dollie chase"
+      },
+      "NewRow_84": {
+        "Tag": "gpdb.CheckpointSaves.RndDarkRideEntrance",
+        "DevComment": "Checkpoint between the office in the RND floor and the entrance to the Dark Ride "
+      },
+      "NewRow_85": {
+        "Tag": "gpdb.CheckpointSaves.SecurityOfficeAct3Start",
+        "DevComment": "Save point when the player completes white tiger and enters office"
+      },
+      "NewRow_86": {
+        "Tag": "gpdb.CheckpointSaves.DHAfterIncineratingDollie",
+        "DevComment": "Checkpoint when Dollie is sent to the incinerator"
+      },
+      "NewRow_87": {
+        "Tag": "gpdb.CheckpointSaves.WhiteTigerStart",
+        "DevComment": "When the player exits the elevator leading to the White Tiger area."
+      },
+      "NewRow_88": {
+        "Tag": "gpdb.CheckpointSaves.ShowroomAct2_2",
+        "DevComment": "Save point for off Golden Path, Showroom, Act 2.2"
+      },
+      "NewRow_105": {
+        "Tag": "gpdb.CheckpointSaves.ShowReturn2_2",
+        "DevComment": "Mark this as active when the player doubles back in the Showrooms"
+      },
+      "NewRow_106": {
+        "Tag": "gpdb.CheckpointSaves.ShowReturnTag2_2",
+        "DevComment": "Mark this as active when the player doubles back in the Showrooms"
+      },
+      "NewRow_89": {
+        "Tag": "gpdb.CheckpointSaves.JackieShow2_1",
+        "DevComment": "Off Golden Path Saves"
+      },
+      "NewRow_90": {
+        "Tag": "gpdb.CheckpointSaves.JackieShow2_2",
+        "DevComment": "Off Golden Path Saves"
+      },
+      "NewRow_91": {
+        "Tag": "gpdb.CheckpointSaves.ManagerHall2_2",
+        "DevComment": "Off Golden Path Saves"
+      },
+      "NewRow_92": {
+        "Tag": "gpdb.CheckpointSaves.BigTop2_2",
+        "DevComment": "Off Golden Path Saves"
+      },
+      "NewRow_93": {
+        "Tag": "gpdb.CheckpointSaves.Showroom2_2",
+        "DevComment": "Off Golden Path Saves"
+      },
+      "NewRow_94": {
+        "Tag": "gpdb.CheckpointSaves.Storytime2_2",
+        "DevComment": "Off Golden Path Saves"
+      },
+      "NewRow_95": {
+        "Tag": "gpdb.CheckpointSaves.JackieShow2_3a",
+        "DevComment": "Off Golden Path Saves"
+      },
+      "NewRow_96": {
+        "Tag": "gpdb.CheckpointSaves.BigTop2_3a",
+        "DevComment": "Off Golden Path Saves"
+      },
+      "NewRow_97": {
+        "Tag": "gpdb.CheckpointSaves.Showroom2_3a",
+        "DevComment": "Off Golden Path Saves"
+      },
+      "NewRow_123": {
+        "Tag": "gpdb.CheckpointSaves.ShowReturn2_3a",
+        "DevComment": ""
+      },
+      "NewRow_125": {
+        "Tag": "gpdb.CheckpointSaves.ShowReturnTag2_3a",
+        "DevComment": ""
+      },
+      "NewRow_98": {
+        "Tag": "gpdb.CheckpointSaves.Storytime2_3a",
+        "DevComment": "Off Golden Path Saves"
+      },
+      "NewRow_99": {
+        "Tag": "gpdb.CheckpointSaves.Workshop2_3a",
+        "DevComment": "Off Golden Path Saves"
+      },
+      "NewRow_100": {
+        "Tag": "gpdb.CheckpointSaves.TheaterConduit2_3a",
+        "DevComment": "Off Golden Path Saves"
+      },
+      "NewRow_101": {
+        "Tag": "gpdb.CheckpointSaves.TheaterUpper2_3a",
+        "DevComment": "Off Golden Path Saves"
+      },
+      "NewRow_102": {
+        "Tag": "gpdb.CheckpointSaves.TheaterBackstage2_3a",
+        "DevComment": "Off Golden Path Saves"
+      },
+      "NewRow_103": {
+        "Tag": "gpdb.CheckpointSaves.TheaterUpper2_3a_2",
+        "DevComment": "Off Golden Path Saves"
+      },
+      "NewRow_104": {
+        "Tag": "gpdb.CheckpointSaves.TheaterUpperProgression2_3a",
+        "DevComment": "Mark this as active when the player doubles back through the theater"
+      },
+      "NewRow_108": {
+        "Tag": "gpdb.CheckpointSaves.JackieShow2_3b",
+        "DevComment": ""
+      },
+      "NewRow_109": {
+        "Tag": "gpdb.CheckpointSaves.BigTop2_3b",
+        "DevComment": ""
+      },
+      "NewRow_110": {
+        "Tag": "gpdb.CheckpointSaves.Showroom2_3b",
+        "DevComment": ""
+      },
+      "NewRow_124": {
+        "Tag": "gpdb.CheckpointSaves.ShowReturn2_3b",
+        "DevComment": ""
+      },
+      "NewRow_126": {
+        "Tag": "gpdb.CheckpointSaves.ShowReturnTag2_3b",
+        "DevComment": ""
+      },
+      "NewRow_111": {
+        "Tag": "gpdb.CheckpointSaves.Storytime2_3b",
+        "DevComment": ""
+      },
+      "NewRow_112": {
+        "Tag": "gpdb.CheckpointSaves.Workshop2_3b",
+        "DevComment": ""
+      },
+      "NewRow_113": {
+        "Tag": "gpdb.CheckpointSaves.TheaterConduit2_3b",
+        "DevComment": ""
+      },
+      "NewRow_114": {
+        "Tag": "gpdb.CheckpointSaves.TheaterUpper2_3b",
+        "DevComment": ""
+      },
+      "NewRow_127": {
+        "Tag": "gpdb.CheckpointSaves.TheaterUpperReturn2_3b",
+        "DevComment": ""
+      },
+      "NewRow_128": {
+        "Tag": "gpdb.CheckpointSaves.TheaterUpperTag2_3b",
+        "DevComment": ""
+      },
+      "NewRow_115": {
+        "Tag": "gpdb.CheckpointSaves.Warehouse2_3b",
+        "DevComment": ""
+      },
+      "NewRow_116": {
+        "Tag": "gpdb.CheckpointSaves.Loading2_3b",
+        "DevComment": ""
+      },
+      "NewRow_117": {
+        "Tag": "gpdb.CheckpointSaves.UpperWarehouse2_3b",
+        "DevComment": ""
+      },
+      "NewRow_118": {
+        "Tag": "gpdb.CheckpointSaves.AdminFirstFloor2_3b",
+        "DevComment": ""
+      },
+      "NewRow_119": {
+        "Tag": "gpdb.CheckpointSaves.Admin2ndFloor2_3b",
+        "DevComment": ""
+      },
+      "NewRow_120": {
+        "Tag": "gpdb.CheckpointSaves.WhiteTiger2_3b",
+        "DevComment": ""
+      },
+      "NewRow_121": {
+        "Tag": "gpdb.CheckpointSaves.CostumeShop2_3b",
+        "DevComment": ""
+      },
+      "NewRow_122": {
+        "Tag": "gpdb.CheckpointSaves.Nightlight2_3b",
+        "DevComment": ""
+      },
+      "NewRow_129": {
+        "Tag": "gpdb.CheckpointSaves.WarehouseReturn2_3b",
+        "DevComment": ""
+      },
+      "NewRow_130": {
+        "Tag": "gpdb.CheckpointSaves.WarehouseReturnTag2_3b",
+        "DevComment": ""
+      },
+      "NewRow_131": {
+        "Tag": "gpdb.CheckpointSaves.AdminReturn2_3b",
+        "DevComment": ""
+      },
+      "NewRow_132": {
+        "Tag": "gpdb.CheckpointSaves.AdminReturnTag2_3b",
+        "DevComment": ""
+      },
+      "NewRow_133": {
+        "Tag": "gpdb.CheckpointSaves.CostumeShop2_3b",
+        "DevComment": ""
+      },
+      "NewRow_137": {
+        "Tag": "gpdb.CheckpointSaves.CostumeShopReturn2_3b",
+        "DevComment": ""
+      },
+      "NewRow_134": {
+        "Tag": "gpdb.CheckpointSaves.CostumeShopTag2_3b",
+        "DevComment": ""
+      },
+      "NewRow_135": {
+        "Tag": "gpdb.CheckpointSaves.NightlightReturn2_3b",
+        "DevComment": ""
+      },
+      "NewRow_136": {
+        "Tag": "gpdb.CheckpointSaves.NightlightReturnTag2_3b",
+        "DevComment": ""
+      },
+      "NewRow_107": {
+        "Tag": "gpdb.CheckpointSaves.BigTopChaseAirlock",
+        "DevComment": "Save point after the stairwell in the Big Top Chase"
+      },
+      "NewRow_138": {
+        "Tag": "gpdb.CheckpointSaves.DollyChase_ElevatorEscaped",
+        "DevComment": "Checkpoint when you leave the dolly chase elevator "
+      },
+      "NewRow_139": {
+        "Tag": "gpdb.CheckpointSaves.RnDStageArea",
+        "DevComment": "Checkpoint before the sub terminal in the RnD stage area."
+      },
+      "NewRow_140": {
+        "Tag": "gpdb.CheckpointSaves.ExecOffice",
+        "DevComment": ""
+      },
+      "NewRow_141": {
+        "Tag": "gpdb.CheckpointSaves.PuppetShowOutro",
+        "DevComment": "Puppet Show outro complete"
+      },
+      "NewRow_142": {
+        "Tag": "gpdb.CheckpointSaves.DeepStorage",
+        "DevComment": ""
+      },
+      "NewRow_143": {
+        "Tag": "gpdb.CheckpointSaves.DeepStorage2_3b",
+        "DevComment": ""
+      },
+      "NewRow_144": {
+        "Tag": "gpdb.CheckpointSaves.StorytimeExitTag",
+        "DevComment": ""
+      },
+      "NewRow_145": {
+        "Tag": "gpdb.CheckpointSaves.StorytimeExit",
+        "DevComment": ""
+      },
+      "NewRow_146": {
+        "Tag": "gpdb.CheckpointSaves.StorytimeExitCreator",
+        "DevComment": ""
+      },
+      "NewRow_147": {
+        "Tag": "gpdb.CheckpointSaves.StorytimeExitCreatorTag",
+        "DevComment": ""
+      },
+      "NewRow_148": {
+        "Tag": "gpdb.CheckpointSaves.PostDollHospital",
+        "DevComment": "This is after the player has entered the security room after completing the Doll Hospital."
+      },
+      "NewRow_149": {
+        "Tag": "gpdb.CheckpointSaves.DavidBedroomWithDoll",
+        "DevComment": "Saved with the white tiger doll in David's Bedroom"
+      }
+    }
+  }
+]

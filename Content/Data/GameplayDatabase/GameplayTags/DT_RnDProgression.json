@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_RnDProgression",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "Tag": "gpdb.RnD.Door.1",
+        "DevComment": ""
+      },
+      "NewRow_0": {
+        "Tag": "gpdb.RnD.Door.2",
+        "DevComment": ""
+      },
+      "NewRow_1": {
+        "Tag": "gpdb.RnD.Door.3",
+        "DevComment": ""
+      },
+      "NewRow_2": {
+        "Tag": "gpdb.RnD.Door.4",
+        "DevComment": ""
+      }
+    }
+  }
+]

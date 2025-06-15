@@ -1,0 +1,256 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_SecurityMonitorTagsContext",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GPDBTagContext'",
+        "ObjectPath": "/Script/SWGCommonGame"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_0": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_1": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.3"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_2": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.4"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_3": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.5"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_4": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.6"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_5": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.7"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_6": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.8"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_7": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.9"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_8": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.10"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_9": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.11"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_10": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.12"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_11": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.13"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_12": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.14"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_13": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.15"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_14": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.16"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_15": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.17"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_16": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.18"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_17": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.19"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_18": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.20"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_19": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.21"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_20": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.22"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_21": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.22"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_22": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.23"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_23": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.24"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_24": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.25"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_25": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.2b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_26": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.2c"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_27": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.2d"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_28": {
+        "GPDBTag": {
+          "TagName": "gpdb.SecurityMonitor.30"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      }
+    }
+  }
+]

@@ -1,0 +1,1024 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ProgressionTagContexts_Act02",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GPDBTagContext'",
+        "ObjectPath": "/Script/SWGCommonGame"
+      }
+    },
+    "Rows": {
+      "NewRow_1": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.BigTopLightsOff"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": true
+      },
+      "NewRow_0": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.MiniGame.BallToss"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": true
+      },
+      "NewRow_2": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.MiniGame.BonkABunny"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": true
+      },
+      "NewRow_3": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.MiniGame.SpaceShootingGallery"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": true
+      },
+      "NewRow_4": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.MiniGame.ShootingGallery"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": true
+      },
+      "NewRow_5": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.BigTopCompleted"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_6": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.MiniGame.NumberOfCompletedSpins"
+        },
+        "MaxTimesCanBeReportedComplete": 2147483647,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_7": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.BigTopShowRoom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_8": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.BigTopChaseAccess"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_9": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.WelcomeShowCompleted"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_10": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.TheaterCatwalkBridge1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_11": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.TheaterCatwalkBridge2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_12": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Workshop.Springlock.Head"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_13": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Workshop.Springlock.LeftArm"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_14": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Workshop.Springlock.LeftLeg"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_15": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Workshop.Springlock.RightArm"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_16": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Workshop.Springlock.RightLeg"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_17": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Workshop.Springlock.Completed"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_18": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Workshop.Springlock.StartAssembly"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_19": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Workshop.Springlock.EnergizeSpringlock"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_21": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Warehouse.Power"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_20": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Warehouse.Cart"
+        },
+        "MaxTimesCanBeReportedComplete": 3,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_22": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.BigTopShowRoomConduitPuzzle"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_23": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.StorageArea.Husk.BlueElephant"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_24": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.StorageArea.Husk.Elephant"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_25": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.StorageArea.Husk.Henry"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_26": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.DollyDefeated"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_27": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.DoorGearCollection"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_28": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.WhiteTiger.Starbright.First"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_29": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.WhiteTiger.Starbright.Second"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_30": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.WhiteTiger.Starbright.Third"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_31": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.WalkAwayChoiceReady"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_32": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.CostumeShop.CarouselFixed"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_33": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.NightLightMaze.ConduitComplete"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_35": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.AdminWing.BlueprintsAccessed"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_36": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.CubesCollectedCount"
+        },
+        "MaxTimesCanBeReportedComplete": 6,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_37": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Workshop.Door.LeftLeg"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_38": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Workshop.Door.RightArm01"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_39": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Workshop.Door.RightArm02"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_40": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Theater.SecretArea"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_41": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.BigtopChase.Completed"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_42": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.WhiteTiger.Completed"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_43": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.JackieShowroomLever"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_44": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.BTSecret.PowerConduit"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_45": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.BTSecret.LiftActivation01"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_46": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.BTSecret.LiftActivation02"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_47": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.DollieWalkIntro"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_48": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.DollieForcedStartSpawn"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": true
+      },
+      "NewRow_49": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.DollieConveyorBelt"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_50": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.IncineratorFilled"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_51": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.ChuteDumped"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_52": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.ChuteUnclogged"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_53": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.RepairAirlock"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_54": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.MiniGame.PrizeWheelWin"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_55": {
+        "GPDBTag": {
+          "TagName": "gpdb.SpringlockSuit.HasEntered"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_56": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Workshop.SlidelockDoorUnlocked"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_57": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.TheaterCatwalkBridge3"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_34": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.WL.PuzzRepaired"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_59": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.WL.TapeUsed"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_60": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.TheaterStorageIntro"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_61": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.StorytimeShowroom.StaffDoorOpen"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_62": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.ShowroomEntry.StorytimeDoorBroken"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_63": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Warehouse.ChicaActive"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_64": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.WL.OpenedHatch"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_65": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.WL.TapeCollected"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_66": {
+        "GPDBTag": {
+          "TagName": "gpdb.SpringlockSuit.HasEntered.Pirate"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_67": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.BigTopInProgress"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": true
+      },
+      "NewRow_68": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Theater.storage.lightsoff"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_69": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.BigTopMostRecentMinigame"
+        },
+        "MaxTimesCanBeReportedComplete": 3,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": true
+      },
+      "NewRow_70": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Lift_PowerZone"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": true
+      },
+      "NewRow_71": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.PlayedToyStoreDispatchPA"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_72": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.ProjectorRoom.ReelFound.Reel01"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_73": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.ProjectorRoom.ReelFound.Reel02"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_74": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.ProjectorRoom.ReelFound.Reel03"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_75": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.ProjectorRoom.ReelFound.Reel04"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_76": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.JackieHallOpened"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_77": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.FirstCubeDispensed"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_78": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Lift_DollHospital"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": true
+      },
+      "NewRow_79": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Warehouse.UsedUpperAirlock"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_80": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.Elevator.FirstPuzzle"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_81": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.Elevator.DollMoment"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_82": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.Elevator.Hatch01"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_83": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.Elevator.Hatch02"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_84": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Lift_Catwalks1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": true
+      },
+      "NewRow_85": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Lift_Catwalks2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": true
+      },
+      "NewRow_86": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.MainHallElevator.Fixed"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_87": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.MainHallElevator.RiddenOnce"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_58": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.MainHallElevator.Lever1Active"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_88": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.MainHallElevator.Lever2Active"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_89": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.ManagerStorage.LeverActive"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_90": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.DarkRideDoorOpened"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_91": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.MainHall.KitchenGateOpened"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_92": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Warehouse.Gate1Open"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_93": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Warehouse.Gate2Open"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_94": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Warehouse.ExitGateOpen"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_95": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Warehouse.PuzzlePieceLiftLowered"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_96": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Warehouse.BreakLeverPulled"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_97": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Warehouse.DeepStorageGateOpen"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_98": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Warehouse.RocktopusMoved"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_99": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Theater.StageAreaConduitPuzzle"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_100": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Fade.BigtopStairwell"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_101": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Fade.SecurityOffice"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_102": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.Elevator.Repaired"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_103": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.Elevator.SlidPowerOff"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_104": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.WL.SlidPowerOff"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_105": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.Elevator.MaintenanceBoxOpened"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_106": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.BigTopTicketTaken"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_107": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.DollieCubeA"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_108": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.DollieCubeB"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_109": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.DollieCubeC"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_110": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.DollieCubeD"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_111": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.DollieCubeE"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_112": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.DollieCubeF"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_113": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.BigTopChase.DialogPlayed"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_114": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Theater.BackStage.Target1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_115": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.ClosedDarkRideDoor"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_116": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.WL.GateOpened"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_117": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.UpWarehouse.WTMomentATriggered"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_118": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.DollHospital.DarkRideVent"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_119": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.BigTopStorage.Generator"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_120": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.WhiteTiger.Starbright.ThirdRetrieved"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_121": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.TheaterBackstage.EdwinDialogPlayed"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_122": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.TheaterBackstage.AnnouncerDialogPlayed"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_123": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.TheaterBackstage.WhiteTigerPlayed"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_124": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act02.Theater.BackStage.HitBridgeTarget"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      }
+    }
+  }
+]

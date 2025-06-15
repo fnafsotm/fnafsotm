@@ -1,0 +1,200 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ProgressionTagContexts_Act01",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GPDBTagContext'",
+        "ObjectPath": "/Script/SWGCommonGame"
+      }
+    },
+    "Rows": {
+      "NewRow_1": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act01"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_6": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act01.WelcomeShow"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_10": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act01.PlaygroundOpened"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act01.PowerRoom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_0": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act01.TutorialElephant"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_2": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act01.EnterWestGate"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_3": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act01.JackieShowroomTrigger1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_4": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act01.JackieShowroomTrigger2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_5": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act01.SecurityGenerator"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_7": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act01.JackieChaseComplete"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_8": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act01.TakeDataDiver"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_9": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act01.ExitVan"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_11": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act01.EnterSecurityOffice"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_12": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act01.SecurityOfficeInventoryStationActive"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_13": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act01.Lift_WelcomeShow"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": true
+      },
+      "NewRow_14": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act01.OpenCrankGate"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_15": {
+        "GPDBTag": {
+          "TagName": "gpdb.Tutorial.RetrievedDataDiver"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_16": {
+        "GPDBTag": {
+          "TagName": "gpdb.Tutorial.OpenedVan"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_17": {
+        "GPDBTag": {
+          "TagName": "gpdb.Tutorial.PlayerCrouched"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_18": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act01.TookJackieCrank"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_19": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act01.UsedJackieCrank"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_20": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act01.ManagerHallGateOpen"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_21": {
+        "GPDBTag": {
+          "TagName": "gpdb.Tutorial.PlayerRan"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      }
+    }
+  }
+]

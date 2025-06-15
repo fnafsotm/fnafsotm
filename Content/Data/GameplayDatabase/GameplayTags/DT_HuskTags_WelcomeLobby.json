@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_HuskTags_WelcomeLobby",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "WelcomeLobbyRow1": {
+        "Tag": "gpdb.Husks.WelcomeLobby.Husk1",
+        "DevComment": ""
+      },
+      "WelcomeLobbyRow2": {
+        "Tag": "gpdb.Husks.WelcomeLobby.Husk2",
+        "DevComment": ""
+      },
+      "WelcomeLobbyRow3": {
+        "Tag": "gpdb.Husks.WelcomeLobby.Husk3",
+        "DevComment": ""
+      },
+      "WelcomeLobbyRow4": {
+        "Tag": "gpdb.Husks.WelcomeLobby.Husk4",
+        "DevComment": ""
+      },
+      "WelcomeLobbyRow5": {
+        "Tag": "gpdb.Husks.WelcomeLobby.Husk5",
+        "DevComment": ""
+      },
+      "WelcomeLobbyRow6": {
+        "Tag": "gpdb.Husks.WelcomeLobby.Husk6",
+        "DevComment": ""
+      },
+      "WelcomeLobbyRow7": {
+        "Tag": "gpdb.Husks.WelcomeLobby.Husk7",
+        "DevComment": ""
+      },
+      "WelcomeLobbyRow8": {
+        "Tag": "gpdb.Husks.WelcomeLobby.Husk8",
+        "DevComment": ""
+      },
+      "WelcomeLobbyRow9": {
+        "Tag": "gpdb.Husks.WelcomeLobby.Husk9",
+        "DevComment": ""
+      },
+      "WelcomeLobbyRow10": {
+        "Tag": "gpdb.Husks.WelcomeLobby.Husk10",
+        "DevComment": ""
+      },
+      "WelcomeLobbyRow11": {
+        "Tag": "gpdb.Husks.WelcomeLobby.Husk11",
+        "DevComment": ""
+      },
+      "WelcomeLobbyRow12": {
+        "Tag": "gpdb.Husks.WelcomeLobby.Husk12",
+        "DevComment": ""
+      },
+      "WelcomeLobbyRow13": {
+        "Tag": "gpdb.Husks.WelcomeLobby.Husk13",
+        "DevComment": ""
+      },
+      "WelcomeLobbyRow14": {
+        "Tag": "gpdb.Husks.WelcomeLobby.Husk14",
+        "DevComment": ""
+      },
+      "WelcomeLobbyRow15": {
+        "Tag": "gpdb.Husks.WelcomeLobby.Husk15",
+        "DevComment": ""
+      },
+      "WelcomeLobbyRow16": {
+        "Tag": "gpdb.Husks.WelcomeLobby.Husk16",
+        "DevComment": ""
+      },
+      "WelcomeLobbyRow17": {
+        "Tag": "gpdb.Husks.WelcomeLobby.Husk17",
+        "DevComment": ""
+      },
+      "WelcomeLobbyRow18": {
+        "Tag": "gpdb.Husks.WelcomeLobby.Husk18",
+        "DevComment": ""
+      },
+      "WelcomeLobbyRow19": {
+        "Tag": "gpdb.Husks.WelcomeLobby.Husk19",
+        "DevComment": ""
+      },
+      "WelcomeLobbyRow20": {
+        "Tag": "gpdb.Husks.WelcomeLobby.Husk20",
+        "DevComment": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,136 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CarouselRepairTagContexts",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GPDBTagContext'",
+        "ObjectPath": "/Script/SWGCommonGame"
+      }
+    },
+    "Rows": {
+      "NewRow_31": {
+        "GPDBTag": {
+          "TagName": "gpdb.CarouselRepair.AudioFileCollected"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_32": {
+        "GPDBTag": {
+          "TagName": "gpdb.CarouselRepair.AudioFileUsed"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow": {
+        "GPDBTag": {
+          "TagName": "gpdb.CarouselRepair.DisengageBrake"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_0": {
+        "GPDBTag": {
+          "TagName": "gpdb.CarouselRepair.EngageBrake"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_2": {
+        "GPDBTag": {
+          "TagName": "gpdb.CarouselRepair.PressNumberButtons"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_3": {
+        "GPDBTag": {
+          "TagName": "gpdb.CarouselRepair.PuzzleFailed"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_4": {
+        "GPDBTag": {
+          "TagName": "gpdb.CarouselRepair.RemoveGear"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_5": {
+        "GPDBTag": {
+          "TagName": "gpdb.CarouselRepair.ReplaceGear"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_7": {
+        "GPDBTag": {
+          "TagName": "gpdb.CarouselRepair.SlidersRealigned"
+        },
+        "MaxTimesCanBeReportedComplete": 2,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_1": {
+        "GPDBTag": {
+          "TagName": "gpdb.CarouselRepair.FullyRepaired"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_6": {
+        "GPDBTag": {
+          "TagName": "gpdb.CarouselRepair.RunCarousel"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_8": {
+        "GPDBTag": {
+          "TagName": "gpdb.CarouselRepair.Depower"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_9": {
+        "GPDBTag": {
+          "TagName": "gpdb.CarouselRepair.Power"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_10": {
+        "GPDBTag": {
+          "TagName": "gpdb.CarouselRepair.RandomSequence"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_11": {
+        "GPDBTag": {
+          "TagName": "gpdb.CarouselRepair.RevPressNumberButtons"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      }
+    }
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_HuskTags_Workshop",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "WorkshopsRow1": {
+        "Tag": "gpdb.Husks.Workshops.Husk1",
+        "DevComment": ""
+      },
+      "WorkshopsRow2": {
+        "Tag": "gpdb.Husks.Workshops.Husk2",
+        "DevComment": ""
+      },
+      "WorkshopsRow3": {
+        "Tag": "gpdb.Husks.Workshops.Husk3",
+        "DevComment": ""
+      },
+      "WorkshopsRow4": {
+        "Tag": "gpdb.Husks.Workshops.Husk4",
+        "DevComment": ""
+      },
+      "WorkshopsRow5": {
+        "Tag": "gpdb.Husks.Workshops.Husk5",
+        "DevComment": ""
+      },
+      "WorkshopsRow6": {
+        "Tag": "gpdb.Husks.Workshops.Husk6",
+        "DevComment": ""
+      },
+      "WorkshopsRow7": {
+        "Tag": "gpdb.Husks.Workshops.Husk7",
+        "DevComment": ""
+      },
+      "WorkshopsRow8": {
+        "Tag": "gpdb.Husks.Workshops.Husk8",
+        "DevComment": ""
+      },
+      "WorkshopsRow9": {
+        "Tag": "gpdb.Husks.Workshops.Husk9",
+        "DevComment": ""
+      },
+      "WorkshopsRow10": {
+        "Tag": "gpdb.Husks.Workshops.Husk10",
+        "DevComment": ""
+      },
+      "WorkshopsRow11": {
+        "Tag": "gpdb.Husks.Workshops.Husk11",
+        "DevComment": ""
+      },
+      "WorkshopsRow12": {
+        "Tag": "gpdb.Husks.Workshops.Husk12",
+        "DevComment": ""
+      },
+      "WorkshopsRow13": {
+        "Tag": "gpdb.Husks.Workshops.Husk13",
+        "DevComment": ""
+      },
+      "WorkshopsRow14": {
+        "Tag": "gpdb.Husks.Workshops.Husk14",
+        "DevComment": ""
+      },
+      "WorkshopsRow15": {
+        "Tag": "gpdb.Husks.Workshops.Husk15",
+        "DevComment": ""
+      },
+      "WorkshopsRow16": {
+        "Tag": "gpdb.Husks.Workshops.Husk16",
+        "DevComment": ""
+      },
+      "WorkshopsRow17": {
+        "Tag": "gpdb.Husks.Workshops.Husk17",
+        "DevComment": ""
+      },
+      "WorkshopsRow18": {
+        "Tag": "gpdb.Husks.Workshops.Husk18",
+        "DevComment": ""
+      },
+      "WorkshopsRow19": {
+        "Tag": "gpdb.Husks.Workshops.Husk19",
+        "DevComment": ""
+      },
+      "WorkshopsRow20": {
+        "Tag": "gpdb.Husks.Workshops.Husk20",
+        "DevComment": ""
+      },
+      "WorkshopsRow21": {
+        "Tag": "gpdb.Husks.Workshops.Husk21",
+        "DevComment": ""
+      },
+      "WorkshopsRow22": {
+        "Tag": "gpdb.Husks.Workshops.Husk22",
+        "DevComment": ""
+      },
+      "WorkshopsRow23": {
+        "Tag": "gpdb.Husks.Workshops.Husk23",
+        "DevComment": ""
+      },
+      "WorkshopsRow24": {
+        "Tag": "gpdb.Husks.Workshops.Husk24",
+        "DevComment": ""
+      },
+      "WorkshopsRow25": {
+        "Tag": "gpdb.Husks.Workshops.Husk25",
+        "DevComment": ""
+      }
+    }
+  }
+]

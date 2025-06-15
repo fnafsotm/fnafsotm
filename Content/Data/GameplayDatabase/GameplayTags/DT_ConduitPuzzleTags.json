@@ -1,0 +1,196 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ConduitPuzzleTags",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "Tag": "gpdb.ConduitPuzzle.PowerControl.Solved",
+        "DevComment": ""
+      },
+      "NewRow_0": {
+        "Tag": "gpdb.ConduitPuzzle.BigTop.Solved",
+        "DevComment": ""
+      },
+      "NewRow_1": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.WH.P1.Piece1",
+        "DevComment": ""
+      },
+      "NewRow_2": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.WH.P1.Piece2",
+        "DevComment": ""
+      },
+      "NewRow_3": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.WH.P1.Piece3",
+        "DevComment": ""
+      },
+      "NewRow_4": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.NLM.P1.Piece1",
+        "DevComment": ""
+      },
+      "NewRow_5": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.NLM.P1.Piece2",
+        "DevComment": ""
+      },
+      "NewRow_6": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.NLM.P1.Piece3",
+        "DevComment": ""
+      },
+      "NewRow_7": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.NLM.P1.Piece4",
+        "DevComment": ""
+      },
+      "NewRow_8": {
+        "Tag": "gpdb.ConduitPuzzle.Theater.StageArea.Solved",
+        "DevComment": ""
+      },
+      "NewRow_9": {
+        "Tag": "gpdb.ConduitPuzzle.Theater.BackstageStorage.Solved",
+        "DevComment": ""
+      },
+      "NewRow_10": {
+        "Tag": "gpdb.ConduitPuzzle.Warehouse.Solved",
+        "DevComment": ""
+      },
+      "NewRow_11": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.WH.P2.Piece1",
+        "DevComment": ""
+      },
+      "NewRow_12": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.WH.P2.Piece2",
+        "DevComment": ""
+      },
+      "NewRow_13": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.WH.P2.Piece3",
+        "DevComment": ""
+      },
+      "NewRow_14": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.WH.P3.Piece1",
+        "DevComment": ""
+      },
+      "NewRow_15": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.WH.P3.Piece2",
+        "DevComment": ""
+      },
+      "NewRow_16": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.WH.P3.Piece3",
+        "DevComment": ""
+      },
+      "NewRow_17": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.TStor.P1.Piece1",
+        "DevComment": ""
+      },
+      "NewRow_18": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.TStor.P2.Piece1",
+        "DevComment": ""
+      },
+      "NewRow_19": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.TStor.P3.Piece1",
+        "DevComment": ""
+      },
+      "NewRow_20": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.NLM.P2.Piece1",
+        "DevComment": ""
+      },
+      "NewRow_21": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.NLM.P2.Piece2",
+        "DevComment": ""
+      },
+      "NewRow_22": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.NLM.P2.Piece3",
+        "DevComment": ""
+      },
+      "NewRow_23": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.NLM.P2.Piece4",
+        "DevComment": ""
+      },
+      "NewRow_24": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.NLM.P3.Piece1",
+        "DevComment": ""
+      },
+      "NewRow_25": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.NLM.P3.Piece2",
+        "DevComment": ""
+      },
+      "NewRow_26": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.NLM.P3.Piece3",
+        "DevComment": ""
+      },
+      "NewRow_27": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.NLM.P3.Piece4",
+        "DevComment": ""
+      },
+      "NewRow_28": {
+        "Tag": "gpdb.ConduitPuzzle.PowerControl.Solved.ScareEnd",
+        "DevComment": "For the peekaboo scare"
+      },
+      "NewRow_29": {
+        "Tag": "gpdb.ConduitPuzzle.Theater.BackstageStorage.ChosenPuzzle",
+        "DevComment": ""
+      },
+      "NewRow_30": {
+        "Tag": "gpdb.ConduitPuzzle.PowerControl.ChosenPuzzle",
+        "DevComment": ""
+      },
+      "NewRow_31": {
+        "Tag": "gpdb.ConduitPuzzle.Theater.StageArea.ChosenPuzzle",
+        "DevComment": ""
+      },
+      "NewRow_32": {
+        "Tag": "gpdb.ConduitPuzzle.Warehouse.ChosenPuzzle",
+        "DevComment": ""
+      },
+      "NewRow_33": {
+        "Tag": "gpdb.ConduitPuzzle.BigTop.ChosenPuzzle",
+        "DevComment": ""
+      },
+      "NewRow_34": {
+        "Tag": "gpdb.ConduitPuzzle.Theater.StageArea.ChosenPuzzle",
+        "DevComment": ""
+      },
+      "NewRow_35": {
+        "Tag": "gpdb.ConduitPuzzle.BigTop",
+        "DevComment": ""
+      },
+      "NewRow_36": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.WH.WorldItem.1",
+        "DevComment": ""
+      },
+      "NewRow_37": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.WH.WorldItem.2",
+        "DevComment": ""
+      },
+      "NewRow_38": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.WH.WorldItem.3",
+        "DevComment": ""
+      },
+      "NewRow_39": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.NLM.WorldItem.1",
+        "DevComment": ""
+      },
+      "NewRow_40": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.NLM.WorldItem.2",
+        "DevComment": ""
+      },
+      "NewRow_41": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.NLM.WorldItem.3",
+        "DevComment": ""
+      },
+      "NewRow_42": {
+        "Tag": "gpdb.ConduitPuzzle.Missing.NLM.WorldItem.4",
+        "DevComment": ""
+      },
+      "NewRow_43": {
+        "Tag": "gpdb.ConduitPuzzle.NLM.Config",
+        "DevComment": ""
+      }
+    }
+  }
+]

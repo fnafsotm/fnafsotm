@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CarnivalGamesContext",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GPDBTagContext'",
+        "ObjectPath": "/Script/SWGCommonGame"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "GPDBTag": {
+          "TagName": "gpdb.CarnivalGames.BigTopBallToss.HighScore"
+        },
+        "MaxTimesCanBeReportedComplete": 999,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_0": {
+        "GPDBTag": {
+          "TagName": "gpdb.CarnivalGames.BigTopShootingGallery.HighScore"
+        },
+        "MaxTimesCanBeReportedComplete": 999,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_1": {
+        "GPDBTag": {
+          "TagName": "gpdb.CarnivalGames.BigTopShootingGallerySpace.HighScore"
+        },
+        "MaxTimesCanBeReportedComplete": 999,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_2": {
+        "GPDBTag": {
+          "TagName": "gpdb.CarnivalGames.WarehouseBallToss.HighScore"
+        },
+        "MaxTimesCanBeReportedComplete": 999,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_3": {
+        "GPDBTag": {
+          "TagName": "gpdb.CarnivalGames.WarehouseShootingGallery.HighScore"
+        },
+        "MaxTimesCanBeReportedComplete": 999,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      }
+    }
+  }
+]

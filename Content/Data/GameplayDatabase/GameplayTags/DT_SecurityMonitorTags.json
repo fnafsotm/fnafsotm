@@ -1,0 +1,132 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_SecurityMonitorTags",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "Tag": "gpdb.SecurityMonitor.1",
+        "DevComment": ""
+      },
+      "NewRow_0": {
+        "Tag": "gpdb.SecurityMonitor.2",
+        "DevComment": ""
+      },
+      "NewRow_1": {
+        "Tag": "gpdb.SecurityMonitor.3",
+        "DevComment": ""
+      },
+      "NewRow_2": {
+        "Tag": "gpdb.SecurityMonitor.4",
+        "DevComment": ""
+      },
+      "NewRow_3": {
+        "Tag": "gpdb.SecurityMonitor.5",
+        "DevComment": ""
+      },
+      "NewRow_4": {
+        "Tag": "gpdb.SecurityMonitor.6",
+        "DevComment": ""
+      },
+      "NewRow_5": {
+        "Tag": "gpdb.SecurityMonitor.7",
+        "DevComment": ""
+      },
+      "NewRow_6": {
+        "Tag": "gpdb.SecurityMonitor.8",
+        "DevComment": ""
+      },
+      "NewRow_7": {
+        "Tag": "gpdb.SecurityMonitor.9",
+        "DevComment": ""
+      },
+      "NewRow_8": {
+        "Tag": "gpdb.SecurityMonitor.10",
+        "DevComment": ""
+      },
+      "NewRow_9": {
+        "Tag": "gpdb.SecurityMonitor.11",
+        "DevComment": ""
+      },
+      "NewRow_10": {
+        "Tag": "gpdb.SecurityMonitor.12",
+        "DevComment": ""
+      },
+      "NewRow_11": {
+        "Tag": "gpdb.SecurityMonitor.13",
+        "DevComment": ""
+      },
+      "NewRow_12": {
+        "Tag": "gpdb.SecurityMonitor.14",
+        "DevComment": ""
+      },
+      "NewRow_13": {
+        "Tag": "gpdb.SecurityMonitor.15",
+        "DevComment": ""
+      },
+      "NewRow_14": {
+        "Tag": "gpdb.SecurityMonitor.16",
+        "DevComment": ""
+      },
+      "NewRow_15": {
+        "Tag": "gpdb.SecurityMonitor.17",
+        "DevComment": ""
+      },
+      "NewRow_16": {
+        "Tag": "gpdb.SecurityMonitor.18",
+        "DevComment": ""
+      },
+      "NewRow_17": {
+        "Tag": "gpdb.SecurityMonitor.19",
+        "DevComment": ""
+      },
+      "NewRow_18": {
+        "Tag": "gpdb.SecurityMonitor.20",
+        "DevComment": ""
+      },
+      "NewRow_19": {
+        "Tag": "gpdb.SecurityMonitor.21",
+        "DevComment": ""
+      },
+      "NewRow_20": {
+        "Tag": "gpdb.SecurityMonitor.22",
+        "DevComment": ""
+      },
+      "NewRow_21": {
+        "Tag": "gpdb.SecurityMonitor.23",
+        "DevComment": ""
+      },
+      "NewRow_22": {
+        "Tag": "gpdb.SecurityMonitor.24",
+        "DevComment": ""
+      },
+      "NewRow_23": {
+        "Tag": "gpdb.SecurityMonitor.25",
+        "DevComment": ""
+      },
+      "NewRow_24": {
+        "Tag": "gpdb.SecurityMonitor.2b",
+        "DevComment": ""
+      },
+      "NewRow_25": {
+        "Tag": "gpdb.SecurityMonitor.2c",
+        "DevComment": ""
+      },
+      "NewRow_26": {
+        "Tag": "gpdb.SecurityMonitor.2d",
+        "DevComment": ""
+      },
+      "NewRow_27": {
+        "Tag": "gpdb.SecurityMonitor.30",
+        "DevComment": ""
+      }
+    }
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_KeypadTags",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "Tag": "gpdb.Keypad.InventorHouse",
+        "DevComment": "Tag to save code generated for the keypad in Inventor House"
+      },
+      "NewRow_0": {
+        "Tag": "gpdb.Keypad.MainHall",
+        "DevComment": "Tag to save when Main Hall Keypad has been sucessfully completed."
+      },
+      "NewRow_1": {
+        "Tag": "gpdb.Keypad.BigTopShowRoom",
+        "DevComment": "Tag to save code generated for the keypad in BigTop's Showroom."
+      },
+      "NewRow_2": {
+        "Tag": "gpdb.Keypad.ManagerStorage",
+        "DevComment": "Tag to save when Manager Storage Keypad has been sucessfully completed."
+      },
+      "NewRow_3": {
+        "Tag": "gpdb.Keypad.BigTopShowRoomSolved",
+        "DevComment": "Tag to save when BTSR Keypad has been sucessfully completed."
+      },
+      "NewRow_4": {
+        "Tag": "gpdb.Keypad.Retail",
+        "DevComment": "Tag to save when Retail Keypad has been sucessfully completed."
+      },
+      "NewRow_5": {
+        "Tag": "gpdb.Keypad.AdminFirstFloor",
+        "DevComment": "Tag to save when Admin First Floor Keypad has been sucessfully completed."
+      },
+      "NewRow_6": {
+        "Tag": "gpdb.Keypad.InventorHouseSolved",
+        "DevComment": "Tag to save when Inventors House Keypad has been sucessfully completed."
+      },
+      "NewRow_7": {
+        "Tag": "gpdb.Keypad.DollieHospitalGarbage",
+        "DevComment": "Tag to save the configuration of random locations for the garbage cubes in Dollie Hospital."
+      },
+      "NewRow_8": {
+        "Tag": "gpdb.Keypad.DollieHospitalGarbageSolved",
+        "DevComment": "Tag to save when the garbage cubes have been successfully completed - this is an in case tag."
+      }
+    }
+  }
+]

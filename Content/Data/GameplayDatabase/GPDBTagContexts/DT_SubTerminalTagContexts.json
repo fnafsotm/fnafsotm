@@ -1,0 +1,104 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_SubTerminalTagContexts",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GPDBTagContext'",
+        "ObjectPath": "/Script/SWGCommonGame"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "GPDBTag": {
+          "TagName": "gpdb.SubTerminal.ResetWelcomeShow"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_0": {
+        "GPDBTag": {
+          "TagName": "gpdb.SubTerminal.StartGoodbyeShow"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_1": {
+        "GPDBTag": {
+          "TagName": "gpdb.SubTerminal.OpenedDarkRideVent"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_2": {
+        "GPDBTag": {
+          "TagName": "gpdb.SubTerminal.OpenedDarkRideDoor"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_3": {
+        "GPDBTag": {
+          "TagName": "gpdb.SubTerminal.AccessedInceratorPowerReactorCore"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_4": {
+        "GPDBTag": {
+          "TagName": "gpdb.SubTerminal.EnteredEscapeTunnel"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_5": {
+        "GPDBTag": {
+          "TagName": "gpdb.SubTerminal.OpenedParachute"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_6": {
+        "GPDBTag": {
+          "TagName": "gpdb.Terminal.InSecurityOffice"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_7": {
+        "GPDBTag": {
+          "TagName": "gpdb.SubTerminal.InvSurvDoor"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_8": {
+        "GPDBTag": {
+          "TagName": "gpdb.SubTerminal.AdminSurvDoor"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_9": {
+        "GPDBTag": {
+          "TagName": "gpdb.SubTerminal.DollHosAccess"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      }
+    }
+  }
+]

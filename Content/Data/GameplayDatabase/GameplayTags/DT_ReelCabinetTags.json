@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ReelCabinetTags",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "Tag": "gpdb.ReelCabinet.01.Open",
+        "DevComment": "This locker has been opened"
+      },
+      "NewRow_0": {
+        "Tag": "gpdb.ReelCabinet.Inventor.01",
+        "DevComment": "Inventor's House Film Reels"
+      },
+      "NewRow_1": {
+        "Tag": "gpdb.ReelCabinet.Inventor.02",
+        "DevComment": "Inventor's House Film Reels"
+      },
+      "NewRow_2": {
+        "Tag": "gpdb.ReelCabinet.Inventor.03",
+        "DevComment": "Inventor's House Film Reels"
+      },
+      "NewRow_3": {
+        "Tag": "gpdb.ReelCabinet.Inventor.04",
+        "DevComment": "Inventor's House Film Reels"
+      },
+      "NewRow_4": {
+        "Tag": "gpdb.ReelCabinet.Inventor.05",
+        "DevComment": "Inventor's House Film Reels"
+      },
+      "NewRow_5": {
+        "Tag": "gpdb.ReelCabinet.FilmMisc.01",
+        "DevComment": "General Film Reel"
+      },
+      "NewRow_6": {
+        "Tag": "gpdb.ReelCabinet.FilmMisc.02",
+        "DevComment": ""
+      },
+      "NewRow_7": {
+        "Tag": "gpdb.ReelCabinet.FilmMisc.03",
+        "DevComment": ""
+      },
+      "NewRow_8": {
+        "Tag": "gpdb.ReelCabinet.FilmMisc.04",
+        "DevComment": ""
+      },
+      "NewRow_9": {
+        "Tag": "gpdb.ReelCabinet.FilmMisc.05",
+        "DevComment": ""
+      },
+      "NewRow_10": {
+        "Tag": "gpdb.ReelCabinet.FilmMisc.06",
+        "DevComment": ""
+      },
+      "NewRow_11": {
+        "Tag": "gpdb.ReelCabinet.FilmMisc.07",
+        "DevComment": ""
+      },
+      "NewRow_12": {
+        "Tag": "gpdb.ReelCabinet.FilmMisc.08",
+        "DevComment": ""
+      },
+      "NewRow_13": {
+        "Tag": "gpdb.ReelCabinet.FilmMisc.09",
+        "DevComment": ""
+      }
+    }
+  }
+]

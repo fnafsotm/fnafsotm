@@ -1,0 +1,376 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ConduitPuzzleTagContexts",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GPDBTagContext'",
+        "ObjectPath": "/Script/SWGCommonGame"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.PowerControl.Solved"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_0": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.BigTop"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_1": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.WH.P1.Piece1"
+        },
+        "MaxTimesCanBeReportedComplete": 6,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_2": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.WH.P1.Piece2"
+        },
+        "MaxTimesCanBeReportedComplete": 6,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_3": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.WH.P1.Piece3"
+        },
+        "MaxTimesCanBeReportedComplete": 6,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_4": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.NLM.P1.Piece1"
+        },
+        "MaxTimesCanBeReportedComplete": 6,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_5": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.NLM.P1.Piece2"
+        },
+        "MaxTimesCanBeReportedComplete": 6,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_6": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.NLM.P1.Piece3"
+        },
+        "MaxTimesCanBeReportedComplete": 6,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_7": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.NLM.P1.Piece4"
+        },
+        "MaxTimesCanBeReportedComplete": 6,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_8": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Theater.StageArea.ChosenPuzzle"
+        },
+        "MaxTimesCanBeReportedComplete": 999,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_9": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Theater.BackstageStorage.Solved"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_10": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Warehouse.Solved"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_11": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.WH.P2.Piece1"
+        },
+        "MaxTimesCanBeReportedComplete": 6,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_12": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.WH.P2.Piece2"
+        },
+        "MaxTimesCanBeReportedComplete": 6,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_13": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.WH.P2.Piece3"
+        },
+        "MaxTimesCanBeReportedComplete": 6,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_14": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.WH.P3.Piece1"
+        },
+        "MaxTimesCanBeReportedComplete": 6,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_15": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.WH.P3.Piece2"
+        },
+        "MaxTimesCanBeReportedComplete": 6,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_16": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.WH.P3.Piece3"
+        },
+        "MaxTimesCanBeReportedComplete": 6,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_17": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.NLM.P2.Piece1"
+        },
+        "MaxTimesCanBeReportedComplete": 6,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_18": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.NLM.P2.Piece2"
+        },
+        "MaxTimesCanBeReportedComplete": 6,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_19": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.NLM.P2.Piece3"
+        },
+        "MaxTimesCanBeReportedComplete": 6,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_20": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.NLM.P2.Piece4"
+        },
+        "MaxTimesCanBeReportedComplete": 6,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_21": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.NLM.P3.Piece1"
+        },
+        "MaxTimesCanBeReportedComplete": 6,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_22": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.NLM.P3.Piece2"
+        },
+        "MaxTimesCanBeReportedComplete": 6,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_23": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.NLM.P3.Piece3"
+        },
+        "MaxTimesCanBeReportedComplete": 6,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_24": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.NLM.P3.Piece4"
+        },
+        "MaxTimesCanBeReportedComplete": 6,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_25": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.TStor.P1.Piece1"
+        },
+        "MaxTimesCanBeReportedComplete": 6,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_26": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.TStor.P2.Piece1"
+        },
+        "MaxTimesCanBeReportedComplete": 6,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_27": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.TStor.P3.Piece1"
+        },
+        "MaxTimesCanBeReportedComplete": 6,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_28": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.PowerControl.Solved.ScareEnd"
+        },
+        "MaxTimesCanBeReportedComplete": 999,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_29": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.PowerControl.ChosenPuzzle"
+        },
+        "MaxTimesCanBeReportedComplete": 999,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_30": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Theater.BackstageStorage.ChosenPuzzle"
+        },
+        "MaxTimesCanBeReportedComplete": 999,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_31": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Theater.StageArea.ChosenPuzzle"
+        },
+        "MaxTimesCanBeReportedComplete": 999,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_32": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Warehouse.ChosenPuzzle"
+        },
+        "MaxTimesCanBeReportedComplete": 999,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_33": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.BigTop.ChosenPuzzle"
+        },
+        "MaxTimesCanBeReportedComplete": 999,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_34": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.BigTop.Solved"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_35": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Theater.StageArea.Solved"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_36": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.WH.WorldItem.1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_37": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.WH.WorldItem.2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_38": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.WH.WorldItem.3"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_39": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.NLM.WorldItem.1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_40": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.NLM.WorldItem.2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_41": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.NLM.WorldItem.3"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_42": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.Missing.NLM.WorldItem.4"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_43": {
+        "GPDBTag": {
+          "TagName": "gpdb.ConduitPuzzle.NLM.Config"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": true,
+        "bCanReportAfterComplete": false
+      }
+    }
+  }
+]

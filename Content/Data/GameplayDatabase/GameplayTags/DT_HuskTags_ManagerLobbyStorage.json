@@ -1,0 +1,24 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_HuskTags_ManagerLobbyStorage",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "ManagerLobbyStorageRow1": {
+        "Tag": "gpdb.Husks.ManagerLobbyStorage.Husk1",
+        "DevComment": ""
+      },
+      "ManagerLobbyStorageRow2": {
+        "Tag": "gpdb.Husks.ManagerLobbyStorage.Husk2",
+        "DevComment": ""
+      }
+    }
+  }
+]

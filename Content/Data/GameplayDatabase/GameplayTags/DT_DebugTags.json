@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_DebugTags",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "Tag": "gpdb.debug.anim.logging.player",
+        "DevComment": "Enable Anim Debug Logging"
+      },
+      "NewRow_0": {
+        "Tag": "gpdb.debug.anim.logging.ai",
+        "DevComment": ""
+      },
+      "NewRow_1": {
+        "Tag": "gpdb.debug.anim.logging.misc",
+        "DevComment": ""
+      },
+      "NewRow_2": {
+        "Tag": "gpdb.debug.gameplay.airlockdoor",
+        "DevComment": "Tag to enable highting on the closes debug airlock doors"
+      }
+    }
+  }
+]

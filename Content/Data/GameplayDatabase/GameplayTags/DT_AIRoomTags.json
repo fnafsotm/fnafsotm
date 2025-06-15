@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_AIRoomTags",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "Tag": "airoom.generator.purple",
+        "DevComment": ""
+      },
+      "NewRow_0": {
+        "Tag": "airoom.generator.green",
+        "DevComment": ""
+      },
+      "NewRow_1": {
+        "Tag": "airoom.generator.red",
+        "DevComment": ""
+      },
+      "NewRow_2": {
+        "Tag": "airoom.generator.teal",
+        "DevComment": ""
+      },
+      "NewRow_3": {
+        "Tag": "airoom.generator.all",
+        "DevComment": ""
+      }
+    }
+  }
+]

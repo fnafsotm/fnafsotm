@@ -1,0 +1,376 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ProgressionTagContexts_Act03",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GPDBTagContext'",
+        "ObjectPath": "/Script/SWGCommonGame"
+      }
+    },
+    "Rows": {
+      "NewRow_1": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_15": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.GoodbyeShow"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.DarkRide.ExitedDarkRide"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_16": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.MimicChaseComplete"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_0": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.Endings.Framed.Started"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_2": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.Endings.Framed.Completed"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_3": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.Endings.Redeemed.Started"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_4": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.Endings.Redeemed.Completed"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_5": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.Endings.WalkAway.Started"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_6": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.Endings.WalkAway.Completed"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_7": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.ChosePanicRoom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_8": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.EnteredEscapeTunnel"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_13": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.NightLight.Starbright.Elevator"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_9": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.NightLight.Starbright.SafeRoom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_10": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.NightLight.Starbright.SideA"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_11": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.NightLight.Starbright.SideB"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_12": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.NightLight.Starbright.SideC"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_14": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.NightLight.Starbright.SideD"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_17": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.Inventor.ReelFound.Reel01"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_18": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.Inventor.ReelFound.Reel02"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_19": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.Inventor.ReelFound.Reel03"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_20": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.Inventor.ReelFound.Reel04"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_21": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.Inventor.ReelFound.Reel05"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_22": {
+        "GPDBTag": {
+          "TagName": "gpdb.SpringlockSuit.HasEntered.Bonnie"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_23": {
+        "GPDBTag": {
+          "TagName": "gpdb.SpringlockSuit.HasEntered.Bub"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_24": {
+        "GPDBTag": {
+          "TagName": "gpdb.SpringlockSuit.HasEntered.Fredbear"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_25": {
+        "GPDBTag": {
+          "TagName": "gpdb.SpringlockSuit.HasEntered.Monty"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_26": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.MimicChaseStarted"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_27": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.MimicChase.ServerDoorKick"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_28": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.Inventor.UsedAtticElevator"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_29": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.RandD.ActivatedStageLights"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_30": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.RandD.IntroPADialogue"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_31": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.RandD.MostSuitsPlaced"
+        },
+        "MaxTimesCanBeReportedComplete": 4,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_32": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.RandD.RanOutOfPower"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_33": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.RandD.SecurityOfficePassageOpen"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_34": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.RandD.PATrigger.A"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_35": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.RandD.PATrigger.B"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_36": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.RandD.PATrigger.C"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_37": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.RandD.PATrigger.D"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_38": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.RandD.VentPA.A"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_39": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.RandD.CrankUsed"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_40": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.Endings.WalkAway.ReadyCredits"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_41": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.RandD.Entered"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_42": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.NightLight.StartedMaze"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_43": {
+        "GPDBTag": {
+          "TagName": "gpdb.progression.Act03.RandD.GeneratorActivated"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      }
+    }
+  }
+]

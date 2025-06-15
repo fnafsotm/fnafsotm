@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CarnivalGameTags",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "Tag": "gpdb.CarnivalGames.WarehouseBallToss.HighScore",
+        "DevComment": ""
+      },
+      "NewRow_0": {
+        "Tag": "gpdb.CarnivalGames.BigTopShootingGallery.HighScore",
+        "DevComment": ""
+      },
+      "NewRow_1": {
+        "Tag": "gpdb.CarnivalGames.BigTopShootingGallerySpace.HighScore",
+        "DevComment": ""
+      },
+      "NewRow_2": {
+        "Tag": "gpdb.CarnivalGames.BigTopBallToss.HighScore",
+        "DevComment": ""
+      },
+      "NewRow_3": {
+        "Tag": "gpdb.CarnivalGames.WarehouseShootingGallery.HighScore",
+        "DevComment": ""
+      }
+    }
+  }
+]

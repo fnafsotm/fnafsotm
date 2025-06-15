@@ -1,0 +1,192 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ProgressionTags_Act03",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "Tag": "gpdb.progression.Act03",
+        "DevComment": "When the player starts Act03"
+      },
+      "NewRow_0": {
+        "Tag": "gpdb.progression.Act03.GoodbyeShow",
+        "DevComment": "Completed on Activation of Goodbye Show within subterminal in Welcome Show Area"
+      },
+      "NewRow_1": {
+        "Tag": "gpdb.progression.Act03.DarkRide.ExitedDarkRide",
+        "DevComment": "For when the player exits the dark ride and goes up the elevator"
+      },
+      "NewRow_2": {
+        "Tag": "gpdb.progression.Act03.MimicChaseComplete",
+        "DevComment": "The end of the chase"
+      },
+      "NewRow_3": {
+        "Tag": "gpdb.progression.Act03.Endings.Framed",
+        "DevComment": "The Framed ending with the mimic chase with everything on fire."
+      },
+      "NewRow_4": {
+        "Tag": "gpdb.progression.Act03.Endings.Framed.Started",
+        "DevComment": ""
+      },
+      "NewRow_5": {
+        "Tag": "gpdb.progression.Act03.Endings.Framed.Completed",
+        "DevComment": ""
+      },
+      "NewRow_6": {
+        "Tag": "gpdb.progression.Act03.Endings.Redeemed",
+        "DevComment": "NEW GAME PLUS ONLY :: The Redeemed ending with the mask puzzle with the mimic."
+      },
+      "NewRow_7": {
+        "Tag": "gpdb.progression.Act03.Endings.Redeemed.Started",
+        "DevComment": ""
+      },
+      "NewRow_8": {
+        "Tag": "gpdb.progression.Act03.Endings.Redeemed.Completed",
+        "DevComment": ""
+      },
+      "NewRow_9": {
+        "Tag": "gpdb.progression.Act03.Endings.WalkAway",
+        "DevComment": "The WalkAway ending with handing radio woman the data diver"
+      },
+      "NewRow_10": {
+        "Tag": "gpdb.progression.Act03.Endings.WalkAway.Started",
+        "DevComment": ""
+      },
+      "NewRow_11": {
+        "Tag": "gpdb.progression.Act03.Endings.WalkAway.Completed",
+        "DevComment": ""
+      },
+      "NewRow_12": {
+        "Tag": "gpdb.progression.Act03.ChosePanicRoom",
+        "DevComment": "If the player does not give the DD to the radio woman, this tag is complete"
+      },
+      "NewRow_13": {
+        "Tag": "gpdb.progression.Act03.EnteredEscapeTunnel",
+        "DevComment": ""
+      },
+      "NewRow_14": {
+        "Tag": "gpdb.progression.Act03.NightLight.Starbright.Elevator",
+        "DevComment": "The Start Pedestal, has Starbright by default"
+      },
+      "NewRow_15": {
+        "Tag": "gpdb.progression.Act03.NightLight.Starbright.SafeRoom",
+        "DevComment": "The Pedestal near the Safe Area in the center of the Maze"
+      },
+      "NewRow_16": {
+        "Tag": "gpdb.progression.Act03.NightLight.Starbright.SideA",
+        "DevComment": "The Pedestal in area \"A\" of the Maze"
+      },
+      "NewRow_17": {
+        "Tag": "gpdb.progression.Act03.NightLight.Starbright.SideB",
+        "DevComment": "The Pedestal in area \"B\" of the Maze"
+      },
+      "NewRow_18": {
+        "Tag": "gpdb.progression.Act03.NightLight.Starbright.SideC",
+        "DevComment": "The Pedestal in area \"C\" of the Maze"
+      },
+      "NewRow_19": {
+        "Tag": "gpdb.progression.Act03.NightLight.Starbright.SideD",
+        "DevComment": "The Pedestal in area \"D\" of the Maze"
+      },
+      "NewRow_20": {
+        "Tag": "gpdb.progression.Act03.Inventor.ReelFound.Reel01",
+        "DevComment": "When the player has found the first film reel."
+      },
+      "NewRow_21": {
+        "Tag": "gpdb.progression.Act03.Inventor.ReelFound.Reel02",
+        "DevComment": "When the player has found the second film reel."
+      },
+      "NewRow_22": {
+        "Tag": "gpdb.progression.Act03.Inventor.ReelFound.Reel03",
+        "DevComment": "When the player has found the third film reel."
+      },
+      "NewRow_23": {
+        "Tag": "gpdb.progression.Act03.Inventor.ReelFound.Reel04",
+        "DevComment": "When the player has found the fourth film reel."
+      },
+      "NewRow_24": {
+        "Tag": "gpdb.progression.Act03.Inventor.ReelFound.Reel05",
+        "DevComment": "When the player has found the fifth film reel."
+      },
+      "NewRow_25": {
+        "Tag": "gpdb.progression.Act03.MimicChaseStarted",
+        "DevComment": "The starting of the mimic chase which leads into Framed. Happens once the player enters the attic entry from Inventor's House second floor"
+      },
+      "NewRow_26": {
+        "Tag": "gpdb.progression.Act03.MimicChase.ServerDoorKick",
+        "DevComment": "Mimic Chase moment where he kicks down the door in the server room"
+      },
+      "NewRow_27": {
+        "Tag": "gpdb.progression.Act03.Inventor.UsedAtticElevator",
+        "DevComment": "When the player presses the button to trigger the attic elevator"
+      },
+      "NewRow_28": {
+        "Tag": "gpdb.progression.Act03.RandD.ActivatedStageLights",
+        "DevComment": ""
+      },
+      "NewRow_29": {
+        "Tag": "gpdb.progression.Act03.RandD.IntroPADialogue",
+        "DevComment": ""
+      },
+      "NewRow_30": {
+        "Tag": "gpdb.progression.Act03.RandD.MostSuitsPlaced",
+        "DevComment": ""
+      },
+      "NewRow_31": {
+        "Tag": "gpdb.progression.Act03.RandD.RanOutOfPower",
+        "DevComment": ""
+      },
+      "NewRow_32": {
+        "Tag": "gpdb.progression.Act03.RandD.SecurityOfficePassageOpen",
+        "DevComment": ""
+      },
+      "NewRow_33": {
+        "Tag": "gpdb.progression.Act03.RandD.PATrigger.A",
+        "DevComment": ""
+      },
+      "NewRow_34": {
+        "Tag": "gpdb.progression.Act03.RandD.PATrigger.B",
+        "DevComment": ""
+      },
+      "NewRow_35": {
+        "Tag": "gpdb.progression.Act03.RandD.PATrigger.C",
+        "DevComment": ""
+      },
+      "NewRow_36": {
+        "Tag": "gpdb.progression.Act03.RandD.PATrigger.D",
+        "DevComment": ""
+      },
+      "NewRow_37": {
+        "Tag": "gpdb.progression.Act03.RandD.VentPA.A",
+        "DevComment": ""
+      },
+      "NewRow_38": {
+        "Tag": "gpdb.progression.Act03.RandD.CrankUsed",
+        "DevComment": ""
+      },
+      "NewRow_39": {
+        "Tag": "gpdb.progression.Act03.Endings.WalkAway.ReadyCredits",
+        "DevComment": ""
+      },
+      "NewRow_40": {
+        "Tag": "gpdb.progression.Act03.RandD.Entered",
+        "DevComment": "when the player goes through the rnd airlock"
+      },
+      "NewRow_41": {
+        "Tag": "gpdb.progression.Act03.NightLight.StartedMaze",
+        "DevComment": "When the player picks up the first starbright"
+      },
+      "NewRow_42": {
+        "Tag": "gpdb.progression.Act03.RandD.GeneratorActivated",
+        "DevComment": "Player starts the generator in the freddy head to open the curtain"
+      }
+    }
+  }
+]

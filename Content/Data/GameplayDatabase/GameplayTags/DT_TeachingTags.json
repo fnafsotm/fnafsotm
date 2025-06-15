@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TeachingTags",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "Tag": "gpdb.teaching.lever.up",
+        "DevComment": ""
+      },
+      "NewRow_0": {
+        "Tag": "gpdb.teaching.lever.down",
+        "DevComment": ""
+      },
+      "NewRow_1": {
+        "Tag": "gpdb.teaching.generator.step1",
+        "DevComment": ""
+      },
+      "NewRow_2": {
+        "Tag": "gpdb.teaching.generator.step2",
+        "DevComment": ""
+      },
+      "NewRow_3": {
+        "Tag": "gpdb.teaching.generator.step3",
+        "DevComment": ""
+      }
+    }
+  }
+]

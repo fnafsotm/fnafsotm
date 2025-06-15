@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PermissionTags",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "Tag": "gpdb.Permissions.Visitor",
+        "DevComment": ""
+      },
+      "NewRow_0": {
+        "Tag": "gpdb.Permissions.Security",
+        "DevComment": ""
+      },
+      "NewRow_1": {
+        "Tag": "gpdb.Permissions.Repair",
+        "DevComment": ""
+      },
+      "NewRow_2": {
+        "Tag": "gpdb.Permissions.Creator",
+        "DevComment": ""
+      },
+      "NewRow_3": {
+        "Tag": "gpdb.Permissions.Admin",
+        "DevComment": ""
+      },
+      "NewRow_4": {
+        "Tag": "gpdb.Permissions.Executive",
+        "DevComment": ""
+      },
+      "NewRow_5": {
+        "Tag": "gpdb.Permissions.Glitch",
+        "DevComment": ""
+      }
+    }
+  }
+]

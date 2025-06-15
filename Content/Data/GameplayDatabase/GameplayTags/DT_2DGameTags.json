@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_2DGameTags",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "Tag": "gpdb.2DGame.Checkpoint",
+        "DevComment": ""
+      },
+      "NewRow_0": {
+        "Tag": "gpdb.2DGame.CollectedRangerArmyKnife",
+        "DevComment": ""
+      },
+      "NewRow_1": {
+        "Tag": "gpdb.2DGame.UsedRangerArmyKnife",
+        "DevComment": ""
+      },
+      "NewRow_2": {
+        "Tag": "gpdb.2DGame.CollectedWalkingStick",
+        "DevComment": ""
+      },
+      "NewRow_3": {
+        "Tag": "gpdb.2DGame.CollectedNightLight",
+        "DevComment": ""
+      }
+    }
+  }
+]

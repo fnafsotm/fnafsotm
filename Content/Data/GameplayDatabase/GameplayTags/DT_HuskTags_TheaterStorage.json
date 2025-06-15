@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_HuskTags_TheaterStorage",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "TheaterStorageRow1": {
+        "Tag": "gpdb.Husks.TheaterStorage.Husk1",
+        "DevComment": "Used for blue elephant"
+      },
+      "TheaterStorageRow2": {
+        "Tag": "gpdb.Husks.TheaterStorage.Husk2",
+        "DevComment": "Used for hedgehog"
+      },
+      "TheaterStorageRow3": {
+        "Tag": "gpdb.Husks.TheaterStorage.Husk3",
+        "DevComment": "Used for red mushroom"
+      },
+      "TheaterStorageRow4": {
+        "Tag": "gpdb.Husks.TheaterStorage.Husk4",
+        "DevComment": "Used for green hedgehog"
+      },
+      "TheaterStorageRow5": {
+        "Tag": "gpdb.Husks.TheaterStorage.Husk5",
+        "DevComment": "Used for green mushroom"
+      },
+      "TheaterStorageRow6": {
+        "Tag": "gpdb.Husks.TheaterStorage.Husk6",
+        "DevComment": "Used for swingbee mushroom"
+      },
+      "TheaterStorageRow7": {
+        "Tag": "gpdb.Husks.TheaterStorage.Husk7",
+        "DevComment": "Used for elephant mushroom"
+      },
+      "TheaterStorageRow8": {
+        "Tag": "gpdb.Husks.TheaterStorage.Husk8",
+        "DevComment": "Used for red mushroom"
+      }
+    }
+  }
+]

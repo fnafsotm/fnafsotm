@@ -1,0 +1,1232 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CheckpointSaves_TagContexts",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GPDBTagContext'",
+        "ObjectPath": "/Script/SWGCommonGame"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.DemoStartPoint"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_0": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.JackieCatwalks"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_1": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.JackieShowRoom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_2": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.JackieStart"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_3": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.StorageRoom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_4": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.WelcomeLobby"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_5": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.BigTopChaseRoof"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_6": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.BigTopChaseStart"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_7": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.BigTopChasePlenumFloor"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_8": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.BigTopChaseDemoFloor"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_9": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.BigTopShowroomEntrance"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_10": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.BigTopChaseEnd"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_11": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.PostJackieChaseSecurityOffice"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_12": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.WorkshopEntrance"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_13": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.DHInventoryCollecter3"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_14": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.DHInventoryCollecter2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_15": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.DHInventoryCollecter1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_16": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.DHIncineratorRoom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_17": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.DHBackrooms"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_19": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.DHInventoryConveyor"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_18": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.DHBackrooms2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_20": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.TheaterBackStage"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_21": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.Warehouse"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_22": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.RndDarkRide"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_23": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.InventorHouseDarkRide"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_24": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.InventorHouse"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_25": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.InventorHouseAtticEntry"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_26": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.DavidBedroom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_27": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.EntrancePowerZone"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_28": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.AdminFirstFloor"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_29": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.AdminSecondFloor"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_30": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.EntranceITRoom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_31": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.RndEntrance"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_32": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.DollyChase_Start"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_33": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.DollyChase_Vent"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_34": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.DollyChase_Stealth"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_35": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.DollyChase_Elevator"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_36": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.TheaterBackstageStorage"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_37": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.SecurityOfficeAct1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_38": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.DollHospitalDarkRide"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_39": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.WhiteTigerStart"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_40": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.ManagerStorageLobbyVent"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_41": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.BigTopShowRoomStorage"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_42": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.StoryTimeLobbyEntrance"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_43": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.TheaterStageShootingMiniGame"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_44": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.MimicChaseRide"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_45": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.JackieEnd"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_46": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.BigTopShowRoomStorageEntrance"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_47": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.LoadingBayEntrance"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_48": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.LoadingBayControl1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_49": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.LoadingBayControl2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_50": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.SecurityVent"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_52": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.InventorHousePuzzleSolved"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_51": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.BeforeWelcomeShow"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_53": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.CompleteWelcomeShow"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_54": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.ExitVan"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_55": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.AdminLowerFloor_CostumeShop_Elevator_Exit"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_56": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.LoadingBayControl3"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_81": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.LoadingBayControlLeave"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_57": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.EntranceUpperWarehouse"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_58": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.InventorSurveillanceRoomOpen"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_59": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.MimicChaseElevatorBottom"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_60": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.PlaygroundExit"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_61": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.AdminBasement"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_62": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.ManagerLobby"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_63": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.JCVentEnd"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_64": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.BigTopChase.Exit"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_65": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.ShowRoomLobby"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_66": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.WelcomeLobbyElevator"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_67": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.DollHospital.ChainDollie"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_68": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.DollHospital.OpenVault"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_69": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.DollHospital.AIDollie"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_70": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.MimicChaseRideExit"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_71": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.BigTopStorytimeFirstVisit"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_72": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.BigTopStorytimeSecondVisit"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_73": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.StorageCrankReturned"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_74": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.PuppetShowIntro"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_75": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.PuppetShowWave1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_76": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.PuppetShowWave2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_77": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.PuppetShowWave3"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_78": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.GoodbyeShowSecond"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_79": {
+        "GPDBTag": {
+          "TagName": "None"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_80": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.GoodbyeShowEnd"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_82": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.SouthHall"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_83": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.DollyChase_Catwalk"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_84": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.DollyChase_End"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_85": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.RndDarkRideEntrance"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_86": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.SecurityOfficeAct3Start"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_87": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.DHAfterIncineratingDollie"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_88": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.ShowroomAct2_2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_89": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.JackieShow2_1"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_90": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.JackieShow2_2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_91": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.ManagerHall2_2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_92": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.BigTop2_2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_93": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.Showroom2_2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_106": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.ShowReturn2_2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_105": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.ShowReturnTag2_2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_94": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.Storytime2_2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_95": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.JackieShow2_3a"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_96": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.BigTop2_3a"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_97": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.Showroom2_3a"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_123": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.ShowReturn2_3a"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_124": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.ShowReturnTag2_3a"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_98": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.Storytime2_3a"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_99": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.Workshop2_3a"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_100": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.TheaterConduit2_3a"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_101": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.TheaterUpper2_3a"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_102": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.TheaterBackstage2_3a"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_103": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.TheaterUpper2_3a_2"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_104": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.TheaterUpperProgression2_3a"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_108": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.JackieShow2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_109": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.BigTop2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_110": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.Showroom2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_125": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.ShowReturn2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_126": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.ShowReturnTag2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_111": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.Storytime2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_112": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.Workshop2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_113": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.TheaterConduit2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_114": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.TheaterUpper2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_127": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.TheaterUpperReturn2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_128": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.TheaterUpperTag2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_115": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.Warehouse2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_116": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.Loading2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_117": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.UpperWarehouse2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_118": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.AdminFirstFloor2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_119": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.Admin2ndFloor2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_120": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.WhiteTiger2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_121": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.CostumeShop2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_122": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.Nightlight2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_129": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.WarehouseReturn2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_130": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.WarehouseReturnTag2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_131": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.AdminReturn2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_132": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.AdminReturnTag2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_133": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.CostumeShop2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_137": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.CostumeShopReturn2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_134": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.CostumeShopTag2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_135": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.NightlightReturn2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_136": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.NightlightReturnTag2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_107": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.BigTopChaseAirlock"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_138": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.DollyChase_ElevatorEscaped"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_139": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.RnDStageArea"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_140": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.ExecOffice"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_141": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.GoodbyeShowStart"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_142": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.PuppetShowOutro"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_143": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.DeepStorage"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_144": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.DeepStorage2_3b"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_145": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.StorytimeExitTag"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_146": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.StorytimeExit"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_147": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.StorytimeExitCreator"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_148": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.StorytimeExitCreatorTag"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_150": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.PostDollHospital"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      },
+      "NewRow_149": {
+        "GPDBTag": {
+          "TagName": "gpdb.CheckpointSaves.DavidBedroomWithDoll"
+        },
+        "MaxTimesCanBeReportedComplete": 1,
+        "bInfiniteReportsComplete": false,
+        "bCanReportAfterComplete": false
+      }
+    }
+  }
+]

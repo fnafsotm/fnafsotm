@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ProgressionTags_Hidden",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "Tag": "gpdb.progression.Hidden",
+        "DevComment": "Elements off the Golden Path that we need to keep track of."
+      },
+      "NewRow_0": {
+        "Tag": "gpdb.progression.Hidden.SelectedNewGamePlus",
+        "DevComment": ""
+      },
+      "NewRow_1": {
+        "Tag": "gpdb.progression.Hidden.FromWalkAway",
+        "DevComment": ""
+      },
+      "NewRow_2": {
+        "Tag": "gpdb.progression.Hidden.FromMimicChase",
+        "DevComment": ""
+      },
+      "NewRow_3": {
+        "Tag": "gpdb.progression.Hidden.FromMimicGame",
+        "DevComment": ""
+      },
+      "NewRow_4": {
+        "Tag": "gpdb.progression.Hidden.FinishedNGPEnding",
+        "DevComment": "For use when the player has finished a new game plus ending"
+      }
+    }
+  }
+]
