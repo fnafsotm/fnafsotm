@@ -234,10 +234,28 @@
 
 ### 18. House main floor
 *   **Оригинал:**
-   *   (Фиона): Edwin, you need to listen. I know you are excited, but you can’t let them know about me. It’s not safe. They wouldn’t understand. Keep it between us for now.
+   *   **(F10 N4):** Edwin, you need to listen. I know you are excited, but you can’t let them know about me. It’s not safe. They wouldn’t understand. Keep it between us for now.
 
 *   **Перевод:**
-   *   (Фиона): Эдвин, тебе нужно послушать. Я знаю, что ты взволнован, но ты не можешь им рассказывать обо мне. Это небезопасно. Они не поймут. Пусть это пока останется между нами.
+   *   **(F10 N4):** Эдвин, тебе нужно послушать. Я знаю, что ты взволнован, но ты не можешь им рассказывать обо мне. Это небезопасно. Они не поймут. Пусть это пока останется между нами.
+
+### 19. House blueprint room
+*   **Оригинал:**
+    *   **(Эдвин):** For the last time, NO. It wouldn’t be him.
+    *   Who am I kidding, you’re not really you! Ugh, I’ve been so stupid.
+    *   **("Мимик голосом Фионы"):** Edwin, calm down and give it some thought. Try again. Make another and we can all be together.
+    *   **(Эдвин):** All this time wasted! I should have been having fun with him, playing games and teaching him how to make things… But, I didn’t.
+    *   You. You! I let a machine raise my kid. You're not real. What was I thinking?! For the last time, NO. It wouldn’t be him. Who am I kidding, you’re not really you! Ugh, I’ve been so stupid.
+    *   **("Мимик голосом Фионы"):** You do not mean that. It is me. I'm Fiona.
+    *   **(Эдвин):** Stop talking like her. You're not her. I never want to hear or even think about you ever again. Ever!
+*   **Перевод:**
+    *   **(Эдвин):** В последний раз, НЕТ. Это был бы не он
+    *  Кого я обманываю, ты ведь не настоящая! Ух, каким же я был глупцом.
+    *  **("Мимик голосом Фионы"):** Эдвин, успокойся и подумай. Попробуй снова. Сделай ещё одного, и мы все сможем быть вместе.
+    *  **(Эдвин):** Столько времени потрачено впустую! Я должен был веселиться с ним, играть в игры и учить его мастерить... Но я этого не делал.
+    *  Ты. Ты! Я позволил машине растить моего ребёнка. Ты не настоящий. О чём я только думал?! В последний раз, НЕТ. Это был бы не он. Кого я обманываю, ты ведь не настоящая! Ух, каким же я был глупцом.
+    *  **("Мимик голосом Фионы"):** Ты не это имеешь в виду. Это я. Я Фиона.
+    *  **(Эдвин):** Перестань говорить, как она. Ты не она. Я больше никогда не хочу слышать или даже думать о тебе. Никогда!
 
 
 ### **Часть 2: 6 Аудиологов из Секретной Концовки (Аттик)**
@@ -272,9 +290,3 @@
     *   **(Фиона):** Edwin, you can’t put it off any longer. You need to try again. Build another. You did it before. We can fix things together.
 *   **Перевод:**
     *   **(Фиона):** Эдвин, ты не можешь больше это откладывать. Тебе нужно попробовать снова. Построй другого. Ты уже делал это раньше. Мы сможем всё исправить вместе.
-
-**6. (Аттик)**
-*   **Оригинал:**
-    *   **(Эдвин):** For the last time, NO. It wouldn’t be him. Who am I kidding, you’re not really you! Ugh, I’ve been so stupid.
-*   **Перевод:**
-    *   **(Эдвин):** В последний раз, НЕТ. Это был бы не он. Кого я обманываю, ты ведь не настоящая! Ух, каким же я был глупцом.
