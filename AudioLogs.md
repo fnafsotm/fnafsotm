@@ -179,7 +179,7 @@
 *   **Перевод:**
     *   **(Эдвин):** Вниманию всего персонала. Скачки напряжения стали более... частыми. Пожалуйста, соблюдайте крайнюю осторожность, спускаясь в туннели.
 
-#### 14. Tunnels Mr Murray Executive Office
+### 14. Tunnels Mr Murray Executive Office
 *   **Оригинал:**
     *   **(Эдвин):** …Stop. You're not him. You're not! Stop sounding like him!
 *   **Перевод:**
@@ -187,7 +187,7 @@
 
 **Контекст и значение:** Это одна из самых пугающих и ключевых записей. В ней Эдвин кричит на Мимика (вероятно, М2). Фраза "Перестань звучать, как он!" указывает на то, что Мимик начал имитировать голос и, возможно, поведение погибшего сына Эдвина — Дэвида.
 
-#### 15. Dark tunnels / In the Dark Area
+### 15. Dark tunnels / In the Dark Area
 *   **Оригинал:**
     *   **(Эдвин):** Recording... Test. Test. Levels are good. This is where I heard it. It's her, or someone that sounds like her.
     *   Set frequency to 4625…
