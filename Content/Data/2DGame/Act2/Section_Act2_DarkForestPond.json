@@ -1,0 +1,301 @@
+[
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "RootOption_3",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act2/Section_Act2_DarkForest.Section_Act2_DarkForest",
+        "SubPathString": ""
+      },
+      "RootOptionIndex": 1,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestPond_Text4",
+        "SourceString": "Walk Back to Boulder",
+        "LocalizedString": "Walk Back to Boulder"
+      }
+    }
+  },
+  {
+    "Type": "ImageLayerOption",
+    "Name": "ImageLayerOption_0",
+    "Outer": "RootOption_3",
+    "Class": "UScriptClass'ImageLayerOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageTexture": {
+        "ObjectName": "Texture2D'T_2D_Act2_DarkPond_OV_Puppet'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_DarkPond_OV_Puppet.0"
+      },
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.FoxyPuppet"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act2.DarkForest.CollectedFoxyPuppet"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "ImageOption",
+    "Name": "ImageOption_0",
+    "Outer": "TagConditionOption_1",
+    "Class": "UScriptClass'ImageOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_DarkPond_Foxy'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_DarkPond_Foxy.0"
+        }
+      },
+      "SecondsToSwitch": 0.1,
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForestPond:RootOption_3.TagConditionOption_0.TagConditionOption_1.ImageOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestPond.7"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_3",
+    "Outer": "Section_Act2_DarkForestPond",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_DarkPond_Close'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_DarkPond_Close.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TagConditionOption'Section_Act2_DarkForestPond:RootOption_3.TagConditionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestPond.5"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForestPond:RootOption_3.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestPond.11"
+        },
+        {
+          "ObjectName": "GoToSectionOption'Section_Act2_DarkForestPond:RootOption_3.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestPond.0"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "ImageLayerOption'Section_Act2_DarkForestPond:RootOption_3.ImageLayerOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestPond.1"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestPond_Text1",
+        "SourceString": "Dark Forest Pond",
+        "LocalizedString": "Dark Forest Pond"
+      }
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act2.DarkForest.CollectedFoxyPuppet"
+      ]
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_0",
+    "Outer": "RootOption_3",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.FoxyPuppet"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "TagConditionOption'Section_Act2_DarkForestPond:RootOption_3.TagConditionOption_0.TagConditionOption_1'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestPond.6"
+      },
+      "FalseOption": {
+        "ObjectName": "TextOption'Section_Act2_DarkForestPond:RootOption_3.TagConditionOption_0.TextOption_1'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestPond.10"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestPond_Text2",
+        "SourceString": "Examine Toy Pirate Ship",
+        "LocalizedString": "Examine Toy Pirate Ship"
+      },
+      "AlternateStyleConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.FoxyPuppet"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act2.DarkForest.CollectedFoxyPuppet"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_1",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.DarkForest.CollectedFoxyPuppet"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "TextOption'Section_Act2_DarkForestPond:RootOption_3.TagConditionOption_0.TagConditionOption_1.TextOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestPond.9"
+      },
+      "FalseOption": {
+        "ObjectName": "ImageOption'Section_Act2_DarkForestPond:RootOption_3.TagConditionOption_0.TagConditionOption_1.ImageOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestPond.2"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "ImageOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestPond_Text5",
+        "SourceString": "There is a Foxy Puppet steering the ship.",
+        "LocalizedString": "There is a Foxy Puppet steering the ship."
+      },
+      "bAreActivesChoices": true,
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForestPond:RootOption_3.TagConditionOption_0.TagConditionOption_1.ImageOption_0.TextOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestPond.8"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestPond_Text6",
+        "SourceString": "You take the Foxy Puppet",
+        "LocalizedString": "You take the Foxy Puppet"
+      },
+      "SecondsToSwitch": 1.0,
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_Act2_DarkForestPond:RootOption_3.TagConditionOption_0.TagConditionOption_1.ImageOption_0.TextOption_0.TextOption_0.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestPond.4"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestPond_Text8",
+        "SourceString": "Take Foxy Puppet",
+        "LocalizedString": "Take Foxy Puppet"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "TagConditionOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestPond_Text7",
+        "SourceString": "The Toy Pirate Ship is empty. Where's its captain?",
+        "LocalizedString": "The Toy Pirate Ship is empty. Where's its captain?"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestPond_Text7",
+        "SourceString": "The Toy Pirate Ship is empty. Where's its captain?",
+        "LocalizedString": "The Toy Pirate Ship is empty. Where's its captain?"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "RootOption_3",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestPond_Text9",
+        "SourceString": "The fish laugh at you and swim away.",
+        "LocalizedString": "The fish laugh at you and swim away."
+      },
+      "SecondsToSwitch": 2.5,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestPond_Text3",
+        "SourceString": "Catch Fish",
+        "LocalizedString": "Catch Fish"
+      }
+    }
+  },
+  {
+    "Type": "TwoDSectionData",
+    "Name": "Section_Act2_DarkForestPond",
+    "Class": "UScriptClass'TwoDSectionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootPages": [
+        {
+          "ObjectName": "RootOption'Section_Act2_DarkForestPond:RootOption_3'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestPond.3"
+        }
+      ]
+    }
+  }
+]

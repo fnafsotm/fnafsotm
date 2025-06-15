@@ -1,0 +1,487 @@
+[
+  {
+    "Type": "ExitGameOption",
+    "Name": "ExitGameOption",
+    "Outer": "PlayerDeathOption_1",
+    "Class": "UScriptClass'ExitGameOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act2/Section_Act2_DarkForest.Section_Act2_DarkForest",
+        "SubPathString": ""
+      },
+      "RootOptionIndex": 3,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestCabin_Text13",
+        "SourceString": "Go back to the Dark Forest",
+        "LocalizedString": "Go back to the Dark Forest"
+      }
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act2/Section_Act2_InsideCabinWOOwl.Section_Act2_InsideCabinWOOwl",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_1",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act2/Section_Act2_InsideCabin.Section_Act2_InsideCabin",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "ImageLayerOption",
+    "Name": "ImageLayerOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'ImageLayerOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageTexture": {
+        "ObjectName": "Texture2D'T_2D_Act2_DarkCabin_OV_Bear'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_DarkCabin_OV_Bear.0"
+      },
+      "ConditionQuery": {
+        "HasNotCollected": [
+          "2DGame.Act2.DarkForestCabin.GiftedHoney"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "ImageOption",
+    "Name": "ImageOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'ImageOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_DarkCabin'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_DarkCabin.0"
+        }
+      },
+      "bRemovePreviousDescriptionText": true,
+      "SecondsToSwitch": 0.01,
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForestCabin:RootOption_0.ImageOption_0.TextOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestCabin.13"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestCabin_Text7",
+        "SourceString": "Poke the Bear",
+        "LocalizedString": "Poke the Bear"
+      },
+      "ShowOptionConditionQuery": {
+        "HasNotCollected": [
+          "2DGame.Act2.DarkForestCabin.GiftedHoney"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "PlayerDeathOption",
+    "Name": "PlayerDeathOption_1",
+    "Outer": "TextOption_2",
+    "Class": "UScriptClass'PlayerDeathOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_PlayerDeath'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_PlayerDeath.0"
+        }
+      },
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestCabin_Text10",
+        "SourceString": "The Moon pulls you out of the bear's stomach. \"What are you doing? Back to Bed!\" he screams. Everything fades to black.",
+        "LocalizedString": "The Moon pulls you out of the bear's stomach. \"What are you doing? Back to Bed!\" he screams. Everything fades to black."
+      },
+      "Options": [
+        {
+          "ObjectName": "RestartOption'Section_Act2_DarkForestCabin:RootOption_0.ImageOption_0.TextOption_2.PlayerDeathOption_1.RestartOption'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestCabin.8"
+        },
+        {
+          "ObjectName": "ExitGameOption'Section_Act2_DarkForestCabin:RootOption_0.ImageOption_0.TextOption_2.PlayerDeathOption_1.ExitGameOption'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestCabin.0"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "PostAudioOption'Section_Act2_DarkForestCabin:RootOption_0.ImageOption_0.TextOption_2.PlayerDeathOption_1.PostAudioOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestCabin.7"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestCabin_Text9",
+        "SourceString": "Back to Bed",
+        "LocalizedString": "Back to Bed"
+      }
+    }
+  },
+  {
+    "Type": "PostAudioOption",
+    "Name": "PostAudioOption_0",
+    "Outer": "PlayerDeathOption_1",
+    "Class": "UScriptClass'PostAudioOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AudioEvent": {
+        "ObjectName": "AkAudioEvent'sfx_2D_game_moonman_jumpscare'",
+        "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/sfx_2D_game_moonman_jumpscare.0"
+      }
+    }
+  },
+  {
+    "Type": "RestartOption",
+    "Name": "RestartOption",
+    "Outer": "PlayerDeathOption_1",
+    "Class": "UScriptClass'RestartOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_0",
+    "Outer": "Section_Act2_DarkForestCabin",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_DarkCabin'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_DarkCabin.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForestCabin:RootOption_0.TextOption_4'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestCabin.19"
+        },
+        {
+          "ObjectName": "TagConditionOption'Section_Act2_DarkForestCabin:RootOption_0.TagConditionOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestCabin.11"
+        },
+        {
+          "ObjectName": "ImageOption'Section_Act2_DarkForestCabin:RootOption_0.ImageOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestCabin.5"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForestCabin:RootOption_0.TextOption_3'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestCabin.18"
+        },
+        {
+          "ObjectName": "GoToSectionOption'Section_Act2_DarkForestCabin:RootOption_0.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestCabin.1"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForestCabin:RootOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestCabin.16"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForestCabin:RootOption_0.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestCabin.17"
+        },
+        {
+          "ObjectName": "ImageLayerOption'Section_Act2_DarkForestCabin:RootOption_0.ImageLayerOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestCabin.4"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestCabin_Text1",
+        "SourceString": "Dark Forest Cabin",
+        "LocalizedString": "Dark Forest Cabin"
+      }
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_3",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act2.DarkForestCabin.GiftedHoney"
+      ]
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_1",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.DarkForestCabin.GiftedHoney"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "TextOption'Section_Act2_DarkForestCabin:RootOption_0.TagConditionOption_1.TextOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestCabin.14"
+      },
+      "FalseOption": {
+        "ObjectName": "TextOption'Section_Act2_DarkForestCabin:RootOption_0.TagConditionOption_1.TextOption_1'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestCabin.15"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestCabin_Text4",
+        "SourceString": "Open Cabin Door",
+        "LocalizedString": "Open Cabin Door"
+      }
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.InsideCabin.CollectedBabyOwlMask"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "GoToSectionOption'Section_Act2_DarkForestCabin:RootOption_0.TagConditionOption_1.TextOption_0.TagConditionOption_0.GoToSectionOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestCabin.2"
+      },
+      "FalseOption": {
+        "ObjectName": "GoToSectionOption'Section_Act2_DarkForestCabin:RootOption_0.TagConditionOption_1.TextOption_0.TagConditionOption_0.GoToSectionOption_1'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestCabin.3"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_2",
+    "Outer": "ImageOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestCabin_Text8",
+        "SourceString": "The Bear jumps off the swing and eats you right up!",
+        "LocalizedString": "The Bear jumps off the swing and eats you right up!"
+      },
+      "SecondsToSwitch": 3.0,
+      "Actives": [
+        {
+          "ObjectName": "PlayerDeathOption'Section_Act2_DarkForestCabin:RootOption_0.ImageOption_0.TextOption_2.PlayerDeathOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestCabin.6"
+        }
+      ],
+      "ShowOptionConditionQuery": {
+        "HasNotCollected": [
+          "2DGame.Act2.DarkForestCabin.GiftedHoney"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "TagConditionOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestCabin_Text5",
+        "SourceString": "You open the door and head inside the cabin.",
+        "LocalizedString": "You open the door and head inside the cabin."
+      },
+      "SecondsToSwitch": 3.0,
+      "Actives": [
+        {
+          "ObjectName": "TagConditionOption'Section_Act2_DarkForestCabin:RootOption_0.TagConditionOption_1.TextOption_0.TagConditionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestCabin.12"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "TagConditionOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestCabin_Text6",
+        "SourceString": "The Bear on the porch growls and you back off.",
+        "LocalizedString": "The Bear on the porch growls and you back off."
+      },
+      "SecondsToSwitch": 3.0
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestCabin_Text14",
+        "SourceString": "You come across a broken down cabin in the woods.",
+        "LocalizedString": "You come across a broken down cabin in the woods."
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.DarkForestCabin.GiftedHoney"
+        ]
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestCabin_Text15",
+        "SourceString": "You come across a broken down cabin in the woods. There's a bear sitting on the front porch swing.",
+        "LocalizedString": "You come across a broken down cabin in the woods. There's a bear sitting on the front porch swing."
+      },
+      "ShowOptionConditionQuery": {
+        "HasNotCollected": [
+          "2DGame.Act2.DarkForestCabin.GiftedHoney"
+        ]
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_3",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestCabin_Text12",
+        "SourceString": "You throw the Honey Bottle at the Bear. It takes the honey and heads off into the woods.",
+        "LocalizedString": "You throw the Honey Bottle at the Bear. It takes the honey and heads off into the woods."
+      },
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_Act2_DarkForestCabin:RootOption_0.TextOption_3.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestCabin.10"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestCabin_Text11",
+        "SourceString": "Give Honey Bottle to the Bear",
+        "LocalizedString": "Give Honey Bottle to the Bear"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.DarkForest.CollectedHoneyBottle"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act2.DarkForestCabin.GiftedHoney"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_4",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestCabin_Text3",
+        "SourceString": "\"Hoo! Hoo!\"",
+        "LocalizedString": "\"Hoo! Hoo!\""
+      },
+      "SecondsToSwitch": 1.0,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestCabin_Text2",
+        "SourceString": "Talk to Baby Owl",
+        "LocalizedString": "Talk to Baby Owl"
+      }
+    }
+  },
+  {
+    "Type": "TwoDSectionData",
+    "Name": "Section_Act2_DarkForestCabin",
+    "Class": "UScriptClass'TwoDSectionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootPages": [
+        {
+          "ObjectName": "RootOption'Section_Act2_DarkForestCabin:RootOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForestCabin.9"
+        }
+      ],
+      "CheckpointTags": [
+        "2DGame.Act2.DarkForest.CollectedBowtie",
+        "2DGame.Act2.DarkForest.CollectedHoneyBottle",
+        "2DGame.Act2.DarkForest.CollectedFoxyPuppet",
+        "2DGame.Act2.DarkForest.CollectedSewingKit",
+        "2DGame.Act2.DarkForest.ExaminedStatues"
+      ]
+    }
+  }
+]

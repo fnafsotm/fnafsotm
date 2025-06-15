@@ -1,0 +1,335 @@
+[
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act2/Section_Act2_DarkForestCabin.Section_Act2_DarkForestCabin",
+        "SubPathString": ""
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_InsideCabin_Text12",
+        "SourceString": "Leave the cabin",
+        "LocalizedString": "Leave the cabin"
+      }
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "TextOption_4",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act2/Section_Act2_MaskWorkbench.Section_Act2_MaskWorkbench",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "TextOption_6",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act2/Section_Act2_MaskWorkbench.Section_Act2_MaskWorkbench",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "ImageLayerOption",
+    "Name": "ImageLayerOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'ImageLayerOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageTexture": {
+        "ObjectName": "Texture2D'T_2D_Act2_Cabin_OV_Pizza'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_Cabin_OV_Pizza.0"
+      },
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.PizzaMaker"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_0",
+    "Outer": "Section_Act2_InsideCabin",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_Cabin'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_Cabin.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_InsideCabin:RootOption_0.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_InsideCabin.7"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_InsideCabin:RootOption_0.TextOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_InsideCabin.8"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_InsideCabin:RootOption_0.TextOption_3'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_InsideCabin.9"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_InsideCabin:RootOption_0.TextOption_4'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_InsideCabin.10"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_InsideCabin:RootOption_0.TextOption_6'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_InsideCabin.12"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_InsideCabin:RootOption_0.TextOption_5'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_InsideCabin.11"
+        },
+        {
+          "ObjectName": "GoToSectionOption'Section_Act2_InsideCabin:RootOption_0.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_InsideCabin.0"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_InsideCabin:RootOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_InsideCabin.6"
+        },
+        {
+          "ObjectName": "ImageLayerOption'Section_Act2_InsideCabin:RootOption_0.ImageLayerOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_InsideCabin.3"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_InsideCabin_Text1",
+        "SourceString": "Inside Cabin",
+        "LocalizedString": "Inside Cabin"
+      }
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_4",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act2.InsideCabin.TalktoSun"
+      ]
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_InsideCabin_Text13",
+        "SourceString": "Inside the cabin. You see an old woman standing next to an oven. Strange masks line the walls.",
+        "LocalizedString": "Inside the cabin. You see an old woman standing next to an oven. Strange masks line the walls."
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_InsideCabin_Text3",
+        "SourceString": "Fredbear's Pizza Maker. The light bulb inside makes the best pizzas. Sausage was his favorite.",
+        "LocalizedString": "Fredbear's Pizza Maker. The light bulb inside makes the best pizzas. Sausage was his favorite."
+      },
+      "SecondsToSwitch": 6.0,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_InsideCabin_Text2",
+        "SourceString": "Use Pizza Maker",
+        "LocalizedString": "Use Pizza Maker"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.PizzaMaker"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_2",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_InsideCabin_Text5",
+        "SourceString": "The Baby Own chirps happily. He then rubs against you and coos. ",
+        "LocalizedString": "The Baby Own chirps happily. He then rubs against you and coos. "
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_InsideCabin_Text4",
+        "SourceString": "Feed Baby Owl",
+        "LocalizedString": "Feed Baby Owl"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_3",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_InsideCabin_Text7",
+        "SourceString": "The animal masks are warped and strangely... human looking.",
+        "LocalizedString": "The animal masks are warped and strangely... human looking."
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_InsideCabin_Text6",
+        "SourceString": "Examine Masks",
+        "LocalizedString": "Examine Masks"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_4",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_InsideCabin_Text9",
+        "SourceString": "\"My name is Sun,\" the old woman says. \"Come with me.\" She then motions you over to her workbench.",
+        "LocalizedString": "\"My name is Sun,\" the old woman says. \"Come with me.\" She then motions you over to her workbench."
+      },
+      "SecondsToSwitch": 6.0,
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_Act2_InsideCabin:RootOption_0.TextOption_4.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_InsideCabin.1"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_Act2_InsideCabin:RootOption_0.TextOption_4.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_InsideCabin.5"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_InsideCabin_Text8",
+        "SourceString": "Talk to Old Woman",
+        "LocalizedString": "Talk to Old Woman"
+      },
+      "ShowOptionConditionQuery": {
+        "HasNotCollected": [
+          "2DGame.Act2.InsideCabin.TalktoSun"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_5",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_InsideCabin_Text11",
+        "SourceString": "The oven is very cold. Nothing is cooking inside.",
+        "LocalizedString": "The oven is very cold. Nothing is cooking inside."
+      },
+      "SecondsToSwitch": 3.0,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_InsideCabin_Text10",
+        "SourceString": "Examine Oven",
+        "LocalizedString": "Examine Oven"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_6",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_InsideCabin_Text14",
+        "SourceString": "Sun smiles. \"Come with me,\" she says as she takes you to her workbench.",
+        "LocalizedString": "Sun smiles. \"Come with me,\" she says as she takes you to her workbench."
+      },
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_Act2_InsideCabin:RootOption_0.TextOption_6.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_InsideCabin.2"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act3_Game_Sun_Text2",
+        "SourceString": "Talk to Sun",
+        "LocalizedString": "Talk to Sun"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.InsideCabin.TalktoSun"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "TwoDSectionData",
+    "Name": "Section_Act2_InsideCabin",
+    "Class": "UScriptClass'TwoDSectionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootPages": [
+        {
+          "ObjectName": "RootOption'Section_Act2_InsideCabin:RootOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_InsideCabin.4"
+        }
+      ]
+    }
+  }
+]

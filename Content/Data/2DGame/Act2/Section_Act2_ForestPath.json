@@ -1,0 +1,1476 @@
+[
+  {
+    "Type": "AddTagToGPDBOption",
+    "Name": "AddTagToGPDBOption_0",
+    "Outer": "TextOption_2",
+    "Class": "UScriptClass'AddTagToGPDBOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "GPDBTag": {
+        "TagName": "gpdb.2DGame.CollectedWalkingStick"
+      },
+      "Title": {
+        "CultureInvariantString": "CollectedWalkingStick-GPDB"
+      }
+    }
+  },
+  {
+    "Type": "AddTagToGPDBOption",
+    "Name": "AddTagToGPDBOption_1",
+    "Outer": "TextOption_2",
+    "Class": "UScriptClass'AddTagToGPDBOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "GPDBTag": {
+        "TagName": "gpdb.2DGame.UsedRangerArmyKnife"
+      },
+      "Title": {
+        "CultureInvariantString": "UsedRangerArmyKnife-GPDB"
+      }
+    }
+  },
+  {
+    "Type": "AddTagToGPDBOption",
+    "Name": "AddTagToGPDBOption_0",
+    "Outer": "TextOption_3",
+    "Class": "UScriptClass'AddTagToGPDBOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "GPDBTag": {
+        "TagName": "gpdb.2DGame.CollectedNightLight"
+      }
+    }
+  },
+  {
+    "Type": "AddTagToGPDBOption",
+    "Name": "AddTagToGPDBOption_0",
+    "Outer": "TextOption_1",
+    "Class": "UScriptClass'AddTagToGPDBOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "GPDBTag": {
+        "TagName": "gpdb.2DGame.CollectedRangerArmyKnife"
+      }
+    }
+  },
+  {
+    "Type": "AnimOption",
+    "Name": "AnimOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'AnimOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AnimationWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'WBP_ForestDeath_C'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Widgets/2DGame/Animations/WBP_ForestDeath.0"
+      },
+      "Actives": [
+        {
+          "ObjectName": "PlayerDeathOption'Section_Act2_ForestPath:RootOption_1.TextOption_0.AnimOption_0.PlayerDeathOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.16"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "AnimOption",
+    "Name": "AnimOption_0",
+    "Outer": "TextOption_2",
+    "Class": "UScriptClass'AnimOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AnimationWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'WBP_ForestDeath_C'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Widgets/2DGame/Animations/WBP_ForestDeath.0"
+      },
+      "Actives": [
+        {
+          "ObjectName": "PlayerDeathOption'Section_Act2_ForestPath:RootOption_1.TextOption_2.AnimOption_0.PlayerDeathOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.17"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ExitGameOption",
+    "Name": "ExitGameOption",
+    "Outer": "PlayerDeathOption_0",
+    "Class": "UScriptClass'ExitGameOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ExitGameOption",
+    "Name": "ExitGameOption",
+    "Outer": "PlayerDeathOption_0",
+    "Class": "UScriptClass'ExitGameOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Section_Act1.Section_Act1",
+        "SubPathString": ""
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text2",
+        "SourceString": "Enter House Again",
+        "LocalizedString": "Enter House Again"
+      }
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "TextOption_3",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act2/Section_Act2_DarkForest.Section_Act2_DarkForest",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "ImageLayerOption",
+    "Name": "ImageLayerOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'ImageLayerOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageTexture": {
+        "ObjectName": "Texture2D'T_2D_Act2_WestPath_OV_Chica'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_WestPath_OV_Chica.0"
+      },
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.PartyTimeChicaThermos"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act2.Forest.CollectedChicaThermos"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "ImageLayerOption",
+    "Name": "ImageLayerOption_0",
+    "Outer": "RootOption_1",
+    "Class": "UScriptClass'ImageLayerOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageTexture": {
+        "ObjectName": "Texture2D'T_2D_Act2_Cave_OV_Starbright'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_Cave_OV_Starbright.0"
+      },
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.StarbrightNightLight"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act2.Forest.CollectedNightLight"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "ImageLayerOption",
+    "Name": "ImageLayerOption_0",
+    "Outer": "RootOption_2",
+    "Class": "UScriptClass'ImageLayerOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageTexture": {
+        "ObjectName": "Texture2D'T_2D_Act2_EastPath'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_EastPath.0"
+      },
+      "ConditionQuery": {
+        "HasNotCollected": [
+          "2DGame.Act2.Forest.UsedPoisonSoup"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "ImageLayerOption",
+    "Name": "ImageLayerOption_1",
+    "Outer": "RootOption_2",
+    "Class": "UScriptClass'ImageLayerOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageTexture": {
+        "ObjectName": "Texture2D'T_2D_Act2_EastPath_OV_Oaktree_S'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_EastPath_OV_Oaktree_S.0"
+      },
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.Forest.CollectedRangerArmyKnife"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "ImageLayerOption",
+    "Name": "ImageLayerOption_2",
+    "Outer": "RootOption_2",
+    "Class": "UScriptClass'ImageLayerOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageTexture": {
+        "ObjectName": "Texture2D'T_2D_Act2_EastPath_OV_Oaktree_H'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_EastPath_OV_Oaktree_H.0"
+      },
+      "ConditionQuery": {
+        "HasNotCollected": [
+          "2DGame.Act2.Forest.CollectedRangerArmyKnife"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "ImageOption",
+    "Name": "ImageOption_1",
+    "Outer": "TextOption_1",
+    "Class": "UScriptClass'ImageOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_EastPath_OakTree'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_EastPath_OakTree.0"
+        }
+      },
+      "SecondsToSwitch": 3.0,
+      "bAreActivesChoices": true,
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_ForestPath:RootOption_2.TagConditionOption_1.TagConditionOption_0.TextOption_1.ImageOption_1.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.54"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_ForestPath:RootOption_2.TagConditionOption_1.TagConditionOption_0.TextOption_1.ImageOption_1.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.53"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PlayerDeathOption",
+    "Name": "PlayerDeathOption_0",
+    "Outer": "AnimOption_0",
+    "Class": "UScriptClass'PlayerDeathOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_PlayerDeath'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_PlayerDeath.0"
+        }
+      },
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text20",
+        "SourceString": "The Moon saves you from the poison. \"What were you thinking? Back to Bed!\" he screams. Everything fades to black.",
+        "LocalizedString": "The Moon saves you from the poison. \"What were you thinking? Back to Bed!\" he screams. Everything fades to black."
+      },
+      "Options": [
+        {
+          "ObjectName": "RestartOption'Section_Act2_ForestPath:RootOption_1.TextOption_0.AnimOption_0.PlayerDeathOption_0.RestartOption'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.20"
+        },
+        {
+          "ObjectName": "ExitGameOption'Section_Act2_ForestPath:RootOption_1.TextOption_0.AnimOption_0.PlayerDeathOption_0.ExitGameOption'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.6"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "PostAudioOption'Section_Act2_ForestPath:RootOption_1.TextOption_0.AnimOption_0.PlayerDeathOption_0.PostAudioOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.18"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text19",
+        "SourceString": "Back to Bed",
+        "LocalizedString": "Back to Bed"
+      }
+    }
+  },
+  {
+    "Type": "PlayerDeathOption",
+    "Name": "PlayerDeathOption_0",
+    "Outer": "AnimOption_0",
+    "Class": "UScriptClass'PlayerDeathOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act1_Bed_ClimbDeath'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act1_Bed_ClimbDeath.0"
+        }
+      },
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text26",
+        "SourceString": "The Moon comes out of the darkness of the cave. \"Not now. I'm too busy! Back to Bed!\" Everything fades to black.",
+        "LocalizedString": "The Moon comes out of the darkness of the cave. \"Not now. I'm too busy! Back to Bed!\" Everything fades to black."
+      },
+      "Options": [
+        {
+          "ObjectName": "RestartOption'Section_Act2_ForestPath:RootOption_1.TextOption_2.AnimOption_0.PlayerDeathOption_0.RestartOption'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.21"
+        },
+        {
+          "ObjectName": "ExitGameOption'Section_Act2_ForestPath:RootOption_1.TextOption_2.AnimOption_0.PlayerDeathOption_0.ExitGameOption'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.7"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "PostAudioOption'Section_Act2_ForestPath:RootOption_1.TextOption_2.AnimOption_0.PlayerDeathOption_0.PostAudioOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.19"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text25",
+        "SourceString": "Back to Bed",
+        "LocalizedString": "Back to Bed"
+      }
+    }
+  },
+  {
+    "Type": "PostAudioOption",
+    "Name": "PostAudioOption_0",
+    "Outer": "PlayerDeathOption_0",
+    "Class": "UScriptClass'PostAudioOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AudioEvent": {
+        "ObjectName": "AkAudioEvent'sfx_2D_game_moonman_jumpscare'",
+        "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/sfx_2D_game_moonman_jumpscare.0"
+      }
+    }
+  },
+  {
+    "Type": "PostAudioOption",
+    "Name": "PostAudioOption_0",
+    "Outer": "PlayerDeathOption_0",
+    "Class": "UScriptClass'PostAudioOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AudioEvent": {
+        "ObjectName": "AkAudioEvent'sfx_2D_game_moonman_jumpscare'",
+        "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/sfx_2D_game_moonman_jumpscare.0"
+      }
+    }
+  },
+  {
+    "Type": "RestartOption",
+    "Name": "RestartOption",
+    "Outer": "PlayerDeathOption_0",
+    "Class": "UScriptClass'RestartOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "RestartOption",
+    "Name": "RestartOption",
+    "Outer": "PlayerDeathOption_0",
+    "Class": "UScriptClass'RestartOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ReturnOption",
+    "Name": "ReturnOption_0",
+    "Outer": "TextOption_1",
+    "Class": "UScriptClass'ReturnOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_0",
+    "Outer": "Section_Act2_ForestPath",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_WestPath'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_WestPath.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_Act2_ForestPath:RootOption_0.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.8"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_ForestPath:RootOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.41"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_ForestPath:RootOption_0.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.42"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_ForestPath:RootOption_0.TextOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.43"
+        },
+        {
+          "ObjectName": "TagConditionOption'Section_Act2_ForestPath:RootOption_0.TagConditionOption_6'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.34"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_ForestPath:RootOption_0.TextOption_4'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.44"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_ForestPath:RootOption_0.TextOption_6'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.45"
+        },
+        {
+          "ObjectName": "ImageLayerOption'Section_Act2_ForestPath:RootOption_0.ImageLayerOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.10"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text1",
+        "SourceString": "West Forest Path",
+        "LocalizedString": "West Forest Path"
+      }
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_1",
+    "Outer": "Section_Act2_ForestPath",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_Cave'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_Cave.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_ForestPath:RootOption_1.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.46"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_ForestPath:RootOption_1.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.47"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_ForestPath:RootOption_1.TextOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.48"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_ForestPath:RootOption_1.TextOption_3'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.49"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_ForestPath:RootOption_1.TextOption_4'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.50"
+        },
+        {
+          "ObjectName": "ImageLayerOption'Section_Act2_ForestPath:RootOption_1.ImageLayerOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.11"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text16",
+        "SourceString": "Forest Cave",
+        "LocalizedString": "Forest Cave"
+      }
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_2",
+    "Outer": "Section_Act2_ForestPath",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_EastPath_NoGator'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_EastPath_NoGator.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_ForestPath:RootOption_2.TextOption_4'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.60"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_ForestPath:RootOption_2.TextOption_5'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.61"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_ForestPath:RootOption_2.TextOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.58"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_ForestPath:RootOption_2.TextOption_3'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.59"
+        },
+        {
+          "ObjectName": "TagConditionOption'Section_Act2_ForestPath:RootOption_2.TagConditionOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.36"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_ForestPath:RootOption_2.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.56"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_ForestPath:RootOption_2.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.57"
+        },
+        {
+          "ObjectName": "ImageLayerOption'Section_Act2_ForestPath:RootOption_2.ImageLayerOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.12"
+        },
+        {
+          "ObjectName": "ImageLayerOption'Section_Act2_ForestPath:RootOption_2.ImageLayerOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.13"
+        },
+        {
+          "ObjectName": "ImageLayerOption'Section_Act2_ForestPath:RootOption_2.ImageLayerOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.14"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text30",
+        "SourceString": "East Forest Path",
+        "LocalizedString": "East Forest Path"
+      }
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_1",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act2.Forest.ExaminedNest"
+      ]
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_2",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act2.Forest.UsedRangerArmyKnife"
+      ],
+      "Title": {
+        "CultureInvariantString": "UsedRangerArmyKnife-2DGame"
+      }
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_1",
+    "Outer": "TextOption_2",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act2.Forest.CollectedWalkingStick"
+      ],
+      "Title": {
+        "CultureInvariantString": "CollectedWalkingStick-2DGame"
+      }
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_4",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act2.Forest.CollectedChicaThermos"
+      ]
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_1",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act2.Forest.UsedChicaThermos",
+        "2DGame.Act2.Forest.CollectedPoisonSoup"
+      ]
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_3",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act2.Forest.CollectedNightLight"
+      ]
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_1",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act2.Forest.CollectedRangerArmyKnife"
+      ]
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_5",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act2.Forest.UsedPoisonSoup"
+      ]
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_6",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.Forest.CollectedChicaThermos"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "TextOption'Section_Act2_ForestPath:RootOption_0.TagConditionOption_6.TextOption_1'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.40"
+      },
+      "FalseOption": {
+        "ObjectName": "TagConditionOption'Section_Act2_ForestPath:RootOption_0.TagConditionOption_6.TagConditionOption_1'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.35"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text9",
+        "SourceString": "Examine Nest",
+        "LocalizedString": "Examine Nest"
+      },
+      "AlternateStyleConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.PartyTimeChicaThermos"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act2.Forest.CollectedChicaThermos"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_1",
+    "Outer": "TagConditionOption_6",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.PartyTimeChicaThermos"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "TextOption'Section_Act2_ForestPath:RootOption_0.TagConditionOption_6.TagConditionOption_1.TextOption_1'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.39"
+      },
+      "FalseOption": {
+        "ObjectName": "TextOption'Section_Act2_ForestPath:RootOption_0.TagConditionOption_6.TagConditionOption_1.TextOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.38"
+      }
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_1",
+    "Outer": "RootOption_2",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.Forest.CollectedRangerArmyKnife"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "TextOption'Section_Act2_ForestPath:RootOption_2.TagConditionOption_1.TextOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.55"
+      },
+      "FalseOption": {
+        "ObjectName": "TagConditionOption'Section_Act2_ForestPath:RootOption_2.TagConditionOption_1.TagConditionOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.37"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text41",
+        "SourceString": "Examine Oak Tree",
+        "LocalizedString": "Examine Oak Tree"
+      },
+      "AlternateStyleConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.RangerArmyKnife"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act2.Forest.CollectedRangerArmyKnife"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_0",
+    "Outer": "TagConditionOption_1",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.RangerArmyKnife"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "TextOption'Section_Act2_ForestPath:RootOption_2.TagConditionOption_1.TagConditionOption_0.TextOption_1'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.52"
+      },
+      "FalseOption": {
+        "ObjectName": "TextOption'Section_Act2_ForestPath:RootOption_2.TagConditionOption_1.TagConditionOption_0.TextOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.51"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "TagConditionOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text12",
+        "SourceString": "The nest is empty.",
+        "LocalizedString": "The nest is empty."
+      },
+      "SecondsToSwitch": 1.0
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "TagConditionOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text11",
+        "SourceString": "You find a Chica Party Time Cup in the nest!",
+        "LocalizedString": "You find a Chica Party Time Cup in the nest!"
+      },
+      "SecondsToSwitch": 2.5,
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_Act2_ForestPath:RootOption_0.TagConditionOption_6.TagConditionOption_1.TextOption_1.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.26"
+        }
+      ],
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "TagConditionOption_6",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text10",
+        "SourceString": "The nest is empty.",
+        "LocalizedString": "The nest is empty."
+      },
+      "SecondsToSwitch": 1.0
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text4",
+        "SourceString": "A lizard, a squirrel, and a snake are having a tea party. Nothing unusual.",
+        "LocalizedString": "A lizard, a squirrel, and a snake are having a tea party. Nothing unusual."
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text3",
+        "SourceString": "Examine Bushes",
+        "LocalizedString": "Examine Bushes"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text6",
+        "SourceString": "The branch is too thick. You can't break it.",
+        "LocalizedString": "The branch is too thick. You can't break it."
+      },
+      "SecondsToSwitch": 3.0,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text5",
+        "SourceString": "Break Tree Branch",
+        "LocalizedString": "Break Tree Branch"
+      },
+      "ShowOptionConditionQuery": {
+        "HasNotCollected": [
+          "2DGame.Act2.Forest.CollectedWalkingStick"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_2",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text8",
+        "SourceString": "You saw the branch off with your knife. You now have a walking stick!",
+        "LocalizedString": "You saw the branch off with your knife. You now have a walking stick!"
+      },
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_Act2_ForestPath:RootOption_0.TextOption_2.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.27"
+        },
+        {
+          "ObjectName": "TagCollectionOption'Section_Act2_ForestPath:RootOption_0.TextOption_2.TagCollectionOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.28"
+        },
+        {
+          "ObjectName": "AddTagToGPDBOption'Section_Act2_ForestPath:RootOption_0.TextOption_2.AddTagToGPDBOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.1"
+        },
+        {
+          "ObjectName": "AddTagToGPDBOption'Section_Act2_ForestPath:RootOption_0.TextOption_2.AddTagToGPDBOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.0"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text7",
+        "SourceString": "Use Ranger Knife on Branch",
+        "LocalizedString": "Use Ranger Knife on Branch"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.Forest.CollectedRangerArmyKnife"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act2.Forest.UsedRangerArmyKnife"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_4",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text14",
+        "SourceString": "You take the Chica Cup. ",
+        "LocalizedString": "You take the Chica Cup. "
+      },
+      "SecondsToSwitch": 2.0,
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_Act2_ForestPath:RootOption_0.TextOption_4.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.29"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text13",
+        "SourceString": "Take Chica Cup",
+        "LocalizedString": "Take Chica Cup"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.Forest.ExaminedNest"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act2.Forest.CollectedChicaThermos"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_6",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text15",
+        "SourceString": "Outside your house. There's a scary tree and a path running east and west.",
+        "LocalizedString": "Outside your house. There's a scary tree and a path running east and west."
+      },
+      "bSkipTimer": true,
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text18",
+        "SourceString": "The soup tastes strange, like plums and nutmeg. The world spins, and the last thing you see is the Moon above...",
+        "LocalizedString": "The soup tastes strange, like plums and nutmeg. The world spins, and the last thing you see is the Moon above..."
+      },
+      "SecondsToSwitch": 6.0,
+      "Actives": [
+        {
+          "ObjectName": "AnimOption'Section_Act2_ForestPath:RootOption_1.TextOption_0.AnimOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.4"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text17",
+        "SourceString": "Eat Strange Soup",
+        "LocalizedString": "Eat Strange Soup"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "RootOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text22",
+        "SourceString": "You pour the soup into the cup. It's warm in your hands.",
+        "LocalizedString": "You pour the soup into the cup. It's warm in your hands."
+      },
+      "SecondsToSwitch": 3.0,
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_Act2_ForestPath:RootOption_1.TextOption_1.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.30"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text21",
+        "SourceString": "Put Soup In Cup",
+        "LocalizedString": "Put Soup In Cup"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.Forest.CollectedChicaThermos"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act2.Forest.CollectedPoisonSoup",
+          "2DGame.Act2.Forest.UsedChicaThermos"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_2",
+    "Outer": "RootOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text24",
+        "SourceString": "You walk towards the cave entrance. A cold, angry wind brushes past you, but you continue inside...",
+        "LocalizedString": "You walk towards the cave entrance. A cold, angry wind brushes past you, but you continue inside..."
+      },
+      "Actives": [
+        {
+          "ObjectName": "AnimOption'Section_Act2_ForestPath:RootOption_1.TextOption_2.AnimOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.5"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text23",
+        "SourceString": "Enter Cave",
+        "LocalizedString": "Enter Cave"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_3",
+    "Outer": "RootOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text28",
+        "SourceString": "A Starbright Night Light. It takes the firelight and burns forever.",
+        "LocalizedString": "A Starbright Night Light. It takes the firelight and burns forever."
+      },
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_Act2_ForestPath:RootOption_1.TextOption_3.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.31"
+        },
+        {
+          "ObjectName": "AddTagToGPDBOption'Section_Act2_ForestPath:RootOption_1.TextOption_3.AddTagToGPDBOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.2"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text27",
+        "SourceString": "Pick up Starbright Night Light",
+        "LocalizedString": "Pick up Starbright Night Light"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.StarbrightNightLight"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act2.Forest.CollectedNightLight"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_4",
+    "Outer": "RootOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text29",
+        "SourceString": "You stand in front of a dark, scary cave, with a campfire out front. Above the fire is a bubbling cauldron that holds an odd smelling soup.  ",
+        "LocalizedString": "You stand in front of a dark, scary cave, with a campfire out front. Above the fire is a bubbling cauldron that holds an odd smelling soup.  "
+      },
+      "bSkipTimer": true,
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text47",
+        "SourceString": "The Oak Tree groans. It seems to be in pain.",
+        "LocalizedString": "The Oak Tree groans. It seems to be in pain."
+      },
+      "SecondsToSwitch": 2.5
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text43",
+        "SourceString": "You walk up and examine the Oak Tree.",
+        "LocalizedString": "You walk up and examine the Oak Tree."
+      },
+      "SecondsToSwitch": 3.0,
+      "Actives": [
+        {
+          "ObjectName": "ImageOption'Section_Act2_ForestPath:RootOption_2.TagConditionOption_1.TagConditionOption_0.TextOption_1.ImageOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.15"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "ImageOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text46",
+        "SourceString": "The Oak Tree groans. It seems to be in pain. It looks like a knife is sticking out of the side.",
+        "LocalizedString": "The Oak Tree groans. It seems to be in pain. It looks like a knife is sticking out of the side."
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "ImageOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text45",
+        "SourceString": "You find a Ranger Army Knife! The tree sighs and smiles. It's much better now.",
+        "LocalizedString": "You find a Ranger Army Knife! The tree sighs and smiles. It's much better now."
+      },
+      "SecondsToSwitch": 6.0,
+      "Actives": [
+        {
+          "ObjectName": "ReturnOption'Section_Act2_ForestPath:RootOption_2.TagConditionOption_1.TagConditionOption_0.TextOption_1.ImageOption_1.TextOption_1.ReturnOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.22"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_Act2_ForestPath:RootOption_2.TagConditionOption_1.TagConditionOption_0.TextOption_1.ImageOption_1.TextOption_1.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.32"
+        },
+        {
+          "ObjectName": "AddTagToGPDBOption'Section_Act2_ForestPath:RootOption_2.TagConditionOption_1.TagConditionOption_0.TextOption_1.ImageOption_1.TextOption_1.AddTagToGPDBOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.3"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text44",
+        "SourceString": "Take Ranger Knife",
+        "LocalizedString": "Take Ranger Knife"
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "TagConditionOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text42",
+        "SourceString": "You say hello to the Oak Tree. It smiles and thanks you again.",
+        "LocalizedString": "You say hello to the Oak Tree. It smiles and thanks you again."
+      },
+      "SecondsToSwitch": 3.0
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_2",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text39",
+        "SourceString": "A forest path leads deeper into the night. A very happy Baby Owl hoots and flies around your head.",
+        "LocalizedString": "A forest path leads deeper into the night. A very happy Baby Owl hoots and flies around your head."
+      },
+      "bSkipTimer": true,
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.Forest.UsedPoisonSoup"
+        ]
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "RootOption_2",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text40",
+        "SourceString": "A forest path leads deeper into the night, but it's blocked by a Gator who is trying to eat a Baby Owl.",
+        "LocalizedString": "A forest path leads deeper into the night, but it's blocked by a Gator who is trying to eat a Baby Owl."
+      },
+      "bSkipTimer": true,
+      "ShowOptionConditionQuery": {
+        "HasNotCollected": [
+          "2DGame.Act2.Forest.UsedPoisonSoup"
+        ]
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_2",
+    "Outer": "RootOption_2",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text36",
+        "SourceString": "The Baby Owl coos and flutters his wings.",
+        "LocalizedString": "The Baby Owl coos and flutters his wings."
+      },
+      "SecondsToSwitch": 2.0,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text35",
+        "SourceString": "Pet the Baby Owl",
+        "LocalizedString": "Pet the Baby Owl"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.Forest.UsedPoisonSoup"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_3",
+    "Outer": "RootOption_2",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text38",
+        "SourceString": "You take the path deeper into the forest.",
+        "LocalizedString": "You take the path deeper into the forest."
+      },
+      "SecondsToSwitch": 2.0,
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_Act2_ForestPath:RootOption_2.TextOption_3.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.9"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text37",
+        "SourceString": "Enter Forest Ruins",
+        "LocalizedString": "Enter Forest Ruins"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.Forest.UsedPoisonSoup"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_4",
+    "Outer": "RootOption_2",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text32",
+        "SourceString": "The Gator snaps at you. You back off.",
+        "LocalizedString": "The Gator snaps at you. You back off."
+      },
+      "SecondsToSwitch": 2.5,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text31",
+        "SourceString": "Save the Owl",
+        "LocalizedString": "Save the Owl"
+      },
+      "ShowOptionConditionQuery": {
+        "HasNotCollected": [
+          "2DGame.Act2.Forest.UsedPoisonSoup"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_5",
+    "Outer": "RootOption_2",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text34",
+        "SourceString": "You throw the Chica cup at the Gator. He eats it and dies.",
+        "LocalizedString": "You throw the Chica cup at the Gator. He eats it and dies."
+      },
+      "SecondsToSwitch": 3.0,
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_Act2_ForestPath:RootOption_2.TextOption_5.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.33"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_ForestPath_Text33",
+        "SourceString": "Throw Soup at the Gator",
+        "LocalizedString": "Throw Soup at the Gator"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.Forest.CollectedPoisonSoup"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act2.Forest.UsedPoisonSoup"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TwoDSectionData",
+    "Name": "Section_Act2_ForestPath",
+    "Class": "UScriptClass'TwoDSectionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bIsCheckpoint": true,
+      "RootPages": [
+        {
+          "ObjectName": "RootOption'Section_Act2_ForestPath:RootOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.23"
+        },
+        {
+          "ObjectName": "RootOption'Section_Act2_ForestPath:RootOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.24"
+        },
+        {
+          "ObjectName": "RootOption'Section_Act2_ForestPath:RootOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_ForestPath.25"
+        }
+      ],
+      "CheckpointTags": [
+        "2DGame.Act2.Forest.ExaminedNest",
+        "2DGame.Act2.Forest.CollectedChicaThermos",
+        "2DGame.Act2.Forest.UsedChicaThermos",
+        "2DGame.Act2.Forest.CollectedPoisonSoup",
+        "2DGame.Act2.Forest.UsedPoisonSoup"
+      ]
+    }
+  }
+]

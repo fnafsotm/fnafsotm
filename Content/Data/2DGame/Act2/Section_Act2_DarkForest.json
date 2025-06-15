@@ -1,0 +1,1259 @@
+[
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act2/Section_Act2_DarkForestCabin.Section_Act2_DarkForestCabin",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "TextOption_4",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act2/Section_Act2_ForestPath.Section_Act2_ForestPath",
+        "SubPathString": ""
+      },
+      "RootOptionIndex": 2
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "RootOption_2",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act2/Section_Act2_DarkForestPond.Section_Act2_DarkForestPond",
+        "SubPathString": ""
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text15",
+        "SourceString": "Walk Down to the Pond",
+        "LocalizedString": "Walk Down to the Pond"
+      }
+    }
+  },
+  {
+    "Type": "ImageLayerOption",
+    "Name": "ImageLayerOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'ImageLayerOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageTexture": {
+        "ObjectName": "Texture2D'T_2D_Act2_DarkPath_OV_Honey'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_DarkPath_OV_Honey.0"
+      },
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.HoneyBottle"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act2.DarkForest.CollectedHoneyBottle"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "ImageLayerOption",
+    "Name": "ImageLayerOption_0",
+    "Outer": "RootOption_1",
+    "Class": "UScriptClass'ImageLayerOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageTexture": {
+        "ObjectName": "Texture2D'T_2D_Act2_DarkRuins_OV_Globe'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_DarkRuins_OV_Globe.0"
+      },
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.SnowGlobe"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "ImageLayerOption",
+    "Name": "ImageLayerOption_0",
+    "Outer": "RootOption_2",
+    "Class": "UScriptClass'ImageLayerOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageTexture": {
+        "ObjectName": "Texture2D'T_2D_Act2_DarkPond_OV_Water'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_DarkPond_OV_Water.0"
+      },
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.MontyWaterGame"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "ImageLayerOption",
+    "Name": "ImageLayerOption_0",
+    "Outer": "RootOption_4",
+    "Class": "UScriptClass'ImageLayerOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageTexture": {
+        "ObjectName": "Texture2D'T_2D_Act2_DarkFountain_OV_Sew'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_DarkFountain_OV_Sew.0"
+      },
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.SewingKit"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act2.DarkForest.CollectedSewingKit"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "ImageOption",
+    "Name": "ImageOption_0",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'ImageOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_DarkRuins_Bowtie'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_DarkRuins_Bowtie.0"
+        }
+      },
+      "bRemovePreviousDescriptionText": true,
+      "SecondsToSwitch": 0.01,
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_1.TextOption_2.TagConditionOption_0.ImageOption_0.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.34"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ImageOption",
+    "Name": "ImageOption_0",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'ImageOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_DarkFountain_Sewing'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_DarkFountain_Sewing.0"
+        }
+      },
+      "bRemovePreviousDescriptionText": true,
+      "SecondsToSwitch": 0.1,
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_4.TagConditionOption_0.TagConditionOption_0.ImageOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.43"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ReturnOption",
+    "Name": "ReturnOption_0",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'ReturnOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_0",
+    "Outer": "Section_Act2_DarkForest",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_DarkPath'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_DarkPath.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.26"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_0.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.27"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_0.TextOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.28"
+        },
+        {
+          "ObjectName": "TagConditionOption'Section_Act2_DarkForest:RootOption_0.TagConditionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.18"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_0.TextOption_4'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.29"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_0.TextOption_5'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.30"
+        },
+        {
+          "ObjectName": "ImageLayerOption'Section_Act2_DarkForest:RootOption_0.ImageLayerOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.3"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text34",
+        "SourceString": "Dark Forest Path",
+        "LocalizedString": "Dark Forest Path"
+      }
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_1",
+    "Outer": "Section_Act2_DarkForest",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_DarkRuins'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_DarkRuins.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_1.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.31"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_1.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.32"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_1.TextOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.33"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_1.TextOption_3'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.35"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_1.TextOption_4'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.36"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_1.TextOption_5'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.37"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_1.TextOption_6'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.38"
+        },
+        {
+          "ObjectName": "ImageLayerOption'Section_Act2_DarkForest:RootOption_1.ImageLayerOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.4"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text1",
+        "SourceString": "Dark Forest Ruins",
+        "LocalizedString": "Dark Forest Ruins"
+      }
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_2",
+    "Outer": "Section_Act2_DarkForest",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_DarkPond_'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_DarkPond_.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_2.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.39"
+        },
+        {
+          "ObjectName": "GoToSectionOption'Section_Act2_DarkForest:RootOption_2.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.2"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_2.TextOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.40"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_2.TextOption_4'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.41"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_2.TextOption_5'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.42"
+        },
+        {
+          "ObjectName": "ImageLayerOption'Section_Act2_DarkForest:RootOption_2.ImageLayerOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.5"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text50",
+        "SourceString": "Dark Forest",
+        "LocalizedString": "Dark Forest"
+      }
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_4",
+    "Outer": "Section_Act2_DarkForest",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_DarkFountain'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_DarkFountain.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_4.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.47"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_4.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.48"
+        },
+        {
+          "ObjectName": "TagConditionOption'Section_Act2_DarkForest:RootOption_4.TagConditionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.21"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_4.TextOption_3'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.50"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_4.TextOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.49"
+        },
+        {
+          "ObjectName": "ImageLayerOption'Section_Act2_DarkForest:RootOption_4.ImageLayerOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.6"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text21",
+        "SourceString": "Dark Forest Fountain",
+        "LocalizedString": "Dark Forest Fountain"
+      }
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_1",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act2.DarkForest.CollectedHoneyBottle"
+      ]
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_1",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act2.DarkForest.ExaminedStatues"
+      ]
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_3",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act2.DarkForest.CollectedBowtie"
+      ]
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act2.DarkForest.CollectedSewingKit"
+      ]
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.DarkForest.CollectedHoneyBottle"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_0.TagConditionOption_0.TextOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.25"
+      },
+      "FalseOption": {
+        "ObjectName": "TagConditionOption'Section_Act2_DarkForest:RootOption_0.TagConditionOption_0.TagConditionOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.19"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text42",
+        "SourceString": "Look at the Hollow Stump",
+        "LocalizedString": "Look at the Hollow Stump"
+      },
+      "AlternateStyleConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.HoneyBottle"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act2.DarkForest.CollectedHoneyBottle"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_0",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.HoneyBottle"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_0.TagConditionOption_0.TagConditionOption_0.TextOption_1'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.24"
+      },
+      "FalseOption": {
+        "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_0.TagConditionOption_0.TagConditionOption_0.TextOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.23"
+      }
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_0",
+    "Outer": "TextOption_2",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasNotCollected": [
+          "2DGame.Act2.DarkForest.CollectedBowtie"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "ImageOption'Section_Act2_DarkForest:RootOption_1.TextOption_2.TagConditionOption_0.ImageOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.7"
+      },
+      "FalseOption": {
+        "ObjectName": "ReturnOption'Section_Act2_DarkForest:RootOption_1.TextOption_2.TagConditionOption_0.ReturnOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.9"
+      }
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_0",
+    "Outer": "RootOption_4",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.SewingKit"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "TagConditionOption'Section_Act2_DarkForest:RootOption_4.TagConditionOption_0.TagConditionOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.22"
+      },
+      "FalseOption": {
+        "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_4.TagConditionOption_0.TextOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.46"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text26",
+        "SourceString": "Examine Loom",
+        "LocalizedString": "Examine Loom"
+      },
+      "AlternateStyleConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.SewingKit"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act2.DarkForest.CollectedSewingKit"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_0",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.DarkForest.CollectedSewingKit"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_4.TagConditionOption_0.TagConditionOption_0.TextOption_2'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.45"
+      },
+      "FalseOption": {
+        "ObjectName": "ImageOption'Section_Act2_DarkForest:RootOption_4.TagConditionOption_0.TagConditionOption_0.ImageOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.8"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text43",
+        "SourceString": "There's nothing there, but there is something sticky down the sides.",
+        "LocalizedString": "There's nothing there, but there is something sticky down the sides."
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text44",
+        "SourceString": "You find a Swing Bee Honey Bottle.",
+        "LocalizedString": "You find a Swing Bee Honey Bottle."
+      },
+      "SecondsToSwitch": 2.0,
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_Act2_DarkForest:RootOption_0.TagConditionOption_0.TagConditionOption_0.TextOption_1.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.14"
+        }
+      ],
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text43",
+        "SourceString": "There's nothing there, but there is something sticky down the sides.",
+        "LocalizedString": "There's nothing there, but there is something sticky down the sides."
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text36",
+        "SourceString": "You use the walking stick to walk up the path.",
+        "LocalizedString": "You use the walking stick to walk up the path."
+      },
+      "SecondsToSwitch": 3.0,
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_Act2_DarkForest:RootOption_0.TextOption_0.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.0"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text35",
+        "SourceString": "Use Walking Stick",
+        "LocalizedString": "Use Walking Stick"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.Forest.CollectedWalkingStick"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text39",
+        "SourceString": "The terrain is too rough to cross without help.",
+        "LocalizedString": "The terrain is too rough to cross without help."
+      },
+      "SecondsToSwitch": 3.0,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text38",
+        "SourceString": "Head up the Mountain Path",
+        "LocalizedString": "Head up the Mountain Path"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_2",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text41",
+        "SourceString": "This way to the summit.",
+        "LocalizedString": "This way to the summit."
+      },
+      "SecondsToSwitch": 1.5,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text40",
+        "SourceString": "Read the Sign",
+        "LocalizedString": "Read the Sign"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_4",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text46",
+        "SourceString": "The Baby Owl coos and rubs against your hand.",
+        "LocalizedString": "The Baby Owl coos and rubs against your hand."
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text45",
+        "SourceString": "Pet Baby Owl",
+        "LocalizedString": "Pet Baby Owl"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_5",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text47",
+        "SourceString": "There's a very steep path leading into the mountains next to a sign and a hollow stump.",
+        "LocalizedString": "There's a very steep path leading into the mountains next to a sign and a hollow stump."
+      },
+      "bSkipTimer": true,
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text3",
+        "SourceString": "The Baby Owl looks at you with love in its eyes as it eats a worm.",
+        "LocalizedString": "The Baby Owl looks at you with love in its eyes as it eats a worm."
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text2",
+        "SourceString": "Feed Baby Owl",
+        "LocalizedString": "Feed Baby Owl"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "RootOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_DarkForestWoOwl_Text6",
+        "SourceString": "These are ancient ruins of what was once a happy home. A fire has blackened the walls.",
+        "LocalizedString": "These are ancient ruins of what was once a happy home. A fire has blackened the walls."
+      },
+      "SecondsToSwitch": 4.5,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text4",
+        "SourceString": "Examine Ruins",
+        "LocalizedString": "Examine Ruins"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_2",
+    "Outer": "RootOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text6",
+        "SourceString": "Two statues of a man and woman taking their wedding vows. A fire blackened the woman statue.",
+        "LocalizedString": "Two statues of a man and woman taking their wedding vows. A fire blackened the woman statue."
+      },
+      "SecondsToSwitch": 4.5,
+      "Actives": [
+        {
+          "ObjectName": "TagConditionOption'Section_Act2_DarkForest:RootOption_1.TextOption_2.TagConditionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.20"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text5",
+        "SourceString": "Look at Statues",
+        "LocalizedString": "Look at Statues"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "ImageOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text48",
+        "SourceString": "The man has a Bowtie that looks weirdly out of place. Like someone had stuck one on the statue.",
+        "LocalizedString": "The man has a Bowtie that looks weirdly out of place. Like someone had stuck one on the statue."
+      },
+      "SecondsToSwitch": 4.5,
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_Act2_DarkForest:RootOption_1.TextOption_2.TagConditionOption_0.ImageOption_0.TextOption_1.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.15"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_3",
+    "Outer": "RootOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text9",
+        "SourceString": "You take the Bowtie. It looks to be made of cloth instead of stone.",
+        "LocalizedString": "You take the Bowtie. It looks to be made of cloth instead of stone."
+      },
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_Act2_DarkForest:RootOption_1.TextOption_3.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.16"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text8",
+        "SourceString": "Take Bowtie",
+        "LocalizedString": "Take Bowtie"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.DarkForest.ExaminedStatues"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act2.DarkForest.CollectedBowtie"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_4",
+    "Outer": "RootOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_WOOwl_Text1",
+        "SourceString": "You head back to the East Forest Path.",
+        "LocalizedString": "You head back to the East Forest Path."
+      },
+      "SecondsToSwitch": 2.0,
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_Act2_DarkForest:RootOption_1.TextOption_4.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.1"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text10",
+        "SourceString": "Return to Forest Path",
+        "LocalizedString": "Return to Forest Path"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_5",
+    "Outer": "RootOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text49",
+        "SourceString": "\"Opening Day\" Snow Globe. A wonderful day with all of us at Fall Fest.",
+        "LocalizedString": "\"Opening Day\" Snow Globe. A wonderful day with all of us at Fall Fest."
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text11",
+        "SourceString": "Shake Snow Globe",
+        "LocalizedString": "Shake Snow Globe"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.SnowGlobe"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_6",
+    "Outer": "RootOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text12",
+        "SourceString": "Deeper in the forest, there's a ruined statue of a wedding couple.",
+        "LocalizedString": "Deeper in the forest, there's a ruined statue of a wedding couple."
+      },
+      "bSkipTimer": true,
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_2",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text14",
+        "SourceString": "This rock is beautiful on the outside, but dark things move under the surface, like worms through mud.",
+        "LocalizedString": "This rock is beautiful on the outside, but dark things move under the surface, like worms through mud."
+      },
+      "SecondsToSwitch": 4.5,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text13",
+        "SourceString": "Examine Large Boulder",
+        "LocalizedString": "Examine Large Boulder"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_2",
+    "Outer": "RootOption_2",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text17",
+        "SourceString": "You and the Baby Owl sing a little tune.",
+        "LocalizedString": "You and the Baby Owl sing a little tune."
+      },
+      "SecondsToSwitch": 3.0,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text16",
+        "SourceString": "Talk to Baby Owl",
+        "LocalizedString": "Talk to Baby Owl"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_4",
+    "Outer": "RootOption_2",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text19",
+        "SourceString": "Monty's Fishing Game. He would play with this all day long.",
+        "LocalizedString": "Monty's Fishing Game. He would play with this all day long."
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text18",
+        "SourceString": "Play the Water Game",
+        "LocalizedString": "Play the Water Game"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.MontyWaterGame"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_5",
+    "Outer": "RootOption_2",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text20",
+        "SourceString": "A thick, muddy pond with a large boulder next to it.",
+        "LocalizedString": "A thick, muddy pond with a large boulder next to it."
+      },
+      "bSkipTimer": true,
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "ImageOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text28",
+        "SourceString": "There is a Sewing Kit near the loom.",
+        "LocalizedString": "There is a Sewing Kit near the loom."
+      },
+      "bAreActivesChoices": true,
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest:RootOption_4.TagConditionOption_0.TagConditionOption_0.ImageOption_0.TextOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.44"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text30",
+        "SourceString": "You take the Sewing Kit.",
+        "LocalizedString": "You take the Sewing Kit."
+      },
+      "SecondsToSwitch": 1.5,
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_Act2_DarkForest:RootOption_4.TagConditionOption_0.TagConditionOption_0.ImageOption_0.TextOption_0.TextOption_0.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.17"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text29",
+        "SourceString": "Take Sewing Kit",
+        "LocalizedString": "Take Sewing Kit"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_2",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text27",
+        "SourceString": "A giant loom. Surprisingly it has survived the fire.",
+        "LocalizedString": "A giant loom. Surprisingly it has survived the fire."
+      },
+      "SecondsToSwitch": 3.0
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text27",
+        "SourceString": "A giant loom. Surprisingly it has survived the fire.",
+        "LocalizedString": "A giant loom. Surprisingly it has survived the fire."
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_4",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text23",
+        "SourceString": "You throw a bit of food into the air, and the Baby Owl catches it and chirps happily.",
+        "LocalizedString": "You throw a bit of food into the air, and the Baby Owl catches it and chirps happily."
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text22",
+        "SourceString": "Play with Baby Owl",
+        "LocalizedString": "Play with Baby Owl"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "RootOption_4",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text25",
+        "SourceString": "The seamstress shop has been burned to the ground.",
+        "LocalizedString": "The seamstress shop has been burned to the ground."
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text24",
+        "SourceString": "Examine Shop Ruins",
+        "LocalizedString": "Examine Shop Ruins"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_2",
+    "Outer": "RootOption_4",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text33",
+        "SourceString": "The ruins of a quaint little seamstress shop. A large loom sits in the corner surrounded by mannequins.",
+        "LocalizedString": "The ruins of a quaint little seamstress shop. A large loom sits in the corner surrounded by mannequins."
+      },
+      "bSkipTimer": true,
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_3",
+    "Outer": "RootOption_4",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text32",
+        "SourceString": "Blackened and burned mannequins. You can hear them weeping.",
+        "LocalizedString": "Blackened and burned mannequins. You can hear them weeping."
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text31",
+        "SourceString": "Examine Mannequins",
+        "LocalizedString": "Examine Mannequins"
+      }
+    }
+  },
+  {
+    "Type": "TwoDSectionData",
+    "Name": "Section_Act2_DarkForest",
+    "Class": "UScriptClass'TwoDSectionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bIsCheckpoint": true,
+      "RootPages": [
+        {
+          "ObjectName": "RootOption'Section_Act2_DarkForest:RootOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.11"
+        },
+        {
+          "ObjectName": "RootOption'Section_Act2_DarkForest:RootOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.12"
+        },
+        {
+          "ObjectName": "RootOption'Section_Act2_DarkForest:RootOption_4'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.13"
+        },
+        {
+          "ObjectName": "RootOption'Section_Act2_DarkForest:RootOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest.10"
+        }
+      ],
+      "CheckpointTags": [
+        "2DGame.Act2.InsideCabin.UsedFoxyPuppet",
+        "2DGame.Act2.InsideCabin.FixedFoxMask",
+        "2DGame.Act2.InsideCabin.FixedBearMask",
+        "2DGame.Act2.InsideCabin.UsedBowtie",
+        "2DGame.Act2.InsideCabin.FixedRabbitMask",
+        "2DGame.Act2.InsideCabin.UsedSewingKit",
+        "2DGame.Act2.InsideCabin.CollectedBabyOwlMask",
+        "2DGame.Act2.DarkForestCabin.GiftedHoney",
+        "2DGame.Act2.DarkForest.CollectedHoneyBottle",
+        "2DGame.Act2.DarkForest.ExaminedStatues",
+        "2DGame.Act2.DarkForest.CollectedBowtie",
+        "2DGame.Act2.DarkForest.CollectedFoxyPuppet",
+        "2DGame.Act2.DarkForest.CollectedSewingKit"
+      ]
+    }
+  }
+]

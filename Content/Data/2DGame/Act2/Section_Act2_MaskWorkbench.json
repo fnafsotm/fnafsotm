@@ -1,0 +1,781 @@
+[
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "TagConditionOption_4",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act2/Section_Act2_InsideCabinWOOwl.Section_Act2_InsideCabinWOOwl",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_1",
+    "Outer": "TagConditionOption_4",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act2/Section_Act2_InsideCabin.Section_Act2_InsideCabin",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "ImageOption",
+    "Name": "ImageOption_0",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'ImageOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_Workbench_Foxy'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_Workbench_Foxy.0"
+        }
+      },
+      "bRemovePreviousDescriptionText": true,
+      "bAreActivesChoices": true,
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_0.ImageOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.20"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ImageOption",
+    "Name": "ImageOption_1",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'ImageOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_Workbench_Foxy'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_Workbench_Foxy.0"
+        }
+      },
+      "SecondsToSwitch": 6.0,
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_0.ImageOption_1.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.21"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ImageOption",
+    "Name": "ImageOption_0",
+    "Outer": "TagConditionOption_1",
+    "Class": "UScriptClass'ImageOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_Workbench_Bear'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_Workbench_Bear.0"
+        }
+      },
+      "bRemovePreviousDescriptionText": true,
+      "bAreActivesChoices": true,
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_1.ImageOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.22"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ImageOption",
+    "Name": "ImageOption_1",
+    "Outer": "TagConditionOption_1",
+    "Class": "UScriptClass'ImageOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_Workbench_Bear'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_Workbench_Bear.0"
+        }
+      },
+      "SecondsToSwitch": 6.0,
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_1.ImageOption_1.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.23"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ImageOption",
+    "Name": "ImageOption_0",
+    "Outer": "TagConditionOption_2",
+    "Class": "UScriptClass'ImageOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_Workbench_Bunny'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_Workbench_Bunny.0"
+        }
+      },
+      "bRemovePreviousDescriptionText": true,
+      "bAreActivesChoices": true,
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_2.ImageOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.24"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ImageOption",
+    "Name": "ImageOption_1",
+    "Outer": "TagConditionOption_2",
+    "Class": "UScriptClass'ImageOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_Workbench_Bunny'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_Workbench_Bunny.0"
+        }
+      },
+      "SecondsToSwitch": 6.0,
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_2.ImageOption_1.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.25"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ImageOption",
+    "Name": "ImageOption_0",
+    "Outer": "TextOption_1",
+    "Class": "UScriptClass'ImageOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_Workbench_Owl'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_Workbench_Owl.0"
+        }
+      },
+      "bRemovePreviousDescriptionText": true,
+      "bAreActivesChoices": true,
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_3.TagConditionOption_0.TextOption_1.ImageOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.28"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_0",
+    "Outer": "Section_Act2_MaskWorkbench",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_Workbench'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_Workbench.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TagConditionOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.14"
+        },
+        {
+          "ObjectName": "TagConditionOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.15"
+        },
+        {
+          "ObjectName": "TagConditionOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.16"
+        },
+        {
+          "ObjectName": "TagConditionOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_3'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.17"
+        },
+        {
+          "ObjectName": "TagConditionOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_4'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.19"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_MaskWorkbench:RootOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.32"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_MaskWorkbench_Text1",
+        "SourceString": "Mask Workbench",
+        "LocalizedString": "Mask Workbench"
+      }
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act2.InsideCabin.UsedFoxyPuppet",
+        "2DGame.Act2.InsideCabin.FixedFoxMask"
+      ]
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act2.InsideCabin.FixedBearMask",
+        "2DGame.Act2.InsideCabin.UsedBowtie"
+      ]
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act2.InsideCabin.FixedRabbitMask",
+        "2DGame.Act2.InsideCabin.UsedSewingKit"
+      ]
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act2.InsideCabin.CollectedBabyOwlMask"
+      ]
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.DarkForest.CollectedFoxyPuppet"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "ImageOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_0.ImageOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.2"
+      },
+      "FalseOption": {
+        "ObjectName": "ImageOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_0.ImageOption_1'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.3"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_MaskWorkbench_Text2",
+        "SourceString": "Fix Fox Mask",
+        "LocalizedString": "Fix Fox Mask"
+      },
+      "ShowOptionConditionQuery": {
+        "HasNotCollected": [
+          "2DGame.Act2.InsideCabin.FixedFoxMask"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_1",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.DarkForest.CollectedBowtie"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "ImageOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_1.ImageOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.4"
+      },
+      "FalseOption": {
+        "ObjectName": "ImageOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_1.ImageOption_1'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.5"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_MaskWorkbench_Text3",
+        "SourceString": "Fix Bear Mask",
+        "LocalizedString": "Fix Bear Mask"
+      },
+      "ShowOptionConditionQuery": {
+        "HasNotCollected": [
+          "2DGame.Act2.InsideCabin.FixedBearMask"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_2",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.DarkForest.CollectedSewingKit"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "ImageOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_2.ImageOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.6"
+      },
+      "FalseOption": {
+        "ObjectName": "ImageOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_2.ImageOption_1'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.7"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_MaskWorkbench_Text4",
+        "SourceString": "Fix Rabbit Mask",
+        "LocalizedString": "Fix Rabbit Mask"
+      },
+      "ShowOptionConditionQuery": {
+        "HasNotCollected": [
+          "2DGame.Act2.InsideCabin.FixedRabbitMask"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_3",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.InsideCabin.FixedBearMask",
+          "2DGame.Act2.InsideCabin.FixedFoxMask",
+          "2DGame.Act2.InsideCabin.FixedRabbitMask"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "TagConditionOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_3.TagConditionOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.18"
+      },
+      "FalseOption": {
+        "ObjectName": "TextOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_3.TextOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.31"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_MaskWorkbench_Text14",
+        "SourceString": "Talk to Old Woman again",
+        "LocalizedString": "Talk to Old Woman again"
+      }
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_0",
+    "Outer": "TagConditionOption_3",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.InsideCabin.CollectedBabyOwlMask"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "TextOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_3.TagConditionOption_0.TextOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.26"
+      },
+      "FalseOption": {
+        "ObjectName": "TextOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_3.TagConditionOption_0.TextOption_1'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.27"
+      }
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_4",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act2.InsideCabin.CollectedBabyOwlMask"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "GoToSectionOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_4.GoToSectionOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.0"
+      },
+      "FalseOption": {
+        "ObjectName": "GoToSectionOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_4.GoToSectionOption_1'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.1"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_MaskWorkbench_Text20",
+        "SourceString": "Exit Workbench",
+        "LocalizedString": "Exit Workbench"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "ImageOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_MaskWorkbench_Text6",
+        "SourceString": "You pull the left eye out of the Foxy Puppet and place it in the mask. Foxy rolls the eye and grins.",
+        "LocalizedString": "You pull the left eye out of the Foxy Puppet and place it in the mask. Foxy rolls the eye and grins."
+      },
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_0.ImageOption_0.TextOption_0.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.10"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_MaskWorkbench_Text5",
+        "SourceString": "Use Fox Puppet Eye",
+        "LocalizedString": "Use Fox Puppet Eye"
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "ImageOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_MaskWorkbench_Text7",
+        "SourceString": "The Foxy Mask is missing one of its eyes. You'll need to find more to fix it.",
+        "LocalizedString": "The Foxy Mask is missing one of its eyes. You'll need to find more to fix it."
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "ImageOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_MaskWorkbench_Text9",
+        "SourceString": "You clip the Bowtie on the Bear Mask. The Bear thanks you.",
+        "LocalizedString": "You clip the Bowtie on the Bear Mask. The Bear thanks you."
+      },
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_1.ImageOption_0.TextOption_0.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.11"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_MaskWorkbench_Text8",
+        "SourceString": "Use Bowtie on Mask",
+        "LocalizedString": "Use Bowtie on Mask"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "ImageOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_MaskWorkbench_Text10",
+        "SourceString": "The Bear Mask is missing his Bowtie. You'll need to find it.",
+        "LocalizedString": "The Bear Mask is missing his Bowtie. You'll need to find it."
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "ImageOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_MaskWorkbench_Text12",
+        "SourceString": "You use the sewing kit to fix the Rabbit Mask. The Rabbit smiles and thanks you.",
+        "LocalizedString": "You use the sewing kit to fix the Rabbit Mask. The Rabbit smiles and thanks you."
+      },
+      "SecondsToSwitch": 5.0,
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_2.ImageOption_0.TextOption_0.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.12"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_MaskWorkbench_Text11",
+        "SourceString": "Use Sewing Kit on Mask",
+        "LocalizedString": "Use Sewing Kit on Mask"
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "ImageOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_MaskWorkbench_Text13",
+        "SourceString": "A Golden Rabbit Mask. There’s a slash across its face that needs to be repaired.",
+        "LocalizedString": "A Golden Rabbit Mask. There’s a slash across its face that needs to be repaired."
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_MaskWorkbench_Text15",
+        "SourceString": "\"You have your reward and your sacrifice. The Cave awaits you now.\"",
+        "LocalizedString": "\"You have your reward and your sacrifice. The Cave awaits you now.\""
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_MaskWorkbench_Text16",
+        "SourceString": "The Old Woman gives you a Baby Owl Mask.",
+        "LocalizedString": "The Old Woman gives you a Baby Owl Mask."
+      },
+      "SecondsToSwitch": 3.0,
+      "Actives": [
+        {
+          "ObjectName": "ImageOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_3.TagConditionOption_0.TextOption_1.ImageOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.8"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "ImageOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text44",
+        "SourceString": "You take the mask.",
+        "LocalizedString": "You take the mask."
+      },
+      "SecondsToSwitch": 1.0,
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_3.TagConditionOption_0.TextOption_1.ImageOption_0.TextOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.29"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_MaskWorkbench_Text17",
+        "SourceString": "Take Baby Owl Mask",
+        "LocalizedString": "Take Baby Owl Mask"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_MaskWorkbench_Text18",
+        "SourceString": "\"This is a very special, magical mask. The Moon will now think you are the Baby Owl.\"",
+        "LocalizedString": "\"This is a very special, magical mask. The Moon will now think you are the Baby Owl.\""
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_3.TagConditionOption_0.TextOption_1.ImageOption_0.TextOption_0.TextOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.30"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_MaskWorkbench_Text15",
+        "SourceString": "\"You have your reward and your sacrifice. The Cave awaits you now.\"",
+        "LocalizedString": "\"You have your reward and your sacrifice. The Cave awaits you now.\""
+      },
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_Act2_MaskWorkbench:RootOption_0.TagConditionOption_3.TagConditionOption_0.TextOption_1.ImageOption_0.TextOption_0.TextOption_0.TextOption_0.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.13"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "TagConditionOption_3",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_MaskWorkbench_Text19",
+        "SourceString": "\"You must fix these three masks. They will give you a great reward.\"",
+        "LocalizedString": "\"You must fix these three masks. They will give you a great reward.\""
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_MaskWorkbench_Text19",
+        "SourceString": "\"You must fix these three masks. They will give you a great reward.\"",
+        "LocalizedString": "\"You must fix these three masks. They will give you a great reward.\""
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TwoDSectionData",
+    "Name": "Section_Act2_MaskWorkbench",
+    "Class": "UScriptClass'TwoDSectionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootPages": [
+        {
+          "ObjectName": "RootOption'Section_Act2_MaskWorkbench:RootOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_MaskWorkbench.9"
+        }
+      ]
+    }
+  }
+]

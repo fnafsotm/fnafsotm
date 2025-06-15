@@ -1,0 +1,439 @@
+[
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "TextOption_2",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act2/Section_Act2_ForestPath_WOOwl.Section_Act2_ForestPath_WOOwl",
+        "SubPathString": ""
+      },
+      "RootOptionIndex": 1,
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "TextOption_3",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act2/Section_Act2_ForestPath_WOOwl.Section_Act2_ForestPath_WOOwl",
+        "SubPathString": ""
+      },
+      "RootOptionIndex": 1
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_0",
+    "Outer": "Section_Act2_DarkForest_WOOwl",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_DarkPath_NoOwl'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_DarkPath_NoOwl.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest_WOOwl:RootOption_0.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest_WOOwl.6"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest_WOOwl:RootOption_0.TextOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest_WOOwl.7"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest_WOOwl:RootOption_0.TextOption_3'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest_WOOwl.8"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest_WOOwl:RootOption_0.TextOption_4'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest_WOOwl.9"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest_WOOwl:RootOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest_WOOwl.4"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text34",
+        "SourceString": "Dark Forest Path",
+        "LocalizedString": "Dark Forest Path"
+      }
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_1",
+    "Outer": "Section_Act2_DarkForest_WOOwl",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act2_DarkRuins_NoOwl'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act2_DarkRuins_NoOwl.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest_WOOwl:RootOption_1.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest_WOOwl.14"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest_WOOwl:RootOption_1.TextOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest_WOOwl.15"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest_WOOwl:RootOption_1.TextOption_3'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest_WOOwl.16"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest_WOOwl:RootOption_1.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest_WOOwl.10"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text1",
+        "SourceString": "Dark Forest Ruins",
+        "LocalizedString": "Dark Forest Ruins"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text47",
+        "SourceString": "There's a very steep path leading into the mountains next to a sign and a hollow stump.",
+        "LocalizedString": "There's a very steep path leading into the mountains next to a sign and a hollow stump."
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest_WOOwl:RootOption_0.TextOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest_WOOwl.5"
+        }
+      ],
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_DarkForestWoOwl_Text2",
+        "SourceString": "The Old Woman stops you. \"That is not the way now.\"",
+        "LocalizedString": "The Old Woman stops you. \"That is not the way now.\""
+      },
+      "SecondsToSwitch": 3.0,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_DarkForestWoOwl_Text1",
+        "SourceString": "Head up the Mountain Pass",
+        "LocalizedString": "Head up the Mountain Pass"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_2",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text41",
+        "SourceString": "This way to the summit.",
+        "LocalizedString": "This way to the summit."
+      },
+      "SecondsToSwitch": 1.0,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text40",
+        "SourceString": "Read the Sign",
+        "LocalizedString": "Read the Sign"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_3",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_DarkForestWoOwl_Text3",
+        "SourceString": "There is nothing inside the tree stump.",
+        "LocalizedString": "There is nothing inside the tree stump."
+      },
+      "SecondsToSwitch": 3.0,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text42",
+        "SourceString": "Look at the Hollow Stump",
+        "LocalizedString": "Look at the Hollow Stump"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_4",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_DarkForestWoOwl_Text5",
+        "SourceString": "\"The Cave awaits you.\"",
+        "LocalizedString": "\"The Cave awaits you.\""
+      },
+      "SecondsToSwitch": 2.0,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_DarkForestWoOwl_Text4",
+        "SourceString": "Talk to the Old Woman",
+        "LocalizedString": "Talk to the Old Woman"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text12",
+        "SourceString": "Deeper in the forest, there's a ruined statue of a wedding couple.",
+        "LocalizedString": "Deeper in the forest, there's a ruined statue of a wedding couple."
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest_WOOwl:RootOption_1.TextOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest_WOOwl.11"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest_WOOwl:RootOption_1.TextOption_0.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest_WOOwl.12"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act2_DarkForest_WOOwl:RootOption_1.TextOption_0.TextOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest_WOOwl.13"
+        }
+      ],
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "Namespace": "",
+        "Key": "6695573A433278DE85C07ABD77EF5DD7",
+        "SourceString": "These are ancient ruins of what was once a happy home. A fire has blackened the walls.",
+        "LocalizedString": "These are ancient ruins of what was once a happy home. A fire has blackened the walls."
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "BB370E874BD7062CB3FC79BA74599D5F",
+        "SourceString": "Examine Ruins",
+        "LocalizedString": "Examine Ruins"
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "Namespace": "",
+        "Key": "4A792DF145A9991F2B1139A96C349939",
+        "SourceString": "Two statues of a man and woman taking their wedding vows. A fire blackened the woman statue.",
+        "LocalizedString": "Two statues of a man and woman taking their wedding vows. A fire blackened the woman statue."
+      },
+      "Title": {
+        "Namespace": "",
+        "Key": "5A7832934F8A2234C431B0804B573D9C",
+        "SourceString": "Look at the Statues",
+        "LocalizedString": "Look at the Statues"
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_2",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "Namespace": "",
+        "Key": "7313A6844A4FC348770A8E9BA875A429",
+        "SourceString": "You take the path back to the Dark Forest Path.",
+        "LocalizedString": "You take the path back to the Dark Forest Path."
+      },
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_Act2_DarkForest_WOOwl:RootOption_1.TextOption_0.TextOption_2.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest_WOOwl.0"
+        }
+      ],
+      "Title": {
+        "Namespace": "",
+        "Key": "888E99E749E76A09D452FD82C97151C2",
+        "SourceString": "Return to Forest Path",
+        "LocalizedString": "Return to Forest Path"
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "RootOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_DarkForestWoOwl_Text6",
+        "SourceString": "These are ancient ruins of what was once a happy home. A fire has blackened the walls.",
+        "LocalizedString": "These are ancient ruins of what was once a happy home. A fire has blackened the walls."
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text4",
+        "SourceString": "Examine Ruins",
+        "LocalizedString": "Examine Ruins"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_2",
+    "Outer": "RootOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text6",
+        "SourceString": "Two statues of a man and woman taking their wedding vows. A fire blackened the woman statue.",
+        "LocalizedString": "Two statues of a man and woman taking their wedding vows. A fire blackened the woman statue."
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text5",
+        "SourceString": "Look at Statues",
+        "LocalizedString": "Look at Statues"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_3",
+    "Outer": "RootOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_WOOwl_Text1",
+        "SourceString": "You head back to the East Forest Path.",
+        "LocalizedString": "You head back to the East Forest Path."
+      },
+      "SecondsToSwitch": 3.0,
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_Act2_DarkForest_WOOwl:RootOption_1.TextOption_3.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest_WOOwl.1"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForest_Text10",
+        "SourceString": "Return to Forest Path",
+        "LocalizedString": "Return to Forest Path"
+      }
+    }
+  },
+  {
+    "Type": "TwoDSectionData",
+    "Name": "Section_Act2_DarkForest_WOOwl",
+    "Class": "UScriptClass'TwoDSectionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bIsCheckpoint": true,
+      "RootPages": [
+        {
+          "ObjectName": "RootOption'Section_Act2_DarkForest_WOOwl:RootOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest_WOOwl.2"
+        },
+        {
+          "ObjectName": "RootOption'Section_Act2_DarkForest_WOOwl:RootOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Act2/Section_Act2_DarkForest_WOOwl.3"
+        }
+      ],
+      "CheckpointTags": [
+        "2DGame.Act2.ForestWO.WearingOwlMask"
+      ]
+    }
+  }
+]
