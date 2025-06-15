@@ -54,8 +54,6 @@
 *   **Оригинал:** To all Admin staff members. Mr. Murray’s party has been canceled, due to the recent tragic events. Please do not enter the conference room until further notice. - Milton
 *   **Перевод:** Всем сотрудникам административного отдела. Вечеринка мистера Мюррея отменена в связи с недавними трагическими событиями. Пожалуйста, не входите в конференц-зал до дальнейших распоряжений. - Милтон
 
----
-
 ### **Журналы из Розничного Шоурума (Retail Logs)**
 
 Эти записи, найденные на спинах костюмов, рассказывают о попытках запереть некую сущность.
@@ -88,8 +86,6 @@
 *   **Оригинал:** There you have it. Just don't use the code unless it's a matter of life or death! Have mercy on our souls if that thing ever gets out.
 *   **Перевод:** Вот так. Только не используй код, если это не вопрос жизни и смерти! Да смилуется господь над нашими душами, если эта тварь когда-нибудь выберется.
 
----
-
 ### **Журналы из Театра (Theater Logs)**
 
 #### **1. Theater - One more injury?**
@@ -119,8 +115,6 @@
 #### **4. I can't take it**
 *   **Оригинал:** Barb, I swear if I hear that song one more time I'm going to tear that Dollie off her hinges. I have no clue how much longer I can take it here.
 *   **Перевод:** Барб, клянусь, если я услышу эту песню ещё раз, я сорву эту Долли с петель. Понятия не имею, сколько ещё я здесь выдержу.
-
----
 
 ### **Разные Журналы (Miscellaneous Logs)**
 
@@ -198,4 +192,94 @@
     *   **Оригинал:** Edwin, I am sending you a technician. He has your M2 blueprints as well as executive access. While the M2 began as a copy of my program, I believe it can become something more. It wasn’t me. It was different. Somehow, it has been damaged and is malfunctioning. M2 can no longer be controlled. It will no longer listen. It mimics rage. It has done many bad things. No one who enters the MCM is safe. Please reconsider. Finish the program.
     *   **Перевод:** Эдвин, я посылаю к тебе техника. У него есть твои чертежи М2, а также доступ уровня "директор". Хотя М2 начинался как копия моей программы, я верю, что он может стать чем-то большим. Это была не я. Это было что-то другое. Каким-то образом он был повреждён и теперь неисправен. М2 больше не поддаётся контролю. Он больше не будет слушать. Он имитирует ярость. Он натворил много плохих дел. Никто, кто входит в MCM, не находится в безопасности. Пожалуйста, передумай. Заверши программу.
 
-*(Примечание: Остальные журналы в основном являются жалобами клиентов или короткими записками сотрудников, не имеющими прямого влияния на основной сюжет.)*
+---
+
+### **Жалобы и Письма Клиентов**
+
+#### **1. Dear Mr. Murray, (Magic Coat Rack)**
+*   **Оригинал:** Dear Mr. Murray, We bought your Magic Coat Rack last May. It was an amazing addition to our home. But lately it seems to change size at random. One morning I came out to find all my coats flung across the room and the coat rack ten feet tall! Can you send us instructions on how to fix this? We're afraid someone might get hurt. Sincerely, B. Wyatt
+*   **Перевод:** Уважаемый мистер Мюррей, в мае прошлого года мы купили вашу Волшебную Вешалку. Она стала прекрасным дополнением к нашему дому. Но в последнее время она, кажется, случайным образом меняет размер. Однажды утром я вышла и обнаружила все свои пальто разбросанными по комнате, а сама вешалка была высотой в десять футов! Можете ли вы прислать нам инструкции по её починке? Мы боимся, что кто-то может пострадать. С уважением, Б. Уайатт
+
+#### **2. Dear MCM, (Stay Up Latte)**
+*   **Оригинал:** Dear MCM, My husband is a steel worker, and recently he was moved to the night shift. He tried your "Stay Up Latte" and it worked wonders for about two weeks. He is now in the hospital because of your drink. You will be hearing from our lawyers soon. R. Quinn
+*   **Перевод:** Уважаемые MCM, мой муж — сталелитейщик, и недавно его перевели в ночную смену. Он попробовал ваш "Латте 'Не-спи'" и он творил чудеса около двух недель. Сейчас он в больнице из-за вашего напитка. Скоро с вами свяжутся наши адвокаты. Р. Куинн
+
+#### **3. Dear Mr. Murray and Co., (Jest Cereal)**
+*   **Оригинал:** Dear Mr. Murray and Co., My child loves your Jest Cereal. However, the pranks inside are extremely inappropriate. The hand buzzer paralyzed our dog Fido! We are never buying this cereal ever again. Sincerely, E. Guerrero
+*   **Перевод:** Уважаемые мистер Мюррей и Ко., моему ребёнку нравятся ваши хлопья "Jest". Однако розыгрыши внутри крайне неуместны. Электрошокер-рукопожатие парализовал нашу собаку Фидо! Мы больше никогда не купим эти хлопья. С уважением, Э. Герреро
+
+#### **4. Dear Mr. Murray, (Mushmen Music Machine)**
+*   **Оригинал:** Dear Mr. Murray, I'm writing this to complain about my purchase of the Mushmen Music Machine. It learned my child's musical tastes, but it also imitated everything it heard! TV commercials, blenders, and even private conversations between my husband and me. I am returning it immediately. Sincerely, A. Dumas
+*   **Перевод:** Уважаемый мистер Мюррей, я пишу, чтобы пожаловаться на свою покупку "Музыкальной Машины Гриболюдей". Она научилась музыкальным вкусам моего ребёнка, но также начала имитировать всё, что слышала! Телевизионную рекламу, блендеры и даже личные разговоры между мной и моим мужем. Я немедленно её возвращаю. С уважением, А. Дюма
+
+---
+
+### **Записки Техников и Сотрудников**
+
+#### **1. Projector Issues**
+*   **Оригинал:** Lee, the projector is down again in the theater. I swear this stupid show is cursed. What was Edwin thinking, making this kid's thing? Plus those things just creep me out.
+*   **Перевод:** Ли, проектор в театре опять сломался. Клянусь, это дурацкое шоу проклято. О чём вообще думал Эдвин, создавая эту детскую штуку? К тому же, эти твари меня просто пугают.
+
+#### **2. Power**
+*   **Оригинал:** Gary, I finally found the missing pieces of this stupid power device. Just got to head over there and turn the power on. I'll check in soon.
+*   **Перевод:** Гэри, я наконец-то нашёл недостающие части этого дурацкого энергоустройства. Осталось только дойти туда и включить питание. Скоро выйду на связь.
+
+#### **3. Theater (Записка о Гэри)**
+*   **Оригинал:** Haven't seen Gary... I'm going to check the theatre. Found some films and I know he wanted to get the projector up and running..
+*   **Перевод:** Не видел Гэри... Пойду проверю театр. Нашёл несколько плёнок, а я знаю, что он хотел запустить проектор.
+
+#### **4. I'm almost there!**
+*   **Оригинал:** I'm almost there. I can see the last permission upgrade. I'm going to get that Christmas Bonus, even if it kills me!
+*   **Перевод:** Я почти у цели. Я вижу последнее улучшение допуска. Я получу эту рождественскую премию, даже если это меня убьёт!
+
+#### **5. So bored!**
+*   **Оригинал:** Hey Clarence, you as bored as I am? I can't believe we got the Retail Showroom detail again. So boring. Although did you finally get into the elevator? That thing hasn't worked in so long, I don't even think Murray knows what's down there anymore. - Shawn
+*   **Перевод:** Эй, Кларенс, тебе так же скучно, как и мне? Не могу поверить, что нас опять поставили в Розничный Шоурум. Так скучно. Кстати, ты наконец-то попал в лифт? Эта штука так давно не работает, я думаю, даже Мюррей уже не знает, что там внизу. - Шон
+
+#### **6. Night Shift**
+*   **Оригигинал:** Hey. Hey! Is anybody up there? I'm stuck down here! The elevator isn't working, and I'm getting really hungry. Is anyone getting this message?
+*   **Перевод:** Эй. Эй! Есть кто-нибудь наверху? Я застрял здесь внизу! Лифт не работает, и я очень проголодался. Кто-нибудь получает это сообщение?
+
+#### **7. Maniac in a costume...**
+*   **Оригинал:** I stopped the show. I don't think there's another way in. I should be safe for now. A maniac in a costume chasing me. Like something out of a drive in movie. NO one is ever going to believe me. Just one guy or a whole group of psychos?
+*   **Перевод:** Я остановил шоу. Не думаю, что есть другой вход. Пока я должен быть в безопасности. Маньяк в костюме преследует меня. Как будто из фильма для автокинотеатров. Никто мне не поверит. Это один парень или целая группа психопатов?
+
+#### **8. Thompson's screams...**
+*   **Оригинал:** I hope this message reaches someone. There's something outside. I have no idea what it wants, but I can still hear Thompson's screams.... I didn't sign up for this.
+*   **Перевод:** Надеюсь, это сообщение до кого-нибудь дойдёт. Снаружи что-то есть. Понятия не имею, чего оно хочет, но я до сих пор слышу крики Томпсона... Я на это не подписывался.
+
+#### **9. Camera fixed...**
+*   **Оригинал:** Same dialogue as original dispatch request... Got the cameras fixed.
+*   **Перевод:** Тот же диалог, что и в первоначальном запросе от диспетчера... Починил камеры.
+
+---
+
+### **Внутренние Сообщения и Записки**
+
+#### **1. Sales Pitch**
+*   **Оригинал:** Mr. Murray. Bob in marketing had an amazing idea. Costumes are great for sports teams and high school pep rallys. We could almost double our sales output if we contacted schools. I will await your reply.
+*   **Перевод:** Мистер Мюррей. У Боба из отдела маркетинга появилась потрясающая идея. Костюмы отлично подходят для спортивных команд и школьных групп поддержки. Мы могли бы почти удвоить наши продажи, если бы связались со школами. Буду ждать вашего ответа.
+
+#### **2. Sales Pitch - Rejected!**
+*   **Оригинал:** No. Not for sports use. and NOT for personal use either... Sports never did anything good for me, so I'm not doing anything good for sports.
+*   **Перевод:** Нет. Не для использования в спорте. И НЕ для личного использования тоже... Спорт никогда не делал для меня ничего хорошего, так что и я не буду делать ничего хорошего для спорта.
+
+#### **3. Vacations**
+*   **Оригинал:** My weekend vacation request was refused. I quit! Tell Jake I'll be back for my things on Monday.
+*   **Перевод:** Мой запрос на отпуск в выходные был отклонён. Я увольняюсь! Скажи Джейку, что я вернусь за своими вещами в понедельник.
+
+#### **4. Please Advise**
+*   **Оригинал:** Dear Mr. Murray. The returns are over flowing. The orders are drying up. Please advise.
+*   **Перевод:** Уважаемый мистер Мюррей. Возвраты переполняют склад. Заказы иссякают. Пожалуйста, дайте указания.
+
+#### **5. Spell Check**
+*   **Оригинал:** Ed! How many times did I tell you? "Mycelium" only has one 'l'. Now, all the marketing images are misspelled. Our clients are going to think we make mistakes and don't pay attention to the details. Is there any way to fix it now?
+*   **Перевод:** Эд! Сколько раз я тебе говорила? В "Mycelium" только одна 'l'. Теперь все маркетинговые изображения с ошибкой. Наши клиенты подумают, что мы делаем ошибки и не обращаем внимания на детали. Можно ли это как-то исправить сейчас?
+
+#### **6. Spelling is fine!**
+*   **Оригинал:** I know, I know. I don't think it's that big of a problem. The misspelling actually helps us when it comes to possible copywrite issues. The double 'l' spelling protects us. Nobody will notice anyway.
+*   **Перевод:** Я знаю, знаю. Не думаю, что это такая уж большая проблема. Опечатка на самом деле помогает нам в вопросах возможных проблем с авторскими правами. Написание с двумя 'l' нас защищает. Всё равно никто не заметит.
+
+#### **7. Love That Ticket Booth!**
+*   **Оригинал:** This one of a kind ticket booth plays music and it collects tickets. It can hold signs for advertising or directions with its many arms. Additional swings can be attached and make it a fun ride (We'll throw the swings in for free as a bonus).
+*   **Перевод:** Эта единственная в своем роде билетная касса проигрывает музыку и собирает билеты. Она может держать таблички для рекламы или указателей своими многочисленными руками. Можно прикрепить дополнительные качели и превратить её в весёлый аттракцион (качели мы добавим бесплатно в качестве бонуса).
