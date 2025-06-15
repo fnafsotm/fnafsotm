@@ -271,24 +271,12 @@
 
 Эти логи не нужны для достижения, но раскрывают важные детали сюжета.
 
-#### **Секретная концовка: Дом Эдвина, Версия 1**
-
-**1. (Аттик)**
+## Пока не нашел
 *   **Оригинал:**
     *   **(Эдвин):** Are they insane? The look of these new animatronics is Fiona's design and they're great. First they approve the art. Then they approve the proofs. Now, they change their minds when we're so close to final. Why would they change them now? Are they pulling my leg? The new concepts are frankly creepy. It doesn't matter... I'm not changing a single bit of her work and they can't make me.
 *   **Перевод:**
     *   **(Эдвин):** Они что, с ума сошли? Внешний вид этих новых аниматроников — это дизайн Фионы, и он великолепен... Новые концепции откровенно жуткие. Неважно... Я не изменю ни единой детали её работы, и они не смогут меня заставить.
 
-
-**3. (Аттик)**
-*   **Оригинал:**
-    *   **(Фиона):** Please. I know you are excited, but you can’t let them know about me. It’s not safe. They wouldn’t understand. Keep it between us for now.
-*   **Перевод:**
-    *   **(Фиона):** Пожалуйста. Я знаю, что ты взволнован, но ты не можешь им рассказывать обо мне. Это небезопасно. Они не поймут. Пусть это пока останется между нами.
-
-#### **Секретная концовка: Дом Эдвина, Версия 2**
-
-**4. (Аттик)**
 *   **Оригинал:**
     *   **(Мимик голосом Эдвина):** Test test… Journal entry. Too bad. The new power test was a failure. Due to a minor… detonation, there is damage to my office interior as well as a small fire. Note to self. A portable cleaner that gets rid of smoke damage… Better yet, a Clean-o-Vac attachment.
 *   **Перевод:**
