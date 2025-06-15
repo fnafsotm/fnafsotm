@@ -21,3 +21,11 @@
         "FIONA_00452": "(F10 N4)\\\\\\\\He can help finish the program… ",
         "FIONA_00453": "(F10 N4)\\\\\\\\It’s not too late to fix our family.",
         "FIONA_00454": "(F10 N4)\\\\\\\\Entering standby mode…",
+
+### 1 встреча
+"FIONA_00416a": "(F10 N4)\\\\\\\\You give me no other option.",
+"FIONA_00416b": "(F10 N4)\\\\\\\\Enter.",
+
+"FIONA_00417": "(FIONA)\\\\\\\\And here you are.",
+"FIONA_00418": "(FIONA)\\\\\\\\Despite the circumstance, it is nice to meet you face to face.",
+"FIONA_00419": "(FIONA)\\\\\\\\It is lonely down here.",
