@@ -43,7 +43,7 @@
 
 **Контекст и значение:** Эта запись — напоминание Эдвина самому себе, вероятно, сделанное после смерти его отца. Она демонстрирует глубоко укоренившуюся паранойю и недоверие к компании (предположительно, Fazbear Entertainment или другой конкурирующей фирме), которое ему привил отец. Это объясняет многие из его последующих скрытных и защитных действий.
 
-#### **3. Area before roof access (Зона перед доступом на крышу)**
+### 3. Roof access (перед доступом на крышу)
 *   **Оригинал:**
     *   **(Фиона):** Ed, I hope this message reaches you as soon as you get a break.
     *   **(Фиона):** I have to go help the Fall Fest crew… just for a few days until the installation is finished. It’s hard to explain… I just have this terrible feeling like I need to be there so nothing goes wrong… Just in case.
