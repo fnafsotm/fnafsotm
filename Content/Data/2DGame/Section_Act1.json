@@ -1,0 +1,1471 @@
+[
+  {
+    "Type": "AnimOption",
+    "Name": "AnimOption_0",
+    "Outer": "TagConditionOption_2",
+    "Class": "UScriptClass'AnimOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AnimationWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'WBP_ClimbOut_C'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Widgets/2DGame/Animations/WBP_ClimbOut.0"
+      },
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_Act1:RootOption_0.TagConditionOption_2.AnimOption_0.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.6"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_Act1:RootOption_0.TagConditionOption_2.AnimOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.41"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "AnimOption",
+    "Name": "AnimOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'AnimOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AnimationWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'WBP_ClimbOut_C'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Widgets/2DGame/Animations/WBP_ClimbOut.0"
+      },
+      "Actives": [
+        {
+          "ObjectName": "GoToSectionOption'Section_Act1:RootOption_0.TagConditionOption_2.AnimOption_0.TextOption_0.AnimOption_0.GoToSectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.7"
+        }
+      ],
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "AnimOption",
+    "Name": "AnimOption_1",
+    "Outer": "TagConditionOption_2",
+    "Class": "UScriptClass'AnimOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AnimationWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'WBP_ClimbOutDeath_C'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Widgets/2DGame/Animations/WBP_ClimbOutDeath.0"
+      },
+      "Actives": [
+        {
+          "ObjectName": "PlayerDeathOption'Section_Act1:RootOption_0.TagConditionOption_2.AnimOption_1.PlayerDeathOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.16"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_Act1:RootOption_0.TagConditionOption_2.AnimOption_1.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.42"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "AnimOption",
+    "Name": "AnimOption_0",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'AnimOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AnimationWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'WBP_ClosetDeath_C'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Widgets/2DGame/Animations/WBP_ClosetDeath.3"
+      },
+      "Actives": [
+        {
+          "ObjectName": "PlayerDeathOption'Section_Act1:RootOption_2.TextOption_0.TagConditionOption_0.TagConditionOption_0.AnimOption_0.PlayerDeathOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.17"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TextOption'Section_Act1:RootOption_2.TextOption_0.TagConditionOption_0.TagConditionOption_0.AnimOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.50"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text17",
+        "SourceString": "Player Death",
+        "LocalizedString": "Player Death"
+      }
+    }
+  },
+  {
+    "Type": "ExitGameOption",
+    "Name": "ExitGameOption",
+    "Outer": "PlayerDeathOption_0",
+    "Class": "UScriptClass'ExitGameOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ExitGameOption",
+    "Name": "ExitGameOption",
+    "Outer": "PlayerDeathOption_0",
+    "Class": "UScriptClass'ExitGameOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "AnimOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act2/Section_Act2_ForestPath.Section_Act2_ForestPath",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "GoToSectionOption",
+    "Name": "GoToSectionOption_0",
+    "Outer": "AnimOption_0",
+    "Class": "UScriptClass'GoToSectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SectionData": {
+        "AssetPathName": "/Game/Data/2DGame/Act2/Section_Act2_ForestPath.Section_Act2_ForestPath",
+        "SubPathString": ""
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "ImageLayerOption",
+    "Name": "ImageLayerOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'ImageLayerOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageTexture": {
+        "ObjectName": "Texture2D'T_2D_Act1_Bed_OV_Hat'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act1_Bed_OV_Hat.0"
+      },
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.RoxyHat"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "ImageLayerOption",
+    "Name": "ImageLayerOption_0",
+    "Outer": "RootOption_1",
+    "Class": "UScriptClass'ImageLayerOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageTexture": {
+        "ObjectName": "Texture2D'T_2D_Act1_Desk_OV_Phone'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act1_Desk_OV_Phone.0"
+      },
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.ToyPhone"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "ImageLayerOption",
+    "Name": "ImageLayerOption_0",
+    "Outer": "RootOption_2",
+    "Class": "UScriptClass'ImageLayerOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageTexture": {
+        "ObjectName": "Texture2D'T_2D_Act1_Closet_OV_Trophy'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act1_Closet_OV_Trophy.0"
+      },
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.GrandPrizeTrophy"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "ImageLayerOption",
+    "Name": "ImageLayerOption_0",
+    "Outer": "RootOption_3",
+    "Class": "UScriptClass'ImageLayerOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageTexture": {
+        "ObjectName": "Texture2D'T_2D_Act1_Door_OV_Plushy'",
+        "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act1_Door_OV_Plushy.0"
+      },
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.SharpayPlushie"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act1.CollectedWindowKey"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "ImageOption",
+    "Name": "ImageOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'ImageOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act1_Bed_Open'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act1_Bed_Open.0"
+        }
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act1.OpenedWindow"
+        ]
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "ImageOption",
+    "Name": "ImageOption_1",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'ImageOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act1_Closet_HandsMask'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act1_Closet_HandsMask.0"
+        }
+      },
+      "bRemovePreviousDescriptionText": true,
+      "SecondsToSwitch": 0.01,
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act1:RootOption_2.TextOption_0.TagConditionOption_0.TagConditionOption_0.ImageOption_1.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.51"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ImageOption",
+    "Name": "ImageOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'ImageOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act1_Closet_Hands'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act1_Closet_Hands.0"
+        }
+      },
+      "bRemovePreviousDescriptionText": true,
+      "SecondsToSwitch": 0.01,
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act1:RootOption_2.TextOption_0.TagConditionOption_0.TagConditionOption_0.ImageOption_1.TextOption_0.ImageOption_0.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.52"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_Act1:RootOption_2.TextOption_0.TagConditionOption_0.TagConditionOption_0.ImageOption_1.TextOption_0.ImageOption_0.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.29"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ImageOption",
+    "Name": "ImageOption_0",
+    "Outer": "TextOption_2",
+    "Class": "UScriptClass'ImageOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ImageBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act1_Door_Key'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act1_Door_Key.0"
+        }
+      },
+      "bRemovePreviousDescriptionText": true,
+      "bAreActivesChoices": true,
+      "Actives": [
+        {
+          "ObjectName": "ReturnOption'Section_Act1:RootOption_3.TextOption_2.ImageOption_0.ReturnOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.22"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_Act1:RootOption_3.TextOption_2.ImageOption_0.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.31"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text32",
+        "SourceString": "Image of Key",
+        "LocalizedString": "Image of Key"
+      }
+    }
+  },
+  {
+    "Type": "PlayerDeathOption",
+    "Name": "PlayerDeathOption_0",
+    "Outer": "AnimOption_1",
+    "Class": "UScriptClass'PlayerDeathOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act1_Bed_ClimbDeath'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act1_Bed_ClimbDeath.0"
+        }
+      },
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text38",
+        "SourceString": "The Moon stops you from exiting the house. \"Back to bed!\" He screams as he grabs you and everything fades to black.",
+        "LocalizedString": "The Moon stops you from exiting the house. \"Back to bed!\" He screams as he grabs you and everything fades to black."
+      },
+      "Options": [
+        {
+          "ObjectName": "RestartOption'Section_Act1:RootOption_0.TagConditionOption_2.AnimOption_1.PlayerDeathOption_0.RestartOption'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.20"
+        },
+        {
+          "ObjectName": "ExitGameOption'Section_Act1:RootOption_0.TagConditionOption_2.AnimOption_1.PlayerDeathOption_0.ExitGameOption'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.4"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "PostAudioOption'Section_Act1:RootOption_0.TagConditionOption_2.AnimOption_1.PlayerDeathOption_0.PostAudioOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.18"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestCabin_Text9",
+        "SourceString": "Back to Bed",
+        "LocalizedString": "Back to Bed"
+      }
+    }
+  },
+  {
+    "Type": "PlayerDeathOption",
+    "Name": "PlayerDeathOption_0",
+    "Outer": "AnimOption_0",
+    "Class": "UScriptClass'PlayerDeathOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act1_Bed_ClimbDeath'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act1_Bed_ClimbDeath.0"
+        }
+      },
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text18",
+        "SourceString": "The thing pulls you to the Moon, who screams \"Back to Bed!\" Everything fades to black.",
+        "LocalizedString": "The thing pulls you to the Moon, who screams \"Back to Bed!\" Everything fades to black."
+      },
+      "Options": [
+        {
+          "ObjectName": "RestartOption'Section_Act1:RootOption_2.TextOption_0.TagConditionOption_0.TagConditionOption_0.AnimOption_0.PlayerDeathOption_0.RestartOption'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.21"
+        },
+        {
+          "ObjectName": "ExitGameOption'Section_Act1:RootOption_2.TextOption_0.TagConditionOption_0.TagConditionOption_0.AnimOption_0.PlayerDeathOption_0.ExitGameOption'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.5"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "PostAudioOption'Section_Act1:RootOption_2.TextOption_0.TagConditionOption_0.TagConditionOption_0.AnimOption_0.PlayerDeathOption_0.PostAudioOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.19"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act2_DarkForestCabin_Text9",
+        "SourceString": "Back to Bed",
+        "LocalizedString": "Back to Bed"
+      }
+    }
+  },
+  {
+    "Type": "PostAudioOption",
+    "Name": "PostAudioOption_0",
+    "Outer": "PlayerDeathOption_0",
+    "Class": "UScriptClass'PostAudioOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AudioEvent": {
+        "ObjectName": "AkAudioEvent'sfx_2D_game_moonman_jumpscare'",
+        "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/sfx_2D_game_moonman_jumpscare.0"
+      }
+    }
+  },
+  {
+    "Type": "PostAudioOption",
+    "Name": "PostAudioOption_0",
+    "Outer": "PlayerDeathOption_0",
+    "Class": "UScriptClass'PostAudioOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AudioEvent": {
+        "ObjectName": "AkAudioEvent'sfx_2D_game_moonman_jumpscare'",
+        "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/sfx_2D_game_moonman_jumpscare.0"
+      }
+    }
+  },
+  {
+    "Type": "RestartOption",
+    "Name": "RestartOption",
+    "Outer": "PlayerDeathOption_0",
+    "Class": "UScriptClass'RestartOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "RestartOption",
+    "Name": "RestartOption",
+    "Outer": "PlayerDeathOption_0",
+    "Class": "UScriptClass'RestartOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ReturnOption",
+    "Name": "ReturnOption_0",
+    "Outer": "ImageOption_0",
+    "Class": "UScriptClass'ReturnOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text46",
+        "SourceString": "Take Key",
+        "LocalizedString": "Take Key"
+      }
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_0",
+    "Outer": "Section_Act1",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act1_Bed'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act1_Bed.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act1:RootOption_0.TextOption_6'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.46"
+        },
+        {
+          "ObjectName": "TagConditionOption'Section_Act1:RootOption_0.TagConditionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.32"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act1:RootOption_0.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.43"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act1:RootOption_0.TextOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.44"
+        },
+        {
+          "ObjectName": "TagConditionOption'Section_Act1:RootOption_0.TagConditionOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.34"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act1:RootOption_0.TextOption_3'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.45"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "ImageOption'Section_Act1:RootOption_0.ImageOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.12"
+        },
+        {
+          "ObjectName": "ImageLayerOption'Section_Act1:RootOption_0.ImageLayerOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.8"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text1",
+        "SourceString": "Bed",
+        "LocalizedString": "Bed"
+      }
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_1",
+    "Outer": "Section_Act1",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act1_Desk'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act1_Desk.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act1:RootOption_1.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.47"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act1:RootOption_1.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.48"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "ImageLayerOption'Section_Act1:RootOption_1.ImageLayerOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.9"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text7",
+        "SourceString": "Desk",
+        "LocalizedString": "Desk"
+      }
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_2",
+    "Outer": "Section_Act1",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act1_Closet'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act1_Closet.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act1:RootOption_2.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.49"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act1:RootOption_2.TextOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.54"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act1:RootOption_2.TextOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.55"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "ImageLayerOption'Section_Act1:RootOption_2.ImageLayerOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.10"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text12",
+        "SourceString": "Closet",
+        "LocalizedString": "Closet"
+      }
+    }
+  },
+  {
+    "Type": "RootOption",
+    "Name": "RootOption_3",
+    "Outer": "Section_Act1",
+    "Class": "UScriptClass'RootOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BackgroundBrush": {
+        "ImageSize": {
+          "X": 1200.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_2D_Act1_Door'",
+          "ObjectPath": "FNAF_SOTM/Content/UI/Art/Terminal/Terminal2DGameBackgrounds/T_2D_Act1_Door.0"
+        }
+      },
+      "Actives": [
+        {
+          "ObjectName": "TextOption'Section_Act1:RootOption_3.TextOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.58"
+        },
+        {
+          "ObjectName": "TagConditionOption'Section_Act1:RootOption_3.TagConditionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.37"
+        },
+        {
+          "ObjectName": "TextOption'Section_Act1:RootOption_3.TextOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.59"
+        }
+      ],
+      "Passives": [
+        {
+          "ObjectName": "ImageLayerOption'Section_Act1:RootOption_3.ImageLayerOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.11"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text24",
+        "SourceString": "Bedroom Door",
+        "LocalizedString": "Bedroom Door"
+      }
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_1",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act1.OpenedWindow"
+      ]
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_3",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act1.WearingHedgehogMask"
+      ]
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "ImageOption_0",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act1.CollectedHedgehogMask"
+      ]
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "TextOption_1",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act1.ExaminedToybox"
+      ]
+    }
+  },
+  {
+    "Type": "TagCollectionOption",
+    "Name": "TagCollectionOption_0",
+    "Outer": "ImageOption_0",
+    "Class": "UScriptClass'TagCollectionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TagsToCollect": [
+        "2DGame.Act1.CollectedWindowKey"
+      ]
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_0",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act1.OpenedWindow"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "TextOption'Section_Act1:RootOption_0.TagConditionOption_0.TextOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.40"
+      },
+      "FalseOption": {
+        "ObjectName": "TagConditionOption'Section_Act1:RootOption_0.TagConditionOption_0.TagConditionOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.33"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text4",
+        "SourceString": "Open Window",
+        "LocalizedString": "Open Window"
+      },
+      "AlternateStyleConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act1.CollectedWindowKey"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act1.OpenedWindow"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_0",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act1.CollectedWindowKey"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "TextOption'Section_Act1:RootOption_0.TagConditionOption_0.TagConditionOption_0.TextOption_1'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.39"
+      },
+      "FalseOption": {
+        "ObjectName": "TextOption'Section_Act1:RootOption_0.TagConditionOption_0.TagConditionOption_0.TextOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.38"
+      },
+      "AlternateStyleConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act1.CollectedWindowKey"
+        ]
+      }
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_2",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act1.WearingHedgehogMask"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "AnimOption'Section_Act1:RootOption_0.TagConditionOption_2.AnimOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.0"
+      },
+      "FalseOption": {
+        "ObjectName": "AnimOption'Section_Act1:RootOption_0.TagConditionOption_2.AnimOption_1'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.2"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text34",
+        "SourceString": "Climb Out Window",
+        "LocalizedString": "Climb Out Window"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act1.OpenedWindow"
+        ]
+      },
+      "AlternateStyleConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act1.WearingHedgehogMask"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_0",
+    "Outer": "TextOption_0",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act1.CollectedHedgehogMask"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "TextOption'Section_Act1:RootOption_2.TextOption_0.TagConditionOption_0.TextOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.53"
+      },
+      "FalseOption": {
+        "ObjectName": "TagConditionOption'Section_Act1:RootOption_2.TextOption_0.TagConditionOption_0.TagConditionOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.36"
+      }
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_0",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.HedgehogMask"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "ImageOption'Section_Act1:RootOption_2.TextOption_0.TagConditionOption_0.TagConditionOption_0.ImageOption_1'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.13"
+      },
+      "FalseOption": {
+        "ObjectName": "AnimOption'Section_Act1:RootOption_2.TextOption_0.TagConditionOption_0.TagConditionOption_0.AnimOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.3"
+      }
+    }
+  },
+  {
+    "Type": "TagConditionOption",
+    "Name": "TagConditionOption_0",
+    "Outer": "RootOption_3",
+    "Class": "UScriptClass'TagConditionOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.SharpayPlushie"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act1.CollectedWindowKey"
+        ]
+      },
+      "TrueOption": {
+        "ObjectName": "TextOption'Section_Act1:RootOption_3.TagConditionOption_0.TextOption_1'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.57"
+      },
+      "FalseOption": {
+        "ObjectName": "TextOption'Section_Act1:RootOption_3.TagConditionOption_0.TextOption_0'",
+        "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.56"
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text27",
+        "SourceString": "Examine Toybox",
+        "LocalizedString": "Examine Toybox"
+      },
+      "AlternateStyleConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.SharpayPlushie"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act1.ExaminedToybox"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text40",
+        "SourceString": "The window is locked.",
+        "LocalizedString": "The window is locked."
+      },
+      "SecondsToSwitch": 2.0
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text41",
+        "SourceString": "You unlock the window with the small key. Brrrrr... it's cold outside.",
+        "LocalizedString": "You unlock the window with the small key. Brrrrr... it's cold outside."
+      },
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_Act1:RootOption_0.TagConditionOption_0.TagConditionOption_0.TextOption_1.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.27"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text5",
+        "SourceString": "The window is open. It's really cold outside.",
+        "LocalizedString": "The window is open. It's really cold outside."
+      },
+      "SecondsToSwitch": 3.0
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "AnimOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text35",
+        "SourceString": "Wearing the Hedgehog Mask, you climb out the window.",
+        "LocalizedString": "Wearing the Hedgehog Mask, you climb out the window."
+      },
+      "SecondsToSwitch": 0.1,
+      "Actives": [
+        {
+          "ObjectName": "AnimOption'Section_Act1:RootOption_0.TagConditionOption_2.AnimOption_0.TextOption_0.AnimOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.1"
+        }
+      ],
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "AnimOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text39",
+        "SourceString": "You climb out the window.",
+        "LocalizedString": "You climb out the window."
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text33",
+        "SourceString": "Your socks are nicely folded.",
+        "LocalizedString": "Your socks are nicely folded."
+      },
+      "SecondsToSwitch": 2.5,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text6",
+        "SourceString": "Open Dresser",
+        "LocalizedString": "Open Dresser"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_2",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text42",
+        "SourceString": "A Deadeye Roxy Rodeo Hat. You wore this until it fell apart. Everyone loves Roxy.",
+        "LocalizedString": "A Deadeye Roxy Rodeo Hat. You wore this until it fell apart. Everyone loves Roxy."
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text43",
+        "SourceString": "Wear Rodeo Hat",
+        "LocalizedString": "Wear Rodeo Hat"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.RoxyHat"
+        ]
+      },
+      "AlternateStyleConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.RoxyHat"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_3",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text36",
+        "SourceString": "You put on the Hedgehog Mask.",
+        "LocalizedString": "You put on the Hedgehog Mask."
+      },
+      "SecondsToSwitch": 2.5,
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_Act1:RootOption_0.TextOption_3.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.28"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text37",
+        "SourceString": "Put on Hedgehog Mask",
+        "LocalizedString": "Put on Hedgehog Mask"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act1.CollectedHedgehogMask"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act1.WearingHedgehogMask"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_6",
+    "Outer": "RootOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text3",
+        "SourceString": "You don't want to go to bed! Never again!",
+        "LocalizedString": "You don't want to go to bed! Never again!"
+      },
+      "SecondsToSwitch": 3.0,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text2",
+        "SourceString": "Go To Bed",
+        "LocalizedString": "Go To Bed"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text9",
+        "SourceString": "There's a letter on the desk. \"Dear Moon, can you bring back the Sun?\"",
+        "LocalizedString": "There's a letter on the desk. \"Dear Moon, can you bring back the Sun?\""
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text8",
+        "SourceString": "Examine Desk",
+        "LocalizedString": "Examine Desk"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "RootOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text11",
+        "SourceString": "A toy phone rings. \r\nA child cries softly on the other end. \r\n\"He never sees me...\"",
+        "LocalizedString": "A toy phone rings. \r\nA child cries softly on the other end. \r\n\"He never sees me...\""
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text10",
+        "SourceString": "Use Toy Phone",
+        "LocalizedString": "Use Toy Phone"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.ToyPhone"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_2",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text14",
+        "SourceString": "You slowly open the closet.",
+        "LocalizedString": "You slowly open the closet."
+      },
+      "SecondsToSwitch": 2.0,
+      "Actives": [
+        {
+          "ObjectName": "TagConditionOption'Section_Act1:RootOption_2.TextOption_0.TagConditionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.35"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text13",
+        "SourceString": "Open Closet",
+        "LocalizedString": "Open Closet"
+      },
+      "AlternateStyleConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.HedgehogMask"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act1.CollectedHedgehogMask"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "AnimOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text19",
+        "SourceString": "Something reaches for you from the darkness. You hear the knashing of teeth. ",
+        "LocalizedString": "Something reaches for you from the darkness. You hear the knashing of teeth. "
+      },
+      "bIsPassive": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "ImageOption_1",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text45",
+        "SourceString": "A Hedgehog Halloween Mask! This can fool anybody!",
+        "LocalizedString": "A Hedgehog Halloween Mask! This can fool anybody!"
+      },
+      "SecondsToSwitch": 3.0,
+      "Actives": [
+        {
+          "ObjectName": "ImageOption'Section_Act1:RootOption_2.TextOption_0.TagConditionOption_0.TagConditionOption_0.ImageOption_1.TextOption_0.ImageOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.14"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "ImageOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text44",
+        "SourceString": "You take the mask.",
+        "LocalizedString": "You take the mask."
+      },
+      "SecondsToSwitch": 1.0
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text15",
+        "SourceString": "There is nothing in the closet anymore. The thing is gone.",
+        "LocalizedString": "There is nothing in the closet anymore. The thing is gone."
+      },
+      "SecondsToSwitch": 3.0
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "RootOption_2",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text21",
+        "SourceString": "You turn on the fan. Ahhhhhh. Nice.",
+        "LocalizedString": "You turn on the fan. Ahhhhhh. Nice."
+      },
+      "SecondsToSwitch": 2.5,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text20",
+        "SourceString": "Turn On Fan",
+        "LocalizedString": "Turn On Fan"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_2",
+    "Outer": "RootOption_2",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text23",
+        "SourceString": "A Grand Prize Trophy. Stolen in the night from the Moon's bedroom.",
+        "LocalizedString": "A Grand Prize Trophy. Stolen in the night from the Moon's bedroom."
+      },
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text22",
+        "SourceString": "Look at Trophy",
+        "LocalizedString": "Look at Trophy"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Item.GrandPrizeTrophy"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text29",
+        "SourceString": "The toybox is empty.",
+        "LocalizedString": "The toybox is empty."
+      },
+      "SecondsToSwitch": 2.0
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_1",
+    "Outer": "TagConditionOption_0",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text28",
+        "SourceString": "You find a Sharpay plushie inside.",
+        "LocalizedString": "You find a Sharpay plushie inside."
+      },
+      "SecondsToSwitch": 2.5,
+      "Passives": [
+        {
+          "ObjectName": "TagCollectionOption'Section_Act1:RootOption_3.TagConditionOption_0.TextOption_1.TagCollectionOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.30"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_0",
+    "Outer": "RootOption_3",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text26",
+        "SourceString": "The door is barred from the other side.",
+        "LocalizedString": "The door is barred from the other side."
+      },
+      "SecondsToSwitch": 2.5,
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text25",
+        "SourceString": "Open Bedroom Door",
+        "LocalizedString": "Open Bedroom Door"
+      }
+    }
+  },
+  {
+    "Type": "TextOption",
+    "Name": "TextOption_2",
+    "Outer": "RootOption_3",
+    "Class": "UScriptClass'TextOption'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DescriptionText": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text31",
+        "SourceString": "You take the plushie and find a small key inside!",
+        "LocalizedString": "You take the plushie and find a small key inside!"
+      },
+      "SecondsToSwitch": 3.0,
+      "Actives": [
+        {
+          "ObjectName": "ImageOption'Section_Act1:RootOption_3.TextOption_2.ImageOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.15"
+        }
+      ],
+      "Title": {
+        "TableId": "/Game/Data/Localization/Loc_2DGame.Loc_2DGame",
+        "Key": "Loc_2DGame_Act1_Text30",
+        "SourceString": "Take Plushie",
+        "LocalizedString": "Take Plushie"
+      },
+      "ShowOptionConditionQuery": {
+        "HasCollected": [
+          "2DGame.Act1.ExaminedToybox"
+        ],
+        "HasNotCollected": [
+          "2DGame.Act1.CollectedWindowKey"
+        ]
+      },
+      "bUseAlternateStyle": true
+    }
+  },
+  {
+    "Type": "TwoDSectionData",
+    "Name": "Section_Act1",
+    "Class": "UScriptClass'TwoDSectionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bIsCheckpoint": true,
+      "RootPages": [
+        {
+          "ObjectName": "RootOption'Section_Act1:RootOption_0'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.23"
+        },
+        {
+          "ObjectName": "RootOption'Section_Act1:RootOption_1'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.24"
+        },
+        {
+          "ObjectName": "RootOption'Section_Act1:RootOption_2'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.25"
+        },
+        {
+          "ObjectName": "RootOption'Section_Act1:RootOption_3'",
+          "ObjectPath": "FNAF_SOTM/Content/Data/2DGame/Section_Act1.26"
+        }
+      ],
+      "CheckpointTags": [
+        "2DGame.Act1.OpenedWindow",
+        "2DGame.Act1.WearingHedgehogMask",
+        "2DGame.Act1.CollectedHedgehogMask",
+        "2DGame.Act1.ExaminedToybox",
+        "2DGame.Act1.CollectedWindowKey"
+      ]
+    }
+  }
+]
