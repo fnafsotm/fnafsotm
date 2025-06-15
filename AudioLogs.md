@@ -1,6 +1,6 @@
-### **Часть 1: 16 Коллекционных Аудиологов (для достижения "Хороший слушатель")**
+## **Часть 1: 16 Коллекционных Аудиологов (для достижения "Хороший слушатель")**
 
-#### **1. Showroom Employee Room (Комната персонала Шоурума)**
+### **1. Showroom Employee Room (Комната персонала Шоурума)**
 *   **Оригинал:**
     *   **(Эдвин):** Excuse me. Can I borrow your voice for a project?
     *   **(Фиона):** What for? I don’t even know you. I’m brand new here. Let’s start again. I'm Fiona. And you are?
