@@ -1,0 +1,29 @@
+[
+  {
+    "Type": "TerminalNoteData",
+    "Name": "NC_AudioLog_TrustNoOne",
+    "Class": "UScriptClass'TerminalNoteData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NoteTitle": {
+        "CultureInvariantString": "TRUST NO ONE"
+      },
+      "NoteType": "ENoteType::AudioContent",
+      "NoteTag": {
+        "TagName": "gpdb.TerminalLogs.AudioLog11"
+      },
+      "NoteTextContent": {
+        "CultureInvariantString": "Edwin, never forget. They are behind it. Don’t trust them. Never tell them. They want to destroy you. Dad was right. "
+      },
+      "NoteAudioContentWithDelay": [
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00624'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00624.0"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "TerminalNoteData",
+    "Name": "NC_AudioLog_FocusNeeded",
+    "Class": "UScriptClass'TerminalNoteData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NoteTitle": {
+        "CultureInvariantString": "FOCUS NEEDED"
+      },
+      "NoteType": "ENoteType::AudioContent",
+      "NoteTag": {
+        "TagName": "gpdb.TerminalLogs.AudioLog03"
+      },
+      "NoteTextContent": {
+        "CultureInvariantString": "Ed, the constant changes is really hard on the staff. We are all trying to keep up with your ideas and all the new projects. It is very difficult for anyone to plan out their work day due to all the changeing priorities. Your creative energy is amazing. I love you for it, but let's try to let the staff catch up.  "
+      },
+      "NoteAudioContentWithDelay": [
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'FIONA_00600'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Fiona/FIONA_00600.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'FIONA_00601'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Fiona/FIONA_00601.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'FIONA_00602'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Fiona/FIONA_00602.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'FIONA_00603'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Fiona/FIONA_00603.0"
+          }
+        }
+      ]
+    }
+  }
+]

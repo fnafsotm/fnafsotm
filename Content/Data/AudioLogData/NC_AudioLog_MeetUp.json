@@ -1,0 +1,141 @@
+[
+  {
+    "Type": "TerminalNoteData",
+    "Name": "NC_AudioLog_MeetUp",
+    "Class": "UScriptClass'TerminalNoteData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NoteTitle": {
+        "CultureInvariantString": "Meet Up"
+      },
+      "NoteType": "ENoteType::AudioContent",
+      "NoteTag": {
+        "TagName": "gpdb.TerminalLogs.AudioLog16"
+      },
+      "NoteTextContent": {
+        "CultureInvariantString": "TEMP:\r\nMeeting Fiona- Voice recording tape player"
+      },
+      "NoteAudioContentWithDelay": [
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00634'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00634.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'FIONA_00621'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Fiona/FIONA_00621.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00635'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00635.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00636'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00636.0"
+          }
+        },
+        {
+          "DelayToStart": 0.5,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'FIONA_00622'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Fiona/FIONA_00622.0"
+          }
+        },
+        {
+          "DelayToStart": 0.2,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00637'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00637.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'FIONA_00623'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Fiona/FIONA_00623.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00638'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00638.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'FIONA_00624'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Fiona/FIONA_00624.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00639'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00639.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00640'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00640.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00641'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00641.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'FIONA_00625'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Fiona/FIONA_00625.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00642'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00642.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'FIONA_00626'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Fiona/FIONA_00626.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00643'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00643.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'FIONA_00627'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Fiona/FIONA_00627.0"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "TerminalNoteData",
+    "Name": "NC_AudioLog_HereForYou",
+    "Class": "UScriptClass'TerminalNoteData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NoteTitle": {
+        "CultureInvariantString": "HereForYou"
+      },
+      "NoteType": "ENoteType::AudioContent",
+      "NoteTag": {
+        "TagName": "gpdb.TerminalLogs.AudioLog05"
+      },
+      "NoteTextContent": {
+        "CultureInvariantString": "It happened and you have to deal with it. You did it before. We can fix things together. I am here to help."
+      },
+      "NoteAudioContentWithDelay": [
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'FIONA_00608'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Fiona/FIONA_00608.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'FIONA_00609'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Fiona/FIONA_00609.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'FIONA_00610'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Fiona/FIONA_00610.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'FIONA_00611'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Fiona/FIONA_00611.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'FIONA_00612'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Fiona/FIONA_00612.0"
+          }
+        }
+      ]
+    }
+  }
+]

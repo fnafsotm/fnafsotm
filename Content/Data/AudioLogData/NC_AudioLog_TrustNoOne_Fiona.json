@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "TerminalNoteData",
+    "Name": "NC_AudioLog_TrustNoOne_Fiona",
+    "Class": "UScriptClass'TerminalNoteData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NoteTitle": {
+        "CultureInvariantString": "Trust No One P2"
+      },
+      "NoteType": "ENoteType::AudioContent",
+      "NoteTag": {
+        "TagName": "gpdb.TerminalLogs.AudioLog12"
+      },
+      "NoteTextContent": {
+        "CultureInvariantString": "Edwin, you need to listen. I know you are excited, but you can’t let them know about me. It’s not safe. They wouldn’t understand. Keep it between us for now."
+      },
+      "NoteAudioContentWithDelay": [
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'FIONA_00613'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Fiona/FIONA_00613.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'FIONA_00614'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Fiona/FIONA_00614.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'FIONA_00615'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Fiona/FIONA_00615.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'FIONA_00616'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Fiona/FIONA_00616.0"
+          }
+        }
+      ]
+    }
+  }
+]

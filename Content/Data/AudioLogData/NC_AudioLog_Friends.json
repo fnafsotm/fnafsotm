@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "TerminalNoteData",
+    "Name": "NC_AudioLog_Friends",
+    "Class": "UScriptClass'TerminalNoteData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NoteTitle": {
+        "CultureInvariantString": "FRIENDS"
+      },
+      "NoteType": "ENoteType::AudioContent",
+      "NoteTag": {
+        "TagName": "gpdb.TerminalLogs.AudioLog04"
+      },
+      "NoteTextContent": {
+        "CultureInvariantString": "What the hell was that? They treat me like some contractor to crack a whip at. Fiona was right. They don't think of me as a friend anymore. This is the last project I ever do for them.  "
+      },
+      "NoteAudioContentWithDelay": [
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00614'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00614.0"
+          }
+        },
+        {
+          "DelayToStart": 0.5,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00615'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00615.0"
+          }
+        },
+        {
+          "DelayToStart": 0.5,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00616'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00616.0"
+          }
+        }
+      ]
+    }
+  }
+]

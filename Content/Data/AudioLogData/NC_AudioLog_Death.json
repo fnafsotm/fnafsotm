@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "TerminalNoteData",
+    "Name": "NC_AudioLog_Death",
+    "Class": "UScriptClass'TerminalNoteData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NoteTitle": {
+        "CultureInvariantString": "Death"
+      },
+      "NoteType": "ENoteType::AudioContent",
+      "NoteTag": {
+        "TagName": "gpdb.TerminalLogs.AudioLog19"
+      },
+      "NoteTextContent": {
+        "CultureInvariantString": "TEMP:\r\n\r\nDeal with Fiona death - fresh - Edwin visits the theater and breaks down."
+      },
+      "NoteAudioContentWithDelay": [
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00654'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00654.0"
+          }
+        },
+        {
+          "DelayToStart": 0.5,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00655'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00655.0"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "TerminalNoteData",
+    "Name": "NC_AudioLog_BuiltToSpec",
+    "Class": "UScriptClass'TerminalNoteData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NoteTitle": {
+        "CultureInvariantString": "BUILT TO SPEC"
+      },
+      "NoteType": "ENoteType::AudioContent",
+      "NoteTag": {
+        "TagName": "gpdb.TerminalLogs.AudioLog02"
+      },
+      "NoteTextContent": {
+        "CultureInvariantString": "Test test... journal entry. I got the change order from Hen last night. None of this makes sense. I'm almost done. Why change it now? It would be so much easier to keep using the Springlocks.  Just hire some teens to wear the suits like we always do. "
+      },
+      "NoteAudioContentWithDelay": [
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00608'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00608.0"
+          }
+        },
+        {
+          "DelayToStart": 0.5,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00609'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00609.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00610'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00610.0"
+          }
+        }
+      ]
+    }
+  }
+]

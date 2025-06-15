@@ -1,0 +1,155 @@
+[
+  {
+    "Type": "TerminalNoteData",
+    "Name": "NC_AudioLog_TurnAround",
+    "Class": "UScriptClass'TerminalNoteData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NoteTitle": {
+        "CultureInvariantString": "Turn Around"
+      },
+      "NoteType": "ENoteType::AudioContent",
+      "NoteTag": {
+        "TagName": "gpdb.TerminalLogs.AudioLog15"
+      },
+      "NoteTextContent": {
+        "CultureInvariantString": "Too much text. Please see Script for more details. "
+      },
+      "NoteAudioContentWithDelay": [
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'MIMIC2_00401'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/MIMIC2_00401.0"
+          }
+        },
+        {
+          "DelayToStart": 0.5,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'MIMIC2_00402'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/MIMIC2_00402.0"
+          }
+        },
+        {
+          "DelayToStart": 0.5,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'MIMIC2_00403'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/MIMIC2_00403.0"
+          }
+        },
+        {
+          "DelayToStart": 1.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00401'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/EDWIN_00401.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00402'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/EDWIN_00402.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00403'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/EDWIN_00403.0"
+          }
+        },
+        {
+          "DelayToStart": 0.5,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'MIMIC2_00404'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/MIMIC2_00404.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00404'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/EDWIN_00404.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00405'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/EDWIN_00405.0"
+          }
+        },
+        {
+          "DelayToStart": 0.5,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00406'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/EDWIN_00406.0"
+          }
+        },
+        {
+          "DelayToStart": 0.5,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'MIMIC2_00405'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/MIMIC2_00405.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'MIMIC2_00406'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/MIMIC2_00406.0"
+          }
+        },
+        {
+          "DelayToStart": 0.5,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00407'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/EDWIN_00407.0"
+          }
+        },
+        {
+          "DelayToStart": 0.2,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00408'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/EDWIN_00408.0"
+          }
+        },
+        {
+          "DelayToStart": 0.2,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00409'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/EDWIN_00409.0"
+          }
+        },
+        {
+          "DelayToStart": 0.5,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'MIMIC2_00407'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/MIMIC2_00407.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'MIMIC2_00408'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/MIMIC2_00408.0"
+          }
+        },
+        {
+          "DelayToStart": 0.5,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00410'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/EDWIN_00410.0"
+          }
+        },
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00411'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/Default_Work_Unit/EDWIN_00411.0"
+          }
+        }
+      ]
+    }
+  }
+]

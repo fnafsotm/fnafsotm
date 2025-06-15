@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "TerminalNoteData",
+    "Name": "NC_AudioLog_Training",
+    "Class": "UScriptClass'TerminalNoteData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NoteTitle": {
+        "CultureInvariantString": "Training"
+      },
+      "NoteType": "ENoteType::AudioContent",
+      "NoteTag": {
+        "TagName": "gpdb.TerminalLogs.AudioLog18"
+      },
+      "NoteTextContent": {
+        "CultureInvariantString": "TEMP:\r\n\r\nMimic training -robo nanny"
+      },
+      "NoteAudioContentWithDelay": [
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00625'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00625.0"
+          }
+        },
+        {
+          "DelayToStart": 0.5,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'DAVID_00600'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/David/DAVID_00600.0"
+          }
+        },
+        {
+          "DelayToStart": 0.5,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00626'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00626.0"
+          }
+        },
+        {
+          "DelayToStart": 0.2,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'DAVID_00601'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/David/DAVID_00601.0"
+          }
+        },
+        {
+          "DelayToStart": 0.5,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00627'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00627.0"
+          }
+        },
+        {
+          "DelayToStart": 1.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'DAVID_00602'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/David/DAVID_00602.0"
+          }
+        },
+        {
+          "DelayToStart": 0.2,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00628'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00628.0"
+          }
+        },
+        {
+          "DelayToStart": 0.2,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00629'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00629.0"
+          }
+        }
+      ]
+    }
+  }
+]

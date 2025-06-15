@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "TerminalNoteData",
+    "Name": "NC_AudioLog_Playground",
+    "Class": "UScriptClass'TerminalNoteData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NoteTitle": {
+        "CultureInvariantString": "Playground"
+      },
+      "NoteType": "ENoteType::AudioContent",
+      "NoteTag": {
+        "TagName": "gpdb.TerminalLogs.AudioLog21"
+      },
+      "NoteTextContent": {
+        "CultureInvariantString": "TEMP: \r\n\r\nPlayground too close to loading dock"
+      },
+      "NoteAudioContentWithDelay": [
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00657'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00657.0"
+          }
+        },
+        {
+          "DelayToStart": 0.2,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00658'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00658.0"
+          }
+        },
+        {
+          "DelayToStart": 0.5,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00659'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00659.0"
+          }
+        },
+        {
+          "DelayToStart": 1.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00660'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00660.0"
+          }
+        },
+        {
+          "DelayToStart": 0.5,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00661'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00661.0"
+          }
+        }
+      ]
+    }
+  }
+]

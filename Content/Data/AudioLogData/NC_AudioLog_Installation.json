@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "TerminalNoteData",
+    "Name": "NC_AudioLog_Installation",
+    "Class": "UScriptClass'TerminalNoteData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NoteTitle": {
+        "CultureInvariantString": "INSTALLATION WORRIES"
+      },
+      "NoteType": "ENoteType::AudioContent",
+      "NoteTag": {
+        "TagName": "gpdb.TerminalLogs.AudioLog06"
+      },
+      "NoteTextContent": {
+        "CultureInvariantString": "FIONA (TBR)\r\n(FIONA_00628)\r\nEd, I hope this message reaches you as soon as you get a break. \r\n\r\nFIONA (TBR)\r\n(FIONA_00629)\r\nI have to go help the Fall Fest crew… just for a few days until the installation is finished. \r\n\r\nFIONA (TBR)\r\n(FIONA_00630)\r\nIt’s hard to explain… I just have this terrible feeling like I need to be there so nothing goes wrong… Just in case. \r\n\r\nFIONA (TBR)\r\n(FIONA_00631)\r\nTrisha will babysit David while I’m gone. I love you both and I’ll be back next week.\r\n"
+      },
+      "NoteAudioContentWithDelay": [
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'FIONA_00628'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Fiona/FIONA_00628.0"
+          }
+        },
+        {
+          "DelayToStart": 0.2,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'FIONA_00629'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Fiona/FIONA_00629.0"
+          }
+        },
+        {
+          "DelayToStart": 1.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'FIONA_00630'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Fiona/FIONA_00630.0"
+          }
+        },
+        {
+          "DelayToStart": 0.2,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'FIONA_00631'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Fiona/FIONA_00631.0"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "Type": "TerminalNoteData",
+    "Name": "NC_AudioLog_TheIncident",
+    "Class": "UScriptClass'TerminalNoteData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NoteTitle": {
+        "CultureInvariantString": "The Incident"
+      },
+      "NoteType": "ENoteType::AudioContent",
+      "NoteTag": {
+        "TagName": "gpdb.TerminalLogs.AudioLog10"
+      },
+      "NoteTextContent": {
+        "CultureInvariantString": "Stop. You're not him. You're not! Stop sounding like him! (sounds of smashing parts)"
+      },
+      "NoteAudioContentWithDelay": [
+        {
+          "DelayToStart": 0.0,
+          "AudioEvent": {
+            "ObjectName": "AkAudioEvent'EDWIN_00601'",
+            "ObjectPath": "FNAF_SOTM/Content/WwiseAudio/Events/VO/Edwin/EDWIN_00601.0"
+          }
+        }
+      ]
+    }
+  }
+]
