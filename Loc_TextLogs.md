@@ -197,7 +197,9 @@
     *   **Оригинал:** Fiona, the new springlocks are working well, even with the water damage. They should be ready for the diner soon. I’ll just make sure to warn Hen about some of the more… odd behaviors they might have.
     *   **Перевод:** Фиона, новые спринглоки работают хорошо, даже несмотря на повреждения от воды. Они скоро должны быть готовы для закусочной. Я просто обязательно предупрежу Хэна о некоторых их более... странных особенностях поведения.
 
-*   **Received: 5 Min Ago**
+### Loc_TextLogs_NC_Fiona_InventorHouse
+
+*   **Received: 5 Min Ago (_установлено что это цитата F10 N4_)**
     *   **Оригинал:** Edwin, I am sending you a technician. He has your M2 blueprints as well as executive access. While the M2 began as a copy of my program, I believe it can become something more. It wasn’t me. It was different. Somehow, it has been damaged and is malfunctioning. M2 can no longer be controlled. It will no longer listen. It mimics rage. It has done many bad things. No one who enters the MCM is safe. Please reconsider. Finish the program.
     *   **Перевод:** Эдвин, я посылаю к тебе техника. У него есть твои чертежи М2, а также доступ уровня "директор". Хотя М2 начинался как копия моей программы, я верю, что он может стать чем-то большим. Это была не я. Это было что-то другое. Каким-то образом он был повреждён и теперь неисправен. М2 больше не поддаётся контролю. Он больше не будет слушать. Он имитирует ярость. Он натворил много плохих дел. Никто, кто входит в MCM, не находится в безопасности. Пожалуйста, передумай. Заверши программу.
 
