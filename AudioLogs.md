@@ -220,7 +220,10 @@
     *   Ничего из этого не имеет смысла. Я почти закончил.
     *   Зачем сейчас что-то менять? Было бы намного проще продолжать использовать Спринглоков. Просто нанять подростков носить костюмы, как мы всегда и делали.
 
-### 17. Cart ride
+### 17. Prototype Freddy's pizzeria safe room
+
+
+### 18. Cart ride
 *   **Оригинал:**
     * **(F10 N4):** Edwin, you need to listen.
     * Ed, I really don’t want to leave things like this.
@@ -232,14 +235,14 @@
     * Эдвин, это не имеет смысла. Это ужасно, и в этом нет никакой логики. Это случилось, и тебе придётся с этим смириться.
     * Эдвин, ты не можешь больше это откладывать. Тебе нужно попробовать снова. Построй другого. Ты уже делал это раньше. Мы сможем всё исправить вместе. Я здесь, чтобы помочь.
 
-### 18. House main floor
+### 20. House main floor
 *   **Оригинал:**
    *   **(F10 N4):** Edwin, you need to listen. I know you are excited, but you can’t let them know about me. It’s not safe. They wouldn’t understand. Keep it between us for now.
 
 *   **Перевод:**
    *   **(F10 N4):** Эдвин, тебе нужно послушать. Я знаю, что ты взволнован, но ты не можешь им рассказывать обо мне. Это небезопасно. Они не поймут. Пусть это пока останется между нами.
 
-### 19. House blueprint room
+### 21. House blueprint room
 *   **Оригинал:**
     *   **(Эдвин):** For the last time, NO. It wouldn’t be him.
     *   Who am I kidding, you’re not really you! Ugh, I’ve been so stupid.
@@ -257,7 +260,7 @@
     *  **("F10 N4"):** Ты не это имеешь в виду. Это я. Я Фиона.
     *  **(Эдвин):** Перестань говорить, как она. Ты не она. Я больше никогда не хочу слышать или даже думать о тебе. Никогда!
 
-### 20. House spare parts
+### 22. House spare parts
 *   **Оригинал:**
     *   **(F10 N4):** Edwin, you can’t put it off any longer.
     *   You need to try again.
@@ -267,16 +270,7 @@
     *   Тебе нужно попробовать снова.
     *   Построй другого.
 
-### **Часть 2: 6 Аудиологов из Секретной Концовки (Аттик)**
-
-Эти логи не нужны для достижения, но раскрывают важные детали сюжета.
-
 ## Пока не нашел
-*   **Оригинал:**
-    *   **(Эдвин):** Are they insane? The look of these new animatronics is Fiona's design and they're great. First they approve the art. Then they approve the proofs. Now, they change their minds when we're so close to final. Why would they change them now? Are they pulling my leg? The new concepts are frankly creepy. It doesn't matter... I'm not changing a single bit of her work and they can't make me.
-*   **Перевод:**
-    *   **(Эдвин):** Они что, с ума сошли? Внешний вид этих новых аниматроников — это дизайн Фионы, и он великолепен... Новые концепции откровенно жуткие. Неважно... Я не изменю ни единой детали её работы, и они не смогут меня заставить.
-
 *   **Оригинал:**
     *   **(Мимик голосом Эдвина):** Test test… Journal entry. Too bad. The new power test was a failure. Due to a minor… detonation, there is damage to my office interior as well as a small fire. Note to self. A portable cleaner that gets rid of smoke damage… Better yet, a Clean-o-Vac attachment.
 *   **Перевод:**
