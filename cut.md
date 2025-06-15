@@ -37,11 +37,10 @@
 - "FIONA_00454": "(F10 N4)\\\\\\\\Entering standby mode…",
 
 ### Вырезано
-"FIONA_00439": "(F10 N4)\\\\\\\\While the M2 began as a copy of my program\\\\\\\\I believe it can become something more… ",
-"FIONA_00440": "(F10 N4)\\\\\\\\It wasn’t me. It was different.",
-"FIONA_00441": "(F10 N4)\\\\\\\\Somehow, it has been damaged and is malfunctioning.",
-"FIONA_00442": "(F10 N4)\\\\\\\\M2 can no longer be controlled.",
-"FIONA_00443": "(F10 N4)\\\\\\\\It will no longer listen. It mimics rage.",
-"FIONA_00444": "(F10 N4)\\\\\\\\It has done many bad things. No one who enters the MCM is safe.",
-"FIONA_00445": "(F10 N4)\\\\\\\\Please reconsider. Finish the program.",
-
+- "FIONA_00439": "(F10 N4)\\\\\\\\While the M2 began as a copy of my program\\\\\\\\I believe it can become something more… ",
+- "FIONA_00440": "(F10 N4)\\\\\\\\It wasn’t me. It was different.",
+- "FIONA_00441": "(F10 N4)\\\\\\\\Somehow, it has been damaged and is malfunctioning.",
+- "FIONA_00442": "(F10 N4)\\\\\\\\M2 can no longer be controlled.",
+- "FIONA_00443": "(F10 N4)\\\\\\\\It will no longer listen. It mimics rage.",
+- "FIONA_00444": "(F10 N4)\\\\\\\\It has done many bad things. No one who enters the MCM is safe.",
+- "FIONA_00445": "(F10 N4)\\\\\\\\Please reconsider. Finish the program.",
