@@ -229,9 +229,9 @@
 
 ### 16. Prototype Freddy's pizzeria
 *   **Оригинал:**
-    *   **(Эдвин):** Test test... journal entry. I got the change order from Henry last night.
-    *   None of this makes sense. I'm almost done. Why change it now?
-    *   It would be so much easier to keep using the Springlocks. Just hire some teens to wear the suits like we always do.
+    *   **(EDWIN_00608):** Test test... journal entry. I got the change order from Henry last night.
+    *   **(EDWIN_00609):** None of this makes sense. I'm almost done. Why change it now?
+    *   **(EDWIN_00610):** It would be so much easier to keep using the Springlocks. Just hire some teens to wear the suits like we always do.
 *   **Перевод:**
     *   **(Эдвин):** Тест, тест... запись в журнале. Вчера вечером я получил от Генри заявку на изменение.
     *   Ничего из этого не имеет смысла. Я почти закончил.
@@ -239,10 +239,10 @@
 
 ### 17. Prototype Freddy's pizzeria safe room
 *   **Оригинал:**
-    *   **(Эдвин):** Are they insane? The look of these new animatronics is Fiona's design and they're great.
-    *   First they approve the art. Then they approve the proofs. Now, they change their minds when we're so close to final.
-    *   Why would they change them now? Are they pulling my leg? The new concepts are frankly creepy.
-    *   It doesn't matter... I'm not changing a single bit of her work and they can't make me.
+    *   **(EDWIN_00630):** Are they insane? The look of these new animatronics is Fiona's design and they're great.
+    *   **(EDWIN_00631):** First they approve the art. Then they approve the proofs. Now, they change their minds when we're so close to final.
+    *   **(EDWIN_00632):** Why would they change them now? Are they pulling my leg? The new concepts are frankly creepy.
+    *   **(EDWIN_00633):** It doesn't matter... I'm not changing a single bit of her work and they can't make me.
 *   **Перевод:**
     *   **(Эдвин):** Они что, с ума сошли? Внешний вид этих новых аниматроников — это дизайн Фионы, и он великолепен...
     *   Сначала они одобряют рисунки. Затем они одобряют макеты. А теперь, когда мы так близки к финалу, они передумывают.
@@ -251,8 +251,8 @@
 
 ### 18. Cart ride
 *   **Оригинал:**
-    * **(F10 N4):** Edwin, you need to listen.
-    * Ed, I really don’t want to leave things like this.
+    * **(FIONA_00613, скорее всего уже F10 N4):** Edwin, you need to listen.
+    * **(FIONA_00604):** Ed, I really don’t want to leave things like this.
     * Edwin, it doesn’t make sense. It’s terrible and there’s no logic behind it. It happened and you have to deal with it.
     * Edwin, you can’t put it off any longer. You need to try again. Build another. You did it before. We can fix things together. I am here to help.
 
