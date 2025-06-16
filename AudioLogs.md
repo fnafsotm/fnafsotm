@@ -205,7 +205,6 @@
 
 ### 15. NC_AudioLog_TheFrequency_1 / POWER SURGE (Dark tunnels / In the Dark Area)
 *   **Оригинал:**
-    *   **(EDWIN_00602):** (grunts)
     *   **(EDWIN_00603):** Recording... Test. Test. Levels are good.
     *   **(EDWIN_00604):** This is where I heard it. It's her, or someone that sounds like her.
     *   **(EDWIN_00605):** Set frequency to 4625…
