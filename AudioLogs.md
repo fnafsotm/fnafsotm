@@ -41,7 +41,7 @@
 
 ### 2. Storytime showroom
 *   **Оригинал:**
-    *   **(Эдвин):** Edwin, never forget. They’re behind it. Don’t trust them. Never tell them. They want to destroy you. Dad was right.
+    *   **(EDWIN_00624):** Edwin, never forget. They’re behind it. Don’t trust them. Never tell them. They want to destroy you. Dad was right.
 *   **Перевод:**
     *   **(Эдвин):** Эдвин, никогда не забывай. Это они за всем стоят. Не доверяй им. Никогда им не говори. Они хотят тебя уничтожить. Отец был прав.
 
@@ -49,9 +49,10 @@
 
 ### 3. Roof access (перед доступом на крышу)
 *   **Оригинал:**
-    *   **(Фиона):** Ed, I hope this message reaches you as soon as you get a break.
-    *   **(Фиона):** I have to go help the Fall Fest crew… just for a few days until the installation is finished. It’s hard to explain… I just have this terrible feeling like I need to be there so nothing goes wrong… Just in case.
-    *   **(Фиона):** Trisha will babysit David while I’m gone. I love you both and I’ll be back next week.
+    *   **(FIONA_00628):** Ed, I hope this message reaches you as soon as you get a break.
+    *   **(FIONA_00629):** I have to go help the Fall Fest crew… just for a few days until the installation is finished.
+    *   **(FIONA_00630):** It’s hard to explain… I just have this terrible feeling like I need to be there so nothing goes wrong… Just in case.
+    *   **(FIONA_00631):** Trisha will babysit David while I’m gone. I love you both and I’ll be back next week.
 *   **Перевод:**
     *   **(Фиона):** Эд, надеюсь, это сообщение дойдет до тебя, как только у тебя будет перерыв
     *   **(Фиона):** Мне нужно помочь команде Осеннего Фестиваля... всего на несколько дней, пока не закончится установка. Сложно объяснить... у меня просто ужасное предчувствие, будто я должна быть там, чтобы ничего плохого не случилось... Просто на всякий случай.
@@ -61,21 +62,22 @@
 
 ### 4. Theatre
 *   **Оригинал:**
-    *   **(Эдвин):** Notice to all workers. All late night shenanigans are to stop immediately.
-    *   **(Эдвин):** I have some very important TV people coming to look at the show template. I can't have the projector breaking again!
+    *   **(EDWIN_00617):** Notice to all workers. All late night shenanigans are to stop immediately.
+    *   **(EDWIN_00618):** I have some very important TV people coming to look at the show template. I can't have the projector breaking again!
 *   **Перевод:**
     *   **(Эдвин):** Вниманию всех работников. Все ночные выходки должны немедленно прекратиться.
     *  **(Эдвин):**  У меня тут очень важные люди из телевизионной компании приехали посмотреть на шаблон шоу. Я не могу допустить, чтобы проектор снова сломался!
 
 ### 5. Theater workshop
 *   **Оригинал:**
-    *   **(Эдвин):** David. I want to introduce you to someone. This is M1.
-    *   **(Дэвид):** Why does it look like that?
-    *   **(Эдвин):** Look like what?
-    *   **(Дэвид):** It’s scary.
-    *   **(Эдвин):** It’s an endo skeleton. It won’t always look like this. It’ll wear fun costumes.
-    *   **(Дэвид):** Like what?
-    *   **(Эдвин):** Anything you want. It can fit into any costume we’ve created. Think of it as your new babysitter. But it doesn’t get paid and go home. It’ll stay with us and help around the house.
+    *   **(EDWIN_00625):** David. I want to introduce you to someone. This is M1.
+    *   **(DAVID_00600):** Why does it look like that?
+    *   **(EDWIN_00626):** Look like what?
+    *   **(DAVID_00601):** It’s scary.
+    *   **(EDWIN_00627):** It’s an endo skeleton. It won’t always look like this. It’ll wear fun costumes.
+    *   **(DAVID_00602):** Like what?
+    *   **(EDWIN_00628):** Anything you want. It can fit into any costume we’ve created.
+    *   **(EDWIN_00629):** Think of it as your new babysitter. But it doesn’t get paid and go home. It’ll stay with us and help around the house.
 
 *   **Перевод:**
     *   **(Эдвин):** Дэвид. Я хочу тебя с кем-то познакомить. Это М1.
