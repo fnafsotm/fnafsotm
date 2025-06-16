@@ -279,7 +279,9 @@
 *   **Перевод:**
    *   **(F10 N4):** Эдвин, тебе нужно послушать. Я знаю, что ты взволнован, но ты не можешь им рассказывать обо мне. Это небезопасно. Они не поймут. Пусть это пока останется между нами.
 
-### 20. House blueprint room
+### 20. Cradle / Refusal (House blueprint room)
+Записка разработчика: Edwin refuses to build David - You are not my beautiful wife! this is not my beautiful house! I'm not fooling myself anymore... I lost time with my raeal life son. I let a robot raise my child - stay away from me!
+
 *   **Оригинал:**
     *   **(EDWIN_00644):** For the last time, NO. It wouldn’t be him.
     *   **(EDWIN_00645):** Who am I kidding, you’re not really you! Ugh, I’ve been so stupid.
