@@ -307,21 +307,25 @@
 
 ### 22. Edwin Room
 *   **Оригинал:**
-    *   **(M2, голосом Эдвина):** Test test… Journal entry. Too bad. The new power test was a failure.
-    *   Due to a minor… detonation, there is damage to my office interior as well as a small fire.
-    *   Note to self. A portable cleaner that gets rid of smoke damage…
-    *   Better yet, a Clean-o-Vac attachment.
-    *   **(Эдвин):** Help… M2. Respond. Emergency… Call for help.
-    *   **(M2, голосом Эдвина):** Daddy's busy, buddy. Why don't you go outside and play.
-    *   **(Эдвин):** *(coughing)*
-    *   Please.
-    *   I can't move. I can't feel my legs…
-    *   **(M2, своим голосом):** Speaking of legs. What do you think? I just finished mine. There are still a few kinks to work out…
-    *   **(Эдвин):** I'm… I'm sorry, M2. I… lost my temper. I was always going to fix you…
-    *   Please… call for help…
-    *   M2. Help… *(coughing)*
-    *   M2. Respond.
-    *   **(M2, голосом Эдвина):** Can't right now, buddy. We can do something fun tomorrow. I promise. Ask your mom, if she's not busy.
+    *   **(MIMIC2_00401):** Test test… Journal entry. Too bad. The new power test was a failure.
+    *   **(MIMIC2_00402):** Due to a minor… detonation, there is damage to my office interior as well as a small fire.
+    *   **(MIMIC2_00403):** Note to self. A portable cleaner that gets rid of smoke damage… Better yet, a Clean-o-Vac attachment.
+    *   **(EDWIN_00401):** Help…
+    *   **(EDWIN_00402):** M2. Respond.
+    *   **(EDWIN_00403):** Emergency… Call for help.
+    *   **(MIMIC2_00404):** Daddy's busy, buddy. Why don't you go outside and play.
+    *   **(EDWIN_00404):** *(coughing)*
+    *   **(EDWIN_00405):** Please.
+    *   **(EDWIN_00406):** I can't move. I can't feel my legs…
+    *   **(MIMIC2_00405):** Speaking of legs. What do you think? I just finished mine.
+    *   **(MIMIC2_00406):** There are still a few kinks to work out…
+    *   **(EDWIN_00407):** I'm… I'm sorry, M2. I… lost my temper. I was always going to fix you…
+    *   **(EDWIN_00408):** Please… call for help…
+    *   **(EDWIN_00409):** M2. Respond.
+    *   **(EDWIN_00410):** M2. Help…
+    *   **(EDWIN_00411):** (worse coughing)
+    *   **(MIMIC2_00407):** Can't right now, buddy. We can do something fun tomorrow. I promise.
+    *   **(MIMIC2_00408):** Ask your mom, if she's not busy.
 *   **Перевод:**
     *   **(Эдвин):** Помогите... М2. Отвечай. Тревога... Вызови помощь.
     *   **(М2, голосом Эдвина):** Папочка занят, дружок. Почему бы тебе не пойти поиграть на улицу.
