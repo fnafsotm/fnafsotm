@@ -180,22 +180,22 @@
 
 ### 12. Executive room
 *   **Оригинал:**
-    * **(Эдвин):** Project update. I figured it out. There's a leak.
-    * Someone told them about M2. Well, they can't have it.
-    * Every copy has failed. I don't even know why it worked the first time, but it did. It's just not ready.
+    * **(EDWIN_00611):** Project update. I figured it out. There's a leak.
+    * **(EDWIN_00612):** Someone told them about M2. Well, they can't have it.
+    * **(EDWIN_00613):** Every copy has failed. I don't even know why it worked the first time, but it did. It's just not ready.
 *   **Перевод:**
     *   **(Эдвин):** Обновление по проекту. Я выяснил. Есть утечка. Кто-то рассказал им про М2. Что ж, они его не получат.
     *   Каждая копия провалилась. Я даже не знаю, почему он сработал в первый раз, но он сработал. Он просто ещё не готов.
 
 ### 13. Tunnels elevator
 *   **Оригинал:**
-    *   **(Эдвин):** Attention all personnel. The power surges have become more… frequent. Please use extreme caution when venturing down into the tunnels.
+    *   **(EDWIN_00619):** Attention all personnel. The power surges have become more… frequent. Please use extreme caution when venturing down into the tunnels.
 *   **Перевод:**
     *   **(Эдвин):** Вниманию всего персонала. Скачки напряжения стали более... частыми. Пожалуйста, соблюдайте крайнюю осторожность, спускаясь в туннели.
 
 ### 14. Tunnels Mr Murray Executive Office
 *   **Оригинал:**
-    *   **(Эдвин):** …Stop. You're not him. You're not! Stop sounding like him!
+    *   **(EDWIN_00601):** …Stop. You're not him. You're not! Stop sounding like him!
 *   **Перевод:**
     *   **(Эдвин):** ...Стой. Ты не он. Ты не он! Перестань звучать, как он!
 
@@ -203,17 +203,20 @@
 
 ### 15. Dark tunnels / In the Dark Area
 *   **Оригинал:**
-    *   **(Эдвин):** Recording... Test. Test. Levels are good. This is where I heard it. It's her, or someone that sounds like her.
-    *   Set frequency to 4625…
+    *   **(EDWIN_00602):** (grunts)
+    *   **(EDWIN_00603):** Recording... Test. Test. Levels are good.
+    *   **(EDWIN_00604):** This is where I heard it. It's her, or someone that sounds like her.
+    *   **(EDWIN_00605):** Set frequency to 4625…
     *   *(Радио: помехи)*
-    *   **(Эдвин):** Hello. Hello? Is anyone there? Over.
+    *   **(EDWIN_00606):** Hello. Hello? Is anyone there? Over.
     *   *(Радио: помехи)*
-    *   **(Эдвин):** Say something. It's me, Edwin. Over.
+    *   **(EDWIN_00607):** Say something. It's me, Edwin. Over.
     *   *(Радио: помехи)*
-    *   **(Фиона, по радио):** That's great, Honey, but you're missing the party.
+    *   **(FIONA_00706a, FIONA_706, по радио):** That's great, Honey, but you're missing the party.
 
 *   **Перевод:**
-    *   **(Эдвин):** Запись... Тест. Тест. Уровни в норме. Я слышал её именно здесь. Это она, или кто-то с очень похожим голосом.
+    *   **(Эдвин):** Запись... Тест. Тест. Уровни в норме.
+    *   Я слышал её именно здесь. Это она, или кто-то с очень похожим голосом.
     *   Устанавливаю частоту на 4625…
     *   *(Радио: помехи)*
     *   **(Эдвин):** Алло. Алло? Есть кто-нибудь? Приём.
