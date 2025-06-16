@@ -253,12 +253,12 @@
 ### 18. HereForYou / AudioLog05 (Cart ride)
 *   **Оригинал:**
     * **(FIONA_00613, скорее всего уже F10 N4):** Edwin, you need to listen.
-    * **(FIONA_00604):** Ed, I really don’t want to leave things like this.
+    * **(FIONA_00604 ВЫРЕЗАНО):** Ed, I really don’t want to leave things like this.
     * **(FIONA_00608):** Edwin, it doesn’t make sense. It’s terrible and there’s no logic behind it.
     * **(FIONA_00609):** It happened and you have to deal with it.
     * **(FIONA_00617):** Edwin, you can’t put it off any longer.
-    * **(FIONA_00618):** You need to try again.
-    * **(FIONA_00619):** Build another.
+    * **(FIONA_00618 ВЫРЕЗАНО):** You need to try again.
+    * **(FIONA_00619 ВЫРЕЗАНО):** Build another.
     * **(FIONA_00610):** You did it before.
     * **(FIONA_00611):** We can fix things together.
     * **(FIONA_00612):** I am here to help.
