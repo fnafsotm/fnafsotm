@@ -2,25 +2,29 @@
 
 ### 1. Showtime room
 *   **Оригинал:**
-    *   **(Эдвин):** Excuse me. Can I borrow your voice for a project?
-    *   **(Фиона):** What for? I don’t even know you. I’m brand new here. Let’s start again. I'm Fiona. And you are?
-    *   **(Эдвин):** Edwin, Edwin Murray. This is my dad’s place. But that doesn’t matter… I heard you were a puppeteer and I wanted to record your voice.
-    *   **(Фиона):** Oh. Well, yes. I used to be.
-    *   **(Эдвин):** That's great! Do you mind if I record you for a test?
-    *   **(Фиона):** So you want to record me with that? What is it?
-    *   **(Эдвин):** It's a new type of audio cassette recorder.
-    *   **(Фиона):** I've never seen one like that before.
-    *   **(Эдвин 1023076975):** I made it. It's part of this new system I'm working on. Just speak into the microphone and it'll be sent to me like a work memo. The message will be recorded on a tape drive so that I can listen to it when I get back to my desk on the other side of the building.
-    *   **(Фиона):** That's incredible. What do you call it?
-    *   **(Эдвин):** Oh. I don't know. I haven't thought of a name yet.
-    *   **(Фиона):** Well, how would you describe it in one word?
-    *   **(Эдвин):** I guess I would have to say, “helpful.” At its core, it is helpful.
-    *   **(Фиона):** That's a great name. And I would be delighted to help. What kind of voice should I do?
+    *   **(EDWIN_00634):** Excuse me. Can I borrow your voice for a project?
+    *   **(FIONA_00621):** What for? I don’t even know you. I’m brand new here. Let’s start again. I'm Fiona. And you are?
+    *   **(EDWIN_00635):** Edwin, Edwin Murray. This is my dad’s place. But that doesn’t matter…
+    *   **(EDWIN_00636):** I heard you were a puppeteer and I wanted to record your voice.
+    *   **(FIONA_00622):** Oh. Well, yes. I used to be.
+    *   **(EDWIN_00637):** That's great! Do you mind if I record you for a test?
+    *   **(FIONA_00623):** So you want to record me with that? What is it?
+    *   **(EDWIN_00638):** It's a new type of audio cassette recorder.
+    *   **(FIONA_00624):** I've never seen one like that before.
+    *   **(EDWIN_00639):** I made it. It's part of this new system I'm working on.
+    *   **(EDWIN_00640):** Just speak into the microphone and it'll be sent to me like a work memo.
+    *   **(EDWIN_00641):** The message will be recorded on a tape drive so that I can listen to it when I get back to my desk on the other side of the building.
+    *   **(FIONA_00625):** That's incredible. What do you call it?
+    *   **(EDWIN_00642):** Oh. I don't know. I haven't thought of a name yet.
+    *   **(FIONA_00626):** Well, how would you describe it in one word?
+    *   **(EDWIN_00643):** I guess I would have to say, “helpful.” At its core, it is helpful.
+    *   **(FIONA_00627):** That's a great name. And I would be delighted to help. What kind of voice should I do?
 
 *   **Перевод:**
     *   **(Эдвин):** Прошу прощения. Могу я позаимствовать ваш голос для одного проекта?
     *   **(Фиона):** Для чего? Я вас даже не знаю. Я здесь новенькая. Давайте начнём сначала. Я Фиона. А вы?
-    *   **(Эдвин):** Эдвин, Эдвин Мюррей. Это место моего отца. Но это неважно... Я слышал, вы были кукловодом, и я хотел записать ваш голос.
+    *   **(Эдвин):** Эдвин, Эдвин Мюррей. Это место моего отца. Но это неважно...
+    *   Я слышал, вы были кукловодом, и я хотел записать ваш голос.
     *   **(Фиона):** Ох. Ну, да. Была когда-то.
     *   **(Эдвин):** Это прекрасно! Вы не против, если я запишу вас для теста?
     *   **(Фиона):** То есть, вы хотите записать меня с помощью вот этого? Что это?
