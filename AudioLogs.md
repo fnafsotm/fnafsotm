@@ -39,7 +39,7 @@
 
 **Контекст и значение:** Это запись первого знакомства Эдвина и Фионы. Она закладывает основу их будущих отношений и совместной работы. Здесь же рождается название для будущей системы искусственного интеллекта Эдвина — "Помощник" (Mr. Helpful), основанное на слове, которое он использует для описания своей технологии.
 
-### 2. Storytime showroom
+### 2. TRUST NO ONE (Storytime showroom)
 *   **Оригинал:**
     *   **(EDWIN_00624):** Edwin, never forget. They’re behind it. Don’t trust them. Never tell them. They want to destroy you. Dad was right.
 *   **Перевод:**
@@ -68,7 +68,7 @@
     *   **(Эдвин):** Вниманию всех работников. Все ночные выходки должны немедленно прекратиться.
     *  **(Эдвин):**  У меня тут очень важные люди из телевизионной компании приехали посмотреть на шаблон шоу. Я не могу допустить, чтобы проектор снова сломался!
 
-### 5. Theater workshop
+### 5. Training / Mimic training -robo nanny / Theater workshop
 *   **Оригинал:**
     *   **(EDWIN_00625):** David. I want to introduce you to someone. This is M1.
     *   **(DAVID_00600):** Why does it look like that?
@@ -189,7 +189,7 @@
     *   **(Эдвин):** Обновление по проекту. Я выяснил. Есть утечка. Кто-то рассказал им про М2. Что ж, они его не получат.
     *   Каждая копия провалилась. Я даже не знаю, почему он сработал в первый раз, но он сработал. Он просто ещё не готов.
 
-### 13. Tunnels elevator
+### 13. Underground 1 / POWER SURGE (Tunnels elevator)
 *   **Оригинал:**
     *   **(EDWIN_00619):** Attention all personnel. The power surges have become more… frequent. Please use extreme caution when venturing down into the tunnels.
 *   **Перевод:**
@@ -269,7 +269,7 @@
     * Эдвин, это не имеет смысла. Это ужасно, и в этом нет никакой логики. Это случилось, и тебе придётся с этим смириться.
     * Эдвин, ты не можешь больше это откладывать. Тебе нужно попробовать снова. Построй другого. Ты уже делал это раньше. Мы сможем всё исправить вместе. Я здесь, чтобы помочь.
 
-### 19. House main floor
+### 19. Trust No One Fiona / Trust No One P2 (House main floor)
 *   **Оригинал:**
    *   **(FIONA_00613, скорее всего уже F10 N4):** Edwin, you need to listen.
    *   **(FIONA_00614)** I know you are excited, but you can’t let them know about me.
@@ -299,7 +299,7 @@
     *  **("F10 N4"):** Ты не это имеешь в виду. Это я. Я Фиона.
     *  **(Эдвин):** Перестань говорить, как она. Ты не она. Я больше никогда не хочу слышать или даже думать о тебе. Никогда!
 
-### 21. House spare parts
+### 21. TRY AGAIN (House spare parts)
 *   **Оригинал:**
     *   **(FIONA_00617, повтор фразы из 18 сообщения, уже робот F10 N4):** Edwin, you can’t put it off any longer.
     *   **(FIONA_00618):** You need to try again.
@@ -309,7 +309,7 @@
     *   Тебе нужно попробовать снова.
     *   Построй другого.
 
-### 22. Edwin Room
+### 22. Turn Around (Edwin Room)
 *   **Оригинал:**
     *   **(MIMIC2_00401):** Test test… Journal entry. Too bad. The new power test was a failure.
     *   **(MIMIC2_00402):** Due to a minor… detonation, there is damage to my office interior as well as a small fire.
