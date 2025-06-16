@@ -257,8 +257,6 @@
     * **(FIONA_00608):** Edwin, it doesn’t make sense. It’s terrible and there’s no logic behind it.
     * **(FIONA_00609):** It happened and you have to deal with it.
     * **(FIONA_00617):** Edwin, you can’t put it off any longer.
-    * **(FIONA_00618 ВЫРЕЗАНО):** You need to try again.
-    * **(FIONA_00619 ВЫРЕЗАНО):** Build another.
     * **(FIONA_00610):** You did it before.
     * **(FIONA_00611):** We can fix things together.
     * **(FIONA_00612):** I am here to help.
@@ -266,7 +264,7 @@
 *   **Перевод:**
     * **(F10 N4):** Эдвин, тебе нужно послушать. Эд, я правда не хочу оставлять всё так.
     * Эдвин, это не имеет смысла. Это ужасно, и в этом нет никакой логики. Это случилось, и тебе придётся с этим смириться.
-    * Эдвин, ты не можешь больше это откладывать. Тебе нужно попробовать снова. Построй другого. Ты уже делал это раньше. Мы сможем всё исправить вместе. Я здесь, чтобы помочь.
+    * Эдвин, ты не можешь больше это откладывать. Ты уже делал это раньше. Мы сможем всё исправить вместе. Я здесь, чтобы помочь.
 
 ### 19. Trust No One Fiona / Trust No One P2 (House main floor)
 *   **Оригинал:**
