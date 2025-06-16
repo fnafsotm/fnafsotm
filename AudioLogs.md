@@ -253,8 +253,14 @@
 *   **Оригинал:**
     * **(FIONA_00613, скорее всего уже F10 N4):** Edwin, you need to listen.
     * **(FIONA_00604):** Ed, I really don’t want to leave things like this.
-    * Edwin, it doesn’t make sense. It’s terrible and there’s no logic behind it. It happened and you have to deal with it.
-    * Edwin, you can’t put it off any longer. You need to try again. Build another. You did it before. We can fix things together. I am here to help.
+    * **(FIONA_00608):** Edwin, it doesn’t make sense. It’s terrible and there’s no logic behind it.
+    * **(FIONA_00609):** It happened and you have to deal with it.
+    * **(FIONA_00617):** Edwin, you can’t put it off any longer.
+    * **(FIONA_00618):** You need to try again.
+    * **(FIONA_00619):** Build another.
+    * **(FIONA_00610):** You did it before.
+    * **(FIONA_00611):** We can fix things together.
+    * **(FIONA_00612):** I am here to help.
 
 *   **Перевод:**
     * **(F10 N4):** Эдвин, тебе нужно послушать. Эд, я правда не хочу оставлять всё так.
@@ -263,20 +269,23 @@
 
 ### 19. House main floor
 *   **Оригинал:**
-   *   **(F10 N4):** Edwin, you need to listen. I know you are excited, but you can’t let them know about me. It’s not safe. They wouldn’t understand. Keep it between us for now.
+   *   **(FIONA_00613, скорее всего уже F10 N4):** Edwin, you need to listen.
+   *   **(FIONA_00614)** I know you are excited, but you can’t let them know about me.
+   *   **(FIONA_00615)** It’s not safe. They wouldn’t understand.
+   *   **(FIONA_00616)** Keep it between us for now.
 
 *   **Перевод:**
    *   **(F10 N4):** Эдвин, тебе нужно послушать. Я знаю, что ты взволнован, но ты не можешь им рассказывать обо мне. Это небезопасно. Они не поймут. Пусть это пока останется между нами.
 
 ### 20. House blueprint room
 *   **Оригинал:**
-    *   **(Эдвин):** For the last time, NO. It wouldn’t be him.
-    *   Who am I kidding, you’re not really you! Ugh, I’ve been so stupid.
-    *   **("F10 N4"):** Edwin, calm down and give it some thought. Try again. Make another and we can all be together.
-    *   **(Эдвин):** All this time wasted! I should have been having fun with him, playing games and teaching him how to make things… But, I didn’t.
-    *   You. You! I let a machine raise my kid. You're not real. What was I thinking?! For the last time, NO. It wouldn’t be him. Who am I kidding, you’re not really you! Ugh, I’ve been so stupid.
-    *   **("F10 N4"):** You do not mean that. It is me. I'm Fiona.
-    *   **(Эдвин):** Stop talking like her. You're not her. I never want to hear or even think about you ever again. Ever!
+    *   **(EDWIN_00644):** For the last time, NO. It wouldn’t be him.
+    *   **(EDWIN_00645):** Who am I kidding, you’re not really you! Ugh, I’ve been so stupid.
+    *   **(FIONA_00634, скорее всего уже "F10 N4"):** Edwin, calm down and give it some thought. Try again. Make another and we can all be together.
+    *   **(EDWIN_00646):** All this time wasted! I should have been having fun with him, playing games and teaching him how to make things… But, I didn’t.
+    *   **(EDWIN_00647):** You. You! I let a machine raise my kid. You're not real. What was I thinking?! For the last time, NO. It wouldn’t be him. Who am I kidding, you’re not really you! Ugh, I’ve been so stupid.
+    *   **("FIONA_00635"):** You do not mean that. It is me. I'm Fiona.
+    *   **(EDWIN_00648):** Stop talking like her. You're not her. I never want to hear or even think about you ever again. Ever!
 *   **Перевод:**
     *   **(Эдвин):** В последний раз, НЕТ. Это был бы не он
     *  Кого я обманываю, ты ведь не настоящая! Ух, каким же я был глупцом.
@@ -288,9 +297,9 @@
 
 ### 21. House spare parts
 *   **Оригинал:**
-    *   **(F10 N4):** Edwin, you can’t put it off any longer.
-    *   You need to try again.
-    *   Build another.
+    *   **(FIONA_00617, повтор фразы из 18 сообщения, уже робот F10 N4):** Edwin, you can’t put it off any longer.
+    *   **(FIONA_00618):** You need to try again.
+    *   **(FIONA_00619):** Build another.
 *   **Перевод:**
     *   **(F10 N4):** Эдвин, ты не можешь больше это откладывать.
     *   Тебе нужно попробовать снова.
