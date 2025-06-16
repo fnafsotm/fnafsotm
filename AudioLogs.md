@@ -284,7 +284,7 @@
     *   **(FIONA_00634, скорее всего уже "F10 N4"):** Edwin, calm down and give it some thought. Try again. Make another and we can all be together.
     *   **(EDWIN_00646):** All this time wasted! I should have been having fun with him, playing games and teaching him how to make things… But, I didn’t.
     *   **(EDWIN_00647):** You. You! I let a machine raise my kid. You're not real. What was I thinking?! For the last time, NO. It wouldn’t be him. Who am I kidding, you’re not really you! Ugh, I’ve been so stupid.
-    *   **("FIONA_00635"):** You do not mean that. It is me. I'm Fiona.
+    *   **(FIONA_00635):** You do not mean that. It is me. I'm Fiona.
     *   **(EDWIN_00648):** Stop talking like her. You're not her. I never want to hear or even think about you ever again. Ever!
 *   **Перевод:**
     *   **(Эдвин):** В последний раз, НЕТ. Это был бы не он
