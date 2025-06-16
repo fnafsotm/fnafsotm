@@ -60,7 +60,7 @@
 
 **Контекст и значение:** Это роковое сообщение от Фионы. Она сообщает Эдвину, что уезжает на несколько дней для помощи с "Осенним Фестивалем". Её слова о "ужасном предчувствии" служат зловещим предзнаменованием. Именно после этой поездки происходит трагедия, которая меняет жизнь Эдвина навсегда и становится катализатором для создания Мимика.
 
-### 4. Theatre
+### 4. Theater Shenanigans (Theatre)
 *   **Оригинал:**
     *   **(EDWIN_00617):** Notice to all workers. All late night shenanigans are to stop immediately.
     *   **(EDWIN_00618):** I have some very important TV people coming to look at the show template. I can't have the projector breaking again!
@@ -203,17 +203,17 @@
 
 **Контекст и значение:** Это одна из самых пугающих и ключевых записей. В ней Эдвин кричит на Мимика (вероятно, М2). Фраза "Перестань звучать, как он!" указывает на то, что Мимик начал имитировать голос и, возможно, поведение погибшего сына Эдвина — Дэвида.
 
-### 15. Dark tunnels / In the Dark Area
+### 15. NC_AudioLog_TheFrequency_1 / POWER SURGE (Dark tunnels / In the Dark Area)
 *   **Оригинал:**
     *   **(EDWIN_00602):** (grunts)
     *   **(EDWIN_00603):** Recording... Test. Test. Levels are good.
     *   **(EDWIN_00604):** This is where I heard it. It's her, or someone that sounds like her.
     *   **(EDWIN_00605):** Set frequency to 4625…
-    *   *(Радио: помехи)*
+    *   **sfx_radio_tuning_audioLog** *(Радио: помехи)*
     *   **(EDWIN_00606):** Hello. Hello? Is anyone there? Over.
-    *   *(Радио: помехи)*
+    *   **sfx_radio_tuning_audioLog** *(Радио: помехи)*
     *   **(EDWIN_00607):** Say something. It's me, Edwin. Over.
-    *   *(Радио: помехи)*
+    *   **sfx_radio_tuning_audioLog** *(Радио: помехи)*
     *   **(FIONA_00706a, FIONA_706, по радио):** That's great, Honey, but you're missing the party.
 
 *   **Перевод:**
