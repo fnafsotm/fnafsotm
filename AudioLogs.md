@@ -90,30 +90,30 @@
 
 ### 6. Backstage
 *   **Оригинал:**
-    *   **(Эдвин):** Oh, why did you go? You weren’t even supposed to be there. You were supposed to be here with me and David.
-    *   **(Эдвин):** Ugh! How am I supposed to tell David that his mother is gone? How am I supposed to raise a kid on my own? His life is ruined… My life is ruined.
+    *   **(EDWIN_00654):** Oh, why did you go? You weren’t even supposed to be there. You were supposed to be here with me and David.
+    *   **(EDWIN_00655):** Ugh! How am I supposed to tell David that his mother is gone? How am I supposed to raise a kid on my own? His life is ruined… My life is ruined.
 *   **Перевод:**
     *   **(Эдвин):** О, зачем ты ушла? Ты даже не должна была там быть. Ты должна была быть здесь, со мной и Дэвидом.
     *   **(Эдвин):** Ух! Как я должен сказать Дэвиду, что его матери больше нет? Как я должен в одиночку растить ребёнка? Его жизнь разрушена... Моя жизнь разрушена.
 
 ### 7 Returns
 *   **Оригинал:**
-    *   **(Эдвин):** What the hell was that? They treat me like some contractor to crack a whip at.
-    *   **(Эдвин):** Fiona was right. They don't think of me as a friend anymore. I’m not changing a thing.
-    *   **(Эдвин):** This is the last project I ever do for them.
+    *   **(EDWIN_00614):** What the hell was that? They treat me like some contractor to crack a whip at.
+    *   **(EDWIN_00615):** Fiona was right. They don't think of me as a friend anymore.
+    *   **(EDWIN_00616):** This is the last project I ever do for them.
 
 *   **Перевод:**
     *   **(Эдвин):** Какого чёрта это было? Они обращаются со мной как с каким-то подрядчиком, которого можно подгонять кнутом.
-    *   **(Эдвин):** Фиона была права. Они больше не считают меня другом. Я ничего не буду менять.
+    *   **(Эдвин):** Фиона была права. Они больше не считают меня другом.
     *   **(Эдвин):** Это последний проект, который я для них делаю.
 
 ### 8 Loading bay
 *   **Оригинал:**
-    *   **(Эдвин):** Look, I get your concerns, I do, but they're all just groundless. This is the perfect spot for David's playground.
-    *   **(Эдвин):** I can watch him play while I'm loading and unloading freight, and he'll be under watch at all times out there.
-    *   **(Эдвин):** The loading dock is like two hundred feet away, and there's a fence and everything.
-    *   **(Эдвин):** I know you're my lawyer and all, but there's no regulation that says I can't have it there, so just get off my back.
-    *   **(Эдвин):** Besides, David loves the new slide. It'll be fine.
+    *   **(EDWIN_00657):** Look, I get your concerns, I do, but they're all just groundless. This is the perfect spot for David's playground.
+    *   **(EDWIN_00658):** I can watch him play while I'm loading and unloading freight, and he'll be under watch at all times out there.
+    *   **(EDWIN_00659):** The loading dock is like two hundred feet away, and there's a fence and everything.
+    *   **(EDWIN_00660):** I know you're my lawyer and all, but there's no regulation that says I can't have it there, so just get off my back.
+    *   **(EDWIN_00661):** Besides, David loves the new slide. It'll be fine.
 *   **Перевод:**
     *   **(Эдвин):** Слушай, я понимаю твои опасения, правда, но они все беспочвенны. Это идеальное место для игровой площадки Дэвида.
     *   **(Эдвин):** Я смогу наблюдать, как он играет, пока занимаюсь погрузкой и разгрузкой, и он там будет всё время под присмотром.
@@ -125,17 +125,25 @@
 
 ### 9. Loading bay catwalk
 *   **Оригинал:**
-    *   **(Фиона):** Ed, honey, how are you holding up? I just heard the news.
-    *   **(Эдвин):** I don't know. This is all so much… He's gone. He's gone and now everyone is asking me what to do? And I don't know anything. I can't run a company. I'm not ready… I can't fill his shoes. He knew it. Everyone knew it. The company is going to collapse and they're all going to hate me.
-    *   **(Фиона):** Ed, you'll figure it out. Just take a deep breath. It's your company now. Your dad believed in you. Otherwise, he wouldn't have left it to you.
-    *   **(Эдвин):** I guess so.
-    *   **(Фиона):** If you could change anything you wanted, what would it be?
-    *   **(Эдвин):** Maybe… rebrand? We could start making some of my inventions for real.
+    *   **(FIONA_00632a):** Ed, honey, how are you holding up? I just heard the news.
+    *   **(EDWIN_00649):** I don't know. This is all so much… He's gone.
+    *   **(EDWIN_00650):** He's gone and now everyone is asking me what to do? And I don't know anything.
+    *   **(EDWIN_00651):** I can't run a company. I'm not ready… I can't fill his shoes. He knew it. Everyone knew it.
+    *   **(EDWIN_00652):** The company is going to collapse and they're all going to hate me.
+    *   **(FIONA_00632b):** Ed, you'll figure it out. Just take a deep breath.
+    *   **(FIONA_00632c):** It's your company now. Your dad believed in you. Otherwise, he wouldn't have left it to you.
+    *   **(EDWIN_00652A):** I guess so.
+    *   **(FIONA_00632d):** If you could change anything you wanted, what would it be?
+    *   **(EDWIN_00653):** Maybe… rebrand? We could start making some of my inventions for real.
 
 *   **Перевод:**
     *   **(Фиона):** Эд, милый, как ты держишься? Я только что узнала новости.
-    *   **(Эдвин):** Я не знаю. Этого всего так много... Его больше нет. Его нет, и теперь все спрашивают меня, что делать? А я ничего не знаю. Я не могу управлять компанией. Я не готов... я не смогу занять его место. Он это знал. Все это знали. Компания развалится, и они все будут меня ненавидеть.
-    *   **(Фиона):** Эд, ты со всем разберёшься. Просто сделай глубокий вдох. Теперь это твоя компания. Твой отец верил в тебя. Иначе он бы не оставил её тебе.
+    *   **(Эдвин):** Я не знаю. Этого всего так много... Его больше нет.
+    *   Его нет, и теперь все спрашивают меня, что делать? А я ничего не знаю.
+    *   Я не могу управлять компанией. Я не готов... я не смогу занять его место. Он это знал. Все это знали.
+    *   Компания развалится, и они все будут меня ненавидеть.
+    *   **(Фиона):** Эд, ты со всем разберёшься. Просто сделай глубокий вдох.
+    *   Теперь это твоя компания. Твой отец верил в тебя. Иначе он бы не оставил её тебе.
     *   **(Эдвин):** Наверное, так.
     *   **(Фиона):** Если бы ты мог изменить всё, что захочешь, что бы это было?
     *   **(Эдвин):** Может... ребрендинг? Мы могли бы начать производить некоторые из моих изобретений по-настоящему.
@@ -144,10 +152,10 @@
 
 ### 10. Warehouse catwalk
 *   **Оригинал:**
-    *   **(Фиона):** Ed, you’re not going to want to hear this, but there‘s a lot of grumbling on the work floor.
-    *   **(Фиона):** You have a lot of new ideas and new projects coming in, but the staff can’t keep up with all your changes.
-    *   **(Фиона):** Your creative energy's amazing and I love you for it…
-    *   **(Фиона):** but I think you need to step back a little and focus on one project at a time.
+    *   **(FIONA_00600):** Ed, you’re not going to want to hear this, but there‘s a lot of grumbling on the work floor.
+    *   **(FIONA_00601):** You have a lot of new ideas and new projects coming in, but the staff can’t keep up with all your changes.
+    *   **(FIONA_00602):** Your creative energy's amazing and I love you for it…
+    *   **(FIONA_00603):** but I think you need to step back a little and focus on one project at a time.
 *   **Перевод:**
     *   **(Фиона):** Эд, тебе это не понравится, но в цеху много недовольства.
     *   **(Фиона):** У тебя появляется много новых идей и проектов, но персонал не поспевает за всеми твоими изменениями
@@ -158,10 +166,10 @@
 
 ### 11. Admin Wing
 *   **Оригинал:**
-    *   **(Эдвин):** Attention traitors, admin wing permissions have been revoked.
-    *   **(Эдвин):** And no, you can’t clear out your desks! You stole my work.
-    *   **(Эдвин):** Now your jackets, purses and coffee mugs and anything else belongs to me.
-    *   **(Эдвин):** Maybe I'll go find someone to sell your stuff to. How does that feel?
+    *   **(EDWIN_00620):** Attention traitors, admin wing permissions have been revoked.
+    *   **(EDWIN_00621):** And no, you can’t clear out your desks! You stole my work.
+    *   **(EDWIN_00622):** Now your jackets, purses and coffee mugs and anything else belongs to me.
+    *   **(EDWIN_00623):** Maybe I'll go find someone to sell your stuff to. How does that feel?
 *   **Перевод:**
     *   **(Эдвин):** Вниманию предателей, доступ в административное крыло аннулирован.
     *   **(Эдвин):** И нет, вы не можете забрать свои вещи! Вы украли мою работу.
