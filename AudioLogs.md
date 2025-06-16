@@ -1,6 +1,6 @@
 ## **Часть 1: 16 Коллекционных Аудиологов (для достижения "Хороший слушатель")**
 
-### 1. Showtime room
+### 1. Meet Up / TEMP:\r\nMeeting Fiona- Voice recording tape player / AudioLog16 (Showtime room)
 *   **Оригинал:**
     *   **(EDWIN_00634):** Excuse me. Can I borrow your voice for a project?
     *   **(FIONA_00621):** What for? I don’t even know you. I’m brand new here. Let’s start again. I'm Fiona. And you are?
@@ -47,7 +47,7 @@
 
 **Контекст и значение:** Эта запись — напоминание Эдвина самому себе, вероятно, сделанное после смерти его отца. Она демонстрирует глубоко укоренившуюся паранойю и недоверие к компании (предположительно, Fazbear Entertainment или другой конкурирующей фирме), которое ему привил отец. Это объясняет многие из его последующих скрытных и защитных действий.
 
-### 3. Roof access (перед доступом на крышу)
+### 3. INSTALLATION WORRIES / AudioLog06 (Roof access (перед доступом на крышу))
 *   **Оригинал:**
     *   **(FIONA_00628):** Ed, I hope this message reaches you as soon as you get a break.
     *   **(FIONA_00629):** I have to go help the Fall Fest crew… just for a few days until the installation is finished.
@@ -107,7 +107,7 @@
     *   **(Эдвин):** Фиона была права. Они больше не считают меня другом.
     *   **(Эдвин):** Это последний проект, который я для них делаю.
 
-### 8 Loading bay
+### 8 Playground / TEMP: \r\n\r\nPlayground too close to loading dock (Loading bay)
 *   **Оригинал:**
     *   **(EDWIN_00657):** Look, I get your concerns, I do, but they're all just groundless. This is the perfect spot for David's playground.
     *   **(EDWIN_00658):** I can watch him play while I'm loading and unloading freight, and he'll be under watch at all times out there.
@@ -180,7 +180,7 @@
 
 **Контекст и значение:** Эта запись демонстрирует пик паранойи и гнева Эдвина. Он чувствует себя преданным своими сотрудниками, которых он обвиняет в краже его идей (вероятно, связанных с Мимиком или другими технологиями). Его действия — отзыв доступов и конфискация личных вещей — иррациональны и продиктованы обидой. Это показывает, насколько сильно он отдалился от своей команды и насколько враждебной стала рабочая атмосфера в компании.
 
-### 12. Executive room
+### 12. MAKE A COPY / AudioLog07 (Executive room)
 *   **Оригинал:**
     * **(EDWIN_00611):** Project update. I figured it out. There's a leak.
     * **(EDWIN_00612):** Someone told them about M2. Well, they can't have it.
