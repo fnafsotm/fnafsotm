@@ -10,7 +10,7 @@
     *   **(Фиона):** So you want to record me with that? What is it?
     *   **(Эдвин):** It's a new type of audio cassette recorder.
     *   **(Фиона):** I've never seen one like that before.
-    *   **(Эдвин):** I made it. It's part of this new system I'm working on. Just speak into the microphone and it'll be sent to me like a work memo. The message will be recorded on a tape drive so that I can listen to it when I get back to my desk on the other side of the building.
+    *   **(Эдвин 1023076975):** I made it. It's part of this new system I'm working on. Just speak into the microphone and it'll be sent to me like a work memo. The message will be recorded on a tape drive so that I can listen to it when I get back to my desk on the other side of the building.
     *   **(Фиона):** That's incredible. What do you call it?
     *   **(Эдвин):** Oh. I don't know. I haven't thought of a name yet.
     *   **(Фиона):** Well, how would you describe it in one word?
