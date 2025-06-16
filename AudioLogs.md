@@ -88,7 +88,7 @@
     *   **(Дэвид):** Например?
     *   **(Эдвин):** Какие захочешь. Он может поместиться в любой костюм, который мы создали. Думай о нём как о своей новой няне. Но ему не платят, и он не уходит домой. Он останется с нами и будет помогать по дому.
 
-### 6. Backstage
+### 6. Death / TEMP:\r\n\r\nDeal with Fiona death - fresh - Edwin visits the theater and breaks down / AudioLog19 (Backstage)
 *   **Оригинал:**
     *   **(EDWIN_00654):** Oh, why did you go? You weren’t even supposed to be there. You were supposed to be here with me and David.
     *   **(EDWIN_00655):** Ugh! How am I supposed to tell David that his mother is gone? How am I supposed to raise a kid on my own? His life is ruined… My life is ruined.
@@ -164,7 +164,7 @@
 
 **Контекст и значение:** Этот диалог показывает, как развиваются отношения между Эдвином и Фионой. Она уже не просто сотрудница, а близкий человек, который может дать ему честный, хоть и неприятный, совет. Фиона пытается направить кипучую энергию Эдвина в конструктивное русло, указывая на то, что его хаотичный стиль управления и множество одновременных проектов создают проблемы для персонала. Это подчеркивает его гениальность, но также и его неорганизованность как лидера, что является одной из причин последующих проблем компании.
 
-### 11. "Announcement Traitors (Admin Wing)
+### 11. Announcement Traitors / AudioLog01 (Admin Wing)
 *   **Оригинал:**
     *   **(EDWIN_00620):** Attention traitors, admin wing permissions have been revoked.
     *   **(EDWIN_00621):** And no, you can’t clear out your desks! You stole my work.
@@ -227,7 +227,7 @@
 
 **Контекст и значение:** Эта запись невероятно важна. Эдвин, уже после смерти Фионы, пытается уловить её голос с помощью радиооборудования. Он слышит её, но это, скорее всего, не призрачное явление, а **Мимик**, который научился воспроизводить её голос по старым записям.
 
-### 16. BUILT TO SPEC (Prototype Freddy's pizzeria)
+### 16. BUILT TO SPEC / AudioLog02 (Prototype Freddy's pizzeria)
 *   **Оригинал:**
     *   **(EDWIN_00608):** Test test... journal entry. I got the change order from Henry last night.
     *   **(EDWIN_00609):** None of this makes sense. I'm almost done. Why change it now?
@@ -237,7 +237,7 @@
     *   Ничего из этого не имеет смысла. Я почти закончил.
     *   Зачем сейчас что-то менять? Было бы намного проще продолжать использовать Спринглоков. Просто нанять подростков носить костюмы, как мы всегда и делали.
 
-### 17. Change Request / Creepy (Prototype Freddy's pizzeria safe room)
+### 17. Change Request / Creepy / AudioLog20 (Prototype Freddy's pizzeria safe room)
 *   **Оригинал:**
     *   **(EDWIN_00630):** Are they insane? The look of these new animatronics is Fiona's design and they're great.
     *   **(EDWIN_00631):** First they approve the art. Then they approve the proofs. Now, they change their minds when we're so close to final.
