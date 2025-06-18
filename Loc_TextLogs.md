@@ -56,11 +56,11 @@
 *   **Оригинал:** Barb, I swear if I hear that song one more time I'm going to tear that Dollie off her hinges. I have no clue how much longer I can take it here.
 *   **Перевод:** Барб, клянусь, если я услышу эту песню ещё раз, я сорву эту Долли с петель. Понятия не имею, сколько ещё я здесь выдержу.
 
-#### Love That Ticket Booth! (Loc_TextLogs_Misc08)
+### Love That Ticket Booth! (Loc_TextLogs_Misc08)
 *   **Оригинал:** This one of a kind ticket booth plays music and it collects tickets. It can hold signs for advertising or directions with its many arms. Additional swings can be attached and make it a fun ride (We'll throw the swings in for free as a bonus).
 *   **Перевод:** Эта единственная в своем роде билетная касса проигрывает музыку и собирает билеты. Она может держать таблички для рекламы или указателей своими многочисленными руками. Можно прикрепить дополнительные качели и превратить её в весёлый аттракцион (качели мы добавим бесплатно в качестве бонуса).
   
-#### Vacations (Loc_TextLogs_Misc09)
+### Vacations (Loc_TextLogs_Misc09)
 *   **Оригинал:** My weekend vacation request was refused. I quit! Tell Jake I'll be back for my things on Monday.
 *   **Перевод:** Мой запрос на отпуск в выходные был отклонён. Я увольняюсь! Скажи Джейку, что я вернусь за своими вещами в понедельник.
 
