@@ -284,7 +284,7 @@
     *   **(EDWIN_00645):** Who am I kidding, you’re not really you! Ugh, I’ve been so stupid.
     *   **(FIONA_00634, скорее всего уже "F10 N4"):** Edwin, calm down and give it some thought. Try again. Make another and we can all be together.
     *   **(EDWIN_00646):** All this time wasted! I should have been having fun with him, playing games and teaching him how to make things… But, I didn’t.
-    *   **(EDWIN_00647):** You. You! I let a machine raise my kid. You're not real. What was I thinking?! For the last time, NO. It wouldn’t be him. Who am I kidding, you’re not really you! Ugh, I’ve been so stupid.
+    *   **(EDWIN_00647):** You. You! I let a machine raise my kid. You're not real. What was I thinking?!
     *   **(FIONA_00635):** You do not mean that. It is me. I'm Fiona.
     *   **(EDWIN_00648):** Stop talking like her. You're not her. I never want to hear or even think about you ever again. Ever!
 *   **Перевод:**
@@ -292,7 +292,7 @@
     *  Кого я обманываю, ты ведь не настоящая! Ух, каким же я был глупцом.
     *  **("F10 N4"):** Эдвин, успокойся и подумай. Попробуй снова. Сделай ещё одного, и мы все сможем быть вместе.
     *  **(Эдвин):** Столько времени потрачено впустую! Я должен был веселиться с ним, играть в игры и учить его мастерить... Но я этого не делал.
-    *  Ты. Ты! Я позволила машине растить моего ребёнка. Ты не настоящая. О чём я только думал?! В последний раз, НЕТ. Это был бы не он. Кого я обманываю, ты ведь не настоящая! Ух, каким же я был глупцом.
+    *  Ты. Ты! Я позволила машине растить моего ребёнка. Ты не настоящая. О чём я только думал?!
     *  **("F10 N4"):** Ты не это имеешь в виду. Это я. Я Фиона.
     *  **(Эдвин):** Перестань говорить, как она. Ты не она. Я больше никогда не хочу слышать или даже думать о тебе. Никогда!
 
