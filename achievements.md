@@ -1,50 +1,36 @@
-Golden Hours		
-(Platinum)	TBD 	No	Obtain all other achievements.	Collect every achievement below.
-Unfinished Business		
-(Gold)	TBD 	Yes	Keep the Data Diver and walk off the job.	Complete the True Ending.
-Story Time		
-(Gold)	TBD 	Yes	Fix what is broken.	Unlock the Good Ending.
-Clock Out		
-(Gold)	TBD 	Yes	Hand over the Data Diver and leave the building. A job well done!	When asked, place the Data Diver in the Inventory Tube System and exit the facility to achieve the Bad Ending.
-Memorabilia		
-(Silver)	TBD 	No	Deposit every collectible into the inventory system.	Obtain all 25 collectibles.
-Olly Olly Oxen Free		
-(Bronze)	TBD 	Yes	Played party games with a Jackie in the Box.	Evade Jackie.
-Tickets Please		
-(Bronze)	TBD 	Yes	Return from the Big Top Showroom	Evade Big Top.
-Doctor's Orders		
-(Bronze)	TBD 	Yes	Return from the Recycling Center.	Evade Dollie.
-Fundaphobia		
-(Bronze)	TBD 	Yes	Take a 'shortcut' through the basement.	Evade White Tiger.
-Think Positive!		
-(Silver)	TBD 	Yes	Take a ride to the main house.	After talking to F10-N4, take the ride to the house.
-Pleasant Dreams		
-(Silver)	TBD 	Yes	Stay up past your bedtime.	Turn on the power in the basement of the Retail Showroom.
-Non-Zero Chance		
-(Bronze)	TBD 	No	Get jumpscared.	Get jumpscared for the first time.
-Technician		
-(Silver)	TBD 	Yes	Complete all repair tasks.	Complete all elevator repair tasks.
-Parachute		
-(Silver)	TBD 	Yes	Run Edwin's "Parachute" program.	In the first H.E.L.P.E.R. terminal, press "RUN: PARACHUTE.EXE".
-Master Adventurer		
-(Gold)	TBD 	Yes	"You have found my presents. You have completed my tasks."	Complete Moon.EXE and obtain Glitched Permission.
-Executive Permissions		
-(Silver)	TBD 	No	Get executive access to the MCM.	Upgrade your Data Diver to Executive level.
-Pew Pew		
-(Silver)	TBD 	No	Shoot a "threat" with a ball gun.	Shoot an animatronic with the Ball Gun in the Big Top Showroom.
-Boop		
-(Gold)	TBD 	Yes	Boop the nose.	Hit the nose in the "smack a clown" ball toss minigame.
-Mail Call		
-(Bronze)	TBD 	No	Collect all text logs.	Obtain all 61 text logs from the 42 mailboxes.
-Good Night, Sleep Tight		
-(Silver)	TBD 	Yes	Enter the Storytime Showroom.	In the Big Top Showroom, there is a door behind the "smack a clown" ball toss minigame. Make your way through while avoiding all obstacles. Find and enter the door which requires the Repair level on your Data Diver and go up the stairs to enter the Storytime Showroom.
-We Have A Winner!		
-(Silver)	TBD 	No	Get high scores on all carnival games.	Win the minigames in the showroom, the ball toss minigame in the upper warehouse, and the shooter minigame in the storage room next to the warehouse. Bring the Ball Gun from the Big Top Showroom.
-Dental Coverage		
-(Bronze)	TBD 	No	Knock out all the teeth in a single round of ball toss.	Hit all teeth in a round of the "smack a clown" ball toss minigame.
-Good Listener		
-(Gold)	TBD 	Yes	Listen to every Audio Log.	Listen to all 22 audio tapes. For them to count, the game must autosave.
-Belated Birthday		
-(Silver)	TBD 	Yes	Find the party room.	In the Admin Wing to the left where Chica initially spawns, there is a code locked door. Entering the code "01350" will unlock it.
-Aye Aye, Captain!		
-(Bronze)	TBD 	Yes	Teach the pirate crew a valuable lesson.	Beat Captain Foxy's Puppet Show Section.
+Конечно. Вот таблица, структурирующая все предоставленные достижения для удобного обзора. Она разделена на категории: Сюжетные и Концовки, Геймплей и Враги, Исследование и Коллекционирование, а также Секреты и Мини-игры.
+
+### **Таблица достижений**
+
+| Название достижения | Тип / Ценность | Скрытое? | Условие получения | О чём говорит / Что раскрывает |
+| :--- | :--- | :--- | :--- | :--- |
+| **Платина** |
+| Golden Hours | Platinum | Нет | Получить все остальные достижения. | Стандартное платиновое достижение за полное прохождение. |
+| **Сюжетные и Концовки** |
+| Unfinished Business | Gold | Да | **Истинная концовка:** Оставить Дата-Дайвер себе и уйти. | Одна из трёх концовок. Игрок сбегает, не решая проблему. |
+| Story Time | Gold | Да | **Хорошая концовка:** Починить то, что сломано. | Одна из трёх концовок. Вероятно, каноничная, где игрок запирает Мимика с помощью MXES. |
+| Clock Out | Gold | Да | **Плохая концовка:** Передать Дата-Дайвер и уйти. | Одна из трёх концовок. Вероятно, игрок передаёт контроль не той сущности. |
+| Think Positive! | Silver | Да | Прокатиться на аттракционе к главному дому. | Подтверждает существование ИИ "F10 N4" и миссию игрока добраться до дома Эдвина. |
+| Pleasant Dreams | Silver | Да | Включить питание в подвале Розничного Шоурума. | Ключевой сюжетный прогресс, связанный с восстановлением энергии на фабрике. |
+| **Геймплей и Враги** |
+| Olly Olly Oxen Free | Bronze | Да | Убежать от "Jackie in the Box". | Знакомит с одним из врагов — Jackie. |
+| Tickets Please | Bronze | Да | Вернуться из локации "Big Top Showroom". | Знакомит с врагом по имени Big Top. |
+| Doctor's Orders | Bronze | Да | Вернуться из Центра Переработки. | Знакомит с врагом по имени Dollie. |
+| Fundaphobia | Bronze | Да | Пройти через подвал ("срезать путь"). | Знакомит с врагом Белым Тигром (Мимиком в костюме). |
+| Non-Zero Chance | Bronze | Нет | Получить скример. | Первое столкновение с опасностью. |
+| Technician | Silver | Да | Выполнить все задачи по ремонту. | Основная геймплейная механика, связанная с починкой объектов. |
+| Pew Pew | Silver | Нет | Выстрелить во "угрозу" из шариковой пушки. | Подтверждает наличие оружия (Ball Gun) и возможность атаковать врагов. |
+| **Исследование и Коллекционирование** |
+| Memorabilia | Silver | Нет | Сдать все 25 коллекционных предметов. | Поощряет сбор всех коллекционных предметов. |
+| Mail Call | Bronze | Нет | Собрать все 61 текстовых лога. | Основной способ раскрытия лора и предыстории. |
+| Good Listener | Gold | Да | Прослушать все 22 аудио лога. | Важнейшее достижение для полного понимания сюжета. |
+| Executive Permissions | Silver | Нет | Получить доступ уровня "Директор". | Подтверждает систему апгрейдов Дата-Дайвера для доступа к новым зонам. |
+| Good Night, Sleep Tight | Silver | Да | Войти в локацию "Storytime Showroom". | Поощряет поиск секретных локаций. |
+| **Секреты и Мини-игры** |
+| Parachute | Silver | Да | Запустить программу Эдвина "Parachute.exe". | Раскрывает существование секретных программ, созданных Эдвином. |
+| Master Adventurer | Gold | Да | Завершить программу "Moon.EXE" и получить "испорченный" доступ. | Секретное задание, связанное с персонажем Муном, ведущее к особому апгрейду. |
+| Belated Birthday | Silver | Да | Найти комнату для вечеринок (код 01350). | Отсылка к дню рождения Дэвида и логам про сотрудников, меняющих код. |
+| Aye Aye, Captain! | Bronze | Да | Пройти секцию с кукольным шоу Капитана Фокси. | Подтверждает наличие отсылок к классическим персонажам и мини-игр с ними. |
+| Boop | Gold | Да | "Бупнуть" нос в мини-игре. | Классическая отсылка к Фредди. Секретное действие в мини-игре. |
+| We Have A Winner! | Silver | Нет | Получить высший балл во всех карнавальных играх. | Поощряет полное прохождение всех мини-игр. |
+| Dental Coverage | Bronze | Нет | Выбить все зубы в мини-игре с бросанием мячей. | Специфическое задание в одной из карнавальных игр. |
