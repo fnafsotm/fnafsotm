@@ -148,7 +148,7 @@
 *   **Оригинал:** Dear MCM, My husband is a steel worker, and recently he was moved to the night shift. He tried your "Stay Up Latte" and it worked wonders for about two weeks. He is now in the hospital because of your drink. You will be hearing from our lawyers soon. R. Quinn
 *   **Перевод:** Уважаемые MCM, мой муж — сталелитейщик, и недавно его перевели в ночную смену. Он попробовал ваш "Латте 'Не-спи'" и он творил чудеса около двух недель. Сейчас он в больнице из-за вашего напитка. Скоро с вами свяжутся наши адвокаты. Р. Куинн
   
-### *Return Letter (Loc_TextLogs_Misc_36)
+### Return Letter (Loc_TextLogs_Misc_36)
 *   **Оригинал:** Dear Mr. Murray, We bought your Magic Coat Rack last May. It was an amazing addition to our home. But lately it seems to change size at random. One morning I came out to find all my coats flung across the room and the coat rack ten feet tall! Can you send us instructions on how to fix this? We're afraid someone might get hurt. Sincerely, B. Wyatt
 *   **Перевод:** Уважаемый мистер Мюррей, в мае прошлого года мы купили вашу Волшебную Вешалку. Она стала прекрасным дополнением к нашему дому. Но в последнее время она, кажется, случайным образом меняет размер. Однажды утром я вышла и обнаружила все свои пальто разбросанными по комнате, а сама вешалка была высотой в десять футов! Можете ли вы прислать нам инструкции по её починке? Мы боимся, что кто-то может пострадать. С уважением, Б. Уайатт
 
@@ -167,11 +167,6 @@
 *   **Springlocks**
     *   **Оригинал:** Fiona, the new springlocks are working well, even with the water damage. They should be ready for the diner soon. I’ll just make sure to warn Hen about some of the more… odd behaviors they might have.
     *   **Перевод:** Фиона, новые спринглоки работают хорошо, даже несмотря на повреждения от воды. Они скоро должны быть готовы для закусочной. Я просто обязательно предупрежу Хэна о некоторых их более... странных особенностях поведения.
-
-### Mail - Aug 3rd (Loc_TextLogs_Exterior)
- *   **Оригинал:** Hello! Here is your mail for today: Your mailbox is full. Last mail received five weeks ago: Foreclosure Notice. Please Respond Immediately.
- *   **Перевод:** Здравствуйте! Ваша почта на сегодня: Ваш почтовый ящик переполнен. Последнее полученное письмо пять недель назад: Уведомление о взыскании имущества. Пожалуйста, ответьте немедленно.
-
 
 ### Admin - Dec 1st - 8:00 am (Loc_TextLogs_Misc20)
 *   **Оригинал:** Attention. We're going to need everyone to come in this weekend. This is not optional. The party is on Saturday in the admin conference room 1. Don't tell David. It's a surprise. - EM
@@ -271,3 +266,7 @@
  *   **FIONA_00444:** It has done many bad things. No one who enters the MCM is safe.
  *   **FIONA_00445:** Please reconsider. Finish the program.
  *   **Перевод:** Эдвин, я посылаю к тебе техника. У него есть твои чертежи М2, а также доступ уровня "директор". Хотя М2 начинался как копия моей программы, я верю, что он может стать чем-то большим. Это была не я. Это было что-то другое. Каким-то образом он был повреждён и теперь неисправен. М2 больше не поддаётся контролю. Он больше не будет слушать. Он имитирует ярость. Он натворил много плохих дел. Никто, кто входит в MCM, не находится в безопасности. Пожалуйста, передумай. Заверши программу.
+
+### Mail - Aug 3rd (Loc_TextLogs_Exterior)
+ *   **Оригинал:** Hello! Here is your mail for today: Your mailbox is full. Last mail received five weeks ago: Foreclosure Notice. Please Respond Immediately.
+ *   **Перевод:** Здравствуйте! Ваша почта на сегодня: Ваш почтовый ящик переполнен. Последнее полученное письмо пять недель назад: Уведомление о взыскании имущества. Пожалуйста, ответьте немедленно.
