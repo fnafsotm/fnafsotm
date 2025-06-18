@@ -180,17 +180,17 @@
     *   **Оригинал:** Edwin, are we losing our home? I don't understand. Wasn't I good enough?
     *   **Перевод:** Эдвин, мы теряем наш дом? Я не понимаю. Разве я была недостаточно хороша?
 
-#### Night Shift
+### Night Shift
 *   **Оригигинал:** Hey. Hey! Is anybody up there? I'm stuck down here! The elevator isn't working, and I'm getting really hungry. Is anyone getting this message?
 *   **Перевод:** Эй. Эй! Есть кто-нибудь наверху? Я застрял здесь внизу! Лифт не работает, и я очень проголодался. Кто-нибудь получает это сообщение?
 
-#### Locators
+### Locators
  *   **Оригинал:** Can someone please mark where we're supposed to go down there? Bob went down and I haven't seen him in days.
  *   **Перевод:** Может кто-нибудь, пожалуйста, отметить, куда нам там внизу идти? Боб спустился, и я не видел его уже несколько дней.
 
-*   **Waste of Money**
-    *   **Оригинал:** None of this makes sense. Mr. Murray told us to trash all the old equipment in the wood shop. Then Stevenson gets a purchase order for the exact same stuff we're throwing out and told to install it upstairs. The old stuff is all perfectly functional. It's a waste of money. So, Stevenson asks him about it and gets fired. He has to be out by the end of the day. My advice is keep your mouth shut. Don't even think about it. Just clear out the tunnels.
-    *   **Перевод:** Ничего не понимаю. Мистер Мюррей велел нам выбросить всё старое оборудование в столярной мастерской. Затем Стивенсон получает заказ на покупку точно такого же хлама, который мы выбрасываем, и ему говорят установить его наверху. Старое оборудование полностью исправно. Это пустая трата денег. В общем, Стивенсон спрашивает его об этом и его увольняют. Он должен убраться до конца дня. Мой совет — держи рот на замке. Даже не думай об этом. Просто зачисти туннели.
+### Waste of Money
+ *   **Оригинал:** None of this makes sense. Mr. Murray told us to trash all the old equipment in the wood shop. Then Stevenson gets a purchase order for the exact same stuff we're throwing out and told to install it upstairs. The old stuff is all perfectly functional. It's a waste of money. So, Stevenson asks him about it and gets fired. He has to be out by the end of the day. My advice is keep your mouth shut. Don't even think about it. Just clear out the tunnels.
+ *   **Перевод:** Ничего не понимаю. Мистер Мюррей велел нам выбросить всё старое оборудование в столярной мастерской. Затем Стивенсон получает заказ на покупку точно такого же хлама, который мы выбрасываем, и ему говорят установить его наверху. Старое оборудование полностью исправно. Это пустая трата денег. В общем, Стивенсон спрашивает его об этом и его увольняют. Он должен убраться до конца дня. Мой совет — держи рот на замке. Даже не думай об этом. Просто зачисти туннели.
 
 *   **Original Designs**
     *   **Оригинал:** Are they insane? The look of these new animatronics is Fiona's design and they're great. First they approve the art. Then they approve the proofs. Now, they change their minds when we're so close to final. Why would they change them now? Are they pulling my leg? The new concepts are frankly creepy. It doesn't matter... I'm not changing a single bit of her work and they can't make me.
