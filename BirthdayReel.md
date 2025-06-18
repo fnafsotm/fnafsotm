@@ -132,7 +132,7 @@ EDWIN_00716
 Happy Birthday, buddy!
 С Днем Рождения, приятель!
 
-FIONA_00712
+FIONA_00712 (M1)
 Happy birthday, sweetie.
 С днем ​​рождения, милый.
 
@@ -140,7 +140,7 @@ EDWIN_00717
 Ok great. I need you to take over now and make dinner? I gotta get back to it. 
 Отлично. Можешь взять на себя приготовление ужина? Мне нужно вернуться к делам.
 
-FIONA_00710
+FIONA_00710 (M1)
 Of course.
 конечно.
 
@@ -154,7 +154,7 @@ Of course.
 - Fiona, did you make this?
 - Фиона, это ты сделала?
 
-- FIONA_00711
+- FIONA_00711 (M1)
 - I baked it myself… for David’s special day.
 - Я испекла его сама… к особенному дню Дэвида.
 
