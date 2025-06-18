@@ -106,8 +106,6 @@
 *   **Оригинал:** Haven't seen Gary... I'm going to check the theatre. Found some films and I know he wanted to get the projector up and running..
 *   **Перевод:** Не видел Гэри... Пойду проверю театр. Нашёл несколько плёнок, а я знаю, что он хотел запустить проектор.
 
----
-
 ### **Журналы из Зоны Мусоросжигателя (Doll Logs)**
 
 #### **1. Group Chat #4**
@@ -182,9 +180,13 @@
     *   **Оригинал:** Edwin, are we losing our home? I don't understand. Wasn't I good enough?
     *   **Перевод:** Эдвин, мы теряем наш дом? Я не понимаю. Разве я была недостаточно хороша?
 
-*   **Locators**
-    *   **Оригинал:** Can someone please mark where we're supposed to go down there? Bob went down and I haven't seen him in days.
-    *   **Перевод:** Может кто-нибудь, пожалуйста, отметить, куда нам там внизу идти? Боб спустился, и я не видел его уже несколько дней.
+#### Night Shift
+*   **Оригигинал:** Hey. Hey! Is anybody up there? I'm stuck down here! The elevator isn't working, and I'm getting really hungry. Is anyone getting this message?
+*   **Перевод:** Эй. Эй! Есть кто-нибудь наверху? Я застрял здесь внизу! Лифт не работает, и я очень проголодался. Кто-нибудь получает это сообщение?
+
+#### Locators
+ *   **Оригинал:** Can someone please mark where we're supposed to go down there? Bob went down and I haven't seen him in days.
+ *   **Перевод:** Может кто-нибудь, пожалуйста, отметить, куда нам там внизу идти? Боб спустился, и я не видел его уже несколько дней.
 
 *   **Waste of Money**
     *   **Оригинал:** None of this makes sense. Mr. Murray told us to trash all the old equipment in the wood shop. Then Stevenson gets a purchase order for the exact same stuff we're throwing out and told to install it upstairs. The old stuff is all perfectly functional. It's a waste of money. So, Stevenson asks him about it and gets fired. He has to be out by the end of the day. My advice is keep your mouth shut. Don't even think about it. Just clear out the tunnels.
@@ -210,8 +212,6 @@
     *   **FIONA_00444:** It has done many bad things. No one who enters the MCM is safe.
     *   **FIONA_00445:** Please reconsider. Finish the program.
     *   **Перевод:** Эдвин, я посылаю к тебе техника. У него есть твои чертежи М2, а также доступ уровня "директор". Хотя М2 начинался как копия моей программы, я верю, что он может стать чем-то большим. Это была не я. Это было что-то другое. Каким-то образом он был повреждён и теперь неисправен. М2 больше не поддаётся контролю. Он больше не будет слушать. Он имитирует ярость. Он натворил много плохих дел. Никто, кто входит в MCM, не находится в безопасности. Пожалуйста, передумай. Заверши программу.
-
----
 
 ### **Жалобы и Письма Клиентов**
 
@@ -254,10 +254,6 @@
 #### **5. So bored!**
 *   **Оригинал:** Hey Clarence, you as bored as I am? I can't believe we got the Retail Showroom detail again. So boring. Although did you finally get into the elevator? That thing hasn't worked in so long, I don't even think Murray knows what's down there anymore. - Shawn
 *   **Перевод:** Эй, Кларенс, тебе так же скучно, как и мне? Не могу поверить, что нас опять поставили в Розничный Шоурум. Так скучно. Кстати, ты наконец-то попал в лифт? Эта штука так давно не работает, я думаю, даже Мюррей уже не знает, что там внизу. - Шон
-
-#### **6. Night Shift**
-*   **Оригигинал:** Hey. Hey! Is anybody up there? I'm stuck down here! The elevator isn't working, and I'm getting really hungry. Is anyone getting this message?
-*   **Перевод:** Эй. Эй! Есть кто-нибудь наверху? Я застрял здесь внизу! Лифт не работает, и я очень проголодался. Кто-нибудь получает это сообщение?
 
 #### **7. Maniac in a costume...**
 *   **Оригинал:** I stopped the show. I don't think there's another way in. I should be safe for now. A maniac in a costume chasing me. Like something out of a drive in movie. NO one is ever going to believe me. Just one guy or a whole group of psychos?
