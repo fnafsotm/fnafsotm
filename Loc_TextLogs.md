@@ -20,7 +20,7 @@
  *   **Оригинал:** I heard it again this morning when I was down in R&D. Very clearly through one of the vents, it was Fiona's voice, I swear it on my mother's grave. I heard her and Edwin laughing and joking. Why would Edwin lie about Fall Fest? Did they fake her death for insurance money? I never did trust them.
  *   **Перевод:** Я снова это слышал сегодня утром, когда был в отделе исследований и разработок. Совершенно отчётливо через одну из вентиляционных шахт, это был голос Фионы, клянусь могилой матери. Я слышал, как она и Эдвин смеялись и шутили. Зачем Эдвину было врать про Осенний Фестиваль? Они инсценировали её смерть ради страховки? Я никогда им не доверял.
 
-### *01001101 01011000 01000101 01010011 MXES (Loc_TextLogs_Misc04)
+### 01001101 01011000 01000101 01010011 MXES (Loc_TextLogs_Misc04)
  *   **Оригинал:** Edwin, please talk to me. We need to stop it together. Here are the blueprints for a "Cradle". It can keep David safe and provide boundaries. It's a type of computer, and it's bigger than anything you've done before. If you won't finish the program, consider building the cradle. It will keep people safe.
  *   **Перевод:** Эдвин, пожалуйста, поговори со мной. Нам нужно остановить это вместе. Вот чертежи "Колыбели". Она сможет защитить Дэвида и установить границы. Это своего рода компьютер, и он больше всего, что ты когда-либо делал. Если ты не закончишь программу, подумай о постройке колыбели. Она защитит людей.
 
