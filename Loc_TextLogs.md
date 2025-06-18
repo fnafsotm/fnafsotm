@@ -180,13 +180,25 @@
     *   **Оригинал:** Edwin, are we losing our home? I don't understand. Wasn't I good enough?
     *   **Перевод:** Эдвин, мы теряем наш дом? Я не понимаю. Разве я была недостаточно хороша?
 
-### Night Shift
-*   **Оригигинал:** Hey. Hey! Is anybody up there? I'm stuck down here! The elevator isn't working, and I'm getting really hungry. Is anyone getting this message?
-*   **Перевод:** Эй. Эй! Есть кто-нибудь наверху? Я застрял здесь внизу! Лифт не работает, и я очень проголодался. Кто-нибудь получает это сообщение?
+### Maniac in a costume...
+*   **Оригинал:** I stopped the show. I don't think there's another way in. I should be safe for now. A maniac in a costume chasing me. Like something out of a drive in movie. NO one is ever going to believe me. Just one guy or a whole group of psychos?
+*   **Перевод:** Я остановил шоу. Не думаю, что есть другой вход. Пока я должен быть в безопасности. Маньяк в костюме преследует меня. Как будто из фильма для автокинотеатров. Никто мне не поверит. Это один парень или целая группа психопатов?
 
+### Thompson's screams...
+*   **Оригинал:** I hope this message reaches someone. There's something outside. I have no idea what it wants, but I can still hear Thompson's screams.... I didn't sign up for this.
+*   **Перевод:** Надеюсь, это сообщение до кого-нибудь дойдёт. Снаружи что-то есть. Понятия не имею, чего оно хочет, но я до сих пор слышу крики Томпсона... Я на это не подписывался.
+  
 ### Locators
  *   **Оригинал:** Can someone please mark where we're supposed to go down there? Bob went down and I haven't seen him in days.
  *   **Перевод:** Может кто-нибудь, пожалуйста, отметить, куда нам там внизу идти? Боб спустился, и я не видел его уже несколько дней.
+
+### So bored!
+*   **Оригинал:** Hey Clarence, you as bored as I am? I can't believe we got the Retail Showroom detail again. So boring. Although did you finally get into the elevator? That thing hasn't worked in so long, I don't even think Murray knows what's down there anymore. - Shawn
+*   **Перевод:** Эй, Кларенс, тебе так же скучно, как и мне? Не могу поверить, что нас опять поставили в Розничный Шоурум. Так скучно. Кстати, ты наконец-то попал в лифт? Эта штука так давно не работает, я думаю, даже Мюррей уже не знает, что там внизу. - Шон
+
+### Night Shift
+*   **Оригигинал:** Hey. Hey! Is anybody up there? I'm stuck down here! The elevator isn't working, and I'm getting really hungry. Is anyone getting this message?
+*   **Перевод:** Эй. Эй! Есть кто-нибудь наверху? Я застрял здесь внизу! Лифт не работает, и я очень проголодался. Кто-нибудь получает это сообщение?
 
 ### Waste of Money
  *   **Оригинал:** None of this makes sense. Mr. Murray told us to trash all the old equipment in the wood shop. Then Stevenson gets a purchase order for the exact same stuff we're throwing out and told to install it upstairs. The old stuff is all perfectly functional. It's a waste of money. So, Stevenson asks him about it and gets fired. He has to be out by the end of the day. My advice is keep your mouth shut. Don't even think about it. Just clear out the tunnels.
@@ -248,18 +260,6 @@
 #### **4. I'm almost there!**
 *   **Оригинал:** I'm almost there. I can see the last permission upgrade. I'm going to get that Christmas Bonus, even if it kills me!
 *   **Перевод:** Я почти у цели. Я вижу последнее улучшение допуска. Я получу эту рождественскую премию, даже если это меня убьёт!
-
-#### **5. So bored!**
-*   **Оригинал:** Hey Clarence, you as bored as I am? I can't believe we got the Retail Showroom detail again. So boring. Although did you finally get into the elevator? That thing hasn't worked in so long, I don't even think Murray knows what's down there anymore. - Shawn
-*   **Перевод:** Эй, Кларенс, тебе так же скучно, как и мне? Не могу поверить, что нас опять поставили в Розничный Шоурум. Так скучно. Кстати, ты наконец-то попал в лифт? Эта штука так давно не работает, я думаю, даже Мюррей уже не знает, что там внизу. - Шон
-
-#### **7. Maniac in a costume...**
-*   **Оригинал:** I stopped the show. I don't think there's another way in. I should be safe for now. A maniac in a costume chasing me. Like something out of a drive in movie. NO one is ever going to believe me. Just one guy or a whole group of psychos?
-*   **Перевод:** Я остановил шоу. Не думаю, что есть другой вход. Пока я должен быть в безопасности. Маньяк в костюме преследует меня. Как будто из фильма для автокинотеатров. Никто мне не поверит. Это один парень или целая группа психопатов?
-
-#### **8. Thompson's screams...**
-*   **Оригинал:** I hope this message reaches someone. There's something outside. I have no idea what it wants, but I can still hear Thompson's screams.... I didn't sign up for this.
-*   **Перевод:** Надеюсь, это сообщение до кого-нибудь дойдёт. Снаружи что-то есть. Понятия не имею, чего оно хочет, но я до сих пор слышу крики Томпсона... Я на это не подписывался.
 
 #### **9. Camera fixed...**
 *   **Оригинал:** Same dialogue as original dispatch request... Got the cameras fixed.
