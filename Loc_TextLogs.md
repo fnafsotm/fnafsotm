@@ -124,7 +124,7 @@
 *   **Оригинал:** Barb, I swear if I hear that song one more time I'm going to tear that Dollie off her hinges. I have no clue how much longer I can take it here.
 *   **Перевод:** Барб, клянусь, если я услышу эту песню ещё раз, я сорву эту Долли с петель. Понятия не имею, сколько ещё я здесь выдержу.
 
-### **Разные Журналы (Miscellaneous Logs)**
+### Miscellaneous Logs
 
 Эти записи разбросаны по разным локациям и раскрывают историю компании, её сотрудников и проблемы.
 
@@ -231,8 +231,6 @@
 *   **Оригинал:** Dear Mr. Murray, I'm writing this to complain about my purchase of the Mushmen Music Machine. It learned my child's musical tastes, but it also imitated everything it heard! TV commercials, blenders, and even private conversations between my husband and me. I am returning it immediately. Sincerely, A. Dumas
 *   **Перевод:** Уважаемый мистер Мюррей, я пишу, чтобы пожаловаться на свою покупку "Музыкальной Машины Гриболюдей". Она научилась музыкальным вкусам моего ребёнка, но также начала имитировать всё, что слышала! Телевизионную рекламу, блендеры и даже личные разговоры между мной и моим мужем. Я немедленно её возвращаю. С уважением, А. Дюма
 
----
-
 ### **Записки Техников и Сотрудников**
 
 #### **1. Projector Issues**
@@ -266,8 +264,6 @@
 #### **9. Camera fixed...**
 *   **Оригинал:** Same dialogue as original dispatch request... Got the cameras fixed.
 *   **Перевод:** Тот же диалог, что и в первоначальном запросе от диспетчера... Починил камеры.
-
----
 
 ### **Внутренние Сообщения и Записки**
 
